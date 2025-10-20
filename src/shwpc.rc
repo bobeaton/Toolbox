@@ -1,0 +1,440 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "respc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "respc.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New...",                     ID_FILE_NEW, INACTIVE
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "Pr&oject"
+    BEGIN
+        MENUITEM "&New...",                     ID_PROJECT_NEW
+        MENUITEM "&Open...",                    ID_PROJECT_OPEN
+        MENUITEM "&Close",                      ID_PROJECT_CLOSE
+        MENUITEM "&Save",                       ID_PROJECT_SAVE
+        MENUITEM "Save &As...",                 ID_PROJECT_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "&Language Encodings...",      ID_PROJECT_LANGUAGE_ENCODINGS
+
+        MENUITEM "Database &Types...",          ID_PROJECT_DATABASE_TYPES
+        MENUITEM "Te&xt Corpora...",            ID_PROJECT_TEXT_CORPUS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Contents\tF1",               ID_HELP_CONTENTS
+        MENUITEM "&About Toolbox...",           ID_APP_ABOUT
+    END
+END
+
+IDR_SHWTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New...",                     ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save",                       ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM "Sa&ve All\tCtrl+S",           ID_FILE_SAVE_ALL
+        MENUITEM "&Export...\tAlt+X",           ID_FILE_OUTPUT
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Prin&t Preview",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM "Pa&ge Setup...",              ID_FILE_PAGE_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM "Und&o All",                   ID_EDIT_UNDOALL
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Find...\tCtrl+F",            ID_EDIT_FIND
+        MENUITEM "Find Ne&xt\tF3",              ID_EDIT_FINDNEXT
+        MENUITEM "Find Pre&vious\tShift+F3",    ID_EDIT_FINDPREV
+        MENUITEM "R&eplace...\tCtrl+H",         ID_EDIT_REPLACE
+        MENUITEM SEPARATOR
+        MENUITEM "&Jump To...\tAlt+J",          ID_EDIT_JUMPTO
+        MENUITEM "Jump I&nsert...\tCtrl+J",     ID_EDIT_JUMPINSERT
+        MENUITEM "&Return from Jump\tCtrl+R",   ID_EDIT_RETURN_FROM_JUMP
+        MENUITEM SEPARATOR
+        MENUITEM "&Insert Field\tCtrl+E",       ID_EDIT_INSERT_FIELD
+        MENUITEM "Insert from Range &Set...\tCtrl+Shift+R", 
+                                                ID_EDIT_INSERT_FROM_RANGE_SET
+
+    END
+    POPUP "&Database"
+    BEGIN
+        MENUITEM "&Next Record\tAlt+N",         ID_DATABASE_NEXT_RECORD
+        MENUITEM "&Previous Record\tAlt+P",     ID_DATABASE_PREVIOUS_RECORD
+        MENUITEM "First Record (&Top)\tCtrl+Shift+P", 
+                                                ID_DATABASE_FIRST_RECORD
+        MENUITEM "Last Record (&Bottom)\tCtrl+Shift+N", 
+                                                ID_DATABASE_LAST_RECORD
+        MENUITEM "&Search...\tAlt+S",           ID_DATABASE_SEARCH
+        MENUITEM SEPARATOR
+        MENUITEM "&Insert Record...\tCtrl+N",   ID_DATABASE_INSERT_RECORD
+        MENUITEM "&Delete Record",              ID_DATABASE_DELETE_RECORD
+        MENUITEM "&Copy Record...",             ID_DATABASE_COPY_RECORD
+        MENUITEM "&Move Record...",             ID_DATABASE_MOVE_RECORD
+        MENUITEM "Mer&ge Database...",          ID_DATABASE_MERGE_DB
+        MENUITEM SEPARATOR
+        MENUITEM "Set &Wrap Margin",            ID_VIEW_SET_MARGIN
+        MENUITEM "A&uto Wrap",                  ID_VIEW_AUTOWRAP
+        MENUITEM "&Reshape\tShift+F5",          ID_EDIT_RESHAPE
+        MENUITEM "Res&hape Entire File",        ID_EDIT_RESHAPE_DB
+        MENUITEM SEPARATOR
+        MENUITEM "&Filtering...",               ID_DATABASE_FILTERING
+        MENUITEM "S&orting...",                 ID_DATABASE_SORTING
+        MENUITEM SEPARATOR
+        MENUITEM "Templ&ate...",                ID_EDIT_USE_AS_TEMPLATE
+        MENUITEM SEPARATOR
+        MENUITEM "Properti&es...",              ID_DATABASE_PROPERTIES
+    END
+    POPUP "Pr&oject"
+    BEGIN
+        MENUITEM "&New...",                     ID_PROJECT_NEW
+        MENUITEM "&Open...",                    ID_PROJECT_OPEN
+        MENUITEM "&Close",                      ID_PROJECT_CLOSE
+        MENUITEM "Save &As...",                 ID_PROJECT_SAVEAS
+        MENUITEM "A&uto Save",                  ID_Project_AutoSave, CHECKED
+        MENUITEM "Loc&k Project",               ID_Project_LockProject
+        , CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "&Language Encodings...",      ID_PROJECT_LANGUAGE_ENCODINGS
+
+        MENUITEM "Database &Types...",          ID_PROJECT_DATABASE_TYPES
+        MENUITEM "Te&xt Corpora...",            ID_PROJECT_TEXT_CORPUS
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Interlinearize\tAlt+I",      ID_EDIT_INTERLINEARIZE
+        MENUITEM "Interlineari&ze (show all parses)\tCtrl+Shift+I", 
+                                                ID_INTERLIN_SHOW_FAIL
+        MENUITEM "&Adapt\tAlt+A",               ID_EDIT_ADAPT
+        MENUITEM "Adap&t All",                  ID_EDIT_ADAPT_CONT
+        MENUITEM SEPARATOR
+        MENUITEM "&Break/Number Text...",       ID_TOOLS_BREAK_NBR_TXT
+        MENUITEM "Re&number Text...",           ID_TOOLS_RENUMBER_TXT
+        MENUITEM SEPARATOR
+        MENUITEM "Play &File\tF4",              ID_EDIT_PLAYFILE
+        MENUITEM "&Play Sound\tShift+F4",       ID_EDIT_PLAYSOUND
+        MENUITEM SEPARATOR
+        MENUITEM "Word &List...\tAlt+L",        ID_TOOLS_WORDLIST
+        MENUITEM "&Concordance...\tCtrl+L",     ID_TOOLS_CONCORDANCE
+        MENUITEM SEPARATOR
+        MENUITEM "C&ompare Files\tCtrl+K",      ID_TOOLS_COMPARE
+        MENUITEM "R&un Command or Batch File...\tCtrl+U", ID_DORUNDOS
+    END
+    POPUP "Chec&ks"
+    BEGIN
+        MENUITEM "&Spelling and Interlinear Check\tAlt+C", 
+                                                ID_EDIT_SPELLCHECK
+        MENUITEM "Automatic Interlinear Update", 
+                                                ID_TOOLS_AUTOMATICINTERLINEARUPDATE
+        , CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "Check Unicode &Validity\tCtrl+Shift+V", 
+                                                ID_TOOLS_CHECK_UNICODE_VALIDITY
+
+        MENUITEM SEPARATOR
+        MENUITEM "Consistenc&y Check...",       ID_TOOLS_NEW_CONSISTENCY_CHECK
+
+        MENUITEM "Continue Consistency Chec&k\tAlt+Y", 
+                                                ID_TOOLS_CONTINUE_CONSISTENCY_CHECK
+
+        MENUITEM "Check Consistency When E&diting", 
+                                                ID_TOOLS_CHECK_CONSISTENCY_WHEN_EDITING
+        , CHECKED
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Markers",                    ID_VIEW_MARKERS, CHECKED
+        MENUITEM "Field &Names",                ID_VIEW_FIELDNAMES
+        MENUITEM "B&oth Markers and Names",     ID_VIEW_BOTHMARKERSANDNAMES
+        MENUITEM SEPARATOR
+        MENUITEM "Marker &Hierarchy",           ID_VIEW_MARKER_HIERARCHY
+        MENUITEM SEPARATOR
+        MENUITEM "Side Bro&wse",                ID_VIEW_SIDEBROWSE
+        MENUITEM "B&rowse\tAlt+R",              ID_VIEW_BROWSE
+        MENUITEM "&Browse Fields...",           ID_VIEW_BROWSEFIELDS
+        MENUITEM SEPARATOR
+        MENUITEM "&Jump Target",                ID_VIEW_JUMP_TARGET
+        MENUITEM "&Parallel Movement Target",   ID_VIEW_FOCUS_TARGET
+        MENUITEM SEPARATOR
+        MENUITEM "Hi&de Fields\tCtrl+M",        ID_VIEW_HIDEFIELDS
+        MENUITEM "F&ields to Hide...",          ID_VIEW_FIELDS_TO_HIDE
+        MENUITEM SEPARATOR
+        MENUITEM "R&eapply Filter\tF5",         ID_VIEW_REAPPLY_FILTER
+        MENUITEM SEPARATOR
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "&Large Controls",             ID_VIEW_LARGE_CONTROLS
+        MENUITEM "Marker &Font...",             ID_VIEW_MARKER_FONT
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Duplicate",                  ID_WINDOW_DUPLICATE
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "Tile &Side by Side",          ID_WINDOW_TILE_VERT
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Contents\tF1",               ID_HELP_CONTENTS
+        MENUITEM "&About Toolbox...",           ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "B",            ID_DEBUG_BRIAN,         VIRTKEY, SHIFT, CONTROL, ALT, 
+                                                    NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "K",            ID_DEBUG_KAREN,         VIRTKEY, SHIFT, CONTROL, ALT, 
+                                                    NOINVERT
+    "M",            ID_LOCK_LEVEL,          VIRTKEY, SHIFT, CONTROL, ALT, 
+                                                    NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_DEBUG_TOM,           VIRTKEY, SHIFT, CONTROL, ALT, 
+                                                    NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_SHWTYPE ACCELERATORS DISCARDABLE 
+BEGIN
+    "A",            ID_EDIT_ADAPT,          VIRTKEY, ALT, NOINVERT
+    "B",            ID_DEBUG_BRINGIN,       VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_SPELLCHECK,     VIRTKEY, ALT, NOINVERT
+    "C",            ID_ALAN_DEBUG2,         VIRTKEY, SHIFT, CONTROL, ALT, 
+                                                    NOINVERT
+    "D",            ID_EDIT_FINDPREV,       VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_ALAN_DEBUG3,         VIRTKEY, SHIFT, CONTROL, ALT, 
+                                                    NOINVERT
+    "E",            ID_EDIT_INSERT_FIELD,   VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_EDIT_FIND,           VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_ACTIVATE_FILTER_COMBO, VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "G",            ID_EDIT_FINDNEXT,       VIRTKEY, CONTROL, NOINVERT
+    "H",            ID_EDIT_REPLACE,        VIRTKEY, CONTROL, NOINVERT
+    "I",            ID_EDIT_INTERLINEARIZE, VIRTKEY, ALT, NOINVERT
+    "I",            ID_INTERLIN_SHOW_FAIL,  VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "J",            ID_EDIT_JUMPINSERT,     VIRTKEY, CONTROL, NOINVERT
+    "J",            ID_EDIT_JUMPTO,         VIRTKEY, ALT, NOINVERT
+    "K",            ID_TOOLS_COMPARE,       VIRTKEY, CONTROL, NOINVERT
+    "K",            ID_TOGGLE_INTERNAL_KEYBOARD, VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "K",            ID_DEBUG_KAREN,         VIRTKEY, SHIFT, CONTROL, ALT, 
+                                                    NOINVERT
+    "L",            ID_TOOLS_CONCORDANCE,   VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_TOOLS_WORDLIST,      VIRTKEY, ALT, NOINVERT
+    "L",            ID_EDIT_SELECT_LINE,    VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "M",            ID_VIEW_HIDEFIELDS,     VIRTKEY, CONTROL, NOINVERT
+//    "M",            ID_TOOLS_MACROS,        VIRTKEY, SHIFT, CONTROL, 
+//                                                    NOINVERT
+    "M",            ID_LOCK_LEVEL,          VIRTKEY, SHIFT, CONTROL, ALT, 
+                                                    NOINVERT
+    "N",            ID_DATABASE_INSERT_RECORD, VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_DATABASE_NEXT_RECORD, VIRTKEY, ALT, NOINVERT
+    "N",            ID_DATABASE_LAST_RECORD, VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_DATABASE_PREVIOUS_RECORD, VIRTKEY, ALT, NOINVERT
+    "P",            ID_DATABASE_FIRST_RECORD, VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "R",            ID_EDIT_RETURN_FROM_JUMP, VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_VIEW_BROWSE,         VIRTKEY, ALT, NOINVERT
+    "R",            ID_EDIT_INSERT_FROM_RANGE_SET, VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "S",            ID_FILE_SAVE_ALL,       VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_DATABASE_SEARCH,     VIRTKEY, ALT, NOINVERT
+    "S",            ID_EXERCISE_UPDATE,     VIRTKEY, SHIFT, CONTROL, ALT, 
+                                                    NOINVERT
+    "T",            ID_DEBUG_TOM,           VIRTKEY, SHIFT, CONTROL, ALT, 
+                                                    NOINVERT
+    "U",            ID_DORUNDOS,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_TOOLS_CHECK_UNICODE_VALIDITY, VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_BACK,        ID_EDIT_DELWORD_LEFT,   VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_DELWORD_RIGHT,  VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F3,          ID_EDIT_FINDNEXT,       VIRTKEY, NOINVERT
+    VK_F3,          ID_EDIT_FINDPREV,       VIRTKEY, SHIFT, NOINVERT
+    VK_F4,          ID_EDIT_PLAYFILE,       VIRTKEY, NOINVERT
+    VK_F4,          ID_EDIT_PLAYSOUND,      VIRTKEY, SHIFT, NOINVERT
+    VK_F5,          ID_VIEW_REAPPLY_FILTER, VIRTKEY, NOINVERT
+    VK_F5,          ID_EDIT_RESHAPE,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_SPACE,       ID_EDIT_CTRL_SPACE,     VIRTKEY, CONTROL, NOINVERT
+    "W",            ID_EDIT_INT_WORD,       VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_FILE_OUTPUT,         VIRTKEY, ALT, NOINVERT
+    "Y",            ID_TOOLS_CHECK_CONSISTENCY, VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_DEBUG_ALAN,          VIRTKEY, SHIFT, CONTROL, ALT, 
+                                                    NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_OPEN            "\nOpen (Ctrl+O)"
+    ID_FILE_SAVE            "\nSave All (Ctrl+S)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_COPY            "\nCopy (Ctrl+C)"
+    ID_EDIT_CUT             "\nCut (Ctrl+X)"
+    ID_EDIT_FIND            "\nFind (Ctrl+F)"
+    ID_EDIT_PASTE           "\nPaste (Ctrl+V)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_DATABASE_NEXT_RECORD "\nNext Record (Alt+N)"
+    ID_DATABASE_PREVIOUS_RECORD "\nPrevious Record (Alt+P)"
+    ID_DATABASE_FIRST_RECORD "\nFirst Record (Ctrl+Shift+P)"
+    ID_DATABASE_LAST_RECORD "\nLast Record (Ctrl+Shift+N)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_INTERLINEARIZE  "\nInterlinearize (Alt+I)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_BROWSE          "\nBrowse View (Alt+R)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_FINDNEXT        "\nFind Next (F3)"
+    ID_EDIT_FINDPREV        "\nFind Previous (Shift+F3)"
+    IDC_FILSEL_FILTERCOMBO  "\nActive Filter"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_FIND_COMBO          "\nFind (Ctrl+F)"
+    ID_EDIT_ADAPT           "\nInterlinearize (Alt+I)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_REAPPLY_FILTER  "\nReapply Filter (F5)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_SIDEBROWSE      "\nAdd Side Browse View"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+

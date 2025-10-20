@@ -1,0 +1,136 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by shwpc.rc
+//
+#define IDR_MAINFRAME                   2
+#define IDR_SHWTYPE                     3
+#define IDB_BITMAP1                     5
+#define ID_WINDOW_DUPLICATE             50000
+#define ID_LOCK_LEVEL                   50001
+#define ID_DEBUG_ALAN                   50002
+#define ID_DEBUG_KAREN                  50003
+#define ID_DEBUG_ROD                    50004
+#define ID_DEBUG_ASSERT_VALID           50005
+#define ID_DEBUG_SNAPSHOT               50006
+#define ID_FILE_OUTPUT                  50007
+#define ID_DATABASE_SORTING             50008
+#define ID_DATABASE_MARKERS             50009
+#define ID_DATABASE_NEXT_RECORD         50010
+#define ID_DATABASE_PREVIOUS_RECORD     50011
+#define ID_DATABASE_FIRST_RECORD        50012
+#define ID_DATABASE_LAST_RECORD         50013
+#define ID_DATABASE_SEARCH              50014
+#define ID_DATABASE_INSERT_RECORD       50015
+#define ID_DATABASE_DELETE_RECORD       50016
+#define ID_DATABASE_FILTERING           50017
+#define ID_OPTIONS_FILTERS              50018
+#define ID_VIEW_MARKERS                 50019
+#define ID_VIEW_FIELDNAMES              50020
+#define ID_DEBUG_BRIAN                  50021
+#define ID_EDIT_MARKER                  50022
+#define ID_EDIT_INSERT_FROM_RANGE_SET   50023
+#define ID_HELP_INDEX_                  50024
+#define ID_FILE_PRINT_                  50025
+#define ID_FILE_PRINT_PREVIEW_          50026
+#define ID_DATABASE_INTERLINEARIZE      50027
+#define ID_DATABASE_INTERLINEAR         50028
+#define ID_EDIT_INTERLINEARIZE          50029
+#define ID_FILE_NEW_                    50030
+#define ID_VIEW_BROWSE                  50032
+#define ID_VIEW_BROWSEFIELDS            50033
+#define ID_DATABASE_FILTERING_          50034
+#define ID_DATABASE_INTERLINEAR_SETUP_  50035
+#define ID_VIEW_MARKER_HIERARCHY        50036
+#define ID_EDIT_USE_AS_TEMPLATE         50037
+#define ID_DATABASE_PROPERTIES          50038
+#define ID_FILE_SAVE_ALL                50039
+#define ID_FILE_SAVE_SETTINGS           50040
+#define ID_EDIT_JUMPTO                  50041
+#define ID_VIEW_MARKER_FONT             50042
+#define ID_PROJECT_LANGUAGE_ENCODINGS   50043
+#define ID_PROJECT_DATABASE_TYPES       50044
+#define ID_EDIT_JUMPINSERT              50045
+#define ID_VIEW_AUTOWRAP                50046
+#define ID_VIEW_SET_MARGIN              50047
+#define ID_EDIT_RESHAPE                 50048
+#define ID_EDIT_RESHAPE_DB              50049
+#define ID_EDIT_FINDNEXT                50050
+#define ID_EDIT_INTERLINEAR_SETUP       50051
+#define ID_VIEW_BOTHMARKERSANDNAMES     50052
+#define ID_EDIT_FINDPREV                50053
+#define ID_HELP_CONTENTS                50054
+#define ID_HELP_SEARCH                  50055
+#define ID_FILE_PRINT_SETUP_            50056
+#define ID_PROJECT_UPGRADE_SETTINGS_FROM_DOS 50057
+#define ID_PROJECT_NEW                  50058
+#define ID_PROJECT_OPEN                 50059
+#define ID_PROJECT_CLOSE                50060
+#define ID_PROJECT_SAVE                 50061
+#define ID_PROJECT_SAVEAS               50062
+#define IDC_FILSEL_FILTERCOMBO          50063
+#define IDC_FIND_COMBO                  50064
+#define ID_VIEW_JUMP_TARGET             50065
+#define ID_EDIT_SPELLCHECK              50066
+#define ID_VIEW_LARGE_CONTROLS          50067
+#define ID_EDIT_INT_WORD                50068
+#define ID_EDIT_CTRL_SPACE              50069
+#define ID_EDIT_SELECT_FIELD            50070
+#define ID_EDIT_DELWORD_LEFT            50071
+#define ID_EDIT_DELWORD_RIGHT           50072
+#define ID_EDIT_SELECT_LINE             50073
+#define ID_EDIT_UNDOALL                 50074
+#define ID_EDIT_PLAYSOUND               50075
+#define ID_EDIT_ADAPT                   50078
+#define ID_OPTIONS                      50079
+#define ID_DATABASE_COPY_RECORD         50080
+#define ID_DATABASE_MOVE_RECORD         50081
+#define ID_DATABASE_MERGE_DB            50083
+#define ID_VIEW_REFRESH                 50085
+#define ID_TOOLS_WORDLIST               50086
+#define ID_TOOLS_CONCORDANCE            50087
+#define ID_PROJECT_TEXT_CORPUS          50088
+#define ID_DORUNDOS                     50089
+#define ID_INTERLIN_SHOW_FAIL           50094
+#define ID_DEBUG_TOM                    50095
+#define ID_TOOLS_BREAK_NBR_TXT          50097
+#define ID_TOOLS_RENUMBER_TXT           50098
+#define ID_TOOLS_CHECK_CONSISTENCY      50099
+#define ID_TOOLS_CHECK_CONSISTENCY_WHEN_EDITING 50101
+#define ID_TOOLS_NEW_CONSISTENCY_CHECK  50102
+#define ID_TOOLS_CONTINUE_CONSISTENCY_CHECK 50105
+#define ID_VIEW_REAPPLY_FILTER          50106
+#define ID_EDIT_ADAPT_CONT              50107
+#define ID_Project_AutoSave             50108
+#define ID_EDIT_DELETE_FIELD            50111
+#define ID_EDIT_INSERT_FIELD            50113
+#define ID_RETURN_FROM_JUMP             50114
+#define ID_EDIT_RETURN_FROM_JUMP        50115
+#define ID_TOOLS_AUTOMATICINTERLINEARUPDATE 50116
+#define ID_VIEW_HIDEFIELDS              50117
+#define ID_VIEW_FIELDS_TO_HIDE          50118
+#define ID_Project_LockProject          50120
+#define ID_TOOLS_COMPARE                50121
+#define ID_EDIT_PLAYFILE                50122
+#define ID_EXERCISE_UPDATE              50123
+#define ID_DATABASE_TYPE_UPDATE         50124
+#define ID_DEBUG_BRINGIN                50125
+#define ID_TOOLS_CHECK_UNICODE          50126
+#define ID_TOOLS_CHECK_UNICODE_VALIDITY 50127
+#define ID_VIEW_FOCUS_TARGET            50128
+#define ID_ALAN_DEBUG2                  50129
+#define ID_ALAN_DEBUG3                  50130
+#define ID_TOGGLE_INTERNAL_KEYBOARD     50131
+#define ID_ACTIVATE_FILTER_COMBO        50132
+// #define ID_TOOLS_MACROS                 50133
+#define ID_VIEW_SIDEBROWSE              50134
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        6
+#define _APS_NEXT_COMMAND_VALUE         50135
+#define _APS_NEXT_CONTROL_VALUE         0
+#define _APS_NEXT_SYMED_VALUE           0
+#endif
+#endif
