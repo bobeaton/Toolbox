@@ -630,7 +630,7 @@ CMDFUpdateOlderDlg::CMDFUpdateOlderDlg(CExportProcessSet* pexpset) :
     if ( m_sProjectSettings.GetLength() < len )
         len = m_sProjectSettings.GetLength();
     Str8 sProjectFolder = m_sProjectSettings.Right(len);
-    BOOL bDifferent = ( stricmp(sProjectFolder, m_sDefaultSettings) != 0 );
+    BOOL bDifferent = ( _stricmp(sProjectFolder, m_sDefaultSettings) != 0 );
 #else
     // In Windows, Shoebox Setup writes this information to Shoebox.ini.
     m_sDefaultSettings = ::sGetDefaultSettingsFolder();
@@ -638,7 +638,7 @@ CMDFUpdateOlderDlg::CMDFUpdateOlderDlg(CExportProcessSet* pexpset) :
     m_sNewerMDF = ::sPath(sAppPath, "MDF");
 
     // 1999-03-09 MRP: Compare settings folders and check for customized files.
-    BOOL bDifferent = ( stricmp(m_sProjectSettings, m_sDefaultSettings) != 0 );
+    BOOL bDifferent = ( _stricmp(m_sProjectSettings, m_sDefaultSettings) != 0 );
 #endif  // _MAC
 
     m_bShow = ( bDifferent /* || customized change tables??? */ );

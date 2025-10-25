@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug Unicode|Win32">
+      <Configuration>Debug Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MacWine Release|Win32">
+      <Configuration>MacWine Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Unicode|Win32">
+      <Configuration>Release Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Toolbox</ProjectName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MacWine Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='MacWine Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">
+    <OutDir>.\Release_U\</OutDir>
+    <IntDir>.\Release_U\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MacWine Release|Win32'">
+    <OutDir>.\MacWineRelease\</OutDir>
+    <IntDir>.\MacWineRelease\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">
+    <OutDir>.\Debug_U\</OutDir>
+    <IntDir>.\Debug_U\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MinSpace</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>UseCct;NDEBUG;WIN32;_WINDOWS;NO_DUMP;_MBCS;OBSTREAM_NOTES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release_U\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\SHW32.PCH</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Release_U\</ObjectFileName>
+      <ProgramDataBaseFileName>.\SHW32.PDB</ProgramDataBaseFileName>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Release_U\Toolbox.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release_U\Toolbox.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <OutputFile>$(OutDir)Toolbox.exe</OutputFile>
+      <AdditionalDependencies>Cclib32.lib;winmm.lib;usp10.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>10240</StackReserveSize>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+      <SubSystem>Windows</SubSystem>
+      <ModuleDefinitionFile>.\Shw32.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MacWine Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MinSpace</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;NO_DUMP;_MBCS;OBSTREAM_NOTES;MacWine;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\MacWineRelease\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\SHW32.PCH</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\MacWineRelease\</ObjectFileName>
+      <ProgramDataBaseFileName>.\SHW32.PDB</ProgramDataBaseFileName>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\MacWineRelease\Toolbox.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;WIN32;MacWine;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\MacWineRelease\Toolbox.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <OutputFile>$(OutDir)Toolbox.exe</OutputFile>
+      <AdditionalDependencies>Cclib32.lib;winmm.lib;usp10.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>10240</StackReserveSize>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+      <SubSystem>Windows</SubSystem>
+      <ModuleDefinitionFile>.\Shw32.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>UseCct;WIN32;_DEBUG;_WINDOWS;NO_DUMP;_MBCS;OBSTREAM_NOTES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug_U\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\SHW32.PCH</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Debug_U\</ObjectFileName>
+      <ProgramDataBaseFileName>.\SHW32.PDB</ProgramDataBaseFileName>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug_U\Toolbox.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <ResourceOutputFileName>.\Debug_U/Shw.res</ResourceOutputFileName>
+      <PreprocessorDefinitions>_DEBUG;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug_U\Toolbox.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(OutDir)Toolbox.exe</OutputFile>
+      <StackReserveSize>10240</StackReserveSize>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+      <SubSystem>Windows</SubSystem>
+      <ModuleDefinitionFile>.\Shw32.def</ModuleDefinitionFile>
+      <AdditionalDependencies>Cclib32.lib</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Alan.cpp" />
+    <ClCompile Include="Ambig_d.cpp" />
+    <ClCompile Include="Brian.cpp" />
+    <ClCompile Include="browse.CPP" />
+    <ClCompile Include="browse_d.CPP" />
+    <ClCompile Include="Cbo.cpp" />
+    <ClCompile Include="cck.cpp" />
+    <ClCompile Include="cck_d.cpp" />
+    <ClCompile Include="cct.cpp" />
+    <ClCompile Include="Cdblel.cpp" />
+    <ClCompile Include="Cdbllist.cpp" />
+    <ClCompile Include="Cfield.cpp" />
+    <ClCompile Include="CorGuess.cpp" />
+    <ClCompile Include="Corpus.cpp" />
+    <ClCompile Include="Corpus_d.cpp" />
+    <ClCompile Include="Crecord.cpp" />
+    <ClCompile Include="crecpos.cpp" />
+    <ClCompile Include="crlookel.cpp" />
+    <ClCompile Include="Crngset.cpp" />
+    <ClCompile Include="CRngSt_d.cpp" />
+    <ClCompile Include="Date.cpp" />
+    <ClCompile Include="dbref.cpp" />
+    <ClCompile Include="Ddx.cpp" />
+    <ClCompile Include="dirlist.cpp" />
+    <ClCompile Include="Dlgimpt.cpp" />
+    <ClCompile Include="Dlgrcins.cpp" />
+    <ClCompile Include="Dlgsort.cpp" />
+    <ClCompile Include="Doclist.cpp" />
+    <ClCompile Include="EditLng.cpp" />
+    <ClCompile Include="Edlngctl.cpp" />
+    <ClCompile Include="Export.cpp" />
+    <ClCompile Include="Export_d.cpp" />
+    <ClCompile Include="Fil.cpp" />
+    <ClCompile Include="Fil_d.cpp" />
+    <ClCompile Include="Filsel_d.cpp" />
+    <ClCompile Include="find_d.cpp" />
+    <ClCompile Include="font.cpp" />
+    <ClCompile Include="hide_d.cpp" />
+    <ClCompile Include="html.cpp" />
+    <ClCompile Include="HugeStr.cpp" />
+    <ClCompile Include="Ind.cpp" />
+    <ClCompile Include="Interlin.cpp" />
+    <ClCompile Include="Intprc_d.cpp" />
+    <ClCompile Include="Intsetup.cpp" />
+    <ClCompile Include="jmp.cpp" />
+    <ClCompile Include="Jumpdlg.cpp" />
+    <ClCompile Include="Karen.cpp" />
+    <ClCompile Include="Kbd.cpp" />
+    <ClCompile Include="Key_d.cpp" />
+    <ClCompile Include="Kmn.cpp" />
+    <ClCompile Include="Lbo.cpp" />
+    <ClCompile Include="ListEntr.cpp" />
+    <ClCompile Include="Lng.cpp" />
+    <ClCompile Include="Lng_d.cpp" />
+    <ClCompile Include="Loc.cpp" />
+    <ClCompile Include="Lookup.cpp" />
+    <ClCompile Include="Mainfrm.cpp" />
+    <ClCompile Include="Mark.cpp" />
+    <ClCompile Include="Mdf.cpp" />
+    <ClCompile Include="Mdf_d.cpp" />
+    <ClCompile Include="Mkr.cpp" />
+    <ClCompile Include="Mkr_d.cpp" />
+    <ClCompile Include="Mkrfed_d.cpp" />
+    <ClCompile Include="Mkrset_d.cpp" />
+    <ClCompile Include="Mrfset_d.cpp" />
+    <ClCompile Include="multmat.cpp" />
+    <ClCompile Include="Newdoc_d.cpp" />
+    <ClCompile Include="nlstream.cpp" />
+    <ClCompile Include="Nomat_d.cpp" />
+    <ClCompile Include="Not.cpp" />
+    <ClCompile Include="number.cpp" />
+    <ClCompile Include="number_d.cpp" />
+    <ClCompile Include="Obstream.cpp" />
+    <ClCompile Include="Page_d.cpp" />
+    <ClCompile Include="Patch.cpp" />
+    <ClCompile Include="Patmch.cpp" />
+    <ClCompile Include="Pgs.cpp" />
+    <ClCompile Include="Pgs_d.cpp" />
+    <ClCompile Include="portable.cpp" />
+    <ClCompile Include="Printinf.cpp" />
+    <ClCompile Include="Progbar.cpp" />
+    <ClCompile Include="Progress.cpp" />
+    <ClCompile Include="project.cpp" />
+    <ClCompile Include="Recset.cpp" />
+    <ClCompile Include="Ref.cpp" />
+    <ClCompile Include="Rod.cpp" />
+    <ClCompile Include="Rtf.cpp" />
+    <ClCompile Include="Rundos.cpp" />
+    <ClCompile Include="Seldb_d.cpp" />
+    <ClCompile Include="Set.cpp" />
+    <ClCompile Include="Set_d.cpp" />
+    <ClCompile Include="Sfstream.cpp" />
+    <ClCompile Include="Shw.cpp" />
+    <ClCompile Include="Shwdio.cpp" />
+    <ClCompile Include="Shwdoc.cpp" />
+    <ClCompile Include="Shwdtplt.cpp" />
+    <ClCompile Include="shwvbrs.cpp" />
+    <ClCompile Include="Shwvdat.cpp" />
+    <ClCompile Include="Shwvdis.cpp" />
+    <ClCompile Include="shwvfind.cpp" />
+    <ClCompile Include="Shwview.cpp" />
+    <ClCompile Include="Shwvprnt.cpp" />
+    <ClCompile Include="shwvscrl.cpp" />
+    <ClCompile Include="shwvundo.cpp" />
+    <ClCompile Include="shwvwrap.cpp" />
+    <ClCompile Include="Spath_d.cpp" />
+    <ClCompile Include="Srt.cpp" />
+    <ClCompile Include="Srt_d.cpp" />
+    <ClCompile Include="Srtset_d.cpp" />
+    <ClCompile Include="Status.cpp" />
+    <ClCompile Include="StdioFil.cpp" />
+    <ClCompile Include="Str8.cpp" />
+    <ClCompile Include="StringEx.CPP" />
+    <ClCompile Include="Subfield.cpp" />
+    <ClCompile Include="tom.cpp" />
+    <ClCompile Include="Tools.cpp" />
+    <ClCompile Include="tplt_d.cpp" />
+    <ClCompile Include="Trie.cpp" />
+    <ClCompile Include="Typ.cpp" />
+    <ClCompile Include="Typ_d.cpp" />
+    <ClCompile Include="Update.cpp" />
+    <ClCompile Include="Var.cpp" />
+    <ClCompile Include="Var_d.cpp" />
+    <ClCompile Include="VersDlg.cpp" />
+    <ClCompile Include="Wav.cpp" />
+    <ClCompile Include="wdf.cpp" />
+    <ClCompile Include="wdf_d.cpp" />
+    <ClCompile Include="wrdlst_d.cpp" />
+    <ClCompile Include="xml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Mac.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MacWine Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">true</ExcludedFromBuild>
+    </ResourceCompile>
+    <ResourceCompile Include="Shw.rc" />
+    <ResourceCompile Include="Shwnotes.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MacWine Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">true</ExcludedFromBuild>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Shw32.def" />
+    <CustomBuild Include="shwmac.r">
+      <FileType>Document</FileType>
+    </CustomBuild>
+    <CustomBuild Include="Progbar.inl">
+      <FileType>Document</FileType>
+    </CustomBuild>
+    <CustomBuild Include="res\cursor2.cur" />
+    <CustomBuild Include="Res\Exclamat.ico" />
+    <CustomBuild Include="Res\Idr_shwt.bmp" />
+    <CustomBuild Include="Res\Rightarr.cur" />
+    <CustomBuild Include="Res\Rightmac.cur" />
+    <CustomBuild Include="Res\Shw.ico" />
+    <CustomBuild Include="Res\Shw.rc2">
+      <FileType>RC</FileType>
+    </CustomBuild>
+    <CustomBuild Include="Res\Shwdoc.ico" />
+    <CustomBuild Include="Res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alan.h" />
+    <ClInclude Include="all.h" />
+    <ClInclude Include="Ambig_d.h" />
+    <ClInclude Include="Booklist.h" />
+    <ClInclude Include="Browse.h" />
+    <ClInclude Include="Browse_d.h" />
+    <ClInclude Include="Cbo.h" />
+    <ClInclude Include="cck.h" />
+    <ClInclude Include="cck_d.h" />
+    <ClInclude Include="Cct.h" />
+    <ClInclude Include="Cdblel.h" />
+    <ClInclude Include="Cdbllist.h" />
+    <ClInclude Include="Cfield.h" />
+    <ClInclude Include="Charset.h" />
+    <ClInclude Include="Corpus.h" />
+    <ClInclude Include="Corpus_d.h" />
+    <ClInclude Include="CorrespGuess.h" />
+    <ClInclude Include="Crecord.h" />
+    <ClInclude Include="Crecpos.h" />
+    <ClInclude Include="Crlookel.h" />
+    <ClInclude Include="Crngset.h" />
+    <ClInclude Include="Crngst_d.h" />
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="dbmac.h" />
+    <ClInclude Include="Dbref.h" />
+    <ClInclude Include="dbtypmac.h" />
+    <ClInclude Include="Ddx.h" />
+    <ClInclude Include="Dirlist.h" />
+    <ClInclude Include="Dlgimpt.h" />
+    <ClInclude Include="Dlgrcins.h" />
+    <ClInclude Include="Dlgsort.h" />
+    <ClInclude Include="Doclist.h" />
+    <ClInclude Include="EditLng.h" />
+    <ClInclude Include="Edlngctl.h" />
+    <ClInclude Include="Export.h" />
+    <ClInclude Include="Export_d.h" />
+    <ClInclude Include="Fil.h" />
+    <ClInclude Include="Fil_d.h" />
+    <ClInclude Include="Filsel_d.h" />
+    <ClInclude Include="Find_d.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="generic.h" />
+    <ClInclude Include="Hint.h" />
+    <ClInclude Include="Hints.h" />
+    <ClInclude Include="Hugestr.h" />
+    <ClInclude Include="Ind.h" />
+    <ClInclude Include="Interlin.h" />
+    <ClInclude Include="Intprc_d.h" />
+    <ClInclude Include="Intsetup.h" />
+    <ClInclude Include="jmp.h" />
+    <ClInclude Include="Jumpdlg.h" />
+    <ClInclude Include="Kbd.h" />
+    <ClInclude Include="Key_d.h" />
+    <ClInclude Include="Keyman5.h" />
+    <ClInclude Include="Kmn.h" />
+    <ClInclude Include="LangEdit.h" />
+    <ClInclude Include="Lbo.h" />
+    <ClInclude Include="Listentr.h" />
+    <ClInclude Include="Lng.h" />
+    <ClInclude Include="Lng_d.h" />
+    <ClInclude Include="LngEdCtl.h" />
+    <ClInclude Include="Loc.h" />
+    <ClInclude Include="Lookup.h" />
+    <ClInclude Include="Mainfrm.h" />
+    <ClInclude Include="Mdf.h" />
+    <ClInclude Include="Mdf_d.h" />
+    <ClInclude Include="Mkr.h" />
+    <ClInclude Include="Mkr_d.h" />
+    <ClInclude Include="Mkrfed_d.h" />
+    <ClInclude Include="Mkrset_d.h" />
+    <ClInclude Include="Mrfset_d.h" />
+    <ClInclude Include="Multmat.h" />
+    <ClInclude Include="Newdoc_d.h" />
+    <ClInclude Include="Nlstream.h" />
+    <ClInclude Include="Nomat_d.h" />
+    <ClInclude Include="Not.h" />
+    <ClInclude Include="number.h" />
+    <ClInclude Include="number_d.h" />
+    <ClInclude Include="Obstream.h" />
+    <ClInclude Include="Page_d.h" />
+    <ClInclude Include="Patch.h" />
+    <ClInclude Include="Patmch.h" />
+    <ClInclude Include="Pgs.h" />
+    <ClInclude Include="Pgs_d.h" />
+    <ClInclude Include="portable.h" />
+    <ClInclude Include="Printinf.h" />
+    <ClInclude Include="Prog_d.h" />
+    <ClInclude Include="Progbar.h" />
+    <ClInclude Include="Progress.h" />
+    <ClInclude Include="Project.h" />
+    <ClInclude Include="Ptr.h" />
+    <ClInclude Include="Recset.h" />
+    <ClInclude Include="Ref.h" />
+    <ClInclude Include="Rtf.h" />
+    <ClInclude Include="Rundos.h" />
+    <ClInclude Include="Seldb_d.h" />
+    <ClInclude Include="Set.h" />
+    <ClInclude Include="Set_d.h" />
+    <ClInclude Include="Sfstream.h" />
+    <ClInclude Include="Shw.h" />
+    <ClInclude Include="Shwdefs.h" />
+    <ClInclude Include="Shwdoc.h" />
+    <ClInclude Include="Shwdtplt.h" />
+    <ClInclude Include="Shwview.h" />
+    <ClInclude Include="Shwvscrl.h" />
+    <ClInclude Include="Spath_d.h" />
+    <ClInclude Include="Srt.h" />
+    <ClInclude Include="Srt_d.h" />
+    <ClInclude Include="Srtset_d.h" />
+    <ClInclude Include="Status.h" />
+    <ClInclude Include="Stdafx.h" />
+    <ClInclude Include="Stdiofil.h" />
+    <ClInclude Include="Str8.h" />
+    <ClInclude Include="Stringex.h" />
+    <ClInclude Include="Subfield.h" />
+    <ClInclude Include="toolbox.h" />
+    <ClInclude Include="Tools.h" />
+    <ClInclude Include="Tplt_d.h" />
+    <ClInclude Include="Trie.h" />
+    <ClInclude Include="Typ.h" />
+    <ClInclude Include="Typ_d.h" />
+    <ClInclude Include="Undo.h" />
+    <ClInclude Include="Update.h" />
+    <ClInclude Include="Var.h" />
+    <ClInclude Include="Var_d.h" />
+    <ClInclude Include="Wav.h" />
+    <ClInclude Include="wdf.h" />
+    <ClInclude Include="wdf_d.h" />
+    <ClInclude Include="Wordlist.h" />
+    <ClInclude Include="Wrdlst_d.h" />
+    <ClInclude Include="xml.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

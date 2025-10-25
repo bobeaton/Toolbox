@@ -1,4 +1,4 @@
-// trie.cpp CTrie structure Alan Buseman 12 Dec 95
+﻿// trie.cpp CTrie structure Alan Buseman 12 Dec 95
 
 #include "stdafx.h"
 #include "toolbox.h"
@@ -9,6 +9,7 @@
 #include "trie.h"
 #include "progress.h"
 #include "obstream.h"  // Object_istream, Object_ostream
+#include <memory>
 
 //------------------------------------------------------------------------------------------------------------
 CTrieOut::CTrieOut( CRecPos rps, int iLen ) // Constructor
@@ -84,7 +85,7 @@ void CTrieOut::AssertValid() const
 CTrieListEl::CTrieListEl( const char* pszRest, CRecPos rps )    // Constructor
 {
     ASSERT( pszRest );
-    m_pszRest = strdup( pszRest ); // Make a copy of the string ??AB Consider equivalent that would use new
+    m_pszRest = _strdup( pszRest ); // Make a copy of the string ??AB Consider equivalent that would use new
     m_rps = rps; // Store record info
     m_ptleNext = 0;
 }
@@ -228,11 +229,24 @@ void CTrieList::AssertValid() const   // Assert valid routine
 
 static void Reverse( Str8& s ) // Reverse a Str8, helper for reverse CTrie
 {
-	strcpy( pszBigBuffer, s ); // 1.4qzfn
-    char* psz = s.GetBuffer( 1 ); // 1.4qzfm GetBuffer OK because immediately written
-	strcpy( psz, pszBigBuffer ); // 1.4qzfn Make sure the content is available after GetBuffr
-    strrev( psz );
-    s.ReleaseBuffer();
+    // Allocate heap buffer if needed
+    int len = s.GetLength();
+    if (len <= 1)
+        return;
+
+	// Create a temporary heap buffer
+	std::unique_ptr<char[]> pszBigBuffer(new char[len + 1]);
+
+    // Copy data from Str8 into buffer
+    strcpy_s(pszBigBuffer.get(), len + 1, (const char*)s);  // assuming Str8 has operator const char*()
+
+    // Reverse it
+    std::reverse(pszBigBuffer.get(), pszBigBuffer.get() + len);
+
+    // Copy back into Str8
+    char* psz = s.GetBuffer(len);  // get internal writable buffer
+    strcpy_s(psz, len + 1, pszBigBuffer.get());
+    s.ReleaseBuffer();             // let Str8 know buffer is filled
 }
 
 //------------------------------------------------------------------------------------------------------------
@@ -475,7 +489,7 @@ void CDbTrie::AddField( CRecord* prec, CField* pfld, CField* pfldOut ) // Add a 
                     {
                     if ( *pszAdd == cClassDelimOpen )
                         {
-                        char* pszEndClass = strchr( pszAdd, cClassDelimClose ); // Find end of class name
+                        char* pszEndClass = (char*)strchr( pszAdd, cClassDelimClose ); // Find end of class name
                         if ( !pszEndClass ) // If no close, fail
                             break;
                         pszEndClass++; // Step to after delimiter close 
@@ -583,7 +597,8 @@ void CDbTrie::AddAll() // Add all records in all databases to trie
 
 static int iTemplateLen( const char* psz ) // Measure length of redup template, counting each class as one char
 {
-    for ( int iLen = 0; *psz; iLen++ )
+	int iLen = 0;
+    for ( ; *psz; iLen++ )
         {
         if ( *psz == cClassDelimOpen )
             {
@@ -603,7 +618,7 @@ static int iClassMatch( // Attempt to match class starting at pszTemplate with c
 { 
     if ( !*pszRedup ) // If redup is at end of string, don't match
         return 0;
-    char* pszEndClass = strchr( pszTemplate, cClassDelimClose ); // Find end of class name
+    char* pszEndClass = (char*)strchr( pszTemplate, cClassDelimClose ); // Find end of class name
     if ( !pszEndClass ) // If no close, fail
         return 0;
     *pszEndClass = '\0'; // Terminate class name

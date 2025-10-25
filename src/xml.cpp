@@ -23,7 +23,7 @@ static const char s_chNonBreakingSpace = '\xA0';  // decimal 160
 
 static const int s_maxlenRenBuf = 30000;  // 1998-03-03 MRP
 
-XML_ostream::XML_ostream(ostream& ios, CMarkerSet* pmkrset,
+XML_ostream::XML_ostream(std::ostream& ios, CMarkerSet* pmkrset,
         const Str8& sRootNode,
         BOOL bUTF8,
         const Str8& sDTDName,
@@ -163,7 +163,7 @@ void XML_ostream::WriteMarker(const Str8& sMarker, BOOL bGroup)
     s_WriteMarker(m_ios, sMarker, bGroup);
 }
 
-void XML_ostream::s_WriteMarker(ostream& ios, const CMarker* pmkr, BOOL bGroup)
+void XML_ostream::s_WriteMarker(std::ostream& ios, const CMarker* pmkr, BOOL bGroup)
 {
     ASSERT( pmkr );
     if ( bGroup )
@@ -171,7 +171,7 @@ void XML_ostream::s_WriteMarker(ostream& ios, const CMarker* pmkr, BOOL bGroup)
     s_WriteMarker(ios, pmkr->sMarker(), bGroup);
 }
 
-void XML_ostream::s_WriteMarker(ostream& ios, const Str8& sMarker, BOOL bGroup)
+void XML_ostream::s_WriteMarker(std::ostream& ios, const Str8& sMarker, BOOL bGroup)
 {
     ASSERT( !sMarker.IsEmpty() );
 	char cFirstChar = sMarker.GetChar( 0 ); // 1.5.1nd If marker starts with non-letter, output with "a" in front to make valid XML
@@ -195,7 +195,7 @@ static BOOL s_bOptionalHierarchicalLevel(const CMarker* pmkr)
     return (strcmp(sMarker, "se") == 0 || strcmp(sMarker, "sn") == 0);
 }
 
-void XML_ostream::s_WriteDTD(ostream& ios, const CMarkerSet* pmkrset,
+void XML_ostream::s_WriteDTD(std::ostream& ios, const CMarkerSet* pmkrset,
         const Str8& sRootNode)
 {
     ASSERT( pmkrset );
@@ -214,7 +214,7 @@ void XML_ostream::s_WriteDTD(ostream& ios, const CMarkerSet* pmkrset,
         s_WriteElement(ios, pmkr);
 }
 
-void XML_ostream::s_WriteElement(ostream& ios, const CMarker* pmkrElement)
+void XML_ostream::s_WriteElement(std::ostream& ios, const CMarker* pmkrElement)
 {
     ASSERT( pmkrElement );
     
@@ -234,7 +234,7 @@ void XML_ostream::s_WriteElement(ostream& ios, const CMarker* pmkrElement)
         }
 }
 
-void XML_ostream::s_WriteMarkersInGroup(ostream& ios, const CMarker* pmkrGroup)
+void XML_ostream::s_WriteMarkersInGroup(std::ostream& ios, const CMarker* pmkrGroup)
 {
     ASSERT( pmkrGroup );
     ASSERT( s_bGroup(pmkrGroup) );

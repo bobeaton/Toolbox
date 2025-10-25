@@ -1,11 +1,12 @@
-// cct.cpp  Consistent Changes
+﻿// cct.cpp  Consistent Changes
 
 // Since this file is intended to be reusable in other projects,
 // we don't include stdafx.h, since that contains project-specific stuff.
+#include "stdafx.h"
 #include <afxwin.h>  // HANDLE, ASSERT
 
 #include "cct.h"
-#include <fstream.h>  // ifstream, ofstream
+#include <fstream>  // ifstream, ofstream
 
 #ifdef _DEBUG
 #endif  // _DEBUG
@@ -20,6 +21,7 @@
 
 // **************************************************************************
 
+#if UseCct
 HINSTANCE ChangeTable::s_hClientInstance = NULL;
 
 ChangeTable::ChangeTable()
@@ -73,12 +75,12 @@ BOOL ChangeTable::bMakeChanges(const char* pszInputPath,
         const char* pszOutputPath)
 {
     ASSERT( pszInputPath );
-    ifstream iosInput(pszInputPath);
+    std::ifstream iosInput(pszInputPath);
     if ( iosInput.fail() )
         return FALSE;
 
     ASSERT( pszOutputPath );
-    ofstream iosOutput(pszOutputPath);
+    std::ofstream iosOutput(pszOutputPath);
     if ( iosOutput.fail() )
         return FALSE;
         
@@ -92,21 +94,21 @@ BOOL ChangeTable::bMakeChanges(const char* pszInputPath,
 // into the pszInput buffer. It is required to fill the buffer except
 // [on the last call] when the input is exhausted.
 
-int WINAPI _export s_iInputFromStream(char FAR * pszInputBuffer, int len,
+std::streamsize WINAPI _export s_iInputFromStream(char FAR * pszInputBuffer, int len,
         long* plUserInputData)
 {
     ASSERT( pszInputBuffer );
     ASSERT( 0 <= len );
     ASSERT( plUserInputData );
-    istream* piosInput = (istream*)*plUserInputData;
+    std::istream* piosInput = (std::istream*)*plUserInputData;
     ASSERT( piosInput );
     (void) piosInput->read(pszInputBuffer, len);
-    int lenRead = piosInput->gcount();
+    std::streamsize lenRead = piosInput->gcount();
 
     return lenRead; 
 }
 
-BOOL ChangeTable::bMakeChanges(istream& iosInput, ostream& iosOutput)
+BOOL ChangeTable::bMakeChanges(std::istream& iosInput, std::ostream& iosOutput)
 {
     ASSERT( bLoaded() );
 
@@ -217,7 +219,7 @@ BOOL ChangeTable::bPushEndOfInput()
     int iResult = CCFlush(m_hcct);
     return iResult == CC_SUCCESS;
 }
-
+#endif
 
 // --------------------------------------------------------------------------
 
@@ -226,7 +228,7 @@ BOOL ChangeTable::bPushEndOfInput()
 // for input using the file descriptor _read function, seems no longer
 // to be required for the input stream read function. But just in case...
 
-int WINAPI _export s_iInputFromStream(char FAR * pszInput, int len)
+std::streamsize WINAPI _export s_iInputFromStream(char FAR * pszInput, int len)
 {
     ASSERT( 0 <= len );
     if ( len == 0 )
@@ -234,7 +236,7 @@ int WINAPI _export s_iInputFromStream(char FAR * pszInput, int len)
         
     char* psz = pszInput;
     ASSERT( psz );
-    int lenRemaining = len;
+    std::streamsize lenRemaining = len;
     ASSERT( s_piosInput );
     
     // NOTE: The reason we cannot use a simple call to _read is that
@@ -272,7 +274,7 @@ int WINAPI _export s_iOutputToStream(char FAR * pszOutput, int len,
         
     ASSERT( pszOutput );
     ASSERT( plUserOutputData );
-    ostream* piosOutput = (ostream*)*plUserOutputData;
+    std::ostream* piosOutput = (std::ostream*)*plUserOutputData;
     ASSERT( piosOutput );
     piosOutput->write(pszOutput, len);
     int iResult = piosOutput->fail();  // Success: zero; I/O error: non-zero
@@ -285,15 +287,15 @@ int WINAPI _export s_iOutputToStream(char FAR * pszOutput, int len,
 // --------------------------------------------------------------------------
 
 Change_istreambuf::Change_istreambuf(const char* pszChangeTablePath,
-        istream& iosInput) :
+        std::istream& iosInput) :
     m_iosInput(iosInput),
     m_bAtEOF(FALSE)
 {
     const int len = 512;  // 1996-05-11 MRP: Make an optional argument???
-    char* psz = new char[len];
-    setbuf(psz, len);  // Reserve area
-    ASSERT( base() == psz );
-    setg(psz, psz, psz);  // Get area
+	m_iBufferLen = len;
+    m_pszBuffer = new char[m_iBufferLen];
+    setbuf(m_pszBuffer, m_iBufferLen);  // Reserve area
+    setg(m_pszBuffer, m_pszBuffer, m_pszBuffer);  // Get area
     if ( m_cct.bLoadFromFile(pszChangeTablePath) )
         m_cct.bSetInputCallback(s_iInputFromChange_istreambuf, (long)this);
     else
@@ -302,7 +304,7 @@ Change_istreambuf::Change_istreambuf(const char* pszChangeTablePath,
 
 Change_istreambuf::~Change_istreambuf()
 {
-    delete [] base();  // Reserve area
+    delete [] m_pszBuffer;  // Reserve area
 }
     
 int Change_istreambuf::overflow(int ch)
@@ -319,15 +321,15 @@ int Change_istreambuf::sync()
 
 int Change_istreambuf::underflow()
 {
-    int lenRemaining = in_avail();
+    std::streamsize lenRemaining = in_avail();
     if ( lenRemaining == 0 )  // If the get area is empty
         {
         if ( m_bAtEOF )  // If the last fill exhausted the input
             return EOF;
             
         // Fill the get area with changed output from the table
-        char* psz = base();         
-        int maxlen = blen();
+        char* psz = m_pszBuffer;         
+        int maxlen = m_iBufferLen;
         int len = maxlen;
         if ( !m_cct.bPullOut(psz, &len, &m_bAtEOF) )
             IndicateFailure();
@@ -343,7 +345,7 @@ int Change_istreambuf::underflow()
     return uch;  // Return the buffer get area's first character
 }
 
-int Change_istreambuf::lenReadFromSource(char* psz, int len)
+std::streamsize Change_istreambuf::lenReadFromSource(char* psz, int len)
 {
     ASSERT( psz );
     ASSERT( 0 <= len );
@@ -359,7 +361,7 @@ int Change_istreambuf::lenReadFromSource(char* psz, int len)
     if ( bFailBitSet && !bFailBitSetPreviously )  // If it just got set now,
         m_iosInput.clear(iState & ~ios::failbit);  // Then clear it
 
-    int lenRead = m_iosInput.gcount();  
+    std::streamsize lenRead = m_iosInput.gcount();  
     return lenRead;  // Number of characters actually read
 }
 
@@ -368,7 +370,7 @@ int Change_istreambuf::lenReadFromSource(char* psz, int len)
 // The callback function will copy to the psz buffer len characters
 // from its input source unless there are fewer characters remaining.
 
-int WINAPI _export s_iInputFromChange_istreambuf(char FAR * psz, int len,
+std::streamsize WINAPI _export s_iInputFromChange_istreambuf(char FAR * psz, int len,
         long* plUserInputData)
 {
     ASSERT( plUserInputData );
@@ -381,14 +383,13 @@ int WINAPI _export s_iInputFromChange_istreambuf(char FAR * psz, int len,
 // --------------------------------------------------------------------------
 
 Change_ostreambuf::Change_ostreambuf(const char* pszChangeTablePath,
-        ostream& iosOutput) :
+        std::ostream& iosOutput) :
     m_iosOutput(iosOutput)
 {
     const int len = 512;  // 1996-05-11 MRP: Make an optional argument???
-    char* psz = new char[len];
-    setbuf(psz, len);  // Reserve area
-    ASSERT( base() == psz );
-    setp(psz, psz + len);  // Put area
+    m_pszBuffer = new char[len];
+    setbuf(m_pszBuffer, len);  // Reserve area
+    setp(m_pszBuffer, m_pszBuffer + len);  // Put area
     if ( m_cct.bLoadFromFile(pszChangeTablePath) )
         m_cct.bSetOutputCallback(s_iOutputToChange_ostreambuf, (long)this);
     else
@@ -405,7 +406,7 @@ Change_ostreambuf::~Change_ostreambuf()
         IndicateFailure();
     // 2. Flush the actual output stream destination
     m_iosOutput.flush();
-    delete [] base();  // Reserve area
+    delete [] m_pszBuffer;  // Reserve area
 }
     
 int Change_ostreambuf::overflow(int ch)
@@ -424,7 +425,8 @@ int Change_ostreambuf::overflow(int ch)
 int Change_ostreambuf::sync()
 {
     int iResult = 0;  // Success
-    int len = out_waiting();
+    // int len = out_waiting();
+	int len = static_cast<int>(pptr() - pbase());
     if ( len != 0 )
         {
         char* psz = pbase();
@@ -478,7 +480,8 @@ int WINAPI _export s_iOutputToChange_ostreambuf(char FAR * psz, int len,
 // --------------------------------------------------------------------------
 
 Change_istream::Change_istream(const char* pszChangeTablePath,
-        istream& iosInput) :
+        std::istream& iosInput) :
+	std::istream(nullptr),
     m_bufChangeTable(pszChangeTablePath, iosInput)
 {
     if ( m_bufChangeTable.bLoaded() )
@@ -490,7 +493,8 @@ Change_istream::Change_istream(const char* pszChangeTablePath,
 // --------------------------------------------------------------------------
 
 Change_ostream::Change_ostream(const char* pszChangeTablePath,
-        ostream& iosOutput) :
+        std::ostream& iosOutput) :
+	std::ostream(nullptr),
     m_bufChangeTable(pszChangeTablePath, iosOutput)
 {
     if ( m_bufChangeTable.bLoaded() )
@@ -516,6 +520,7 @@ int strstreambuf_d255::underflow()
 }
 
 strstream_d255::strstream_d255()
+	: std::iostream(nullptr)
 {
     init(&m_buf);  // Use the derived strstreambuf_d255 class buffer
 }

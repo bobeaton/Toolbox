@@ -44,7 +44,7 @@ private:
     const CMarker* m_apmkrHTML[s_maxlevHTML + 1];  // 1998-08-20 MRP
     
 public:
-    XML_ostream(ostream& ios, CMarkerSet* pmkrset,
+    XML_ostream(std::ostream& ios, CMarkerSet* pmkrset,
             const Str8& sRootNode,
             BOOL bUTF8,
             const Str8& sDTDName,
@@ -56,7 +56,7 @@ public:
 
 
 #ifdef XML_DTD
-    static void s_WriteDTD(ostream& ios, const CMarkerSet* pmkrset,
+    static void s_WriteDTD(std::ostream& ios, const CMarkerSet* pmkrset,
             const Str8& sRootNode);
 #endif
 
@@ -159,14 +159,14 @@ private:
     void WriteStartTag(const Str8& sMarker, BOOL bGroup = FALSE);
     void WriteEndTag(const Str8& sMarker, BOOL bGroup = FALSE);
     void WriteMarker(const Str8& sMarker, BOOL bGroup = FALSE);
-    static void s_WriteMarker(ostream& ios,
+    static void s_WriteMarker(std::ostream& ios,
             const CMarker* pmkr, BOOL bGroup = FALSE);
-    static void s_WriteMarker(ostream& ios,
+    static void s_WriteMarker(std::ostream& ios,
             const Str8& sMarker, BOOL bGroup = FALSE);
 
 #ifdef XML_DTD
-    static void s_WriteElement(ostream& ios, const CMarker* pmkr);
-    static void s_WriteMarkersInGroup(ostream& ios, const CMarker* pmkrGroup);
+    static void s_WriteElement(std::ostream& ios, const CMarker* pmkr);
+    static void s_WriteMarkersInGroup(std::ostream& ios, const CMarker* pmkrGroup);
 #endif
 };  // class XML_ostream
 

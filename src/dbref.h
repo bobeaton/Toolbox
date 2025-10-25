@@ -9,7 +9,8 @@
 
 #include "ind.h" // For members
 
-#include <iostream.h>
+#include <iostream>
+using namespace std;
 
 class CMultipleMatchList;
 
@@ -69,7 +70,7 @@ public:
     void MarkerUpdated( CMarkerUpdate& mup ); // update marker text if name changed
 
 	void UpdatePath(); // Update path if project moved and path is to old project
-	void WritePaths( class ofstream ostr ); // Write paths that are in active use
+	void WritePaths( std::ofstream& ostr ); // Write paths that are in active use
 
     void UpdatePath(const Str8 sNewPath); // Use if DB moved and path is to old location (but project hasn't moved)
 };  // class CDatabaseRef
@@ -118,7 +119,7 @@ public:
     void MarkerUpdated( CMarkerUpdate& mup ); // update drfs
 
 	void UpdatePaths(); // Update paths that point to the project if the project moved
-	void WritePaths( class ofstream ostr ); // Write paths that are in active use
+	void WritePaths( std::ofstream& ostr ); // Write paths that are in active use
 
     void DontCheckDiffPathsForDBRefs(const Str8& sDatabasePath); // All matching dbrefs should be skipped unconditionally if Doc is not open
     void OkayToSkipDBRefs(const Str8& sDatabasePath, const Str8& sKey = ""); // Mark all matching dbrefs as okay to skip

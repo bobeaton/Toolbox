@@ -264,7 +264,7 @@ BOOL CShwView::bFindInRec( CFindSettings* pfndset, CPatMChar* ppat, CRecPos& rps
     return FALSE; // no matches in this record
 }
 
-static s_bChanged = FALSE;
+static BOOL s_bChanged = FALSE;
 // CProgressIndicator* s_pprogress = NULL; // 1.4ae Eliminate progress bar from replace all
 long int s_lRec = 0;
 
@@ -513,8 +513,8 @@ BOOL CShwView::bEditFind( BOOL bForward ) // find implementation
             GetDocument()->SetModifiedFlag();
             // tell user how many replacements were made
             char caNum[10];
-            ltoa( lReplaceCnt, caNum, 10 );
-            Str8 s = _("Number of occurrences replaced:"); // 1.5.0fv 
+            _ltoa_s(lReplaceCnt, caNum, (int)sizeof(caNum), 10);
+			Str8 s = _("Number of occurrences replaced:"); // 1.5.0fv 
 			s = s + " " + caNum; // 1.5.0fd 
             AfxMessageBox( s );
             }

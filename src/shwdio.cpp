@@ -14,12 +14,14 @@
 
 #include "resource.h"
 
+#if UseCct
 #include "cct.h"  // class Change_ostream
+#endif
 #include "sfstream.h"  // class SF_istream, SF_ostream
 #include "progress.h"
 
 #include <ctype.h>
-#include <fstream.h>  // classes ifstream, ofstream
+#include <fstream>  // classes ifstream, ofstream
 #include <stdlib.h> // Needed for _MAX_PATH
 #include <io.h> // _tell
 #include <errno.h>
@@ -44,9 +46,11 @@ BOOL bApplyCCT( Str8 sCCT, Str8 sPath ) // 1.5.9mt Apply CC table to file, write
 	CString swPath = swUTF16( sPath );
 	Str8 sMode = "r"; // Set up mode string
 	CString swMode = swUTF16( sMode ); // Convert mode string to CString
-	FILE* pf = _wfopen( swPath, swMode ); // Open file
-	if ( !pf ) // If file open failed, return failure
+	FILE* pf = nullptr;
+	errno_t err = _wfopen_s(&pf, swPath, swMode);
+	if (err != 0 || pf == nullptr) {	// If file open failed, return failure
 		return FALSE;
+	}
 	int fh = _fileno( pf ); // 1.5.9mh Get file handle
 	int iFileLen = _filelength( fh ); // 1.5.9mh 
 	Str8 sCCInBuff; // 1.5.9mh CC input buffer
@@ -78,7 +82,8 @@ BOOL bApplyCCT( Str8 sCCT, Str8 sPath ) // 1.5.9mt Apply CC table to file, write
 	// Write out CC'd file
 	sMode = "w"; // Set up mode string to write // 1.5.9mh 
 	swMode = swUTF16( sMode ); // Convert mode string to CString // 1.5.9mh 
-	pf = _wfopen( swPath, swMode ); // 1.5.9mh Open modified file
+	pf = nullptr;
+	_wfopen_s(&pf, swPath, swMode); // 1.5.9mh Open modified file
 	fputs( sCCOutBuff, pf ); // 1.5.9mh Write modified file
 	fclose( pf ); // 1.5.9mh Close file
 	return TRUE; // 1.5.9mt Return success
@@ -104,12 +109,13 @@ BOOL CShwDoc::bRead(const char* pszPath, Str8& sMessage)
 #ifdef NEWFILEREAD // 1.5.9hb Code for new file read
 	Str8 sMode = "r"; // Set up mode string
 	CString swMode = swUTF16( sMode ); // Convert mode string to CString
-	FILE* pf = _wfopen( swPath, swMode ); // 1.5.9da Open file
-	if ( !pf ) // If file open failed, return failure with message
-		{
+	FILE* pf = nullptr;
+	errno_t err = _wfopen_s(&pf, swPath, swMode);
+	if (err != 0 || pf == nullptr) 
+	{	// If file open failed, return failure
 		sMessage = sMessage + _("Cannot open file:") + " " + sPath; // 1.5.9da 
 		return FALSE;
-		}
+	}
 	if ( bFileReadOnly(pszPath) ) // 1.4ysa Make sure read only gets written to project file
 		SetReadOnly( TRUE ); // 1.4ysa 
 	BOOL bReadOnly = m_bReadOnly || bFileReadOnly(pszPath);
@@ -380,13 +386,15 @@ BOOL CShwDoc::bRead(const char* pszPath, Str8& sMessage)
 				// Write out CC'd file
 				sMode = "w"; // Set up mode string to write // 1.5.9mh 
 				swMode = swUTF16( sMode ); // Convert mode string to CString // 1.5.9mh 
-				pf = _wfopen( swPath, swMode ); // 1.5.9mh Open modified file
+				pf = nullptr;
+				_wfopen_s(&pf, swPath, swMode);
 				fputs( sCCOutBuff, pf ); // 1.5.9mh Write modified file
 				fclose( pf ); // 1.5.9mh Close file
 				// Open CC'd file for import
 				sMode = "r"; // Set up mode string to read // 1.5.9mh 
 				swMode = swUTF16( sMode ); // Convert mode string to CString // 1.5.9mh 
-				pf = _wfopen( swPath, swMode ); // 1.5.9mh Open modified file
+				pf = nullptr;
+				_wfopen_s(&pf, swPath, swMode);
 				pszSucc = fgets( pszBigBuffer, BIGBUFMAX, pf ); // 1.5.9mh Read a line
 				sLine = pszBigBuffer; // 1.5.9mh Get first line to prepare for import
 				if ( sLine.Find ( sBOM ) == 0 ) // 1.5.9mh If Byte Order Mark, delete it
@@ -516,7 +524,7 @@ BOOL CShwDoc::bRead(const char* pszPath, Str8& sMessage)
 		}
 #endif // NEWFILEREAD // 1.5.9hb 
 #ifndef NEWFILEREAD // 1.5.9hb 
-		ifstream ios(pszPath);
+		std::ifstream ios(pszPath);
 		if ( ios.fail() )
 			{
 			sMessage = sMessage + _("Cannot open file:") + " " + pszPath; // 1.5.0fd 
@@ -582,7 +590,7 @@ BOOL CShwDoc::bRead(const char* pszPath, Str8& sMessage)
 		SF_istream sfs(iosnl, m_pindset->ptyp()->pmkrset(), m_pindset->ptyp()->pmkrRecord());
 		Str8 sHeadInfo = sfs.sSkippedFields(); // 1.4pcg Collect head info on normal file read
 		m_pindset->SetHeadInfo( sHeadInfo ); // 1.4pch Store head info on normal file read
-		if ( !bReadRecords(pszPath, ios.fd(), sfs) ) 
+		if ( !bReadRecords(pszPath, ios, sfs) ) 
 			return FALSE;
 		}
 #endif // ifndef NEWFILEREAD // 1.5.9hb 
@@ -618,12 +626,13 @@ BOOL CShwDoc::bImport(const char* pszPath, const int nMode, const Str8& sMissing
     Str8 sFileText;
 	if ( !Shw_pProject()->m_bExportProcessAutoOpening ) // 1.1bh Not on export process auto open
 		{
-		int fh = _open( pszPath, _O_RDONLY | _O_BINARY ); // open file for input
-		if ( fh == -1 )
-			{
+		int fh = -1;
+		errno_t err = _sopen_s(&fh, pszPath, _O_RDONLY | _O_BINARY, _SH_DENYNO, 0);
+		if (err != 0 || fh == -1)
+		{
 			sMessage = sMessage + _("Cannot open file:") + " " + pszPath; // 1.5.0fd 
 			return FALSE;
-			}
+		}
 		unsigned int bytesread;
 		char* pszBuf = sFileText.GetBuffer(TEXTSTRING_MAX); // 1.4qzft GetBuffer OK because written immediately // 1.4hc Fix possibility of not releasing string buffer
 		bytesread = _read( fh, pszBuf, TEXTSTRING_MAX ); // read first 32k of file
@@ -668,7 +677,7 @@ BOOL CShwDoc::bImport(const char* pszPath, const int nMode, const Str8& sMissing
 			ptyp = ptrx->ptyp(notlst); // load in type if not already loaded
 
         // Set up Input Stream
-        ifstream ios(pszPath);
+        std::ifstream ios(pszPath);
         if ( ios.fail() )
             {
 			sMessage = sMessage + _("Cannot open file:") + " " + pszPath; // 1.5.0fd
@@ -682,7 +691,7 @@ BOOL CShwDoc::bImport(const char* pszPath, const int nMode, const Str8& sMissing
         Newline_istream iosnl(ios);
 
         //Add Changes to input stream if specified
-        istream* pios = &iosnl;     // a pointer to the actual input stream
+        std::istream* pios = &iosnl;     // a pointer to the actual input stream
         if ( *pszCCTable )
             {
             // 08-11-1997 - Changed parameterlist (Newline_istream)
@@ -718,7 +727,7 @@ BOOL CShwDoc::bImport(const char* pszPath, const int nMode, const Str8& sMissing
 		m_pindset->SetHeadInfo( sHeadInfo ); // 1.4pcm Store head info on import
 
         // Read the records.
-        if ( !bReadRecords(pszPath, ios.fd(), sfr) ) //within loop because sfr in scope
+        if ( !bReadRecords(pszPath, ios, sfr) ) //within loop because sfr in scope
             {               //if errors reading records
             if ( *pszCCTable )  delete pios;
             return FALSE;
@@ -737,7 +746,8 @@ BOOL CShwDoc::bImport(const char* pszPath, const int nMode, const Str8& sMissing
 			CRecPos rpsFirstTab( 0, pfld, prec ); // 1.4qrh On import, if tabs in interlinear, align the interlinear
 			if ( rpsFirstTab.bInterlinear() && ( pfld->Find( '\t' ) != -1 ) ) // 1.4qrh If field contains a tab and is interlinear
 				{
-				for ( CRecPos rps = rpsFirstTab; ; rps.pfld = rps.pfldNext() ) // 1.4qrh For the rest of fields in the bundle
+				CRecPos rps = rpsFirstTab;
+				for ( ; ; rps.pfld = rps.pfldNext() ) // 1.4qrh For the rest of fields in the bundle
 					{
 					rps.pfld->OverlayAll( ' ', '\a' ); // 1.4qrh Overlay all space with temp ctrl char \a (bell)
 					rps.pfld->OverlayAll( '\t', ' ' ); // 1.4qrh Overlay all tab with space
@@ -809,7 +819,7 @@ BOOL CShwDoc::bImport(const char* pszPath, const int nMode, const Str8& sMissing
 
 
 
-BOOL CShwDoc::bReadRecords(const char* pszPath, filedesc fd, SF_istream& sfs)
+BOOL CShwDoc::bReadRecords(const char* pszPath, std::ifstream& ios, SF_istream& sfs)
 {
     ASSERT( pszPath );
     LONG lSizFile = lFileSize(pszPath);
@@ -821,7 +831,7 @@ BOOL CShwDoc::bReadRecords(const char* pszPath, filedesc fd, SF_istream& sfs)
         if (!sfs.bReadRecord(&prec)) 
             return FALSE;
         m_pindset->AddRecord(prec);  // 1995-05-26 MRP
-        LONG lPos = _tell(fd);
+		LONG lPos = static_cast<LONG>(ios.tellg());
         if ( !prg.bUpdateProgress(lPos) )
             return FALSE;
         }
@@ -1058,9 +1068,12 @@ BOOL CShwDoc::bWrite(const char* pszPath, BOOL bExport, CIndex* pindExport,
 	CString swPath = swUTF16( sPath ); // 1.5.9eb Make utf16 path for file open
 	Str8 sMode = "w"; // Set up mode string // 1.5.9eb 
 	CString swMode = swUTF16( sMode ); // Convert mode string to CString // 1.5.9eb 
-	FILE* pf = _wfopen( swPath, swMode ); // 1.5.9eb Open file
-	if ( !pf ) // If file open failed, return failure // 1.5.9eb 
+	FILE* pf = nullptr;
+	errno_t err = _wfopen_s(&pf, swPath, swMode);	// 1.5.9eb Open file
+	if (err != 0 || pf == nullptr) {	// If file open failed, return failure // 1.5.9eb 
+		// handle error
 		return FALSE;
+	}
 	Str8 sTyp = ptyp()->sName(); // 1.5.9eb Get database type name
 	CShwView* pview = Shw_papp()->pviewActive();
 	int iMargin = 100; // 1.6.1cc 
@@ -1165,7 +1178,7 @@ BOOL CShwDoc::bWrite(const char* pszPath, BOOL bExport, CIndex* pindExport,
 			}
 		fclose( pf ); // 1.5.9ga Close file
 #ifdef OLDOSTREAM // 1.5.9ga Disable old iostream write
-		ofstream ios(pszPath);
+		std::ofstream ios(pszPath);
 		if ( ios.fail() )
 			return FALSE;
 		SF_ostream sfs(ios, FALSE);

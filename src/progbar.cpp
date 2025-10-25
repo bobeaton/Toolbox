@@ -253,7 +253,7 @@ CProgressBar::OnPaint()
    int iPercent = 100; // 1.4qut Upgrade wsprintf for Unicode build
    if (m_nRange > 0) // 1.4qut
 	   iPercent = m_nPos * 100 / m_nRange; // 1.4qut
-   _itoa( iPercent, szPercent, 10 ); // 1.4qut Upgrade wsprintf for Unicode build
+   _itoa_s(iPercent, szPercent, (int)sizeof(szPercent), 10); // 1.4qut Upgrade wsprintf for Unicode build
 
 //   if (m_nRange > 0) // 1.4qut
 //        wsprintf(szPercent, "%3d%%", (WORD)((DWORD)m_nPos * 100L / m_nRange)); // 1.4qut

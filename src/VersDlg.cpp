@@ -21,6 +21,9 @@ Str8 g_sVersion = "1.6.4s Mar 2022";  // 1.4gzp Move version number string to Ve
 CVersionDlg::CVersionDlg(CWnd* pParent /*=NULL*/) : CDialog(CVersionDlg::IDD, pParent)
 {
 Str8 sVersionHistory = "\
+2.0.0 First version using VS 2022 \r\n";
+
+sVersionHistory = "\
 1.6.4s Test version for large corpus WordParse features. \r\n\
 1.6.4zn Fix bug reinterlinearize word parse moving to wrong place. \r\n\
 1.6.4zn Fix bug of return from jump finding cursor at top of text window. \r\n\

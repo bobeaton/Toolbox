@@ -162,16 +162,21 @@ CSortOrder::CSortOrder(const char* pszName, const char* pszDescription,
     ASSERT( pszIgnore );
     m_sIgnore = pszIgnore;
     m_bSecAfterBase = bSecAfterBase;
+#if UseCct
     ASSERT( pszPathCCT );
     m_sPathCCT = pszPathCCT;
+#endif
     ASSERT( pszPathDLL );
     m_sPathDLL = pszPathDLL;
     m_bSkipSeq = bSkipSeq;
     m_hDLL = NULL;
     m_pfMakeSortKey = NULL;
+#if UseCct
     if ( !m_sPathCCT.IsEmpty() )
         m_cct.bLoadFromFile(m_sPathCCT);
-    else if ( !m_sPathDLL.IsEmpty() )
+    else 
+#endif
+		if ( !m_sPathDLL.IsEmpty() )
         {
 #ifndef _MAC
         m_hDLL = LoadLibrary( swUTF16( m_sPathDLL  ) ); // 1.4quc Upgrade LoadLibrary for Unicode build
@@ -245,8 +250,10 @@ void CSortOrder::WriteProperties(Object_ostream& obs) const
     obs.WriteString(psz_ignore, m_sIgnore);
     obs.WriteBool(psz_SecAfterBase, m_bSecAfterBase);
     // Assume that the Change table file is in the settings directory
+#if UseCct
     Str8 sPathCCT = sGetFileName(m_sPathCCT, TRUE);
     obs.WriteString(psz_cct, sPathCCT);
+#endif
     obs.WriteString(psz_dll, m_sPathDLL);
 //    obs.WriteBool(psz_SkipSeq, m_bSkipSeq ); // TLB 04/10/2000 - Replaced with the following:
     obs.WriteBool(psz_DLLOutputsCharCodes, (!m_sPathDLL.IsEmpty() && !m_bSkipSeq)); // When a DLL is present, the default action is to skip the char-code sequencing 
@@ -757,7 +764,9 @@ static void ReverseSortKey(UIdMChar* puchSortKey, Length lenSortKey)
 BOOL CSortOrder::bChangeKeyCCT(const char* pchKey, int lenKey,
         char** ppszChangedKey, int* plenChangedKey)
 {
+#if UseCct
     ASSERT( m_cct.bLoaded() );  // Call only if there is a change table
+#endif
     ASSERT( pchKey );
     ASSERT( lenKey >= 0 );
     ASSERT( ppszChangedKey );
@@ -767,6 +776,7 @@ BOOL CSortOrder::bChangeKeyCCT(const char* pchKey, int lenKey,
     static char s_pchChangedKeyCCT[s_maxlenChangedKeyCCT + 1];
     int lenChangedKeyCCT = s_maxlenChangedKeyCCT;
     BOOL bTruncated = FALSE;
+#if UseCct
     if ( !m_cct.bMakeChanges(pchKey, lenKey, s_pchChangedKeyCCT, &lenChangedKeyCCT) )
         {
         bTruncated = TRUE;
@@ -776,8 +786,9 @@ BOOL CSortOrder::bChangeKeyCCT(const char* pchKey, int lenKey,
     ASSERT( 0 <= lenChangedKeyCCT );
     ASSERT( lenChangedKeyCCT <= s_maxlenChangedKeyCCT );
     s_pchChangedKeyCCT[lenChangedKeyCCT] = '\0';
+#endif
 
-    *ppszChangedKey = s_pchChangedKeyCCT;
+	*ppszChangedKey = s_pchChangedKeyCCT;
     *plenChangedKey = lenChangedKeyCCT;
     return !bTruncated;
 }
@@ -804,7 +815,7 @@ BOOL CSortOrder::bChangeKeyDLL(const char* pchKey, int lenKey,
     int lenInputDLL = lenKey;
     if ( lenInputDLL > s_maxlenBufferDLL )
         lenInputDLL = s_maxlenBufferDLL;
-    strncpy(s_pszInputDLL, pchKey, lenInputDLL);
+	strncpy_s(s_pszInputDLL, lenInputDLL, pchKey, _TRUNCATE);
     s_pszInputDLL[lenInputDLL] = '\0';
     s_pszOutputDLL[0] = '\0';
 
@@ -839,6 +850,7 @@ BOOL CSortOrder::bSortKey(const char* pszKey, UIdMChar** ppuchSortKeyBuf,
     BOOL bTruncated = FALSE;  
 
     // 2. Make changes to the sort key (optional step for non-Roman scripts).
+#if UseCct
     if ( m_cct.bLoaded() && lenKey != 0 )
         {
         char* pchChangedKey = NULL;
@@ -849,7 +861,9 @@ BOOL CSortOrder::bSortKey(const char* pszKey, UIdMChar** ppuchSortKeyBuf,
         ASSERT( pchKey );
         lenKey = lenChangedKey;
         }
-    else if ( m_pfMakeSortKey )
+    else 
+#endif
+		if ( m_pfMakeSortKey )
         {
         char* pchChangedKey = NULL;
         int lenChangedKey = 0;
@@ -1114,6 +1128,7 @@ BOOL CSortOrder::bFirstPrimary(const char* pch, int len, const CMChar** ppmch)
     ASSERT( ppmch );
 
     // Make changes to the sort key (optional step for non-Roman scripts).
+#if UseCct
     if ( m_cct.bLoaded() && len != 0 )
         {
         char* pchChanged = NULL;
@@ -1124,7 +1139,9 @@ BOOL CSortOrder::bFirstPrimary(const char* pch, int len, const CMChar** ppmch)
         len = lenChanged;
         ASSERT( len >= 0 );
         }
-    else if ( m_pfMakeSortKey && !m_bSkipSeq )
+    else 
+#endif
+		if ( m_pfMakeSortKey && !m_bSkipSeq )
         {
         char* pchChanged = NULL;
         int lenChanged = 0;

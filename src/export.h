@@ -6,7 +6,7 @@
 #include "set.h"  // CSet, CSetEl
 #include "mkr.h"  // CMarker, CMarkerSet, CMarkerSubSet
 #include "project.h" // For update path
-#include <fstream.h>
+#include <fstream>
 
 class Object_ostream;  // obstream.h
 class Object_istream;  // obstream.h
@@ -69,7 +69,7 @@ public:
     BOOL bAutoOpen(const Str8& sPath, Str8& sMessage);
 
 	virtual void UpdatePaths() {}; // Update paths if project moved
-	virtual void WritePaths( ofstream ostr ) {}; // Update paths if project moved
+	virtual void WritePaths( std::ofstream& ostr ) {}; // Update paths if project moved
 
     virtual void FilterUpdated(CFilterUpdate& fup);
 
@@ -135,7 +135,7 @@ public:
 		Shw_pProject()->UpdatePath( m_sPathSF ); // Update output file path 5.98v
 		}
 
-	void WritePaths( ofstream ostr ) // Write paths 
+	void WritePaths( std::ofstream& ostr ) // Write paths 
 		{
 		if ( m_sPathCCT.GetLength() > 0 )
 			ostr << m_sPathCCT << "\n";
@@ -215,7 +215,7 @@ public:
 		Shw_pProject()->UpdatePath( m_sPathRTF ); // Update output file path 5.98v
 		}
 
-	void WritePaths( ofstream ostr ) // Write paths 
+	void WritePaths( std::ofstream& ostr ) // Write paths 
 		{
 		if ( m_sPathCCT.GetLength() > 0 )
 			ostr << m_sPathCCT << "\n";
@@ -300,7 +300,7 @@ public:
 		Shw_pProject()->UpdatePath( m_sPathXML ); // Update output file path 5.98v
 		}
 
-	void WritePaths( ofstream ostr ) // Write paths 
+	void WritePaths( std::ofstream& ostr ) // Write paths 
 		{
 		if ( m_sPathCCT.GetLength() > 0 )
 			ostr << m_sPathCCT << "\n";
@@ -401,7 +401,7 @@ public:
             const Str8& sPathDatabase, Str8& sMessage);
 
 	void UpdatePaths(); // Update paths if project moved
-	void WritePaths( ofstream ostr ); // Write paths in use
+	void WritePaths( std::ofstream& ostr ); // Write paths in use
 
     void FilterUpdated(CFilterUpdate& fup);
 

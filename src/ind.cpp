@@ -926,7 +926,8 @@ void CIndex::ReFilter()
 // (But watch out for more than one recEl with the same key.)
 CNumberedRecElPtr CIndex::prelFind(CRecord* prec)
 {
-    for(CNumberedRecElPtr prel = pnrlFirst(); prel; prel = pnrlNext(prel))
+	CNumberedRecElPtr prel = pnrlFirst();
+    for(; prel; prel = pnrlNext(prel))
         if (prel->prec() == prec)
             break;
         
@@ -1683,7 +1684,7 @@ void CIndexSet::WriteSh3Header(SF_ostream& sfs) const
     if (i < 0 || i > 9999)  //garbage check 2-17-98
         i = 400;
     char cBuf[6];
-    sprintf( cBuf, "%-4d ", i ); // add margin setting
+    sprintf_s( cBuf, "%-4d ", i ); // add margin setting
     sHeader += cBuf;
     sHeader += m_ptyp->sName();
     sfs.WriteInternalField(psz_sh, sHeader);
@@ -1692,7 +1693,7 @@ void CIndexSet::WriteSh3Header(SF_ostream& sfs) const
         sfs.WriteInternalField(psz_DateStamp, "");  // 1998-04-21 MRP
 }
 
-BOOL CIndexSet::s_bReadPropertiesFromSh3Header (istream& ios,
+BOOL CIndexSet::s_bReadPropertiesFromSh3Header (std::istream& ios,
         BOOL bReadOnly, CIndexSet** ppindset, BOOL* pbStringTooLong,
         Str8& sMissingDBType)
 // returns FALSE if not a ready-to-load Shoebox 3 database

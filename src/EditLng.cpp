@@ -178,7 +178,7 @@ LRESULT CEditLng::OnUnicodeChar( WPARAM wParam, LPARAM lParam )
 void CEditLng::OnChar(UINT nChar, UINT nRepCnt, UINT nFlags) 
 {
 	USES_CONVERSION; // 1.4xe 
-	CString sw = nChar; // 1.4qyu // 1.5.0fm 
+	CString sw((wchar_t)nChar); // 1.4qyu // 1.5.0fm 
     Str8 strChar; // 1.4ua Fix U bug of legacy keyboard input not working, didn't work because of code page conversion
     if( m_plng && m_plng->bUnicodeLang() ) // 1.4ua  // 1.5.0ff  // 1.5.0fm 
 		strChar =  sUTF8( sw ); // 1.4qyu // 1.5.0fm 
@@ -394,7 +394,8 @@ void CEditLng::OnLButtonDown(UINT nFlags, CPoint point)
 	SetSel( -1, 0 ); // Clear selection, if any // 1.4kya For Wnd will need to implement copy for self // 1.4kyb
     CDC* pDC = GetDC(); // Get device context // 1.4vxy 
 	BOOL bMultiLine = ( m_sText.Find( '\n' ) >= 0 ); // 1.4vxy Don't try to do mouse click on multiline custom edit control
-	for ( int i = 0; i < m_sText.GetLength(); i++ ) // 1.4vxy While not at end, see if mouse point is reached
+	int i = 0;
+	for ( ; i < m_sText.GetLength(); i++ ) // 1.4vxy While not at end, see if mouse point is reached
 		{
 		if ( m_plng->GetTextWidth( pDC, m_sText, i ) + 4 > point.x ) // 1.4vxy 
 			break;

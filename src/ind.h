@@ -494,7 +494,7 @@ public:
     void Write(SF_ostream& sfs, CProgressIndicator& prg); //  const; // 1.4qpb
     void WriteSh3Header(SF_ostream& sfs) const;
 
-    static BOOL s_bReadPropertiesFromSh3Header(istream& ios,
+    static BOOL s_bReadPropertiesFromSh3Header(std::istream& ios,
             BOOL bReadOnly, CIndexSet** ppindset, BOOL* pbStringTooLong,
             Str8& sMissingDBType);
         // Read the Shoebox database header \_sh field from sfs.

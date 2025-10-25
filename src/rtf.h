@@ -63,7 +63,7 @@ private:
     BOOL m_bWhiteSpace;  // The last character output was white space
     
 public:
-    RTF_ostream(ostream& ios, CMarkerSet* pmkrset,
+    RTF_ostream(std::ostream& ios, CMarkerSet* pmkrset,
             BOOL bAutoUpdateStyles, BOOL bMarkerFontFormatting,
             BOOL bInterlinearTabAligned, RtfTwips twxInterlinearSpacing,
             const Str8& sHeaderLeft, const Str8& sHeaderRight,

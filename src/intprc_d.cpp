@@ -657,6 +657,7 @@ BOOL CLookupDlg::OnInitDialog()
 	if ( m_pintprc->bAdapt() )
 		m_chkAdapt.SetCheck( 1 );
 
+#if UseCct
 	m_sCCTable = m_pintprc->pszCCT(); // Get name of CC table
 	if ( !bCCTableExists() ) // If table doesn't exist, clear its name, and don't try to use it
 		{
@@ -666,6 +667,7 @@ BOOL CLookupDlg::OnInitDialog()
 		m_lblCCTable.SetWindowText(  swUTF16( sGetFileName(m_sCCTable) ) ); // 1.4qpy
 	else
 		SetCCTWindowTextNone(); // Set CC Table text to None
+#endif
 
 	UpdateData( FALSE ); // Put values into controls
 	return TRUE;  // return TRUE  unless you set the focus to a control
@@ -680,9 +682,11 @@ void CLookupDlg::OnOK()
 		AfxMessageBox( _("The From and To markers cannot be the same.") );
 		return;
 		}
+#if UseCct
 	if ( m_sCCTable.GetLength()
 			&& !m_pintprc->bLoadCCFromFile( m_sCCTable ) ) // If CC table won't load, refuse
 		return;
+#endif
 	m_sGlossSeparator = m_elcGlossSeparator.sGetEditLngText(); // 1.4qpn
 
 	m_pintprc->SetMarkers( m_cboFromMarker.pmkrSelected(),
@@ -991,7 +995,8 @@ void CTrieDlg::OnOK()
 	if ( m_lboDbsToSearch.GetCount() ) // If there are databases, load them into the trie
 		{
 		CDatabaseRef* pdrf;
-		for (int idx = 0; idx < m_lboDbsToSearch.GetCount(); idx++)
+		int idx = 0;
+		for (; idx < m_lboDbsToSearch.GetCount(); idx++)
 			{
 			pdrf = (CDatabaseRef*)m_lboDbsToSearch.GetItemDataPtr(idx);
 			m_ptri->pdrflst()->Add( pdrf->sDatabasePath(), pdrf->sKey() );

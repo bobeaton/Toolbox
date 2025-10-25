@@ -20,6 +20,7 @@
 #include "project.h"
 #include "progress.h"
 #include "stdiofil.h"
+#include <strstream> 
 #include "alan.h" // 1.5.8h 
 
 /////////////////////////////////////////////////////////////////////////////
@@ -337,17 +338,18 @@ void CWordListDlg::DoWordList()
     CDatabaseType* ptypWL = ptypGetWordListType(m_pcor);
     Str8 sOutput;
     sOutput.Format( psz_fmtWordLstHdr, (const char*) ptypWL->sName() );
-	FILE* pfil = fopen( sOutputPath, "w" ); // 1.4tb Open word list file to write a new one
-	if ( !pfil ) // 1.4ywf Fix U bug of crash if word list path does not exist
-		{
+	FILE* pfil = nullptr;
+	errno_t err = fopen_s(&pfil, sOutputPath, "w");	// 1.4tb Open word list file to write a new one
+	if (err != 0 || pfil == nullptr) // 1.4ywf Fix U bug of crash if word list path does not exist
+	{
 		AfxMessageBox( _("Error: Output path does not exist.") ); // 1.4ywf 
 		return; // 1.4ywf 
-		}
+	}
     fputs( sOutput, pfil );
 	for ( WrdInfo* pwrd = wrdlst.pwrdFirst; pwrd; pwrd = pwrd->pwrdNext )
 		{
 		char buffer[20];
-		_itoa( pwrd->iCount, buffer, 10 );
+		_itoa_s(pwrd->iCount, buffer, (int)sizeof(buffer), 10);
 		Str8 sCount = buffer; // 1.4vza 
 		Str8 sCountz = sCount; // 1.4vza Write cz count with zeroes in word list like previous did
 		while ( sCountz.GetLength() < 6 ) // 1.4vza 
@@ -394,7 +396,7 @@ void CWordListDlg::DoWordList()
 				(m_bCount ? psz_WordLstWndCountFld : ""), (m_bRefs ? psz_WordLstWndRefFld : "") );
         ASSERT(strlen(pszBuffer) < strlen(psz_WordLstWndSettings) + strlen(sOutputPath) + 
 				strlen(psz_WordLstWndCountFld) + strlen(psz_WordLstWndRefFld)  );
-        istrstream iosIn(pszBuffer);
+        std::istrstream iosIn(pszBuffer);
         Object_istream obsIn(iosIn, notlst);
         CShwDoc::s_bReadProperties(obsIn);
         delete pszBuffer;
@@ -888,12 +890,13 @@ void CConcordanceDlg::DoConcordance(const Str8& sCurrentWord)
 	CDatabaseType* ptypConc = ptypGetConcordanceType(m_pcor);
     Str8 sOutput;
 	sOutput.Format (psz_fmtConcHdr, (const char*) ptypConc->sName() ); // 1.4tgb Write db type header
-	FILE* pfil = fopen( sOutputPath, "w" ); // 1.4tgb Open concordance file to write a new one
-	if ( !pfil ) // 1.4ywf Fix U bug of crash if concordance path does not exist
-		{
+	FILE* pfil = nullptr;
+	errno_t err = fopen_s(&pfil, sOutputPath, "w");	// 1.4tgb Open concordance file to write a new one
+	if (err != 0 || pfil == nullptr) // 1.4ywf Fix U bug of crash if concordance path does not exist
+	{
 		AfxMessageBox( _("Error: Output path does not exist.") ); // 1.4ywf 
 		return; // 1.4ywf 
-		}
+	}
     fputs( sOutput, pfil );
 	for ( WrdInfo* pwrd = wrdlst.pwrdFirst; pwrd; pwrd = pwrd->pwrdNext ) // 1.4tgb Write conc lines to file
 		{
@@ -986,7 +989,7 @@ void CConcordanceDlg::DoConcordance(const Str8& sCurrentWord)
                     wsprintfA(pszBuffer, psz_LookupWndSettingsLeftToRightScript, // 1.4qwe Upgrade wsprintf for Unicode build
                              (LPCSTR) sOutputPath, z);
                     }
-                istrstream iosIn(pszBuffer);
+                std::istrstream iosIn(pszBuffer);
                 Object_istream obsIn(iosIn, notlst);
                 CShwDoc::s_bReadProperties(obsIn);
                 delete pszBuffer;

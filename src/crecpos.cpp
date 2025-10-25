@@ -526,7 +526,7 @@ void CRecPos::s_ReadSubfields(CMarkerSet* pmkrset, char* pszContents)
             psz++;
 }
 
-void CRecPos::s_WriteSubfields(ostream& ios, const Str8& sContents)
+void CRecPos::s_WriteSubfields(std::ostream& ios, const Str8& sContents)
 {
     const char* psz = sContents;
 #ifdef SUBFIELD

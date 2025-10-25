@@ -9,13 +9,15 @@
 #include "shwdoc.h"
 #include "shwview.h"
 #include "shwdtplt.h"
-#include "fstream.h"
+#include <fstream>
 #include "tools.h"  // sPath
 #include "font.h"
 #include "find_d.h"
 #include "status.h"
 #include "project.h"
+#if UseCct
 #include "cct.h"  // class ChangeTable
+#endif
 #include "doclist.h"
 #include "obstream.h"  // Object_istream, Object_ostream
 #include "nlstream.h"
@@ -34,7 +36,7 @@
 #endif
 
 #include <direct.h> // _mkdir
-#include <strstrea.h>
+#include <sstream>
 
 #ifdef _MAC
 #include <mprof.h>
@@ -156,6 +158,14 @@ static char s_pszSettingsVersion[] = "5.0"; // 1.0cd Change settings version to 
 
 extern Str8 g_sVersion;  // 1997-08-05
 
+HBRUSH CShwApp::GetAppDialogBrush(CDC* pDC)
+{
+    pDC->SetBkColor(g_clrDialogBk);
+    pDC->SetTextColor(g_clrDialogText);
+    static CBrush brushBk(g_clrDialogBk);
+    return brushBk;
+}
+
 BOOL CShwApp::InitInstance()
 {
     Str8 sPlatform = "";
@@ -178,7 +188,11 @@ BOOL CShwApp::InitInstance()
 	free((void*)m_pszHelpFilePath);
 	m_pszHelpFilePath = _tcsdup( swUTF16( s_sHelpFilePath) ); // 1.4qyj
 
-    SetDialogBkColor( ::GetSysColor(COLOR_BTNFACE), ::GetSysColor(COLOR_BTNTEXT) );
+	// if this is truely needed:
+    // SetDialogBkColor( ::GetSysColor(COLOR_BTNFACE), ::GetSysColor(COLOR_BTNTEXT) );
+	// Then in each dialog’s OnCtlColor() (by adding ON_WM_CTLCOLOR() in their BEGIN_MESSAGE_MAP(CMyDialog, CDialog)...END_MESSAGE_MAP())
+	//if (nCtlColor == CTLCOLOR_DLG)
+	//	return GetAppDialogBrush(pDC);
 
     // Register the application's document templates.  Document templates
     //  serve as the connection between documents, frame windows and views.
@@ -199,6 +213,9 @@ BOOL CShwApp::InitInstance()
     // register a new 'internal' clipboard format for internal (and with Paratext) c/c/p  operations
     m_uiTlbxIntrlClipBrdFormat = RegisterClipboardFormat( swUTF16( "CF_UTF8TEXT") ); // 1.4qxt Upgrade RegisterClipboardFormat for Unicode build
    
+	g_clrDialogBk = ::GetSysColor(COLOR_BTNFACE);
+	g_clrDialogText = ::GetSysColor(COLOR_BTNTEXT);
+
 #ifndef _MAC
     // Parse command line arguments 
     // On the Mac: see OpenDocumentFile and CreateInitialDocument below.
@@ -759,7 +776,7 @@ void CAboutDlg::DoDataExchange(CDataExchange* pDX)
 BOOL CAboutDlg::OnInitDialog()
 	{
     SetDlgItemText( IDC_Version, swUTF16( g_sVersion ) ); // 1.4qpv
-	return true;
+	return TRUE;
 	}
 
 BEGIN_MESSAGE_MAP(CAboutDlg, CDialog)
@@ -841,7 +858,7 @@ CShwDoc* CShwApp::pdoc(const char* pszDatabasePath)
         char pszFullDocumentPath[_MAX_PATH];
         _fullpath(pszFullDocumentPath,  sUTF8( pdoc->GetPathName() ), sizeof(pszFullDocumentPath)); // 1.4qyn
         // NOTE: To be safe, we match the full paths
-        if ( !stricmp(pszFullDocumentPath, pszFullDatabasePath) )
+        if ( !_stricmp(pszFullDocumentPath, pszFullDatabasePath) )
             return pdoc;
         }
         
@@ -924,7 +941,7 @@ BOOL CShwApp::bSaveAllFiles( BOOL bWriteProtect, bool bAsk ) // 1.2gz Unwrite pr
 				iReply = AfxMessageBox( sFileName, MB_YESNOCANCEL ); // 1.1tu Ask if user wants to save changes // 1.4qzhk
 				}
 			if ( iReply == IDCANCEL ) // 1.4qzhk If cancel, don't close
-				return false;
+				return FALSE;
 			else if ( iReply == IDYES ) // 1.4qzhk If save, save now so framework won't need to
 					pdoc->OnSaveDocument( sUTF8( pdoc->GetPathName() ) ); // 1.4qxd Upgrade OnSaveDocument for Unicode build
 			else // 1.4qzhk If don't save, clear modified flag so framework won't save
@@ -1293,7 +1310,7 @@ void CShwApp::OnProjectSaveas()
 	if ( !bAllASCIIComplain( sPath ) ) // 1.4vze 
 		return; // 1.4vze 
     Str8 sNewPath =  sPath; // 1.4qxs // 1.5.8h 
-    BOOL bSameDir = !stricmp( sGetDirPath(sNewPath), sGetDirPath(pProject()->pszPath()) );
+    BOOL bSameDir = !_stricmp( sGetDirPath(sNewPath), sGetDirPath(pProject()->pszPath()) );
     pProject()->SaveSettings(); // save current project first
 	UnWriteProtect( pProject()->pszPath() ); // 1.2ah Turn off write protect of old project to say no longer in use // 1.4qzhg
     pProject()->SetPath( sNewPath );
@@ -1459,7 +1476,7 @@ BOOL CShwApp::bRefreshADoc(CShwDoc* pshwdoc, BOOL bForceRefresh)
 	fclose( pf ); // 1.6.4ad 
 
     CNoteList notlst;
-    ifstream ios(sFile, ios::nocreate);
+    std::ifstream ios(sFile);
     Newline_istream iosnl(ios);
     Object_istream obsIn(iosnl, notlst);
     if (!CShwDoc::s_bReadProperties(obsIn)) 
@@ -1608,11 +1625,12 @@ BOOL CShwApp::bExternalJump(const char* pszWordFocusRef, CShwView* pshvFrom, BOO
 			iEnd = sSel.Find( " " );
 			if ( iEnd > 0 )
 				sSel = sSel.Left( iEnd );
-			HGLOBAL hData = ::GlobalAlloc( GMEM_DDESHARE, sSel.GetLength()+1 ); // get a chunk of memory (+1 for null termination)
+			int len = sSel.GetLength()+1;
+			HGLOBAL hData = ::GlobalAlloc( GMEM_DDESHARE, len ); // get a chunk of memory (+1 for null termination)
 			ASSERT( hData );
 			char* pmem = (char* )::GlobalLock( hData ); // get a pointer to allocated memory
 			ASSERT( pmem );
-			strcpy( pmem, sSel ); // copy text into global buffer
+			strcpy_s( pmem, len, sSel);
 			::SetClipboardData( CF_TEXT, hData );
 			::CloseClipboard();
 			}

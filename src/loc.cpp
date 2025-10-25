@@ -8,7 +8,7 @@
 #include "toolbox.h"
 #include "loc.h"
 #ifdef _DEBUG
-#include <strstrea.h>
+#include <sstream>
 #endif  // _DEBUG
 
 #ifdef _DEBUG

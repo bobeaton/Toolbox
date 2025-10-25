@@ -531,7 +531,7 @@ BOOL CFilterElList::bMatchAt(const CFilterEl** ppfel, const char* pszElement) co
         
     ASSERT( pszElement );
     ASSERT( *pszElement );
-    if ( stricmp(pfel->sInternalElement(), pszElement) )
+    if ( _stricmp(pfel->sInternalElement(), pszElement) )
         return FALSE;
         
     *ppfel = pfelNext(pfel);
@@ -989,7 +989,7 @@ BOOL CFilterEl::s_bSimpleElement(const Str8& sRead,
 {
     int itm = 3;
     for ( ; itm != s_numChoices; itm++ )
-        if ( !stricmp(sRead, s_apszInternalChoice[itm]) )
+        if ( !_stricmp(sRead, s_apszInternalChoice[itm]) )
             {
             sExternalElement = s_sExternalChoice(itm);
             sInternalElement = s_apszInternalChoice[itm];

@@ -210,7 +210,8 @@ void CHideFieldsDlg::OnOK()
 	CListBox* pLBMkrHide = (CListBox*)GetDlgItem(IDC_HIDEFIELDS_LSTFLDSTOHIDE);
 	ASSERT(pLBMkrHide != NULL);	
 
-	for ( CMarker* pmkr = m_pmkrset->pmkrFirst(); pmkr; pmkr = m_pmkrset->pmkrNext( pmkr ) )
+	CMarker* pmkr = m_pmkrset->pmkrFirst();
+	for ( ; pmkr; pmkr = m_pmkrset->pmkrNext( pmkr ) )
 		pmkr->SetHidden( FALSE ); // Clear hidden on all markers
 	
 	for (int idxThisMkr = 0; idxThisMkr < pLBMkrHide->GetCount(); idxThisMkr++)

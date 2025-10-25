@@ -25,7 +25,7 @@ static const char s_chNonBreakingSpace = '\xA0';  // decimal 160
 
 static const int s_maxlenRenBuf = 30000;  // 1998-03-03 MRP
 
-HTML_ostream::HTML_ostream(ostream& ios, CMarkerSet* pmkrset,
+HTML_ostream::HTML_ostream(std::ostream& ios, CMarkerSet* pmkrset,
         BOOL bHTML_XML, BOOL bUTF8,
         const Str8& sTitle,
         const Str8& sBaseTarget,
@@ -543,7 +543,7 @@ BOOL HTML_ostream::bWroteAnchor(const char** ppch, const char* pchEnd)
     if ( pch == pchEnd || !s_bWhiteSpaceHTML(*pch) )
         return FALSE;
 
-    if ( pchEnd < pch + 7 || strnicmp(pch + 1, "NAME=\"", 6) != 0 )
+    if ( pchEnd < pch + 7 || _strnicmp(pch + 1, "NAME=\"", 6) != 0 )
         return FALSE;
 
     m_ios.write(pch, 7);  // 7 = white space, NAME=, double quote
@@ -578,7 +578,7 @@ BOOL HTML_ostream::bWroteLink(const char** ppch, const char* pchEnd)
     if ( pch == pchEnd || !s_bWhiteSpaceHTML(*pch) )
         return FALSE;
 
-    if ( pchEnd < pch + 7 || strnicmp(pch + 1, "HREF=\"", 6) != 0 )
+    if ( pchEnd < pch + 7 || _strnicmp(pch + 1, "HREF=\"", 6) != 0 )
         return FALSE;
 
     m_ios.write(pch, 7);  // 7 = white space, HREF=, double quote
@@ -602,7 +602,7 @@ BOOL HTML_ostream::bWroteLink(const char** ppch, const char* pchEnd)
         {
         const char* pchChar = NULL;
         for ( pch = pchLink; pch < pchClose; pch++ )
-            if ( pch + 6 <= pchHash && strnicmp(pch, "@.html", 6) == 0 )
+            if ( pch + 6 <= pchHash && _strnicmp(pch, "@.html", 6) == 0 )
                 {
                 pchChar = pch;
                 break;

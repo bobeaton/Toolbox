@@ -8,8 +8,10 @@
 #include "project.h" // For update path
 #include "crecpos.h"
 #include "trie.h"    
+#if UseCct
 #include "cct.h"
-#include <fstream.h>
+#endif
+#include <fstream>
 
 class Object_istream;  // obstream.h
 class Object_ostream;  // obstream.h
@@ -110,7 +112,7 @@ public:
 	virtual void AddGlossesToList( CFieldList *pfldlstAnal, int iStartPos ) {} // Do lookup of each morpheme to add gloss and part of speech
 
 	virtual void UpdatePaths() {}; // Update paths if project moved
-	virtual void WritePaths( ofstream ostr ) {}; // Write paths in use
+	virtual void WritePaths( std::ofstream& ostr ) {}; // Write paths in use
 
     virtual BOOL bModalView_Properties() = 0;
 }; // End class CInterlinearProc
@@ -138,8 +140,10 @@ private:
     BOOL m_bShowWord; // On fail, show word
     BOOL m_bShowRootGuess; // On parse fail, show root guess
     BOOL m_bApplyCC; // On lookup fail, apply CC table
+#if UseCct
     ChangeTable m_cct; // Change table to use if lookup fails, or if this is a CC process
     Str8 m_sCCT; // File name of CC table
+#endif
     BOOL m_bInfixBefore; // True if infixes placed before root
     BOOL m_bInfixMultiple; // True if multiple infixes allowed // 1.5.1mb 
 	BOOL m_bPreferPrefix; // True if prefixes preferred over suffixes
@@ -263,6 +267,7 @@ public:
     void SetApplyCC( BOOL b ) // Set or clear flag to apply CC to lookup failures
         { m_bApplyCC = b; }
 
+#if UseCct
     BOOL bLoadCCFromFile( const char* pszChangeTablePath )
         { 
         m_sCCT = pszChangeTablePath;
@@ -274,6 +279,7 @@ public:
         
     const char* pszCCT() // Name of CC table file
         { return m_sCCT; }
+#endif
 
     CDatabaseRefList* pdrflstWordFormulas() // Rule file database ref, for loading from settings
         { return &m_drflstWordFormulas; }                           
@@ -333,17 +339,21 @@ public:
 		{
 		for ( int i = 0; i < NUMTRIES; i++ ) // For all tries that are in use
 			m_pptri[ i ]->UpdatePaths(); // Update trie paths
+#if UseCct
 		Shw_pProject()->UpdatePath( m_sCCT ); // Update CC table path
+#endif
 		m_drflstWordFormulas.UpdatePaths(); // Update Word Formula Path
 		}
 
-	void WritePaths( class ofstream ostr ) // Write paths in use
+#if UseCct
+	void WritePaths( std::ofstream& ostr ) // Write paths in use
 		{
 		if ( m_sCCT.GetLength() > 0 )
 			ostr << m_sCCT << "\n"; // Write any cc table in use
 		}
+#endif
 
-    void ClearRefs(); // clear ref ptrs in tries in preparation for database type deletion
+	void ClearRefs(); // clear ref ptrs in tries in preparation for database type deletion
 
     void MakeRefs(); // turn marker refs into CMarkerPtrs
     
@@ -409,7 +419,7 @@ public:
 	void UpdatePaths() // Update paths if project moved
 		{ m_drflst.UpdatePaths(); }
 
-	void WritePaths( ofstream ostr ) // Write paths in use
+	void WritePaths( std::ofstream& ostr ) // Write paths in use
 		{ m_drflst.WritePaths( ostr ); }
 
     void OnDocumentClose( CShwDoc* pdoc ); // Check for references to document being closed 
@@ -555,7 +565,7 @@ public:
     void MarkerUpdated( CMarkerUpdate& mup ); // update mrflsts
 
 	void UpdatePaths(); // Update paths if project moved
-	void WritePaths( class ofstream ostr ); // Update paths if project moved
+	void WritePaths( std::ofstream& ostr ); // Update paths if project moved
 
     BOOL bModalView_Elements(); // Interface
 }; // End class CInterlinearProcList

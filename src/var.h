@@ -14,7 +14,8 @@
 #ifndef VAR_H
 #define VAR_H
 
-#include <iostream.h>
+#include <iostream>
+using namespace std;
 #include "set.h"  // classes CSet, CSetEl
 #include "ref.h"
 #include "not.h"

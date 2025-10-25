@@ -52,7 +52,7 @@ private:
     const CMarker* m_apmkrHTML[s_maxlevHTML + 1];  // 1998-08-20 MRP
     
 public:
-    HTML_ostream(ostream& ios, CMarkerSet* pmkrset,
+    HTML_ostream(std::ostream& ios, CMarkerSet* pmkrset,
             BOOL bHTML_XML, BOOL bUTF8,
             const Str8& sTitle,
             const Str8& sBaseTarget,

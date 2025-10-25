@@ -133,7 +133,7 @@ public:
 void WriteStatistics( CShwView* pview, GuesserTest* pgue )
 	{
 	UnWriteProtect( "Statistics.txt" ); // 1.4qzhg
-	ofstream str( "Statistics.txt", ios::app );
+	std::ofstream str( "Statistics.txt", ios::app );
 	CIndex* pind = pview->pind();
 	CMarker* pmkrLx = pind->pmkrPriKey(); // Source word
 	CMarker* pmkrGe = pmkrS( "ge" ); // Target word
@@ -181,41 +181,41 @@ void WriteStatistics( CShwView* pview, GuesserTest* pgue )
 		iTotalChanged = 1;
 	int iPercentBetter = iBetterMinusWorse * 1000 / iTotalChanged;
 	char buffer[20];
-	_itoa( iTestSequenceNumber, buffer, 10 );
+	_itoa_s(iTestSequenceNumber, buffer, (int)sizeof(buffer), 10);
 	str << "\\seq " << buffer << "\n";
 	str << "\\nam " << sName << "\n";
 	str << "\\com " << sComment << "\n"; // 1.4bn Add comment to guess test
-	_itoa( iTotalEntries, buffer, 10 );
+	_itoa_s(iTotalEntries, buffer, (int)sizeof(buffer), 10);
 	str << "\\tot " << buffer << "\n";
-	_itoa( iTotalChanged, buffer, 10 );
+	_itoa_s(iTotalChanged, buffer, (int)sizeof(buffer), 10);
 	str << "\\tchg " << buffer << "\n";
-	_itoa( iTotalGuesses, buffer, 10 );
+	_itoa_s(iTotalGuesses, buffer, (int)sizeof(buffer), 10);
 	str << "\\tgue " << buffer << "\n";
-	_itoa( iTotalCorrect, buffer, 10 );
+	_itoa_s(iTotalCorrect, buffer, (int)sizeof(buffer), 10);
 	str << "\\tcor " << buffer << "\n";
-	_itoa( iTotalBetter, buffer, 10 );
+	_itoa_s(iTotalBetter, buffer, (int)sizeof(buffer), 10);
 	str << "\\tbtr " << buffer << "\n";
-	_itoa( iTotalSimilar, buffer, 10 );
+	_itoa_s(iTotalSimilar, buffer, (int)sizeof(buffer), 10);
 	str << "\\tsim " << buffer << "\n";
-	_itoa( iTotalWorse, buffer, 10 );
+	_itoa_s(iTotalWorse, buffer, (int)sizeof(buffer), 10);
 	str << "\\twor " << buffer << "\n";
-	_itoa( iBetterMinusWorse, buffer, 10 );
+	_itoa_s(iBetterMinusWorse, buffer, (int)sizeof(buffer), 10);
 	str << "\\bminw " << buffer << "\n";
-	_itoa( iPercentBetter, buffer, 10 );
+	_itoa_s(iPercentBetter, buffer, (int)sizeof(buffer), 10);
 	str << "\\pcbtr " << buffer << "\n";
-	_itoa( pgue->iGetGuessLevel(), buffer, 10 );
+	_itoa_s(pgue->iGetGuessLevel(), buffer, (int)sizeof(buffer), 10);
 	str << "\\guelev " << buffer << "\n";
-	_itoa( pgue->iGetRequiredSuccessPercent(), buffer, 10 );
+	_itoa_s(pgue->iGetRequiredSuccessPercent(), buffer, (int)sizeof(buffer), 10);
 	str << "\\sucpct " << buffer << "\n";
 //	_itoa( pgue->iGetMaxSuffLen(), buffer, 10 );
 //	str << "\\maxsuflen " << buffer << "\n";
-	_itoa( pgue->iGetMinSuffExamples(), buffer, 10 );
+	_itoa_s(pgue->iGetMinSuffExamples(), buffer, (int)sizeof(buffer), 10);
 	str << "\\minsufex " << buffer << "\n";
 
 	iTestSequenceNumber++; // Increment test sequence number for next test
 	}
 
-void OutputCorrespondences( CorrespList* pcorlst, ofstream str, const char* pszType )
+void OutputCorrespondences( CorrespList* pcorlst, std::ofstream& str, const char* pszType )
 	{
 	for ( Corresp* pcor = pcorlst->pcorFirst; pcor; pcor = pcor->pcorNext )
 		{
@@ -234,7 +234,7 @@ void OutputCorrespondences( CorrespList* pcorlst, ofstream str, const char* pszT
 void OutputCorrespondences( GuesserTest* pgue ) // Output correspondences to file for testing
 	{
 	UnWriteProtect( "Corresp.txt" ); // 1.4qzhg
-	ofstream str( "Corresp.txt" );
+	std::ofstream str( "Corresp.txt" );
 	str << "\\_sh v3.0  400  kb\n\n";
 	OutputCorrespondences( pgue->pcorlstSuffGuess(), str, "sf" );
 	OutputCorrespondences( pgue->pcorlstRootGuess(), str, "rt" );

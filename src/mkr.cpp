@@ -16,7 +16,7 @@
 #include <stdlib.h> // For _fnsplit function.
 #include "mkr.h"
 #include "crngset.h"  // CRangeSet
-#include "fstream.h"
+#include <fstream>
 #include "shwnotes.h"
 #include "tools.h"
 #include "font.h"
@@ -210,7 +210,7 @@ BOOL CMarker::s_bMatchFieldNameAt(const char** ppszFieldName,
         
     // Note; in general, the matched substring is not null terminated.
     char* pch = sFieldName.GetBuffer(lenName); // 1.4qzfv GetBuffer OK because written immediately
-    (void) strncpy(pch, pszFieldName, lenName);
+	strncpy_s(pch, lenName, pszFieldName, _TRUNCATE);
     sFieldName.ReleaseBuffer(lenName);
     return TRUE;
 }
@@ -434,7 +434,7 @@ void CMarker::DrawMarker(char* pszBuffer, Length* plen, BOOL bViewMarkerHierarch
         if ( psz < pszEnd && bViewBackslash && !m_bSubfield )
             *psz++ = '\\';
         int iCnt = min( sMarker().GetLength(), pszEnd-psz );
-        strncpy( psz, sMarker(), iCnt ); // marker
+		strncpy_s(psz, iCnt, sMarker(), _TRUNCATE);
         psz += iCnt;
         }
 
@@ -449,7 +449,7 @@ void CMarker::DrawMarker(char* pszBuffer, Length* plen, BOOL bViewMarkerHierarch
                 *psz++ = ' ';
             }
         int iCnt = min( sFieldName().GetLength(), pszEnd-psz );
-        strncpy( psz, sFieldName(), iCnt ); // field name
+		strncpy_s(psz, iCnt, sFieldName(), _TRUNCATE);
         psz += iCnt;
         }
 
@@ -1368,7 +1368,7 @@ int CMarkerSet::iCopyMarkerIndent(char* psz, int iMaxCopy, Level lev) const
     ASSERT( lev <= m_maxlev );
     int len = lev + lev + lev;  // 1996-07-30 MRP: Three characters ".  " indent per level
     int iCnt = min( iMaxCopy, len );
-    strncpy( psz, m_sIndent, iCnt ); // copy indent
+	strncpy_s(psz, iCnt, m_sIndent, _TRUNCATE);
     *(psz + iCnt) = '\0'; // null terminate
     return iCnt; // return number of chars copied
 }
@@ -1444,7 +1444,8 @@ void CMarkerSet::WriteProperties(Object_ostream& obs) const
     obs.WriteBool(psz_Subfields, m_bSubfields);
     obs.WriteNewline();
    
-    for ( const CMarker* pmkr = pmkrFirst(); pmkr; pmkr = pmkrNext(pmkr) )
+	const CMarker* pmkr = pmkrFirst();
+    for ( ; pmkr; pmkr = pmkrNext(pmkr) )
         pmkr->WriteProperties(obs);
        
     obs.WriteEndMarker(psz_mkrset);
@@ -2149,7 +2150,8 @@ void CMString::OverlayAll( const char cRemove, const char cInsert, int iChar ) /
 
 void CMString::AddSuffHyphSpaces( const char* pszMorphBreakChars, char cForceStart, char cForceEnd ) // Add a space before each suffix hyphen that doesn't have space
 {
-    for ( int i = 1; i < GetLength() - 1; i ++ ) // Insert space before each internal suffix hyphen (starting i at 1 avoids seeing initial hyphen)
+	int i = 1;
+    for ( ; i < GetLength() - 1; i ++ ) // Insert space before each internal suffix hyphen (starting i at 1 avoids seeing initial hyphen)
         {                            
         if ( GetChar( i - 1 ) != ' ' // If not space here (relies on i starting at 1, not 0)
                 && strchr( pszMorphBreakChars, GetChar( i ) ) // And this is hyphen

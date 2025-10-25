@@ -304,7 +304,7 @@ void CSubFieldRecPos::s_ReadSubFields(CMarkerSet* pmkrset, char* pszContents)
             psz++;
 }
 
-void CSubFieldRecPos::s_WriteSubFields(ostream& ios, const Str8& sContents)
+void CSubFieldRecPos::s_WriteSubFields(std::ostream& ios, const Str8& sContents)
 {
     const char* psz = sContents;
     do  {

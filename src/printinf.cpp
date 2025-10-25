@@ -74,18 +74,22 @@ void CHeaderInfoList::LoadData(CPrintInfo* pInfo, const CShwView* pView)
 
     while (phdr)
         {
+		errno_t err;
         switch (phdr->m_eType)
             {
             case ePageNumber:
-                phdr->SetContents(ltoa(pInfo->m_nCurPage, buf, 10));
+                _ltoa_s(pInfo->m_nCurPage, buf, (int)sizeof(buf), 10);
+				phdr->SetContents(buf);
                 break;
 
             case eRecordNumber:
-                phdr->SetContents(ltoa(pprtp->prel().lNum() + 1, buf, 10));
+                _ltoa_s(pprtp->prel().lNum() + 1, buf, (int)sizeof(buf), 10);
+				phdr->SetContents(buf);
                 break;
 
             case eRecordsTotal:
-                phdr->SetContents(ltoa(pView->lGetRecordCount(), buf, 10));
+                _ltoa_s(pView->lGetRecordCount(), buf, (int)sizeof(buf), 10);
+				phdr->SetContents(buf);
                 break;
 
             case eRecordMarker:
@@ -334,16 +338,16 @@ void CPrintProperties::SetMargins(CRect& rectMargins)
 	else
 		dConvert = 2.54/100.0;
 
-    sprintf(buf, "%.2f", ((double)rectMargins.top*dConvert) );
+    sprintf_s(buf, sizeof(buf), "%.2f", ((double)rectMargins.top*dConvert) );
     m_sMargTop  = buf;
     
-    sprintf(buf, "%.2f", ((double)rectMargins.left*dConvert) );
+    sprintf_s(buf, sizeof(buf), "%.2f", ((double)rectMargins.left*dConvert) );
     m_sMargLeft = buf;
     
-    sprintf(buf, "%.2f", ((double)rectMargins.bottom*dConvert) );
+    sprintf_s(buf, sizeof(buf), "%.2f", ((double)rectMargins.bottom*dConvert) );
     m_sMargBottom = buf;
     
-    sprintf(buf, "%.2f", ((double)rectMargins.right*dConvert) );
+    sprintf_s(buf, sizeof(buf), "%.2f", ((double)rectMargins.right*dConvert) );
     m_sMargRight = buf;
 
     bValidateMeasure(m_sMargTop);

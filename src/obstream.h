@@ -138,9 +138,9 @@ private:
 class Object_ostream // Hungarian: obs
 {
 private:
-    ostream& m_ios;  // iostream to which output is written
+    std::ostream& m_ios;  // iostream to which output is written
 public:
-    Object_ostream(ostream& ios) : m_ios(ios) {} // Constructor for ostream
+    Object_ostream(std::ostream& ios) : m_ios(ios) {} // Constructor for ostream
     ~Object_ostream() {} // Destructor
 
 	void WriteUTF8BOM(); // 1.4qnh Write UTF8 bom Byte Order Mark
@@ -177,7 +177,7 @@ private:
 class Object_istream // Hungarian: obs
 {
 private:
-    istream& m_ios;  // iostream from which input is read
+    std::istream& m_ios;  // iostream from which input is read
     CNoteList& m_notlst;  // notes about problems reading objects
     
     char* m_pszMStringBuf; // input buffer for a marked string
@@ -192,9 +192,9 @@ private:
 
 public:
 #ifdef OBSTREAM_NOTES
-    Object_istream(istream& ios, CNoteList& notlst);
+    Object_istream(std::istream& ios, CNoteList& notlst);
 #else
-    Object_istream(istream& ios);
+    Object_istream(std::istream& ios);
 #endif
     ~Object_istream(); // Destructor
 
@@ -281,7 +281,7 @@ public:
         obs.WriteBeginMarker( psz_Sample ); // Write the begin marker for the class: \+Sample
         
         obs.WriteInteger( psz_iSample, m_iSample ); // Write integer value \iSample 0
-        obs.WriteBool( psz_bSample, m_bSample ); // Write marker if bool is true \bSample
+        obs.WriteBool( psz_bSample, m_bSample ); // Write marker if BOOL is TRUE \bSample
         
         obs.WriteEndMarker( psz_Sample ); // Write the end marker for the class: \-Sample
         }

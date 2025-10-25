@@ -41,7 +41,7 @@ void CMainFrame::OnDebugMark()
 	while( TRUE ) 
 		{
 		char buffer[20];
-		_itoa( iLockProjectLevel, buffer, 10 );
+		_itoa_s(iLockProjectLevel, buffer, (int)sizeof(buffer), 10);
 		sMessage = _("Project lock level:"); // 1.5.0fg 
 		sMessage = sMessage + " " + buffer; // 1.5.0fg 
 		sMessage += sMessage2;

@@ -1,7 +1,7 @@
 ; shw.def : Declares the module parameters for the application.
 
 ; NAME         Toolbox
-DESCRIPTION  'Field Linguist's Toolbox Windows Application'
+; DESCRIPTION  'Field Linguist's Toolbox Windows Application'
 
 ; HEAPSIZE     1024   ; initial heap size
 ; Stack size is passed as argument to linker's /STACK option

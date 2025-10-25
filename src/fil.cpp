@@ -155,7 +155,7 @@ void CFilter::CopyToList(CFilterElList* pfellst) const
 	fclose( pf ); // 1.6.4ad 
 
     CNoteList notlst;
-    ifstream ios(sFile, ios::nocreate);
+    std::ifstream ios(sFile);
     Newline_istream iosnl(ios);
     Object_istream obsIn(iosnl, notlst);
     BOOL bRead = pfellst->bReadProperties(obsIn); // 1.6.4ad 
@@ -703,9 +703,9 @@ static const char* s_psz_Or = "OR";  // optional preceding ws
 // optionally preceded by white space, and disregarding case.
 static BOOL s_bMatchStringAt(const char** ppsz, const char* pszString)
 {
-    if ( strnicmp(*ppsz, pszString, strlen(pszString)) != 0 )
+    if ( _strnicmp(*ppsz, pszString, strlen(pszString)) != 0 )
         return FALSE;
-;
+
     *ppsz += strlen(pszString);  // after the matched string
     return TRUE;
 }
@@ -1080,7 +1080,7 @@ CFilterConMarkerString::~CFilterConMarkerString()
 
 
 #ifndef MRP_1995_12_12
-CFilterConMarkerString::bMatch(const CRecLookEl* prel, CFilterMatch& filmat) const
+BOOL CFilterConMarkerString::bMatch(const CRecLookEl* prel, CFilterMatch& filmat) const
 {
     // Shoebox 2.0 did not include the key field, but Shw does 1995-06-23
     // 1995-12-12 MRP: We will most likely redesign this class to 
@@ -1118,7 +1118,7 @@ CFilterConMarkerString::bMatch(const CRecLookEl* prel, CFilterMatch& filmat) con
 #endif  // MRP
 
 
-CFilterConMarkerString::bMatchCol(const CRecLookEl* prel, CFilterMatch& filmat,
+BOOL CFilterConMarkerString::bMatchCol(const CRecLookEl* prel, CFilterMatch& filmat,
                                                     COL colMatchAt) const
 {
     const CRecord* prec = prel->prec();
@@ -1266,7 +1266,7 @@ CFilterConLangEncString::~CFilterConLangEncString()
 }
 
 
-CFilterConLangEncString::bMatch(const CRecLookEl* prel, CFilterMatch& filmat) const
+BOOL CFilterConLangEncString::bMatch(const CRecLookEl* prel, CFilterMatch& filmat) const
 {
     ASSERT( prel );
     CRecord* prec = prel->prec();
@@ -1375,7 +1375,7 @@ CFilterConKeyString::~CFilterConKeyString()
 }
 
 
-CFilterConKeyString::bMatch(const CRecLookEl* prel, CFilterMatch& filmat) const
+BOOL CFilterConKeyString::bMatch(const CRecLookEl* prel, CFilterMatch& filmat) const
 {
     const CRecord* prec = prel->prec();
     const CField* pfldKey = prec->pfldFirst();  
@@ -1408,7 +1408,7 @@ CFilterConSearchString::~CFilterConSearchString()
 }
 
 
-CFilterConSearchString::bMatch(const CRecLookEl* prel, CFilterMatch& filmat) const
+BOOL CFilterConSearchString::bMatch(const CRecLookEl* prel, CFilterMatch& filmat) const
 {
     // Shoebox 2.0 does include the key field
     const CRecord* prec = prel->prec();
@@ -1440,7 +1440,7 @@ CFilterConFieldMarker::CFilterConFieldMarker(const char* pszMarker)
 
 
 #ifndef MRP_1995_12_12
-CFilterConFieldMarker::bMatch(const CRecLookEl* prel, CFilterMatch& filmat) const
+BOOL CFilterConFieldMarker::bMatch(const CRecLookEl* prel, CFilterMatch& filmat) const
 {
     // 1995-12-12 MRP: We will most likely redesign this class to 
     // know the pointer to marker object, not just the marker string.
@@ -1525,7 +1525,7 @@ CFilterCon* CFilterConDate::pconCopy() const
 }
 
 
-CFilterConDate::bMatch(const CRecLookEl* prel, CFilterMatch& filmat) const
+BOOL CFilterConDate::bMatch(const CRecLookEl* prel, CFilterMatch& filmat) const
 {
     // 1995-12-12 MRP: We will most likely redesign this class to 
     // know the pointer to marker object, not just the marker string.
@@ -1619,7 +1619,7 @@ void CFilterConDate::AssertValid() const
                                                     
 // ==========================================================================
 
-CFilterConNonUnique::bMatch(const CRecLookEl* prel, CFilterMatch& filmat) const
+BOOL CFilterConNonUnique::bMatch(const CRecLookEl* prel, CFilterMatch& filmat) const
 {
     const CRecLookEl* prelPrev = filmat.prelPrev(prel);
     const CRecLookEl* prelNext = filmat.prelNext(prel);

@@ -284,11 +284,15 @@ BOOL CCorpus::bOpenNextFile() // 1.4td
         m_iFileNameStart = m_sFilesList.iExtractNext( m_iFileNameStart, sFileName, '\n' ); // 1.4tb Get first line from file name string
         if (!sFileName.IsEmpty())  // 1.4tb If line not empty, it is a file name
             {
-			m_pfilCorpusCurFile = fopen( sFileName, "r" ); // 1.4tb Open file
-			if ( m_pfilCorpusCurFile ) // 1.4tb If open succeeded, use it, else try another
+				m_pfilCorpusCurFile = nullptr;
+				errno_t err = fopen_s(&m_pfilCorpusCurFile, sFileName, "r"); // 1.4tb Open file
+				if (err != 0 || m_pfilCorpusCurFile == nullptr) {
+					// handle error
+				}
+				else // 1.4tb If open succeeded, use it, else try another
 				{
-				bSucc = TRUE;
-				break;
+					bSucc = TRUE;
+					break;
 				}
 			}
 		}

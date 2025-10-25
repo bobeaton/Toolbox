@@ -21,8 +21,8 @@ extern Str8 g_sVersion;
 void MyAssertFailedLine(LPCSTR lpszFileName, int nLine)
 {
     char pszLine[11];
-    _itoa( nLine, pszLine, 10 ); // 1.4qua Upgrade wsprintf for Unicode build
-    Str8 sFileName = sGetFileName(lpszFileName, TRUE);
+    _itoa_s(nLine, pszLine, (int)sizeof(pszLine), 10);
+	Str8 sFileName = sGetFileName(lpszFileName, TRUE);
     Str8 sLineInFile;
     Str8 sMessage = "Internal error."; // 1.5.0fg 
 	sMessage = sMessage + " " + "Toolbox" + " " + g_sVersion + " " + "File:" + " " + sFileName + " " + "Line:" + " " + pszLine; // 1.5.0fg 
@@ -96,10 +96,9 @@ Str8 sChangeFileExt(const char* pszFile, const char* pszExt)
     char fname[_MAX_FNAME];
     char ext[_MAX_EXT];
 
-    _splitpath( pszFile, drive, dir, fname, ext );
-    char caNewFile[_MAX_PATH];
-    _makepath( caNewFile, drive, dir, fname, pszExt );
-    Str8 sNewFile = caNewFile;
+	_splitpath_s(pszFile, drive, _MAX_DRIVE, dir, _MAX_DIR, fname, _MAX_FNAME, ext, _MAX_EXT);
+	std::string newPath = std::string(drive) + dir + fname + pszExt;
+	Str8 sNewFile = newPath.c_str();
 #endif // _MAC
 
     return sNewFile;
@@ -298,10 +297,10 @@ Str8 sGetDirPath(const char* pszFile)
     return Str8(dir);
 #else
     char drive[_MAX_DRIVE];
-    _splitpath( pszFile, drive, dir, NULL, NULL );
-    char caPath[_MAX_PATH];
-    _makepath( caPath, drive, dir, NULL, NULL );
-    return Str8(caPath);
+	_splitpath_s(pszFile, drive, _MAX_DRIVE, dir, _MAX_DIR, NULL, _MAX_FNAME, NULL, _MAX_EXT);
+	std::string newPath = std::string(drive) + dir;
+	Str8 sNewFile = newPath.c_str();
+	return sNewFile;
 #endif
 }
 
@@ -312,9 +311,9 @@ Str8 sGetFileName(const char* pszFile, BOOL bIncludeExt)
     char ext[6];
     MacSplitPath( pszFile, NULL, fname, bIncludeExt ? ext : NULL );
 #else
-    char fname[_MAX_FNAME];
+	char fname[_MAX_FNAME];
     char ext[_MAX_EXT];
-    _splitpath( pszFile, NULL, NULL, fname, bIncludeExt ? ext : NULL );
+	_splitpath_s(pszFile, NULL, _MAX_DRIVE, NULL, _MAX_DIR, fname, _MAX_FNAME, bIncludeExt ? ext : NULL, _MAX_EXT);
 #endif
     Str8 sName(fname);
     if (bIncludeExt)
@@ -329,7 +328,7 @@ Str8 sGetFileExt(const char* pszFile)
     MacSplitPath( pszFile, NULL, NULL, ext );
 #else
     char ext[_MAX_EXT];
-    _splitpath( pszFile, NULL, NULL, NULL, ext );
+	_splitpath_s(pszFile, NULL, _MAX_DRIVE, NULL, _MAX_DIR, NULL, _MAX_FNAME, ext, _MAX_EXT);
 #endif
     Str8 sName(ext);
     if ( sName.GetLength() > 0 )
@@ -345,7 +344,7 @@ Str8 sGetDrive(const char* pszFile)
     return Str8(dir);
 #else
     char drive[_MAX_DRIVE];
-    _splitpath( pszFile, drive, NULL, NULL, NULL );
+	_splitpath_s(pszFile, drive, _MAX_DRIVE, NULL, _MAX_DIR, NULL, _MAX_FNAME, NULL, _MAX_EXT);
     return Str8(drive);
 #endif
 }
@@ -431,13 +430,13 @@ void RemoveExtraSeparatorInFolderPath(Str8& sFolderPath)
 //  system conventions.
 BOOL bEquivFilePath(const char* psz1, const char* psz2)
 	{
-	if (stricmp(psz1,psz2) == 0) // lower case comparison of strings
+	if (_stricmp(psz1,psz2) == 0) // lower case comparison of strings
 		return TRUE;
 	else 
 		return FALSE;
 	// notes: 
 	//	If non-US Win or Mac file names allow upper-128 characters like 
-	//	accented vowels, use of stricmp() will not properly equivalence
+	//	accented vowels, use of _stricmp() will not properly equivalence
 	//  them if their case is different.
 	// Using lstrcmpi() is not acceptable because in Win it will
 	//  do a "word sort" and ignore hyphens. Neither is it acceptable
@@ -452,8 +451,7 @@ void Path1632DLL(Str8& sPathDLL)
     char pszDir[_MAX_DIR];
     char pszFileName[_MAX_FNAME];
     char pszExt[_MAX_EXT];
-    _splitpath(sPathDLL, pszDrive, pszDir, pszFileName, pszExt);
-
+	_splitpath_s(sPathDLL, pszDrive, _MAX_DRIVE, pszDir, _MAX_DIR, pszFileName, _MAX_FNAME, pszExt, _MAX_EXT);
     int lenFileName = strlen(pszFileName);
     if ( 1 < lenFileName )
         {
@@ -461,9 +459,8 @@ void Path1632DLL(Str8& sPathDLL)
         if ( bEqual(psz, "16") || bEqual(psz, "32") )
             pszFileName[lenFileName - 2] = '\0';
         }
-    char pszPath1632DLL[_MAX_PATH];
-    _makepath(pszPath1632DLL, pszDrive, pszDir, pszFileName, pszExt);
-    sPathDLL = pszPath1632DLL;
+	std::string newPath = std::string(pszDrive) + pszDir + pszFileName + pszExt;
+    sPathDLL = newPath.c_str();
 #endif
 }
 
@@ -540,12 +537,12 @@ Str8 sUniqueFileName(const char* pszDirPath, const char* pszName,
     ASSERT( lenBaseName <= maxlenFileName );
     unsigned short i = 1;
     char pszFileName[maxFNBuf+1];
-    strcpy(pszFileName, pszBaseName);
+    strcpy_s(pszFileName, sizeof(pszFileName), pszBaseName);
     Str8 s = sPath(pszDirPath, pszFileName, pszExt);
     while ( bFileExists(s) )  // The path exists
         {
         char pszNumber[6];
-        sprintf(pszNumber, "%u", ++i);
+		sprintf_s(pszNumber, sizeof(pszNumber), "%u", ++i);
         int lenNumber = strlen(pszNumber);
         if ( maxlenFileName < lenBaseName + lenNumber )
             {
@@ -555,8 +552,8 @@ Str8 sUniqueFileName(const char* pszDirPath, const char* pszName,
             pszBaseName[lenBaseName] = '\0';  // Shorten the base name
             }
         // Append the number to the base name and make a path from it
-        strcpy(pszFileName, pszBaseName);
-        strcat(pszFileName, pszNumber);
+		strcpy_s(pszFileName, sizeof(pszFileName), pszBaseName);
+		strcat_s(pszFileName, sizeof(pszFileName), pszNumber);
         s = sPath(pszDirPath, pszFileName, pszExt);
         }
     Str8 sFileName = pszFileName;
@@ -784,7 +781,7 @@ static int s_iTryNum = 0; // Maximum number of times to try on failures
 static int s_iMaxTime = 5; // 1.3bg Limit total time parsing to 5 seconds
 static int s_bMessage = TRUE; // 1.4qzjm Add option to prevent message for interlinear check
 static CTime s_tStartTime; // 1.2rg Limit parse time to avoid apparent hang
-static s_bTimeLimitExceededMessageGiven = FALSE; // 1.2rg Note if parse time limit was exceeded
+static BOOL s_bTimeLimitExceededMessageGiven = FALSE; // 1.2rg Note if parse time limit was exceeded
 
 void InitTimeLimit( int iTimeLimit, BOOL bMessage ) // 1.3bh Make separate timer init function // 1.4qzjm Add argument to prevent message for interlinear check
 	{
@@ -918,16 +915,17 @@ Str8 sGetClipBoardData( CWnd* w, BOOL bUnicode ) // 1.4rbc Encapsulate get clipb
 	return sClip;
 	}
 
-char caBigBuffer[BIGBUFMAX+1]; // 1.4kg Fix bug of losing part of large word formula
-char* pszBigBuffer = (char*)caBigBuffer; // 1.4kg
-LPWSTR pswzBigBuffer = (LPWSTR)caBigBuffer; // 1.4qpt Make unsigned short pointer to buffer
+char caBigBufferA[BIGBUFMAX+1]; // 1.4kg Fix bug of losing part of large word formula
+char* pszBigBuffer = (char*)caBigBufferA; // 1.4kg
+wchar_t caBigBufferW[BIGBUFMAX+1]; // 1.4kg Fix bug of losing part of large word formula
+LPWSTR pswzBigBuffer = (LPWSTR)caBigBufferW; // 1.4qpt Make unsigned short pointer to buffer
 
 void AfxFormatString1( Str8& s, LPCSTR pszFormat, LPCSTR pszArg1 ) // 1.3ag Make string form of AfxFormatStrng
 	{
 //	s = pszFormat; // 1.4rag Fix U bug of not showing marker in some MDF error messages // 1.4raj
 //	s.Replace( "%1", pszArg1 ); // 1.4rag // 1.4raj
 //	char buffer[1000]; // 1.4rag
-	sprintf( pszBigBuffer, pszFormat, pszArg1 ); // Use sprintf to format string // 1.4rag // 1.4raj
+	sprintf_s( pszBigBuffer, BIGBUFMAX, pszFormat, pszArg1 ); // Use sprintf to format string // 1.4rag // 1.4raj
 	s = pszBigBuffer; // Copy formatted result to return string // 1.4rag // 1.4raj
 	}
 
@@ -937,7 +935,7 @@ void AfxFormatString2( Str8& s, LPCSTR pszFormat, LPCSTR pszArg1, LPCSTR pszArg2
 //	s.Replace( "%1", pszArg1 ); // 1.4rag // 1.4raj
 //	s.Replace( "%2", pszArg2 ); // 1.4rag // 1.4raj
 //	char buffer[1000]; // 1.4rag
-	sprintf( pszBigBuffer, pszFormat, pszArg1, pszArg2 ); // Use sprintf to format string // 1.4rag // 1.4raj
+	sprintf_s( pszBigBuffer, BIGBUFMAX, pszFormat, pszArg1, pszArg2 ); // Use sprintf to format string // 1.4rag // 1.4raj
 	s = pszBigBuffer; // Copy formatted result to return string // 1.4rag // 1.4raj
 	}
 
@@ -1027,9 +1025,12 @@ BOOL bRegPossibleCrash() // 1.5.8wa Read registry to see if possible crash
 BOOL bReadFileIntoString( Str8 sPath, Str8& sIn ) // 1.5.9pd Read file into string
 	{
 	Str8 sMode = "r"; // Set up mode string
-	FILE* pf = _wfopen( swUTF16( sPath ), swUTF16( sMode ) ); // 1.5.9pd Open file
-	if ( !pf ) // If file open failed, return fail
+	FILE* pf = nullptr;
+	errno_t err = _wfopen_s(&pf, swUTF16( sPath ), swUTF16( sMode ));
+	if (err != 0 || pf == nullptr) {
+		// handle error
 		return FALSE;
+	}
 	Str8 sLine; // Str8 form of line for searching and processing
 	int fh = _fileno( pf ); // 1.5.9pd Get file handle
 	int iFileLen = _filelength( fh ); // 1.5.9pd Get length of file
@@ -1052,7 +1053,8 @@ BOOL bReadFileIntoString( Str8 sPath, Str8& sIn ) // 1.5.9pd Read file into stri
 BOOL bWriteFileFromString( Str8 sPath, Str8 sOut ) // 1.5.9pd Write file from string
 	{
 	Str8 sMode = "w"; // Set up mode string to write // 1.5.9pd 
-	FILE* pf = _wfopen( swUTF16( sPath ), swUTF16( sMode ) ); // 1.5.9pd Open modified file
+	FILE* pf = nullptr;
+	_wfopen_s(&pf, swUTF16( sPath ), swUTF16( sMode ));
 	fputs( sOut, pf ); // 1.5.9pd Write modified file
 	fclose( pf ); // 1.5.9pd Close file
 	return TRUE; // 1.5.9pd 
@@ -1065,6 +1067,7 @@ FILE* pfFileOpenWrite( const char* pszPath ) // 1.6.4ad Open FILE for write
 	CString swPath = swUTF16( sPath ); // 1.6.1cb 
 	Str8 sMode = "w"; // Set up mode string  // 1.6.1cb 
 	CString swMode = swUTF16( sMode ); // Convert mode string to CString  // 1.6.1cb 
-	FILE* pf = _wfopen( swPath, swMode ); // Open file // 1.6.1cb 
+	FILE* pf = nullptr;
+	_wfopen_s(&pf, swPath, swMode);
 	return pf;
 	}

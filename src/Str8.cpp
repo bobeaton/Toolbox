@@ -285,7 +285,7 @@ void Str8::MakeSpace( int iSize ) // Make room for possibly larger size
 		int iMallocSiz = iMallocSize( iSize * 2 ); // 1.4ytb Double to make Str8 grow faster for higher speed
 		m_psz = (char*)malloc( iMallocSiz ); // Allocate string buffer
 		m_iAlloc = iMallocSiz; // Init allocated size
-		strcpy( m_psz, pszOld ); // Copy old to new place
+		strcpy_s( m_psz, iMallocSiz, pszOld ); // Copy old to new place
 		free( pszOld ); // Free old place
 		}
 	}
@@ -302,8 +302,8 @@ Str8::Str8( const char* pszInit, int iCount ) // Constructor with initializing s
 		pszInit = "";
 	Init();
 	int iLen = strlen( pszInit );
-	MakeSpace( iLen ); // Init to large enough size
-	strcpy( m_psz, pszInit ); // Copy initializing string to buffer
+	MakeSpace( iLen ); // Init to large enough size (= m_iAlloc)
+	strcpy_s( m_psz, m_iAlloc, pszInit ); // Copy initializing string to buffer
 	m_iLen = iLen;
 	if ( iCount >= 0 ) // If limited count, then shorten to that length
 		Truncate( iCount );
@@ -324,7 +324,7 @@ Str8::Str8( const Str8& s ) // Copy constructor
 	{
 	Init();
 	MakeSpace( s.GetLength() );
-	strcpy( m_psz, (const char*)s ); // Copy initializing string to buffer
+	strcpy_s( m_psz, m_iAlloc, (const char*)s ); // Copy initializing string to buffer (= m_iAlloc)
 	m_iLen = s.GetLength();
 	AssertValid();
 	}
@@ -361,7 +361,7 @@ Str8& Str8::operator=( const char* pszSource )
 	int iNewLen = strlen( pszSource );
 	MakeSpace( iNewLen );
 	m_iLen = iNewLen;
-	strcpy( m_psz, pszSource );
+	strcpy_s( m_psz, m_iAlloc, pszSource );
 	AssertValid();
 	return *this;
 }
@@ -370,7 +370,7 @@ Str8& Str8::operator=( const Str8& sSource )
 {
 	MakeSpace( sSource.GetLength() );
 	m_iLen = sSource.GetLength();
-	strcpy( m_psz, (const char*)sSource );
+	strcpy_s( m_psz, m_iAlloc, (const char*)sSource );
 	AssertValid();
 	return *this;
 }
@@ -404,8 +404,8 @@ Str8& Str8::operator +=( int iAdd ) // 1.4tec Add a number, if numeric
 	int i = atoi( *this );
 	i += iAdd;
 	char buffer[20];
-	itoa( i, buffer, 10 );
-//	this->Empty(); // 1.6.1ck Fix bug of bad write of settings
+	_itoa_s(i, buffer, (int)sizeof(buffer), 10);
+	//	this->Empty(); // 1.6.1ck Fix bug of bad write of settings
 	this->Append( buffer );
 	return *this;
 	}
@@ -431,8 +431,8 @@ Str8& Str8::Append(const char* psz) // Append string
 	if ( !psz ) // 1.4qzpf Don't crash if null passed in as empty string
 		psz = "";
 	int iNewSize = m_iLen + strlen( psz ); // Calculate new length
-	MakeSpace( iNewSize ); // Make enough space
-	strcpy( m_psz + m_iLen, psz ); // Copy onto end
+	MakeSpace( iNewSize ); // Make enough space (= m_iAlloc)
+	strcpy_s( m_psz + m_iLen, m_iAlloc, psz ); // Copy onto end
 	m_iLen = iNewSize; // Set new length
 	AssertValid();
 	return *this;
@@ -507,7 +507,7 @@ Str8 Str8::Mid( int iStart, int iCount ) const
 		iCount = m_iLen - iStart;
 	Str8 s;
 	char* psz = s.GetBuffer( iCount );
-	strncpy( psz, m_psz + iStart, iCount );
+	strncpy_s( psz, iCount, m_psz + iStart, _TRUNCATE );
 	*(psz + iCount) = '\0';
 	s.ReleaseBuffer();
 	return s;
@@ -591,7 +591,7 @@ void Str8::Format(const char* pszFormat, ...)
 	char* psz = GetBuffer( 5000 ); // Get plenty of space, no loss because this is probably a temp string	
     va_list argptr;
     va_start( argptr, pszFormat );
-	vsprintf( psz, pszFormat, argptr );
+	vsprintf_s( psz, 5000, pszFormat, argptr );
     va_end(argptr);
 	ReleaseBuffer();
 	}
@@ -599,16 +599,16 @@ void Str8::Format(const char* pszFormat, ...)
 BOOL Str8::bNextWord( Str8& sWord, int& iPos ) // Find next space delimited word, return in sWord, return end of word in iPos
 	{
 	if ( iPos >= GetLength() ) // If iPos past end, return false
-		return false;
+		return FALSE;
 	while ( iPos < GetLength() && bSpace( GetChar( iPos ) ) ) // Skip spaces // 1.4qzjh
 		iPos++;
 	if ( iPos == GetLength() ) // If no more non-spaces, return false
-		return false;
+		return FALSE;
 	int iStart = iPos;
 	while ( iPos < GetLength() && !bSpace( GetChar( iPos ) ) ) // Look for next space or end // 1.4qzjh
 		iPos++;
 	sWord = Mid( iStart, iPos - iStart ); // Collect word in return value
-	return true;
+	return TRUE;
 	}
 
 #define STR8BUFMAX 10000
@@ -616,9 +616,12 @@ BOOL Str8::bNextWord( Str8& sWord, int& iPos ) // Find next space delimited word
 BOOL Str8::bReadFile( Str8 sFileName ) // 1.4yta Add function to read file into Str8
 	{
 	char* pszStr8Buffer = (char*)malloc( STR8BUFMAX );
-	FILE* pfil = fopen( sFileName, "r" );
-	if ( !pfil )
+	FILE* pfil = nullptr;
+	errno_t err = fopen_s(&pfil, sFileName, "r");
+	if (err != 0 || pfil == nullptr) {
+		// handle error
 		return FALSE;
+	}
 	while ( fgets( pszStr8Buffer, STR8BUFMAX, pfil ) )
 		Append( pszStr8Buffer );
 	fclose( pfil );

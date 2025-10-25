@@ -14,8 +14,10 @@ typedef unsigned short LngSortCode;  // cod
 
 #include "set.h"  // classes CSet and CSetEl
 #include "ref.h"
+#if UseCct
 #include "cct.h"  // class ChangeTable
-#include <fstream.h>
+#endif
+#include <fstream>
 
 #include "update.h"  // CUpdate
 #include "cbo.h"
@@ -167,8 +169,10 @@ private:
     Order m_ordFirstPri;  // of the first primary multichar 
 
     // Making changes to sort keys for Non-Roman Script encodings
+#if UseCct
     Str8 m_sPathCCT;
     ChangeTable m_cct;
+#endif
     Str8 m_sPathDLL;
     HINSTANCE m_hDLL;
     void* m_pfMakeSortKey;
@@ -234,7 +238,9 @@ public:
 	void SkipUnicodeSequenceIgnores( const char* &psz ) const; // 1.4eh
 	int iCompareUnicodeSequence( const char* pszA, const char* pszB, MatchSetting matset, BOOL bMatchWhole ) const; // 1.4eg Add Unicode sequence sort // 1.4gy
 
+#if UseCct
 	const char* pszPathCCT() const { return m_sPathCCT; }
+#endif
 
     static void s_SortableSubString(const char** ppsz, Length* plen);
         // From the null-terminated string starting at *ppsz,
@@ -339,11 +345,13 @@ public:
         // Called when first constructing this sort order and also
         // when the Case property of its language encoding is modified.
 
-	void WritePaths( ofstream ostr )
+#if UseCct
+	void WritePaths( std::ofstream& ostr )
 		{
 		if ( m_sPathCCT.GetLength() > 0 )
 			ostr << m_sPathCCT << "\n";
 		};
+#endif
 
     BOOL bModifyProperties(const char* pszName,
             const char* pszDescription,

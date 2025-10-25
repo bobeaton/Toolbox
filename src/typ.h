@@ -13,7 +13,7 @@
 #include "printinf.h"
 #include "number.h"
 #include "export.h"
-#include <fstream.h>
+#include <fstream>
 
 class CMarkerUpdate;
 class CFilterUpdate;
@@ -119,7 +119,7 @@ public:
     BOOL bHasRefsFromReadOnlyIndexSets() const
         { return m_refReadOnlyIndexSets.bHasRefs(); }
 	void UpdatePaths(); // Update paths that point to project folder if project moved
-	void WritePaths( class ofstream ostr ); // Write paths that are in active use
+	void WritePaths( std::ofstream& ostr ); // Write paths that are in active use
     
 	void WriteProperties( const char* sPath ) const; // 5.99f Encapsulate opening of the ostream
 #ifdef typWritefstream // 1.6.4ac

@@ -7,7 +7,7 @@
 #include "patch.h"
 #include "lng.h"
 #include "obstream.h"  // classes Object_istream, Object_ostream
-#include <strstrea.h>
+#include <sstream>
 #include "not.h"
 #include "shwnotes.h"
 #include "project.h"  // Shw_pProject()->iLangCtrlHeight()

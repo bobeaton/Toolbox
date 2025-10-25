@@ -181,7 +181,7 @@ void CDatabaseRef::UpdatePath() // Update path if project moved and path is to o
 	Shw_pProject()->UpdatePath( m_sDatabasePath ); // Update path if project moved and it was in project folder
 }
 
-void CDatabaseRef::WritePaths( class ofstream ostr ) // Write paths that are in active use
+void CDatabaseRef::WritePaths( std::ofstream& ostr ) // Write paths that are in active use
 {
 	ostr << m_sDatabasePath << "\n";
 }
@@ -189,7 +189,7 @@ void CDatabaseRef::WritePaths( class ofstream ostr ) // Write paths that are in 
 void CDatabaseRef::UpdatePath(const Str8 sNewPath) // Use if DB moved and path is to old location (but project hasn't moved)
 {
     ASSERT(!m_pind); // TLB - 1999-06-11: Prevent use of this function once index has been established.
-    ASSERT(!stricmp(sGetFileName(sNewPath, TRUE), sGetFileName(m_sDatabasePath, TRUE)));
+    ASSERT(!_stricmp(sGetFileName(sNewPath, TRUE), sGetFileName(m_sDatabasePath, TRUE)));
 
 	m_sDatabasePath = sNewPath;
 }
@@ -280,7 +280,7 @@ void CDatabaseRefList::UpdatePaths() // Update paths that point to the project i
 		pdrf->UpdatePath();
 }
 
-void CDatabaseRefList::WritePaths( ofstream ostr ) // Write active paths to ostr
+void CDatabaseRefList::WritePaths( std::ofstream& ostr ) // Write active paths to ostr
 {
     for ( CDatabaseRef* pdrf = pdrfFirst(); pdrf; pdrf = pdrfNext(pdrf) )
 		pdrf->WritePaths( ostr );
@@ -350,7 +350,7 @@ BOOL CDatabaseRefList::bRefersTo( CShwDoc* pdoc ) // check for any references to
     CDatabaseRef* pdrf = pdrfFirst();
     for ( ; pdrf; pdrf = pdrfNext(pdrf) )
         {
-        if ( !stricmp( pdrf->sDatabasePath(),  sUTF8( pdoc->GetPathName() ) ) ) // compare doc names, index may not exist // 1.4qxv Upgrade stricmp for Unicode build
+        if ( !_stricmp( pdrf->sDatabasePath(),  sUTF8( pdoc->GetPathName() ) ) ) // compare doc names, index may not exist // 1.4qxv Upgrade _stricmp for Unicode build
             return TRUE;
         }
     return FALSE;
@@ -361,7 +361,7 @@ void CDatabaseRefList::DontCheckDiffPathsForDBRefs(const Str8& sDatabasePath)
 {
     CDatabaseRef* pdrf = pdrfFirst();
     for ( ; pdrf; pdrf = pdrfNext(pdrf) )
-        if ( !stricmp(pdrf->m_sDatabasePath, sDatabasePath) )
+        if ( !_stricmp(pdrf->m_sDatabasePath, sDatabasePath) )
             pdrf->m_bDontCheckForOpenDB = TRUE;
 }
 
@@ -370,7 +370,7 @@ void CDatabaseRefList::OkayToSkipDBRefs(const Str8& sDatabasePath, const Str8& s
 {
     CDatabaseRef* pdrf = pdrfFirst();
     for ( ; pdrf; pdrf = pdrfNext(pdrf) )
-        if ( !stricmp(pdrf->m_sDatabasePath, sDatabasePath) )
+        if ( !_stricmp(pdrf->m_sDatabasePath, sDatabasePath) )
             {
             if ( sKey == "" )
                 {
@@ -388,7 +388,7 @@ void CDatabaseRefList::FixDBRefs(const Str8& sOldDatabasePath, const Str8& sNewD
 {
     CDatabaseRef* pdrf = pdrfFirst();
     for ( ; pdrf; pdrf = pdrfNext(pdrf) )
-        if ( !stricmp(pdrf->m_sDatabasePath, sOldDatabasePath) )
+        if ( !_stricmp(pdrf->m_sDatabasePath, sOldDatabasePath) )
             {
             ASSERT(!pdrf->m_pind);
             pdrf->m_sDatabasePath = sNewDatabasePath;

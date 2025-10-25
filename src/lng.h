@@ -90,7 +90,7 @@ public:
     CLangEnc* plngMyOwner() const { return m_plngMyOwner; }
     virtual CSet* psetMyOwner();
     
-    void WriteMetaMChar(ostream& ios) const;
+    void WriteMetaMChar(std::ostream& ios) const;
         // Write the multichar, enclosed by chevrons, if a multi-byte.
         
     BOOL bUpperCase() const { return m_bUpperCase; }    
@@ -264,20 +264,20 @@ private:
     void LoadRenDLL();
         // If there's a rendering DLL, load it and its table.
         // Sets m_bRenDLL if sucessfully loaded and ready to use.
-    iEncode(const char* pszUnderlying, int maxlen1, char* pszSurface) const;
+    int iEncode(const char* pszUnderlying, int maxlen1, char* pszSurface) const;
         // Apply context-sensitive rendering changes to underlying string.
-    iUnderPos(const char* pszUnderlying, int iSurfacePos) const;
+    int iUnderPos(const char* pszUnderlying, int iSurfacePos) const;
         // Return the character position in the underlying string
         // that corresponds to the given surface string position.
-    iSurfacePos(const char* pszUnderlying, int iUnderPos) const;
+    int iSurfacePos(const char* pszUnderlying, int iUnderPos) const;
         // Return the character position in a surface string
         // that corresponds to the given underlying string position.
     // 1998-09-28 MRP: Extended functions are for rendering substrings
-    iEncodeEx(int lenUnderlying, const char* pszUnderlying,
+    int iEncodeEx(int lenUnderlying, const char* pszUnderlying,
     		int maxlen1, char* pszSurface) const;
-    iUnderPosEx(int lenUnderlying, const char* pszUnderlying,
+    int iUnderPosEx(int lenUnderlying, const char* pszUnderlying,
     		int iSurfacePos) const;
-    iSurfacePosEx(int lenUnderlying, const char* pszUnderlying,
+    int iSurfacePosEx(int lenUnderlying, const char* pszUnderlying,
     		int iUnderPos) const;
 
 public:
@@ -361,12 +361,14 @@ public:
         // Display a substring rendered in its surface form
         // using the device context's current font and color.
 
-	void WritePaths( ofstream ostr )
+	void WritePaths( std::ofstream& ostr )
 		{
 		if ( m_sRenTable.GetLength() > 0 )
 			ostr << m_sRenTable << "\n";
+#if UseCct
 		for ( CSortOrder* psrt = psrtset()->psrtFirst(); psrt; psrt = psrtset()->psrtNext( psrt ) )
 			psrt->WritePaths( ostr );
+#endif
 		};
 
     // ------------------------------------------------------------------------

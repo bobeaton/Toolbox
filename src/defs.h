@@ -38,6 +38,6 @@ typedef int ItemIndex;  // Hungarian: itm
 #define DLGBUFMAX 1000 // 1.4dw
 #define BIGBUFMAX 100000 // 1.4kh Make big buffer for use where needed
 extern char* pszBigBuffer; // 1.4kh
-extern unsigned short* pswzBigBuffer; // 1.4qpt Make unsigned short pointer to buffer // 1.4rab
+extern LPWSTR pswzBigBuffer; // 1.4qpt Make unsigned short pointer to buffer // 1.4rab
 
 #endif  // DEFS_H

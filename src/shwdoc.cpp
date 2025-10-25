@@ -440,7 +440,7 @@ BOOL CShwDoc::SaveModified()
 		sFileName = sFileName + " " + sUTF8( GetPathName() ); // 1.5.0fg 
 		iReply = AfxMessageBox( sFileName, MB_YESNOCANCEL ); // Ask if user wants to save changes
 		if ( iReply == IDCANCEL ) // If cancel, don't close
-			return false;
+			return FALSE;
 		else if ( iReply == IDYES ) // 1.4tee If save, save now so framework won't need to
 				OnSaveDocument( sUTF8( GetPathName() ) ); // 1.4qxd Upgrade OnSaveDocument for Unicode build
 		else // 1.4tee If don't save, clear modified flag so framework won't save

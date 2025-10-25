@@ -579,7 +579,8 @@ public:
 	void BreakBundle( int iChunkLen ) // Break bundle into two at position iLen, move rps to start of new bundle
 	{
 		CField* pfldInsertAfter = rpsEndOfBundle().pfld; // Place to insert tail of broken field, insert new bundle at end of this bundle
-		for ( CRecPos rps = rpsFirstInBundle(); ; rps.pfld = rps.pfldNext() ) // For each field in bundle, break it and move tail down to end of bundle // _Temp sounds like making a field, not interating through existing fields
+		CRecPos rps = null;
+		for ( rps = rpsFirstInBundle(); ; rps.pfld = rps.pfldNext() ) // For each field in bundle, break it and move tail down to end of bundle // _Temp sounds like making a field, not interating through existing fields
 			{
 			const char* pszFld = rps.pfld->psz(); // Pointer to simplify expressions below // 1.4qzfm Upgrade GetBuffr for Unicode build
 			int iLen = min( iChunkLen, rps.pfld->GetLength() ); // Find place to cut off
@@ -678,7 +679,7 @@ public:
     static void s_ReadSubfields(CMarkerSet* pmkrset, char* pszContents);
         // Convert any curly brace subfield tag delimiters read from a file
         // to the internal codes used in the contents of field objects.
-    static void s_WriteSubfields(ostream& ios, const Str8& sContents);
+    static void s_WriteSubfields(std::ostream& ios, const Str8& sContents);
         // Write the contents of a field and convert the delimiters
         // of any subfield tags from the internal codes to curly braces.
 

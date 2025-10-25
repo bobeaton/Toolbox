@@ -142,6 +142,7 @@ BOOL CSortEditDlg::OnInitDialog()
 	m_elcIgnores.SetEditLngText( m_sIgnores ); // 1.4qpn
 	CFont* pfnt = (CFont*)m_psrtset->plngMyOwner()->pfntPropertiesDlg();
 	CKeyboard* pkbd = m_psrtset->plngMyOwner()->pkbdPropertiesDlg();
+#if UseCct
 	Str8 sCCTable;
 	if ( m_psrt )
 		sCCTable= m_psrt->pszPathCCT();
@@ -151,6 +152,7 @@ BOOL CSortEditDlg::OnInitDialog()
 		sCCTable = sSortCCLabel + sCCTable; // 1.5.0ft // 1.5.1ma Fix bug of odd display of sort cct in lng
 		}
 	m_lblSortCCTable.SetWindowText(  swUTF16( sCCTable ) ); // Show CC table // 1.4qpy
+#endif
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
 

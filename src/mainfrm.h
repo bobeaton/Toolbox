@@ -125,7 +125,7 @@ protected:
     afx_msg void OnViewStatusBar();
     afx_msg void OnUpdateViewStatusBar(CCmdUI* pCmdUI);
     afx_msg void OnInitMenu(CMenu* pMenu);
-    afx_msg void OnActivateApp(BOOL bActive, HTASK hTask);
+    afx_msg void OnActivateApp(BOOL bActive, DWORD hTask);
     afx_msg void OnSelEndCancelFiltersetCombo();
     afx_msg void OnSelEndOkFiltersetCombo();
     afx_msg void OnDblClkFiltersetCombo();

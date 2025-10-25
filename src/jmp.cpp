@@ -10,7 +10,7 @@
 #include "jmp.h"
 #include "spath_d.h"
 #include "shwdoc.h"
-#include "fstream.h"
+#include <fstream>
 #include "recset.h"
 #include "shw.h"
 #include "project.h"
@@ -226,7 +226,7 @@ CJumpPath::EPathSearchResult CJumpPath::psrSearch(const CKey* pkey,
                         {
                         // Strip off path -- all we want is a matching name
                         sDocPathName =  sUTF8( pdoc->GetPathName() ); // 1.4qra
-                        if ( !stricmp(sGetFileName(sDocPathName, TRUE), sDBName) )
+                        if ( !_stricmp(sGetFileName(sDocPathName, TRUE), sDBName) )
                             break;
                         }
                     int iResult;

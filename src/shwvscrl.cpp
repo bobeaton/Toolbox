@@ -47,7 +47,8 @@ END_MESSAGE_MAP()
 CShwScrollView::CShwScrollView()
 {
 	// Init everything to zero
-	AFX_ZERO_INIT_OBJECT(CView);
+	// no longer needed:
+    //  AFX_ZERO_INIT_OBJECT(CView);
 
 	m_nMapMode = MM_NONE;
 }

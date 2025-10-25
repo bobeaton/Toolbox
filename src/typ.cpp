@@ -8,8 +8,10 @@
 #include "font.h"
 #include "spath_d.h"
 #include "project.h"
-#include <fstream.h>  // ifstream
+#include <fstream>  // ifstream
+#if UseCct
 #include "cct.h"  // strstream_d255
+#endif
 #include "mdf.h"  // CExportProcessMDF
 #include "pgs.h"  // RtfPageSetup
 #include "obstream.h"  // Object_istream, Object_ostream
@@ -24,7 +26,7 @@
 #include "dirlist.h"
 
 //#ifdef _DEBUG
-#include <strstrea.h>
+#include <sstream>
 //#endif  // _DEBUG
 
 
@@ -99,18 +101,20 @@ void CDatabaseType::WriteProperties( const char* sPath ) const // 5.99f Encapsul
 	CString swPath = swUTF16( sPath ); // 1.6.1cb 
 	Str8 sMode = "w"; // Set up mode string  // 1.6.1cb 
 	CString swMode = swUTF16( sMode ); // Convert mode string to CString  // 1.6.1cb 
-	FILE* pf = _wfopen( swPath, swMode ); // Open file // 1.6.1cb 
-	if ( !pf ) // If file open failed, return failure // 1.6.1cb 
+	FILE* pf = nullptr;
+	errno_t err = _wfopen_s(&pf, swPath, swMode); // Open file // 1.6.1cb 
+	if (err != 0 || pf == nullptr) {	 // If file open failed, return failure // 1.6.1cb 
 		return; // 1.6.1cb 
+	}
     Object_ofstream obs(pf); // 1.6.1cb 
 #else // 1.6.1cb 
-    ofstream ios(sPath); // 1.6.1cb 
+    std::ofstream ios(sPath); // 1.6.1cb 
     Object_ostream obs(ios); // 1.6.1cb 
 #endif // 1.6.1cb 
     WriteProperties(obs);
 	}
 
-void CDatabaseType::WritePaths( ofstream ostr ) // Update paths that point to the project if the project moved
+void CDatabaseType::WritePaths( std::ofstream& ostr ) // Update paths that point to the project if the project moved
 {
 	m_intprclst.WritePaths( ostr ); // Update interlinearization references
 	m_pexpset->WritePaths( ostr ); // 1.4pr Include export process files in list of active files // Update export process references // 5.98t Don't write these, they are external and tend to be provided, and there can be lots of them
@@ -212,8 +216,8 @@ BOOL CDatabaseType::bReadProperties(CNoteList& notlst)
     const Str8& sPath = m_ptrxMyProxy->sPath();
 	if ( !bAllASCIIComplain( sPath ) ) // 1.4vze 
 		return FALSE; // 1.4vze 
-    ifstream ios(sPath, ios::nocreate);
-    if ( ios.fail() )
+	std::ifstream ios(sPath);
+	if (!ios)
         return FALSE;
 
     //11-08-1997
@@ -720,7 +724,7 @@ BOOL CDatabaseTypeProxy::s_bReadProxy(const char* pszPath,
     ASSERT( pptrx );
     ASSERT( !*pptrx );  // If it isn't NULL now, there will be a leak.
 
-    ifstream ios( pszPath );
+    std::ifstream ios( pszPath );
     if ( ios.fail() )
         return FALSE;
 
@@ -772,7 +776,7 @@ static BOOL s_bCopyTMP(const CDatabaseType* ptypToCopyFrom,
 
     // 2. Read properties from the temporary file
     {  // Scope of iosTMP and obsTMP for reading
-    ifstream iosTMP(sPathTMP);
+    std::ifstream iosTMP(sPathTMP);
     if ( iosTMP.fail() )
         {
         int i = remove(sPathTMP);
@@ -894,7 +898,7 @@ CDatabaseTypeSet::CDatabaseTypeSet(CLangEncSet* plngset,
     // concatenated together in pszProperties.
     m_bReadFromString = TRUE;   
     ASSERT( pszProperties );
-    istrstream ios((char*)pszProperties);
+    std::istrstream ios((char*)pszProperties);
     CNoteList notlst;
     Object_istream obs(ios, notlst);
     while ( !obs.bAtEnd() )
@@ -930,7 +934,7 @@ CDatabaseTypeSet::~CDatabaseTypeSet()
         
     CDatabaseTypePtr* aptyp = new CDatabaseTypePtr[n];
     int i = 0;
-    for ( ptrx = ptrxFirst(); ptrx; ptrx = ptrxNext(ptrx) )
+    for ( CDatabaseTypeProxy* ptrx = ptrxFirst(); ptrx; ptrx = ptrxNext(ptrx) )
         if ( ptrx->bOpen() )
             {
             CNoteList notlst;

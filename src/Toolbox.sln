@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shw32", "Toolbox.vcxproj", "{DA4C386E-B0CF-D270-B199-588BEB284909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Unicode|Win32 = Debug Unicode|Win32
+		MacWine Release|Win32 = MacWine Release|Win32
+		Release Unicode|Win32 = Release Unicode|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA4C386E-B0CF-D270-B199-588BEB284909}.Debug Unicode|Win32.ActiveCfg = Debug Unicode|Win32
+		{DA4C386E-B0CF-D270-B199-588BEB284909}.Debug Unicode|Win32.Build.0 = Debug Unicode|Win32
+		{DA4C386E-B0CF-D270-B199-588BEB284909}.MacWine Release|Win32.ActiveCfg = MacWine Release|Win32
+		{DA4C386E-B0CF-D270-B199-588BEB284909}.MacWine Release|Win32.Build.0 = MacWine Release|Win32
+		{DA4C386E-B0CF-D270-B199-588BEB284909}.Release Unicode|Win32.ActiveCfg = Release Unicode|Win32
+		{DA4C386E-B0CF-D270-B199-588BEB284909}.Release Unicode|Win32.Build.0 = Release Unicode|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

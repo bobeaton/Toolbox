@@ -8,22 +8,26 @@
 #include "lng.h"
 #include "font.h"
 #include "obstream.h"  // Object_istream, Object_ostream
+#if UseCct
 #include "cct.h"  // ChangeTable
+#endif
 #include "tools.h"  // sPath
-#include <fstream.h>  // ifstream
+#include <fstream>  // ifstream
 #include <wingdi.h> // ExtTextOutW
 #include "usp10.h" // Uniscribe ScriptString functions
 
 // 11-08-1997
 #include "nlstream.h"
 
-#include <strstrea.h>
+#include <sstream>
 
 #include "patch.h"
 #include "shwnotes.h"
 
 #include "lng_d.h"
+#if UseCct
 #include "cct.h"
+#endif
 #include "find_d.h"
 
 #include "dirlist.h"
@@ -140,7 +144,7 @@ void CMChar::ClearCase()
 }
 
 
-void CMChar::WriteMetaMChar(ostream& ios) const
+void CMChar::WriteMetaMChar(std::ostream& ios) const
 {
     BOOL bMultiByte = ( sMChar().GetLength() != 1 );
     if ( bMultiByte )
@@ -332,7 +336,7 @@ BOOL CLangEnc::bReadProperties(CNoteList& notlst)
 	int iStartKeyDefs = 0; // 1.5.0fe
 	m_sLng.bGetSettingsTagSection( m_sKeyDefs, psz_KeyDefs, iStartKeyDefs, FALSE ); // 1.5.0fe 
 	CleanUpKeyDefs(); // 1.5.0ff 
-    ifstream ios(sPath, ios::nocreate);
+    std::ifstream ios(sPath);
     if ( ios.fail() )
         return FALSE;
 
@@ -520,12 +524,15 @@ void CLangEnc::WritePropertiesIfModified( BOOL bForceWrite )
 	CString swPath = swUTF16( sPath ); // 1.6.1cb 
 	Str8 sMode = "w"; // Set up mode string  // 1.6.1cb 
 	CString swMode = swUTF16( sMode ); // Convert mode string to CString  // 1.6.1cb 
-	FILE* pf = _wfopen( swPath, swMode ); // Open file // 1.6.1cb 
-	if ( !pf ) // If file open failed, return failure // 1.6.1cb 
+	FILE* pf = nullptr;
+	errno_t err = _wfopen_s(&pf, swPath, swMode);	// Open file // 1.6.1cb 
+	if (err != 0 || pf == nullptr) {	// If file open failed, return failure // 1.6.1cb 
+		// handle error
 		return; // 1.6.1cb 
+	}
     Object_ofstream obs(pf); // 1.6.1cb 
 #else // 1.6.1cb 
-    ofstream ios(sPath); // 1.6.1cb 
+    std::ofstream ios(sPath); // 1.6.1cb 
     Object_ostream obs(ios); // 1.6.1cb 
 #endif // 1.6.1cb 
 
@@ -896,7 +903,7 @@ int CLangEnc::lenRenSubstring(const char* pchUnderlying, int lenUnderlying,
     pszRenBuf[lenSurface] = '\0';
         
     if ( m_bRightToLeft && bReverseIfRightToLeft )
-        strrev(pszRenBuf);
+        _strrev(pszRenBuf);
 
     *ppchSurface = pszRenBuf;
     *plenSurface = lenSurface;
@@ -1783,7 +1790,8 @@ BOOL CLangEnc::bModifyProperties(const char* pszName,
         {
         int nClosedDBTypes = 0;
         CDatabaseTypePtr* aptyp;
-        for ( CDatabaseTypeProxy* ptrx = Shw_ptypset()->ptrxFirst(); ptrx; ptrx = Shw_ptypset()->ptrxNext(ptrx) )
+		CDatabaseTypeProxy* ptrx = Shw_ptypset()->ptrxFirst();
+        for ( ; ptrx; ptrx = Shw_ptypset()->ptrxNext(ptrx) )
             {
             if ( !ptrx->bOpen() )
                 nClosedDBTypes++;
@@ -1941,12 +1949,12 @@ void CCharSetListBox::DrawElement(CDC& cDC, const RECT& rcItem,
     DrawSubItemJustify(cDC, rcItem, m_xOtherCase, m_xDec, pszOtherCase, m_plng);
 
     char pszDec[4];  // Enough for a decimal unsigned char: 0-255
-    sprintf(pszDec, "%-3d", (unsigned char)*pszChar);
+    sprintf_s(pszDec, "%-3d", (unsigned char)*pszChar);
     DrawSubItemJustify(cDC, rcItem, m_xDec, m_xHex, pszDec);
 
     char pszHex[3];  // Enough for a hexadecimal unsigned char: 00-FF
-    sprintf(pszHex, "%02x", (unsigned char)*pszChar);
-    (void) _strupr(pszHex);
+    sprintf_s(pszHex, "%02x", (unsigned char)*pszChar);
+    (void) _strupr_s(pszHex, sizeof(pszHex));
     DrawSubItemJustify(cDC, rcItem, m_xHex, m_xStandardChar, pszHex);
 
     // Here's a slight problem: the default system font on both
@@ -2124,7 +2132,7 @@ BOOL CLangEncProxy::s_bReadProxy(const char* pszPath, CLangEncSet* plngset,
     ASSERT( pplrx );
     ASSERT( !*pplrx );  // If it isn't NULL now, there will be a leak.
 
-    ifstream ios( pszPath );
+    std::ifstream ios( pszPath );
     if ( ios.fail() )
         return FALSE;
 
@@ -2284,7 +2292,7 @@ CLangEncSet::CLangEncSet(const char* pszSettingsVersion,
     // concatenated together in pszProperties.
     m_bReadFromString = TRUE;   
     ASSERT( pszProperties );
-    istrstream ios((char*)pszProperties);
+    std::istrstream ios((char*)pszProperties);
     CNoteList notlst;
     Object_istream obs(ios, notlst);
     while ( !obs.bAtEnd() )

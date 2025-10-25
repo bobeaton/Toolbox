@@ -2555,7 +2555,7 @@ void CShwView::OnRenderFormat(UINT nFormat)
 #ifdef UNICODE
     if( nFormat == CF_UNICODETEXT )
 	    {
-		p = (void*)(const unsigned short*)sw;
+		p = (void*)(const wchar_t*)sw;
 		iLen = sw.GetLength() * 2 + 2;
 		}
 #endif
@@ -3113,7 +3113,8 @@ int CShwView::iInterlinPixelPos( CRecPos rps, int iChar ) // 6.0a return interli
 		m_iPixelDisplayStarts[ 0 ] = 0; // Init first point in array
 		CRecPos rpsPrev = rpsFirstLine;
 		BOOL bMore = TRUE;
-		for ( int iCurPos = 1; bMore; iCurPos++ ) // At each point check for alignment points
+		int iCurPos = 1;
+		for ( ; bMore; iCurPos++ ) // At each point check for alignment points
 			{
 			m_iPixelDisplayStarts[ iCurPos ] = 0; // Clear point in array
 			CRecPos rpsLine = rpsFirstLine;

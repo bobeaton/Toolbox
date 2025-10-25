@@ -6,7 +6,8 @@
 #include "obstream.h"
 // #undef Object_ostream // 1.6.1cb  // 1.6.4aa Never do full redefine with FileStream
 // #undef Object_istream // 1.6.1cm  // 1.6.4aa Never do full redefine with FileStream
-#include <iostream.h>  // classes istream, ostream
+#include <iostream>
+using namespace std;  // classes istream, ostream
 #ifdef OBSTREAM_NOTES   // 1.6.4aa Not defined
 #include "not.h"  // class CNoteList
 #endif  // 1.6.4aa 
@@ -1027,7 +1028,7 @@ void Object_ostream::WriteWindowPlacement(const char* pszMarker, const CWnd* pwn
 static const Length maxsizMString = 32000001; // 1.4qzhz Fix bug of crash on too many file names in corpus
 
 #ifdef OBSTREAM_NOTES
-Object_istream::Object_istream(istream& ios, CNoteList& notlst) :
+Object_istream::Object_istream(std::istream& ios, CNoteList& notlst) :
     m_ios(ios),
     m_notlst(notlst)
 {
@@ -1052,7 +1053,7 @@ Object_istream::Object_istream(istream& ios, CNoteList& notlst) :
 		}
 }
 #else
-Object_istream::Object_istream(istream& ios) :
+Object_istream::Object_istream(std::istream& ios) :
     m_ios(ios)
 {
     m_pszMStringBuf = new char[maxsizMString];
@@ -1190,8 +1191,8 @@ BOOL Object_istream::bReadBeginMarkerWithQualifier(const char* pszMarker, const 
 
     char buf[MAXMKRSIZE];
     ASSERT( strlen(pszMarker) + strlen(pszQualifier) + 1 < MAXMKRSIZE );
-    strcpy( buf, pszMarker );
-    strcat( buf, pszQualifier );
+    strcpy_s( buf, sizeof(buf), pszMarker );
+    strcat_s( buf, sizeof(buf), pszQualifier );
     return bReadMarker('+', buf);
 }
 
@@ -1202,8 +1203,8 @@ BOOL Object_istream::bReadEndMarkerWithQualifier(const char* pszMarker, const ch
 
     char buf[MAXMKRSIZE];
     ASSERT( strlen(pszMarker) + strlen(pszQualifier) + 1 < MAXMKRSIZE );
-    strcpy( buf, pszMarker );
-    strcat( buf, pszQualifier );
+    strcpy_s( buf, sizeof(buf), pszMarker );
+    strcat_s( buf, sizeof(buf), pszQualifier );
     return bReadMarker('-', buf);
 }
 
@@ -1372,8 +1373,8 @@ BOOL Object_istream::bEndWithQualifier( const char* pszMarker, const char* pszQu
 
     char buf[MAXMKRSIZE];
     ASSERT( strlen(pszMarker) + strlen(pszQualifier) + 1 < MAXMKRSIZE );
-    strcpy( buf, pszMarker );
-    strcat( buf, pszQualifier );
+    strcpy_s( buf, sizeof(buf), pszMarker );
+    strcat_s( buf, sizeof(buf), pszQualifier );
     return bEnd( buf );
 }
 
@@ -1453,8 +1454,8 @@ BOOL Object_istream::bReadWindowPlacement(const char* pszMarker, WINDOWPLACEMENT
     wpl.length = sizeof(wpl);
     wpl.flags = WPF_SETMINPOSITION;
     char pszShowState[7];
-    int nItems = sscanf(sPlacement, "%s %d %d %d %d %d %d %d %d",
-        pszShowState,
+    int nItems = sscanf_s(sPlacement, "%s %d %d %d %d %d %d %d %d",
+        pszShowState, sizeof(pszShowState),
         &wpl.ptMinPosition.x, &wpl.ptMinPosition.y,
         &wpl.ptMaxPosition.x, &wpl.ptMaxPosition.y,
         &wpl.rcNormalPosition.left, &wpl.rcNormalPosition.top,

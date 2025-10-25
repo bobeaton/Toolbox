@@ -56,8 +56,8 @@ public:
     BOOL bModalView_Properties( BOOL bUseColor ); // allow user to change font
 
 #ifndef TLB_07_18_2000_FONT_HANDLING_BROKEN
-    static s_iConvertPointsToPixels(int iPoints);
-    static s_iConvertPixelsToPoints(int iPixels);
+    static int s_iConvertPointsToPixels(int iPoints);
+    static int s_iConvertPixelsToPoints(int iPixels);
 #endif
     
 };  // class CFontDef

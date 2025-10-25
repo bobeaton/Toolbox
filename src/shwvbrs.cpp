@@ -27,7 +27,8 @@ static void log( char* format, ...) // for debugging release versions... yuk!
     char buf[256];
     char* arguments = (char*)&format+sizeof(format);
     wvsprintfA( buf, format, arguments); // 1.4qwp Upgrade wvsprintf for Unicode build
-    FILE* fp = fopen( "shw.log", "a+" );
+	FILE* fp = nullptr;
+	fopen_s(&fp, "shw.log", "a+");
     ASSERT( fp );
     fputs( buf, fp );
     fclose( fp );
@@ -230,7 +231,8 @@ void CShwView::ResetBrowseFieldWidths() // Set browse field widths to default - 
     int iWndWidth = rect.right;    
     int iDividerWidths = eDividerPad * 2 + eBrowseDividerWidth * (iFields-1); // account for the horizontal space used by dividers
     int iFldWidth = ( iWndWidth - iDividerWidths) / iFields; // make all fields of equal width
-    for ( CBrowseField* pbrf = m_brflst.pbrfFirst(); pbrf && --iFields; pbrf = m_brflst.pbrfNext( pbrf ) )
+    CBrowseField* pbrf = m_brflst.pbrfFirst();
+	for (; pbrf && --iFields; pbrf = m_brflst.pbrfNext( pbrf ) )
         {
         // Set field widths
         pbrf->SetWidth( iFldWidth );
@@ -959,7 +961,8 @@ void CShwView::BrowseOnRButtonDown(UINT nFlags, CPoint pnt)
 			CBrowseFieldList* pbrflstT = pbrflst();
 			if ( pbrflstT->lGetCount() <= 1 ) // 1.2bw Fix bug of crash on ctrl rt click on last field in browse
 				return;
-			for ( CBrowseField* pbrf = pbrflst()->pbrfFirst(); pbrf; pbrf = pbrflst()->pbrfNext( pbrf ) )
+			CBrowseField* pbrf = pbrflst()->pbrfFirst();
+			for ( ; pbrf; pbrf = pbrflst()->pbrfNext( pbrf ) )
 				{
 				if ( pbrf->pmkr() == pmkr ) // 1.2br Find marker in browse list
 					break;
@@ -1000,8 +1003,8 @@ void CShwView::BrowseOnLButtonDblClk(UINT nFlags, CPoint pnt)
     
     CBrowseField* pbrf = m_brflst.pbrfFirst();
     ASSERT( pbrf );
-    for ( int iX = eDividerPad; 
-            pbrf && ( iX + pbrf->iWidth() + eDividerPad < pnt.x );
+	int iX = eDividerPad;
+    for ( ; pbrf && ( iX + pbrf->iWidth() + eDividerPad < pnt.x );
             pbrf = m_brflst.pbrfNext( pbrf ) )
         iX += pbrf->iWidth() + eBrowseDividerWidth; // advance to next column
     ASSERT( pbrf );

@@ -1,6 +1,6 @@
 // cdbllist.cpp CDblList Double linked list class implementation Alan Buseman 25 Jan 95
 
-// #include "stdafx.h" // 1.5.1na 
+#include "stdafx.h" // 1.5.1na 
 #include "all.h" // 1.5.1na 
 // #include "toolbox.h" // 1.5.1na 
 // #include "cdbllist.h"

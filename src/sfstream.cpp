@@ -28,7 +28,7 @@ static const Length s_maxlenLine = 320000; // 1.4pw Extend
 static const char* s_pszInsertableMarker = "??";
 
 
-SF_istream::SF_istream(istream& ios, CMarkerSet* pmkrset, CMarker* pmkrRecord,
+SF_istream::SF_istream(std::istream& ios, CMarkerSet* pmkrset, CMarker* pmkrRecord,
         BOOL bSkipToFirstRecordMarker, BOOL bRemoveSpaces) :
     m_ios(ios),
     m_pmkrset(pmkrset),
@@ -244,7 +244,7 @@ void SF_istream::AppendNextLineToField()
     Length len = strlen(m_pszNextLine);
     if ( m_lenFieldRemaining < len )
         len = m_lenFieldRemaining;
-    strncpy(m_pszFieldEnd, m_pszNextLine, len);
+	strncpy_s(m_pszFieldEnd, len, m_pszNextLine, _TRUNCATE);
     m_pszFieldEnd += len;
     m_lenFieldRemaining -= len;
     *m_pszFieldEnd = '\0';
@@ -344,7 +344,7 @@ BOOL SF_istream::bReadNextLine()
         ASSERT( m_pszNextLineBuf <= pszMarked );
         char* psz = pszMarked;
         *psz++ = '\\';
-        strncpy(psz, s_pszInsertableMarker, m_lenInsertableMarker);
+		strncpy_s(psz, m_lenInsertableMarker, s_pszInsertableMarker, _TRUNCATE);
         psz += m_lenInsertableMarker;
         if ( !bWhiteSpace )
             *psz++ = ' ';
@@ -495,7 +495,7 @@ void SF_istream::CheckLineLength(const char* pszCont)
 
 // ==========================================================================
 
-Field_ostream::Field_ostream(ostream& ios, BOOL bTrimSurroundingWS) :
+Field_ostream::Field_ostream(std::ostream& ios, BOOL bTrimSurroundingWS) :
     m_ios(ios),
     m_bTrimSurroundingWS(bTrimSurroundingWS)
 {
@@ -533,7 +533,7 @@ void Field_ostream::s_TrimmedFieldContents(const CField* pfld,
 
 // --------------------------------------------------------------------------
 
-SF_ostream::SF_ostream(ostream& ios, BOOL bTrimSurroundingWS) :
+SF_ostream::SF_ostream(std::ostream& ios, BOOL bTrimSurroundingWS) :
     Field_ostream(ios, bTrimSurroundingWS),
     m_bHaveWrittenField(FALSE)
 {

@@ -54,7 +54,8 @@ void CFieldList::EliminateDuplicates( BOOL bTimeLimit ) // Eliminate duplicates 
 {
 	if ( !pfldNext( pfldFirst() ) ) // 1.5.1ng If only one field, don't remove spaces
 		return; // 1.5.1ng 
-    for ( CField* pfld1 = pfldFirst(); pfld1; pfld1 = pfldNext( pfld1 ) ) // For each field // 1.3br Remove extra spaces before checking for duplicates
+	CField* pfld1 = pfldFirst();
+    for ( ; pfld1; pfld1 = pfldNext( pfld1 ) ) // For each field // 1.3br Remove extra spaces before checking for duplicates
 		{
 		Str8 s = pfld1->sContents();
 		RemoveExtraSpaces( s );

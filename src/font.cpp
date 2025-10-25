@@ -13,7 +13,7 @@ CFontDef::CFontDef(const char* pszName, int iHeight, BOOL bPoints )
 #endif
 {
     memset( &m_lf, 0, sizeof( m_lf ) ); // clear out all members
-    _tcscpy( m_lf.lfFaceName, swUTF16( Str8(pszName).Left( LF_FACESIZE-1 ) ) ); // 1.4qys
+	_tcscpy_s( m_lf.lfFaceName, LF_FACESIZE, swUTF16( Str8(pszName).Left( LF_FACESIZE-1 ) ) ); // 1.4qys
     if (iHeight > 0)
         iHeight = -iHeight; // read and write properties assume a negative value for lfHeight
                             // When creating a font, negative means character height (as opposed to line height)
@@ -197,7 +197,7 @@ BOOL CFontDef::bReadProperties(Object_istream& obs, const char* pszQualifier)
         Str8 sCharsetByteHex;
         
         if ( obs.bReadString(psz_Name, sFontName ) )
-            _tcscpy( m_lf.lfFaceName, swUTF16( sFontName.Left( LF_FACESIZE-1 ) ) ); // 1.4qys
+			_tcscpy_s( m_lf.lfFaceName, LF_FACESIZE, swUTF16( sFontName.Left( LF_FACESIZE-1 ) ) ); // 1.4qys
         else if ( obs.bReadInteger(psz_Size, iFontSize) )
             {
 #if !defined(TLB_07_18_2000_FONT_HANDLING_BROKEN)
@@ -225,7 +225,7 @@ BOOL CFontDef::bReadProperties(Object_istream& obs, const char* pszQualifier)
         else if ( obs.bReadString(psz_charset, sCharsetByteHex) )
             {
             int iCharset = DEFAULT_CHARSET;
-            if ( sscanf(sCharsetByteHex, "%X", &iCharset) == 1)
+			if (sscanf_s(sCharsetByteHex, "%X", &iCharset) == 1)
                 m_lf.lfCharSet = (unsigned char)iCharset;
             }
         else if ( obs.bReadCOLORREF(psz_rgbColor, m_rgb) )
@@ -241,7 +241,7 @@ BOOL CFontDef::bReadProperties(Object_istream& obs, const char* pszQualifier)
 
 #define POINTS_PER_LOGICAL_INCH 72
 
-CFontDef::s_iConvertPointsToPixels(int iPoints)
+int CFontDef::s_iConvertPointsToPixels(int iPoints)
 {
     CClientDC dc(NULL); // Device context for full screen
     const int iPixelsPerLogicalInch = dc.GetDeviceCaps(LOGPIXELSY);
@@ -249,7 +249,7 @@ CFontDef::s_iConvertPointsToPixels(int iPoints)
     return (int)((((double)(iPixelsPerLogicalInch * iPoints)) / POINTS_PER_LOGICAL_INCH) + dRoundUp);
 }
 
-CFontDef::s_iConvertPixelsToPoints(int iPixels)
+int CFontDef::s_iConvertPixelsToPoints(int iPixels)
 {
     CClientDC dc(NULL); // Device context for full screen
     const int iPixelsPerLogicalInch = dc.GetDeviceCaps(LOGPIXELSY);

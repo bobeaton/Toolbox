@@ -11,7 +11,7 @@
 #include "project.h"
 #include "tools.h"
 #include "doclist.h"
-#include <fstream.h>
+#include <fstream>
 
 extern Str8 g_sVersion;
 extern void WriteAllPaths( BOOL bMessage );
@@ -35,7 +35,7 @@ void WriteAllPaths( BOOL bMessage )
 	if ( bMessage )
 		AfxMessageBox( sMessage );
 
-	ofstream ostr( sProjectListFilePath );
+	std::ofstream ostr( sProjectListFilePath );
 	ostr << "Toolbox" << " " << g_sVersion << "\n";
 	ostr << _("List of all files active in project:") << " ";  // 1.5.0ft 
 	ostr << sProjectFileName << "\n";

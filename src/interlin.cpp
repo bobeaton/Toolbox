@@ -1245,7 +1245,7 @@ BOOL CLookupProc::bInterlinearize( CRecPos rpsStart, int* piLen, int iProcNum, i
 								{
 								int iLenTrailPunc = rpsTrailPunc.iChar - rpsInsert.iChar; // Get length of punc
 								char* psz = (char*) rpsInsert.psz() + iLenForce; // Get writable pointer to place to move to
-								strncpy( psz, rpsInsert.psz(), iLenTrailPunc ); // Copy the punc up
+								strncpy_s(psz, iLenTrailPunc, rpsInsert.psz(), _TRUNCATE);
 								}
 							rpsInsert.pfld->Overlay( sForce, rpsInsert.iChar, 0 ); // Overlay on the spaces
 							}
@@ -1338,6 +1338,7 @@ BOOL CLookupProc::bInterlinearize( CRecPos rpsStart, int* piLen, int iProcNum, i
                     if ( m_bShowWord ) // If showing word, attach word
                         mksAnal += sCurWord;
                     }
+#if UseCct
                 if ( bApplyCC() && bCCLoaded() ) // If applying a CC table to failures, do it now
                     {
                     char pszCCOutBuffer[ 1000 ]; // Output buffer for CC
@@ -1350,8 +1351,9 @@ BOOL CLookupProc::bInterlinearize( CRecPos rpsStart, int* piLen, int iProcNum, i
                         mksAnal = pszCCOutBuffer;   
                         }
 					mksAnal.TrimBothEnds(); // Trim off spaces
-                    }       
-                }
+                    }
+#endif
+				}
             }
         else // Else (parsing) do parse
             {
@@ -1529,6 +1531,7 @@ BOOL CLookupProc::bInterlinearize( CRecPos rpsStart, int* piLen, int iProcNum, i
         // If keep punctuation, add punc to output
         if ( m_bKeepPunc )
 			{
+#if UseCct
             if ( bApplyCC() && bCCLoaded() ) // If applying a CC table to failures, apply it to punc as well
                 {
                 char pszCCOutBuffer[ 1000 ]; // Output buffer for CC
@@ -1546,7 +1549,8 @@ BOOL CLookupProc::bInterlinearize( CRecPos rpsStart, int* piLen, int iProcNum, i
                     pszCCOutBuffer[ iCCOutLen ] = '\0';
                     sTrailPunc = pszCCOutBuffer;   
                     }
-                }       
+                }    
+#endif
             mksAnal = sLeadPunc + (const char*)mksAnal + sTrailPunc; // Add punc // 1.2gs
 			}
             
@@ -1966,7 +1970,8 @@ unsigned int CLookupProc::iInterlinearLookupCheck( CRecPos rpsTo )
 {
     CShwView* pview = Shw_papp()->pviewActive();
 	rpsTo.bSkipNonWhiteLeft(); // Go back past any punc that was passed
-	for ( CRecPos rpsFrom = rpsTo; ; rpsFrom.pfld = rpsFrom.prec->pfldPrev( rpsFrom.pfld ) ) // Find from field for this lookup process
+	CRecPos rpsFrom = rpsTo;
+	for ( ; ; rpsFrom.pfld = rpsFrom.prec->pfldPrev( rpsFrom.pfld ) ) // Find from field for this lookup process
 		{
 		if ( !rpsFrom.pfld ) // 5.99zb Fix bug of crash on interlinear verify of lookup with no source line
 			return 0;
@@ -2247,8 +2252,10 @@ void CLookupProc::WriteProperties( Object_ostream& obs )
         }
 //  m_pptri[SUFF]->WriteProperties( obs, psz_triSuff );
 //  m_pptri[INF]->WriteProperties( obs, psz_triInf );
+#if UseCct
     obs.WriteBool( psz_bApplyCC, m_bApplyCC );      
     obs.WriteString( psz_CCT, m_sCCT );
+#endif
     obs.WriteBool( psz_bSH2Parse, m_bSH2Parse );        
     obs.WriteBool( psz_bKeepCap, m_bKeepCap );      
     obs.WriteBool( psz_bNotLongerOverride, !m_bLongerOverride ); // 1.1hr Save longer override setting for parse     
@@ -2390,12 +2397,14 @@ BOOL CLookupProc::s_bReadProperties( Object_istream& obs,
             pintprc->ptri( SUFF )->CopySettings( pintprc->ptri( PREF ) ); // Copy settings from PREF to the other two affix tries 
             pintprc->ptri( INF )->CopySettings( pintprc->ptri( PREF ) ); 
             }
+#if UseCct
         if ( pintprc->bApplyCC() // If applying CC and there is a CC table name, load it // 5.97t Here is bug of trying to load CC table before path has been updated to new project path
                 && sCCT.GetLength() )
 			{
 		    Shw_pProject()->UpdatePath( sCCT ); // 5.98m Update path if project moved and it was in project folder
             pintprc->bLoadCCFromFile( sCCT ); // Load CC
 			}
+#endif
         pintprc->MakeRefs(); // turn marker refs into CMarkerPtrs
         }
     else // Else (incomplete process), don't make one
@@ -2775,7 +2784,8 @@ BOOL CRearrangeProc::bInterlinearize( CRecPos rpsStart, int* piLen, int iProcNum
 		if ( m_bGenerateProc ) // If generate, eliminate spaces and apply rules
 			{
 			mksAnal.TrimBothEnds(); // Trim ends
-			for ( int i = 0; i < mksAnal.GetLength() - 1; ) // Delete multiple spaces
+			int i = 0;
+			for ( ; i < mksAnal.GetLength() - 1; ) // Delete multiple spaces
 				if ( mksAnal.GetChar(i) == ' ' && mksAnal.GetChar(i+1) == ' ' ) // If two spaces, delete one
 					mksAnal.Delete( i );
 				else
@@ -2804,7 +2814,8 @@ BOOL CRearrangeProc::bInterlinearize( CRecPos rpsStart, int* piLen, int iProcNum
 									const char* pszFind = pfld->psz(); // Init rule match position
 									while ( *pszFind == ' ' ) // Skip over leading spaces in rule
 										pszFind++;
-									for ( const char* pszText = pszTextStart; ; ) // While more elements to match, try to match
+									const char* pszText = pszTextStart;
+									for ( ; ; ) // While more elements to match, try to match
 										{
 										int iMatchElNum = 0;
 										iMatchLen = iPhonDefMatch( pszFind, pszText, &iMatchElNum ); // Try match here
@@ -3476,7 +3487,7 @@ void CInterlinearProcList::UpdatePaths() // Update paths if project moved
 		pintprc->UpdatePaths();
 }
 
-void CInterlinearProcList::WritePaths( class ofstream ostr ) // Update paths if project moved
+void CInterlinearProcList::WritePaths( ofstream& ostr ) // Update paths if project moved
 {
 	for ( CInterlinearProc* pintprc = pintprcFirst(); pintprc; pintprc = pintprcNext( pintprc ) )
 		pintprc->WritePaths( ostr );
@@ -3512,7 +3523,8 @@ CField* CRecPos::pfldFindInBundleAdd( CMarker* pmkr, const CMarker* pmkrBefore )
         pfldBefore = pfldFindInBundle( pmkrBefore ); // Try to find field to insert after in bundle
     if ( !pfldBefore )  // If not found, use last in bundle
         {
-        for ( CRecPos rps = rpsFirstInBundle(); ; rps.pfld = rps.pfldNext() )
+		CRecPos rps = rpsFirstInBundle();
+        for ( ; ; rps.pfld = rps.pfldNext() )
             if ( rps.bLastInBundle() )
                 break;
         pfldBefore = rps.pfld;
@@ -3703,7 +3715,8 @@ return rpsEndOfBundle();
 
 void CRecPos::TrimBundle( BOOL bAddNl ) // Trim spaces and nl's off ends of all lines in bundle 
 {
-    for ( CRecPos rps = rpsFirstInBundle(); ; rps.pfld = rps.pfldNext() )
+	CRecPos rps = rpsFirstInBundle();
+    for ( ; ; rps.pfld = rps.pfldNext() )
         {
         rps.pfld->Trim(); // Trim trailing nl's and spaces
         if ( rps == *this ) // If current line trimmed, be sure position is not beyond end 

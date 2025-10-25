@@ -249,11 +249,12 @@ static const char* s_pszMonth[] =
 
 static void s_TimeToSurface(time_t lTime, Str8& sSurface)
 {
-    struct tm *tm = localtime(&lTime);  // Convert to local time
+    struct tm tmLocal;
+    errno_t err = localtime_s(&tmLocal, &lTime);  // thread-safe local time conversion
     // The error return occurs in Windows if the system date
     // is 19/Jan/2038 and later.
     static BOOL s_bMessageShown = FALSE;
-    if ( tm == NULL )
+    if (err != 0)
         {
         // 1999-03-15 MRP: Diagnostic message for unexpected NULL value.
         // 1999-03-30 MRP: Show the message only once per session.
@@ -269,12 +270,12 @@ static void s_TimeToSurface(time_t lTime, Str8& sSurface)
         return;  // Leave surface form (i.e., Date Stamp) empty
         }
 
-    int iDay = tm->tm_mday;
+    int iDay = tmLocal.tm_mday;
     ASSERT( 1 <= iDay && iDay <= 31 );  // 1998-12-02 MRP
-    int iMonth = tm->tm_mon;
+    int iMonth = tmLocal.tm_mon;
     ASSERT( 0 <= iMonth && iMonth <= 11 );  // 1998-12-02 MRP
     const char* pszMonth = s_pszMonth[iMonth];
-    int iYear = 1900 + tm->tm_year;
+    int iYear = 1900 + tmLocal.tm_year;
     // Note: Maximum signed long time value represents 18/Jan/2038
     ASSERT( 1900 <= iYear && iYear <= 2038 );
     // Format: dd/Mmm/yyyy, e.g. 09/Apr/1998
@@ -368,7 +369,7 @@ static BOOL s_bSurfaceMonthToUnderlying(const char** ppsz, size_t* plen,
         {
         int iMonth = 0;
         for ( ; iMonth != 12; iMonth++ )
-            if ( strnicmp(psz, s_pszMonth[iMonth], 3) == 0 )
+            if ( _strnicmp(psz, s_pszMonth[iMonth], 3) == 0 )
                 break;
     
         if ( iMonth == 12 )
@@ -496,7 +497,7 @@ BOOL CDateCon::s_bSurfaceToUnderlying(const char* pszSurface,
 
     size_t lenU = strlen(pszU);
     ASSERT( 4 <= lenU && lenU <= 8 );
-    strcpy(pszUnderlying, pszU);
+    strcpy_s(pszUnderlying, maxlenUnderlying + 1, pszU);
     *pbMinorVariation = bMinorVariation;
     return TRUE;
 }  // CDateCon::s_bSurfaceToUnderlying
@@ -529,7 +530,7 @@ void CDateCon::s_UnderlyingToSurface(const char* pszUnderlying,
         else
             ASSERT( pszUnderlying[4] == '0' );
         ASSERT( 1 <= iMonth && iMonth <= 12 );
-        strncpy(psz, s_pszMonth[iMonth - 1], 3);
+        strncpy_s(psz, maxlenSurface + 1, s_pszMonth[iMonth - 1], 3);
         psz += 3;
         *psz++ = '/';
         }

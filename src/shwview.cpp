@@ -31,7 +31,7 @@
 #endif
 #include "hide_d.h"
 
-#include <fstream.h>
+#include <fstream>
 
 #include <afxpriv.h> // For WM_COMMANDHELP
 
@@ -452,7 +452,8 @@ void CShwView::WriteProperties(Object_ostream& obs)
         int iChar = rps.iChar; // Remember char number
         bHome( rps ); // Move to home
         int iLineScroll = 0; // Number of lines scroll top is above current line
-        for ( int iLine = 0; ; iLine++ ) // Count lines to top of file
+		int iLine = 0;
+        for ( ; ; iLine++ ) // Count lines to top of file
             {
             if ( rps.pfld == m_rpsUpperLeft.pfld ) // If we come to the scroll upper left field, remember how far up it was
                 iLineScroll = iLine;
@@ -1489,7 +1490,8 @@ void CShwView::OnChar(UINT nChar, UINT nRepCnt, UINT nFlags)
 	CLangEnc* plng = NULL; // 1.5.0ff 
     if( m_rpsCur.pfld ) // 1.5.0ff 
 		plng = m_rpsCur.pfld->plng(); // 1.5.0ff 
-	CString sw = nChar; // 1.4qyu
+	// CString sw = nChar; // 1.4qyu
+	CString sw((wchar_t)nChar);
     Str8 strChar; // 1.4ua Fix U bug of legacy keyboard input not working, didn't work because of code page conversion
     if( plng && plng->bUnicodeLang() ) // 1.4ua  // 1.5.0ff 
 		strChar =  sUTF8( sw ); // 1.4qyu
@@ -2423,7 +2425,7 @@ void CShwView::OnToolsCheckUnicodeValidity() // 1.4hp Add Unicode validity check
 				SetCaretPosAdj(); // Make sure cursor will be in view
 				Invalidate();
 				char ac[20]; // 1.4pk Show code of invalid Unicode char
-				_itoa( c1, ac, 10 ); // 1.4pk Get string of decimal value of invalid code
+				_itoa_s(c1, ac, (int)sizeof(ac), 10);
 				Str8 sMessage = _("Invalid Unicode character found:"); // 1.5.0fg 
 				sMessage = sMessage + " " + (const char*)ac + " " + _("Remove it?"); // 1.5.0fg 
 				int iAns = AfxMessageBox( sMessage, MB_YESNO );

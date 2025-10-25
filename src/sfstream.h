@@ -6,7 +6,8 @@
 #ifndef SFSTREAM_H
 #define SFSTREAM_H
 
-#include <iostream.h>  // classes istream, ostream
+#include <iostream>
+using namespace std;  // classes istream, ostream
 
 class CMarkerSet;  // mkr.h
 class CMarker;  // mkr.h
@@ -40,7 +41,7 @@ class CDatabaseType;
 class SF_istream  // Hungarian: sfs
 {
 private:
-    istream& m_ios;  // Input source
+    std::istream& m_ios;  // Input source
     CMarkerSet* m_pmkrset;  // From the Database Type
     CMarker* m_pmkrRecord;
     const Str8& m_sRecordMarker;
@@ -69,7 +70,7 @@ private:
 	Str8 m_sSkippedFields; // 1.4pcg Add member var to store head info
 
 public:
-    SF_istream(istream& ios, CMarkerSet* pmkrset, CMarker* pmkrRecord,
+    SF_istream(std::istream& ios, CMarkerSet* pmkrset, CMarker* pmkrRecord,
             BOOL bSkipToFirstRecordMarker = TRUE,
             BOOL bRemoveSpaces = FALSE);
     ~SF_istream();
@@ -126,10 +127,10 @@ private:
 class Field_ostream
 {
 protected:
-    ostream& m_ios;
+    std::ostream& m_ios;
     BOOL m_bTrimSurroundingWS;  // 1998-12-07 MRP
     
-    Field_ostream(ostream& ios, BOOL bTrimSurroundingWS);
+    Field_ostream(std::ostream& ios, BOOL bTrimSurroundingWS);
     
 public:
     virtual ~Field_ostream();
@@ -140,7 +141,7 @@ public:
 
     static void s_TrimmedFieldContents(const CField* pfld, const char** ppchBegin, const char** ppchEnd);
 	virtual BOOL bXML() { return FALSE; } // 1.4qnk Add func to test whether this is XML export
-	virtual WriteString(const char* pszContents) // 1.4pcf Write string in XML, added for head extra info string
+	virtual void WriteString(const char* pszContents) // 1.4pcf Write string in XML, added for head extra info string
 		{
 		m_ios << pszContents; // 1.4kmb Write string with no extra markers or nl
 		};
@@ -156,7 +157,7 @@ private:
     BOOL m_bHaveWrittenField;
     
 public:
-    SF_ostream(ostream& ios, BOOL bTrimSurroundingWS);
+    SF_ostream(std::ostream& ios, BOOL bTrimSurroundingWS);
     virtual ~SF_ostream();
 
     virtual void WriteField(const CField* pfld, BOOL bFirstField);

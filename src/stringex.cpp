@@ -17,7 +17,7 @@ int Str8Ex::iFindFrom (char ch, int iStartAt) const
 {
 	char* pszResult;
     const char* pszThis = operator const char*();
-	pszResult = strchr(pszThis + iStartAt, ch);
+	pszResult = (char*)strchr(pszThis + iStartAt, ch);
 	return (pszResult == NULL) ? -1 : (int)(pszResult - pszThis);
 }
 
@@ -28,7 +28,7 @@ int Str8Ex::iFindFrom (const char* pszSub, int iStartAt) const
 {
     const char* pszThis = operator LPCSTR();
 	char* pszResult;
-	pszResult = strstr(pszThis + iStartAt, pszSub);
+	pszResult = (char*)strstr(pszThis + iStartAt, pszSub);
 	return (pszResult == NULL) ? -1 : (int)(pszResult - pszThis);
 }
 

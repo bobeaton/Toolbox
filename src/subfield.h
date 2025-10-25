@@ -65,7 +65,7 @@ public:
     static void s_ReadSubFields(CMarkerSet* pmkrset, char* pszContents);
         // Convert any curly brace subfield tag delimiters read from a file
         // to the internal codes used in the contents of field objects.
-    static void s_WriteSubFields(ostream& ios, const Str8& sContents);
+    static void s_WriteSubFields(std::ostream& ios, const Str8& sContents);
         // Write the contents of a field and convert the delimiters
         // of any subfield tags from the internal codes to curly braces.
 

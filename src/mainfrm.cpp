@@ -322,10 +322,10 @@ void CMainFrame::OnInitMenu(CMenu* pMenu)
                 // Is this the first time we're removing it? Then store state info.
                 if ( m_sReapplyFilterMenuText.IsEmpty() )
                     {
-                    for (m_nViewMenu = 0; m_nViewMenu < pMenu->GetMenuItemCount(); m_nViewMenu++)
+                    for (m_nViewMenu = 0; (int)m_nViewMenu < pMenu->GetMenuItemCount(); m_nViewMenu++)
                         {
                         pMenuView = pMenu->GetSubMenu(m_nViewMenu);
-                        for (m_nReapplyFilter = 0; m_nReapplyFilter < pMenuView->GetMenuItemCount(); m_nReapplyFilter++)
+                        for (m_nReapplyFilter = 0; (int)m_nReapplyFilter < pMenuView->GetMenuItemCount(); m_nReapplyFilter++)
                             {
                             if ( pMenuView->GetMenuItemID(m_nReapplyFilter) == ID_VIEW_REAPPLY_FILTER )
                                 {
@@ -662,7 +662,7 @@ void CMainFrame::OnUpdateViewStatusBar(CCmdUI* pCmdUI)
     pCmdUI->SetCheck( bStatusBarVisible() );
 }
 
-void CMainFrame::OnActivateApp(BOOL bActive, HTASK hTask)
+void CMainFrame::OnActivateApp(BOOL bActive, DWORD hTask)
 {
 #ifdef DISABLE // 1.5.0dc Disable save on lose focus (1.4zae) because of crash
 	if ( !bActive && Shw_papp()->bProjectOpen() ) // 1.4zae When Toolbox loses focus, if auto save, save all modified // 1.4zbd Fix bug (1.4zae) of crash on close project
@@ -884,8 +884,9 @@ afx_msg LONG CShwViewFrame::OnSetMessageString(UINT wParam, LONG lParam)
             str = str.Left(nNewLine); // up to the delimited part
       
             // copy to a temporary char buffer for Str8 safety
-            char* pstrTmp = new char[str.GetLength()+1];
-            strcpy(pstrTmp, str);
+			int len = str.GetLength()+1;
+            char* pstrTmp = new char[len];
+            strcpy_s(pstrTmp, len, str);
       
             // call the base class to handle the modified message
             // CFrameWnd::OnSetMessageString(0, (LONG)(char FAR*)pstrTmp);
@@ -963,8 +964,9 @@ afx_msg LONG CMainFrame::OnSetMessageString(UINT wParam, LONG lParam)
             str = str.Left(nNewLine); // up to the delimited part
       
             // copy to a temporary char buffer for Str8 safety
-            char* pstrTmp = new char[str.GetLength()+1];
-            strcpy(pstrTmp, str);
+			int len = str.GetLength()+1;
+            char* pstrTmp = new char[len];
+            strcpy_s(pstrTmp, len, str);
       
             // call the base class to handle the modified message
             // CFrameWnd::OnSetMessageString(0, (LONG)(char FAR*)pstrTmp);

@@ -49,6 +49,9 @@ private:
 	BOOL m_bNoHelpMessageGiven; // 1.4ppa Remember if no help message already given
 	BOOL m_bUseCrashFixFileEditDlg; // 1.5.8h If true, use crash fix file navigation dialog box // 1.5.8q Move to app from project to fix crash
 
+	COLORREF g_clrDialogBk;
+	COLORREF g_clrDialogText;
+
 public:
     CShwApp();
     ~CShwApp();
@@ -64,6 +67,7 @@ public:
 
     void OnFileNew(); // Set default folder
     void OnFileOpen(); // Set default folder
+	HBRUSH GetAppDialogBrush(CDC* pDC);
 
 	BOOL bExternalJump(const char* pszWordFocusRef, CShwView* pshvFrom, BOOL bFailMessage = TRUE, BOOL bJump = TRUE ); // 1.4qzjf
     	// 1998-09-24 MRP: Forward focus synchronization requests

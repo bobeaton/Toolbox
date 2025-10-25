@@ -16,7 +16,7 @@ static char BASED_CODE THIS_FILE[] = __FILE__;
 
 
 CNoMatchesDlg::CNoMatchesDlg( const char* pszKey, const CLangEnc* plng,
-        BOOL bEnableInsert, BOOL bEnableTryAgain /* = true */ )
+        BOOL bEnableInsert, BOOL bEnableTryAgain /* = TRUE */ )
     : CDialog(CNoMatchesDlg::IDD)
 {
     m_sKey = pszKey;

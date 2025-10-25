@@ -4,7 +4,8 @@
 #include "toolbox.h"
 #include "pgs.h"
 #include "obstream.h"  // Object_ostream, Object_istream
-#include <iostream.h>  // ostream
+#include <iostream>
+using namespace std;  // ostream
 
 #include "pgs_d.h"  // CPageSetupSheet
 
@@ -253,7 +254,7 @@ void RtfPageSetup::ReadProperties(Object_istream& obs, BOOL bOnlyOneOrTwoColumns
         m_unxColumnSpacing = unxColumnSpacing;
 }
 
-void RtfPageSetup::WriteDocumentFormatting(ostream& ios) const
+void RtfPageSetup::WriteDocumentFormatting(std::ostream& ios) const
 {
     // Document formatting properties, such as margins and footnote placement.
     // Note: A4 paper width is 11909 (210 mm) and height is 16834 (297 mm)
@@ -273,7 +274,7 @@ void RtfPageSetup::WriteDocumentFormatting(ostream& ios) const
     ios << '\n';
 }
 
-void RtfPageSetup::WriteSectionFormatting(ostream& ios,
+void RtfPageSetup::WriteSectionFormatting(std::ostream& ios,
         int numColumnsThisSection) const
 {
     BOOL bCentimeters = s_bCentimeters(m_iPaperSize);
@@ -329,7 +330,7 @@ void RtfPageSetup::s_RtfUnitsToString(RtfUnits un, BOOL bCentimeters,
     // 1997-09-16 MRP: At first values in centimeters got only one
     // digit after the decimal point, but this caused values of
     // margins and such to get mangled when changing paper sizes.
-    sprintf(pszUnits, "%6.3f", un);
+	sprintf_s(pszUnits, sizeof(pszUnits), "%6.3f", un);
     if ( pszUnits[5] == '0' )
         {
         pszUnits[5] = '\0';

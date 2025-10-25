@@ -98,7 +98,7 @@ void CWordFormulaSetListBox::MeasureItem(LPMEASUREITEMSTRUCT lpmis)
     ASSERT( lpmis );
 //    const char* pszName = (const char*)lpmis->itemData; // Needs convert from UTF16 to UTF8
 //    ASSERT( pszName );
-    CString swName = (const unsigned short*)lpmis->itemData; // 1.4qzpg Fix U bug of crash on Formulas button in Ambig box
+    CString swName = (const wchar_t*)lpmis->itemData; // 1.4qzpg Fix U bug of crash on Formulas button in Ambig box
 	Str8 sName = sUTF8( swName ); // 1.4qzpg
     CWordFormula* pwdf = (CWordFormula*)m_pwdfset->pselSearch(sName);
     ASSERT( pwdf );

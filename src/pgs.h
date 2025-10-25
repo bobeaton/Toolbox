@@ -57,8 +57,8 @@ public:
     static BOOL s_bReadProperties(Object_istream& obs,
         BOOL bOnlyOneOrTwoColumns, RtfPageSetup** pppgs);
 
-    void WriteDocumentFormatting(ostream& ios) const;
-    void WriteSectionFormatting(ostream& ios,
+    void WriteDocumentFormatting(std::ostream& ios) const;
+    void WriteSectionFormatting(std::ostream& ios,
             int numColumnsThisSection = 0) const;
 
     BOOL bCentimeters() const;

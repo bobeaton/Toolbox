@@ -164,7 +164,7 @@ Str8 CCorpusDlg::sFirstFolder() const
 		if (sPath.IsEmpty())
 			{	// last resort - we must provide something
 			char buffer[_MAX_PATH];
-			sPath = getcwd(buffer,_MAX_PATH);
+			sPath = _getcwd(buffer,_MAX_PATH);
 			}
 		return sPath;
 		}

@@ -1,11 +1,11 @@
 // Implementation of nlstream.h
 //File: nlstream.cpp
 
-#include <afxwin.h>    //ASSERT
+#include "stdafx.h"
 #include"nlstream.h"
 
 
-Newline_istreambuf::Newline_istreambuf(istream& iosInput) : 
+Newline_istreambuf::Newline_istreambuf(std::istream& iosInput) : 
                     m_iosInput(iosInput),m_ibufferlen(512)
 {
     m_bAtEOF = FALSE;
@@ -13,17 +13,16 @@ Newline_istreambuf::Newline_istreambuf(istream& iosInput) :
       // One Byte extra for defined Pointeroperation
     m_pszbuffer = new char[m_ibufferlen+1];
     setbuf(m_pszbuffer, m_ibufferlen+1);  // Reserve area
-    ASSERT( base() == m_pszbuffer );
     
       // Fill the buffer
-    int ilenread = lenReadFromSource(m_pszbuffer,m_ibufferlen);  
+    std::streamsize ilenread = lenReadFromSource(m_pszbuffer,m_ibufferlen);  
     setg(m_pszbuffer, m_pszbuffer, m_pszbuffer+ilenread);  // Get area    
 }
 
 
 Newline_istreambuf::~Newline_istreambuf()
 {
-    delete [] base();  // Reserve area
+    delete [] m_pszbuffer;  // Reserve area
 }
     
 
@@ -43,7 +42,7 @@ int Newline_istreambuf::sync()
 
 int Newline_istreambuf::underflow()
 {
-    int ilenRemaining = in_avail();  
+    std::streamsize ilenRemaining = in_avail();  
     
     if (ilenRemaining == 0)   // If the get area is empty
         {
@@ -51,7 +50,7 @@ int Newline_istreambuf::underflow()
             return EOF;
     
            // Fill the get area again!
-        int ilenread = lenReadFromSource(m_pszbuffer,m_ibufferlen);
+        std::streamsize ilenread = lenReadFromSource(m_pszbuffer,m_ibufferlen);
            // Adjust Pointer for get arae         
         setg(m_pszbuffer, m_pszbuffer, m_pszbuffer + ilenread);    
         } 
@@ -81,7 +80,7 @@ int Newline_istreambuf::underflow()
 }
 
 
-int Newline_istreambuf::lenReadFromSource(char* psz, int ilen)
+std::streamsize Newline_istreambuf::lenReadFromSource(char* psz, int ilen)
 {
     ASSERT( 0 <= ilen );
     if ( ilen == 0 )
@@ -89,7 +88,7 @@ int Newline_istreambuf::lenReadFromSource(char* psz, int ilen)
 
     (void) m_iosInput.read(psz, ilen);  // read from source into buffer
     
-    int ilenread = m_iosInput.gcount();  
+    std::streamsize ilenread = m_iosInput.gcount();  
              
     if ( (ilenread < ilen) || (m_iosInput.peek() == EOF)) // If EOF is reached
         m_bAtEOF = TRUE;
@@ -100,6 +99,6 @@ int Newline_istreambuf::lenReadFromSource(char* psz, int ilen)
 
 //-----------------------------------------------------------------------------
 
-Newline_istream::Newline_istream(istream& iosInput) : 
-                                 m_buffer(iosInput), istream(&m_buffer)
+Newline_istream::Newline_istream(std::istream& iosInput) : 
+                                 m_buffer(iosInput), std::istream(&m_buffer)
 {}

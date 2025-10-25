@@ -8,7 +8,6 @@
 
 #include "ind.h"  // class CIndexSet
 #include "typ.h"  // class CDatabaseType
-#include <fstream.h>  // filedesc
 
 class Object_istream;  // obstream.h
 class Object_ostream;  // obstream.h
@@ -89,7 +88,7 @@ public:
 private:
     BOOL bRead(const char* pszPath, Str8& sMessage);
     BOOL bImport(const char* pszPath, const int nMode, const Str8& sMissingDBType, Str8& sMessage);
-    BOOL bReadRecords(const char* pszPath, filedesc fd, SF_istream& sfs);
+    BOOL bReadRecords(const char* pszPath, std::ifstream& ios, SF_istream& sfs);
 
     BOOL bSave(const char* pszPath, Str8& sMessage);
 

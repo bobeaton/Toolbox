@@ -26,7 +26,7 @@ inline BOOL bEqual(const char* pszA, const char* pszB)
 #define DLGBUFMAX 1000 // 1.4dw
 #define BIGBUFMAX 100000 // 1.4kh Make big buffer for use where needed
 extern char* pszBigBuffer; // 1.4kh
-extern unsigned short* pswzBigBuffer; // 1.4qpt Make unsigned short pointer to buffer // 1.4rab
+extern LPWSTR pswzBigBuffer; // 1.4qpt Make unsigned short pointer to buffer // 1.4rab
 
 // #include "crecord.h" // 1.4gza Include some general things everywhere // 1.5.0gk Move to toolbox.h
 

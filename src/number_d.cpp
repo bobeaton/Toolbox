@@ -296,7 +296,7 @@ BOOL CSetupNbrDlg::OnInitDialog()
 	{
     CDialog::OnInitDialog();
     SetDlgItemText( IDC_NBRPROC_lblDBType, swUTF16( m_sDBName ) ); // 1.4qpv
-	return true;
+	return TRUE;
 	}
 
 void CSetupNbrDlg::OnOK()

@@ -10,18 +10,19 @@
 #ifndef nlstream_H
 #define nlstream_H
 
-#include <iostream.h>  // classes istream, streambuf
+#include <iostream>
+using namespace std;  // classes istream, streambuf
 
-class Newline_istreambuf : public streambuf
+class Newline_istreambuf : public std::streambuf
 {
 private:
-    istream& m_iosInput;      // The source of input (Source of buffer)
+    std::istream& m_iosInput;      // The source of input (Source of buffer)
     BOOL m_bAtEOF;
     char* m_pszbuffer;        // Pointer to buffer
     const int m_ibufferlen;    // Length of buffer
     
 public:
-    Newline_istreambuf(istream& iosInput);
+    Newline_istreambuf(std::istream& iosInput);
       // Konstructor
     virtual ~Newline_istreambuf();
       // Destructor
@@ -36,7 +37,7 @@ public:
       // Return EOF when the input is exhausted.
 
 private:
-    int lenReadFromSource(char* pszbuffer, int len);
+    std::streamsize lenReadFromSource(char* pszbuffer, int len);
       // Connect the input stream m_iosInput to the buffer of the
       // derived class
       // pszbuffer is the Destination from len Characters.
@@ -46,13 +47,13 @@ private:
 
 //-----------------------------------------------------------------------------
 
-class Newline_istream : public istream
+class Newline_istream : public std::istream
 {
 private:  
     Newline_istreambuf m_buffer;
 
 public:
-    Newline_istream(istream& iosInput);
+    Newline_istream(std::istream& iosInput);
       // Konstructor
 };
 

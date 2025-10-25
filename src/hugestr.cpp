@@ -13,7 +13,7 @@ const DWORD dwHugeThreshold = 65500;  // Requests for memory at or below this si
 	// are fulfilled using malloc-style functions.  Requests for memory above
 	// this size are fulfilled using GlobalAlloc-style functions.  (VC++
 	// doesn't like it if you get too close to 65535.  I do not know why.)
-const dwReallocLen = 128;  // Amount of additional space to allocate each time
+const int dwReallocLen = 128;  // Amount of additional space to allocate each time
 	// a reallocate is needed.
 
 // Helper function.  Copies a block of data up to 4GB in size from lpSrc to
@@ -372,7 +372,7 @@ void CHugeString::WriteToFile (CFile& cfOutput) const
 {
 	if (m_dwDataLen > 0)					//1/10/2000
 		{	
-		cfOutput.WriteHuge(LockMem(), m_dwDataLen);
+		cfOutput.Write(LockMem(), m_dwDataLen);
 		UnlockMem();
 		}
 }
@@ -384,7 +384,7 @@ void CHugeString::ReadFromFile (CFile& cfInput, DWORD dwLength)
 {
 	if (dwLength > 0)					//1/10/2000
 		{
-		dwLength = cfInput.ReadHuge(LockMem(dwLength), dwLength);
+		dwLength = cfInput.Read(LockMem(dwLength), dwLength);
 		UnlockMem(dwLength);
 		}
 	else if (dwLength == 0)					//1/10/2000

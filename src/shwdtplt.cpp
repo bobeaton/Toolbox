@@ -46,7 +46,7 @@ CDocument* CShwMultiDocTemplate::OpenDocumentFile(LPCTSTR pswzPathName, BOOL bMa
 			sDocName =  sUTF8( swDocName ); // 1.4qzc
             char szNum[8];
 //            wsprintf(szNum, "%d", nUntitled); // 1.4que Upgrade wsprintf for Unicode build
-            _itoa( nUntitled, szNum, 10 ); // 1.4que Upgrade wsprintf for Unicode build
+            _itoa_s(nUntitled, szNum, (int)sizeof(szNum), 10);
             sDocName += szNum;
         }
         else

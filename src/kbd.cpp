@@ -306,7 +306,7 @@ void CKeyboardSet::EnumerateLoadedKeyboards()
             continue;
 		Str8 sName = pszName; // 1.4qzhn
 #ifdef UNICODE // 1.4qzhn
-		CString swName = (unsigned short*)pszName; // 1.4qzhn
+		CString swName = (LPWSTR)pszName; // 1.4qzhn
 		sName = sUTF8( swName ); // 1.4qzhn Fix U problem of not recognizing keyboard names
 #endif
         if ( pkbdSearch(sName) ) // 1.4qzhn

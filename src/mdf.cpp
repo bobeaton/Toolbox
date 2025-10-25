@@ -6,14 +6,16 @@
 #include "ind.h"  // CIndexSet, CIndex, etc.
 #include "typ.h"  // CDatabaseType
 #include "obstream.h"  // Object_istream, Object_ostream
+#if UseCct
 #include "cct.h"  // Change_ostream
+#endif
 #include "sfstream.h"  // SF_istream, SF_ostream
 #include "rtf.h"  // RTF_ostream
 #include "pgs.h"  // RtfPageSetup
 #include "html.h"  // HTML_ostream
 #include "progress.h"
 #include "date.h"  // CDateCon::s_DateStamp for initializing copyright
-#include <fstream.h>  // ifstream, ofstream
+#include <fstream>  // ifstream, ofstream
 #include <io.h>  // _tell
 #include <cderr.h>  // FNERR_INVALIDFILENAME
 #include <afxpriv.h>  // HID_BASE_PROMPT
@@ -1348,7 +1350,7 @@ BOOL CExportProcessMDF::bSelect(CIndexSet* pindset, const Str8& sPathIn,
         const Str8& sTempPath,
         const Str8& sProjectPath, Str8& sMessage) const
 {
-    ofstream ios(sTempPath);  // We check for ofstream failures below
+    std::ofstream ios(sTempPath);  // We check for ofstream failures below
 
     {
     // 1999-03-10 MRP: Customized versions of the change tables.
@@ -1462,7 +1464,7 @@ BOOL CExportProcessMDF::bSortAndFormatRTF(const Str8& sTempPath,
         const Str8& sProjectPath, Str8& sMessage) const
 {
     // Read record(s) into a temporary index set
-    ifstream iosInput(sTempPath);
+    std::ifstream iosInput(sTempPath);
     if ( iosInput.fail() )
         {
 		sMessage = sMessage + _("Cannot open file:") + " " + sTempPath; // 1.5.0fd 
@@ -1476,7 +1478,6 @@ BOOL CExportProcessMDF::bSortAndFormatRTF(const Str8& sTempPath,
     matset &= (~CMCharOrder::mchtypUndefined);
     CIndexSet indset(m_pexpsetMyOwner->ptypMyOwner(), 300, FALSE, TRUE);
     
-    filedesc fdIn = iosInput.fd();
     LONG lSizFile = lFileSize(sTempPath);
     CMarkerSet* pmkrset = m_pexpsetMyOwner->pmkrset();
     CMarker* pmkrRecord = m_pexpsetMyOwner->ptypMyOwner()->pmkrRecord();
@@ -1491,7 +1492,7 @@ BOOL CExportProcessMDF::bSortAndFormatRTF(const Str8& sTempPath,
             return FALSE;
 
         indset.AddRecord(prec);
-        LONG lPos = _tell(fdIn);
+		LONG lPos = static_cast<LONG>(iosInput.tellg());
         (void) prg.bUpdateProgress(lPos);
         }
     }
@@ -1617,7 +1618,7 @@ BOOL CExportProcessMDF::bSortAndFormatRTF(const Str8& sTempPath,
         &mrflstSecKeys, 0, FALSE, NULL);
     
     // Write the sorted records and make formatting changes
-    ofstream iosOutput(sTempPath);  // We check for ofstream failures below
+    std::ofstream iosOutput(sTempPath);  // We check for ofstream failures below
 
     {
     // 1999-03-10 MRP: Customized versions of the change tables.
@@ -1752,7 +1753,7 @@ BOOL CExportProcessMDF::bSortAndFormatHTML(const Str8& sTempPath,
         const Str8& sProjectPath, Str8& sMessage) const
 {
     // Read record(s) into a temporary index set
-    ifstream iosInput(sTempPath);
+    std::ifstream iosInput(sTempPath);
     if ( iosInput.fail() )
         {
 		sMessage = sMessage + _("Cannot open file:") + " " + sTempPath; // 1.5.0fd 
@@ -1768,7 +1769,6 @@ BOOL CExportProcessMDF::bSortAndFormatHTML(const Str8& sTempPath,
     matset &= (~CMCharOrder::mchtypUndefined);
     CIndexSet indset(m_pexpsetMyOwner->ptypMyOwner(), 300, FALSE, TRUE);
     
-    filedesc fdIn = iosInput.fd();
     LONG lSizFile = lFileSize(sTempPath);
     CMarkerSet* pmkrset = m_pexpsetMyOwner->pmkrset();
     CMarker* pmkrRecord = m_pexpsetMyOwner->ptypMyOwner()->pmkrRecord();
@@ -1783,7 +1783,7 @@ BOOL CExportProcessMDF::bSortAndFormatHTML(const Str8& sTempPath,
             return FALSE;
 
         indset.AddRecord(prec);
-        LONG lPos = _tell(fdIn);
+		LONG lPos = static_cast<LONG>(iosInput.tellg());
         (void) prg.bUpdateProgress(lPos);
         }
     }
@@ -2221,7 +2221,7 @@ BOOL CExportProcessMDF::bFormat(const Str8& sTempPath, CDatabaseType* ptyp,
         const Str8& sOutputPath,
         const Str8& sProjectPath, Str8& sMessage) const
 {
-    ifstream iosIn(sTempPath);
+    std::ifstream iosIn(sTempPath);
     if ( iosIn.fail() )
         {
         int iRemoved = remove(sTempPath);
@@ -2265,7 +2265,7 @@ BOOL CExportProcessMDF::bFormat(const Str8& sTempPath, CDatabaseType* ptyp,
     CMarker* pmkrRecord = ptyp->pmkrRecord();
     SF_istream sfsIn(ccsIn, pmkrset, pmkrRecord, FALSE);
 
-    ofstream iosOut(sOutputPath);  // We check for ofstream failures below
+    std::ofstream iosOut(sOutputPath);  // We check for ofstream failures below
 	Field_ostream* pfosOut = NULL;  // 1998-09-21 MRP
 	if ( m_bWebPages )
 #ifdef EXPORT_WEB_PAGES
@@ -2322,7 +2322,6 @@ BOOL CExportProcessMDF::bFormat(const Str8& sTempPath, CDatabaseType* ptyp,
 	ASSERT( pfosOut );
         
     {
-    filedesc fdIn = iosIn.fd();
     LONG lSizFile = lFileSize(sTempPath);
     CProgressIndicator prg(lSizFile, NULL, sOutputPath); // 1.4ad Eliminate resource messages sent to progress bar
     while ( !sfsIn.bAtEnd() )
@@ -2335,7 +2334,7 @@ BOOL CExportProcessMDF::bFormat(const Str8& sTempPath, CDatabaseType* ptyp,
             }
         pfosOut->WriteField(pfld, FALSE);
         delete pfld;
-        LONG lPos = _tell(fdIn);
+		LONG lPos = static_cast<LONG>(iosIn.tellg());
         (void) prg.bUpdateProgress(lPos);
         }
     }  // Cause progress indicator to be destroyed

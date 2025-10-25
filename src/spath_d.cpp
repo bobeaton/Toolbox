@@ -179,7 +179,8 @@ void CDocListBox::LoadDbsInsertable( const CDatabaseRefList* pdrflst )
         }
 
     // First db in drflst may not be first one in list box, so go find it.
-    for (int i=GetCount()-1; i>=0; i--)
+	int i=GetCount()-1;
+    for (; i>=0; i--)
         if ((void*)pdocFirst == GetItemDataPtr(i)) // find the one we want?
             break;
 

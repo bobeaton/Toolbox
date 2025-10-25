@@ -8,7 +8,7 @@
 #include "obstream.h"  // Object_ostream, Object_istream
 #include "pgs.h"  // RtfPageSetup
 #include "typ.h"  // CDatabaseTypeSet
-#include "fstream.h"  // ofstream
+#include <fstream>  // ofstream
 #include "rtf.h"  // RTF_ostream
 #include "xml.h"  // XML_ostream
 #include "mdf.h"  // CExportProcessMDF
@@ -411,7 +411,7 @@ BOOL CExportProcessRTF::bWriteChanges(const Str8& sPathTMP,
         BOOL bCurrentWindow, CIndex* pindCur,
         Str8& sMessage)
 {
-    ofstream iosTMP(sPathTMP);
+    std::ofstream iosTMP(sPathTMP);
     ASSERT( !m_sPathCCT.IsEmpty() );
     {
     Change_ostream iosChange(m_sPathCCT, iosTMP);
@@ -446,7 +446,7 @@ BOOL CExportProcessRTF::bReadChanges(const Str8& sPathTMP, RTF_ostream& sfs,
         CMarkerSet* pmkrset, CMarker* pmkrRecord,
         Str8& sMessage)
 {
-    ifstream iosTMP(sPathTMP);
+    std::ifstream iosTMP(sPathTMP);
     if ( iosTMP.fail() )
         {
 		sMessage = sMessage + _("Cannot open file:") + " " + sPathTMP; // 1.5.0fd 
@@ -459,7 +459,6 @@ BOOL CExportProcessRTF::bReadChanges(const Str8& sPathTMP, RTF_ostream& sfs,
     ASSERT( pmkrRecord );
     SF_istream sfsTMP(iosTMP, pmkrset, pmkrRecord, FALSE);
 
-    filedesc fdTMP = iosTMP.fd();
     LONG lSizTMP = lFileSize(sPathTMP);
     CProgressIndicator prg(lSizTMP, NULL, m_sPathRTF); // 1.4ad Eliminate resource messages sent to progress bar
 	BOOL bFirstAlphDiv = TRUE; // 1.2dt
@@ -476,7 +475,8 @@ BOOL CExportProcessRTF::bReadChanges(const Str8& sPathTMP, RTF_ostream& sfs,
 		else // 1.2dt
 			sfs.WriteField(pfld, FALSE);
         delete pfld;
-        LONG lPos = _tell(fdTMP);
+		LONG lPos = static_cast<LONG>(iosTMP.tellg());
+
         (void) prg.bUpdateProgress(lPos);
         }
 	sfs.WriteMultipleColumnEnd(); // 1.2du For rtf export double column, even up columns on last page
@@ -555,7 +555,7 @@ BOOL CExportProcessRTF::bExport(CIndex* pindCur, const CRecLookEl* prelCur,
     
     {
 	UnWriteProtect( m_sPathRTF ); // 1.2fv Turn off write protect before writing // 1.4qzhg
-    ofstream iosExport(m_sPathRTF);
+    std::ofstream iosExport(m_sPathRTF);
     // 1997-11-15 MRP: In MDF's export we don't return from failures here
 
     Str8 sPathTMP;
@@ -890,7 +890,7 @@ BOOL CExportProcessSF::bExport(CIndex* pindCur, const CRecLookEl* prelCur,
 
 
 #ifdef OLDIOSTREAMEXPORT
-    ofstream iosExport(m_sPathSF);
+    std::ofstream iosExport(m_sPathSF);
     // 1997-11-15 MRP: In MDF's export we don't return from failures here
 
     if ( !m_sPathCCT.IsEmpty() )
@@ -1215,7 +1215,7 @@ BOOL CExportProcessXML::bExport(CIndex* pindCur, const CRecLookEl* prelCur,
     CMarkerSet* pmkrset = m_pexpsetMyOwner->ptypMyOwner()->pmkrset();
 
 	UnWriteProtect( m_sPathXML ); // 1.2fv Turn off write protect before writing // 1.4qzhg
-    ofstream iosExport(m_sPathXML);
+    std::ofstream iosExport(m_sPathXML);
     // 1997-11-15 MRP: In MDF's export we don't return from failures here
 
 	CDatabaseType* ptyp = m_pexpsetMyOwner->ptypMyOwner(); // 1.5.8a 
@@ -1294,7 +1294,7 @@ BOOL CExportProcessXML::bExport(CIndex* pindCur, const CRecLookEl* prelCur,
     Str8 sDirPath = sGetDirPath(m_sPathXML);
     Str8 sDTDPath = sPath(sDirPath, m_sDTDName, ".dtd");
 	UnWriteProtect( sDTDPath ); // 1.2fv Turn off write protect before writing // 1.4qzhg
-    ofstream iosDTD(sDTDPath);
+    std::ofstream iosDTD(sDTDPath);
     XML_ostream::s_WriteDTD(iosDTD, pmkrset, m_sRootNode);
 #endif
 
@@ -1553,7 +1553,7 @@ void CExportProcessSet::UpdatePaths() // Update paths if project moved
         pexp->UpdatePaths();
 }
 
-void CExportProcessSet::WritePaths( ofstream ostr ) // Write paths of supporting files
+void CExportProcessSet::WritePaths( std::ofstream& ostr ) // Write paths of supporting files
 {
     for ( CExportProcess* pexp = pexpFirst(); pexp; pexp = pexpNext(pexp) )
         pexp->WritePaths( ostr );

@@ -7,7 +7,7 @@
 #include "not.h"
 #include "ddx.h"  // Shw_DDX_MultiLineText
 
-#include <strstrea.h>
+#include <sstream>
 
 #ifdef _DEBUG
 #undef THIS_FILE

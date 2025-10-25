@@ -9,7 +9,7 @@
 #include "lng.h"
 #include "typ.h"
 #include "kmn.h"
-#include "fstream.h"
+#include <fstream>
 #include "find_d.h"
 #include "tools.h"  // sPath
 #include "font.h"
@@ -324,13 +324,15 @@ BOOL CProject::bWriteProperties(const char* pszPath, BOOL bForceWrite)
 	CString swPath = swUTF16( sPath ); // 1.6.1cb 
 	Str8 sMode = "w"; // Set up mode string  // 1.6.1cb 
 	CString swMode = swUTF16( sMode ); // Convert mode string to CString  // 1.6.1cb 
-	FILE* pf = _wfopen( swPath, swMode ); // Open file // 1.6.1cb 
-	if ( !pf ) // If file open failed, return failure // 1.6.1cb 
+	FILE* pf = nullptr;
+	errno_t err = _wfopen_s(&pf, swPath, swMode);
+	if (err != 0 || pf == nullptr) {
 		return FALSE; // 1.6.1cb 
+	}
     Object_ofstream obs(pf); // 1.6.1cb 
     WriteProperties(obs); // 1.6.4aa 
 #else
-    ofstream ios(pszPath); // 1.6.1cb 
+    std::ofstream ios(pszPath); // 1.6.1cb 
     if ( ios.fail() ) // 1.6.1cb 
         return FALSE; // 1.6.1cb 
     Object_ostream obs(ios); // 1.6.1cb 
@@ -407,11 +409,12 @@ BOOL CProject::bReadProperties(const char* pszPath, CNoteList& notlst)
 {
     ASSERT( pszPath );
     ASSERT( *pszPath );
-    ifstream ios(pszPath, ios::nocreate);
-    if ( ios.fail() )
-        return FALSE;
-        
-    // 08-11-1997
+	std::ifstream ios(pszPath);
+	if (!ios) {
+		// handle file-not-found
+		return FALSE;
+	}
+	// 08-11-1997
     //The class Newline_istream provieds datas from both, Mac and PC
     Newline_istream iosnl(ios);
     Object_istream obs(iosnl, notlst);
@@ -427,9 +430,11 @@ BOOL CProject::s_bIsProjectFile(const char* pszPath)
 
 BOOL CProject::s_bIsProjectFile(const char* pszPath, Str8& sVersion)
 {
-    ifstream ios(pszPath, ios::nocreate);
-    if ( ios.fail() )
-        return FALSE;
+	std::ifstream ios(pszPath);
+	if (!ios) {
+		// handle file-not-found
+		return FALSE;
+	}
         
     CNoteList notlst;
     

@@ -61,7 +61,7 @@ private:
     FontName(const char* pszName, FontNameSet* pfnmsetMyOwner,
             unsigned int n);
     
-    void WriteDefinition(ostream& ios) const;
+    void WriteDefinition(std::ostream& ios) const;
     
 public:
     void AppendFormattingTo(Str8& sFormatting) const;
@@ -84,7 +84,7 @@ private:
 public:
     FontNameSet(const char* pszDefaultFontName);
     
-    void WriteDefinition(ostream& ios) const;
+    void WriteDefinition(std::ostream& ios) const;
 
     FontName* pfnmFirst() const
             { return (FontName*)pselFirst(); }
@@ -112,7 +112,7 @@ FontName::FontName(const char* pszName, FontNameSet* pfnmsetMyOwner,
     ASSERT( m_pfnmsetMyOwner );
 }
 
-void FontName::WriteDefinition(ostream& ios) const
+void FontName::WriteDefinition(std::ostream& ios) const
 {
     ios << "{\\f" << m_n << ' ' << sName() << ";}\n";
 }
@@ -120,7 +120,7 @@ void FontName::WriteDefinition(ostream& ios) const
 void FontName::AppendFormattingTo(Str8& sFormatting) const
 {
     char pszFontNameFormatting[8];  // \fUUUUU\0: 2 + 5 + 1
-    sprintf(pszFontNameFormatting, "\\f%u", m_n);
+	sprintf_s(pszFontNameFormatting, sizeof(pszFontNameFormatting), "\\f%u", m_n);
     sFormatting += pszFontNameFormatting;
 }
 
@@ -138,7 +138,7 @@ FontNameSet::FontNameSet(const char* pszDefaultFontName) :
     (void) pfnmSearch_AddIfNew(pszDefaultFontName);
 }
 
-void FontNameSet::WriteDefinition(ostream& ios) const
+void FontNameSet::WriteDefinition(std::ostream& ios) const
 {
     ios << "{\\fonttbl\n";
     FontName* pfnm = pfnmFirst();
@@ -180,14 +180,14 @@ protected:
             const char* pszFormatting = "", unsigned int n = 0);
     void SetNumber(unsigned int n) { m_n = n; }
 
-    void WriteBasedOn(ostream& ios) const;
+    void WriteBasedOn(std::ostream& ios) const;
     void AppendFormattingTo(const CFont* pfnt, Str8& sFormatting);
     
-    virtual void WriteFormatting(ostream& ios) const = 0;
+    virtual void WriteFormatting(std::ostream& ios) const = 0;
 
 public:
-    virtual void WriteDefinition(ostream& ios) const = 0;
-    virtual void Write(ostream& ios) const = 0;
+    virtual void WriteDefinition(std::ostream& ios) const = 0;
+    virtual void Write(std::ostream& ios) const = 0;
     virtual void WriteField(RTF_ostream& sfs, const CField* pfld) const = 0;
     
     virtual CSet* psetMyOwner();    
@@ -205,11 +205,11 @@ private:
     CharStyle(const char* pszName, StyleSet* pstysetMyOwner, const CFont* pfnt,
             const CharStyle* pstyBasedOn = NULL, unsigned int n = 0);
 
-    virtual void WriteFormatting(ostream& ios) const;
+    virtual void WriteFormatting(std::ostream& ios) const;
 
 public:
-    virtual void WriteDefinition(ostream& ios) const;
-    virtual void Write(ostream& ios) const;
+    virtual void WriteDefinition(std::ostream& ios) const;
+    virtual void Write(std::ostream& ios) const;
     virtual void WriteField(RTF_ostream& sfs, const CField* pfld) const;
 };  // class CharStyle
 
@@ -228,11 +228,11 @@ private:
             
     void Construct(const CFont* pfnt);
 
-    virtual void WriteFormatting(ostream& ios) const;
+    virtual void WriteFormatting(std::ostream& ios) const;
 
 public:
-    virtual void WriteDefinition(ostream& ios) const;
-    virtual void Write(ostream& ios) const;
+    virtual void WriteDefinition(std::ostream& ios) const;
+    virtual void Write(std::ostream& ios) const;
     virtual void WriteField(RTF_ostream& sfs, const CField* pfld) const;
 };  // class StandardCharStyle
 
@@ -248,11 +248,11 @@ private:
     ParStyle(const char* pszName, StyleSet* pstysetMyOwner,
             const CFont* pfnt, unsigned int n = 0);
 
-    virtual void WriteFormatting(ostream& ios) const;
+    virtual void WriteFormatting(std::ostream& ios) const;
 
 public:
-    virtual void WriteDefinition(ostream& ios) const;
-    virtual void Write(ostream& ios) const;
+    virtual void WriteDefinition(std::ostream& ios) const;
+    virtual void Write(std::ostream& ios) const;
     virtual void WriteField(RTF_ostream& sfs, const CField* pfld) const;
 };  // class ParStyle
 
@@ -291,7 +291,7 @@ public:
     StyleSet(CMarkerSet* pmkrset, BOOL bMarkerFontFormatting, BOOL bHeaderAndFooter); // 1.2dj On RTF export, if template attached, don't define header and footer styles
     ~StyleSet();
     
-    void WriteDefinition(ostream& ios);
+    void WriteDefinition(std::ostream& ios);
 
     BOOL bMarkerFontFormatting() const { return m_bMarkerFontFormatting; }
     const FontNameSet* pfnmset() const { return &m_fnmset; }
@@ -334,7 +334,7 @@ Style::Style(const char* pszName, StyleSet* pstysetMyOwner,
 {
 }
 
-void Style::WriteBasedOn(ostream& ios) const
+void Style::WriteBasedOn(std::ostream& ios) const
 {
     if ( !m_pstysetMyOwner->bMarkerFontFormatting() )
         return;
@@ -377,7 +377,7 @@ void Style::AppendFormattingTo(const CFont* pfnt, Str8& sFormatting)
 #endif
     char pszSize[9];  // 3 + 5 + 1
     char* pszSizeFormat = "\\fs%u";
-    sprintf(pszSize, pszSizeFormat, 2*sizeInPoints);  // in HALF-points
+	sprintf_s(pszSize, sizeof(pszSize), pszSizeFormat, 2*sizeInPoints);  // in HALF-points
     sFormatting += pszSize;
 }
 
@@ -392,7 +392,7 @@ CharStyle::CharStyle(const char* pszName, StyleSet* pstysetMyOwner,
         AppendFormattingTo(pfnt, m_sFormatting);
 }
 
-void CharStyle::WriteDefinition(ostream& ios) const
+void CharStyle::WriteDefinition(std::ostream& ios) const
 {
     ios << "{\\*\\cs" << m_n << " \\additive";
     if ( m_pstyBasedOn )
@@ -403,7 +403,7 @@ void CharStyle::WriteDefinition(ostream& ios) const
     ios << ' ' << sName() << ";}\n";
 }
 
-void CharStyle::Write(ostream& ios) const
+void CharStyle::Write(std::ostream& ios) const
 {
     ios << "\\cs" << m_n;
     if ( m_pstyBasedOn )
@@ -413,7 +413,7 @@ void CharStyle::Write(ostream& ios) const
     ios << ' ';
 }
 
-void CharStyle::WriteFormatting(ostream& ios) const
+void CharStyle::WriteFormatting(std::ostream& ios) const
 {
     ASSERT( !m_pstyBasedOn );
     if ( !m_pstysetMyOwner->bMarkerFontFormatting() )
@@ -438,7 +438,7 @@ StandardCharStyle::StandardCharStyle(const char* pszName,
     m_pstyBasedOn(pstyBasedOn){
 }
 
-void StandardCharStyle::WriteDefinition(ostream& ios) const
+void StandardCharStyle::WriteDefinition(std::ostream& ios) const
 {
     ios << "{\\*\\cs" << m_n << " \\additive";
     WriteFormatting(ios);
@@ -448,7 +448,7 @@ void StandardCharStyle::WriteDefinition(ostream& ios) const
     ios << ' ' << sName() << ";}\n";
 }
 
-void StandardCharStyle::Write(ostream& ios) const
+void StandardCharStyle::Write(std::ostream& ios) const
 {
     ios << "\\cs" << m_n;
     if ( m_pstyBasedOn )
@@ -457,7 +457,7 @@ void StandardCharStyle::Write(ostream& ios) const
     ios << ' ';
 }
 
-void StandardCharStyle::WriteFormatting(ostream& ios) const
+void StandardCharStyle::WriteFormatting(std::ostream& ios) const
 {
     if ( !m_pstysetMyOwner->bMarkerFontFormatting() )
         return;
@@ -487,7 +487,7 @@ ParStyle::ParStyle(const char* pszName, StyleSet* pstysetMyOwner,
     AppendFormattingTo(pfnt, m_sFormatting);
 }
 
-void ParStyle::WriteDefinition(ostream& ios) const
+void ParStyle::WriteDefinition(std::ostream& ios) const
 {
     ios << "{";
     if ( m_n != 0 )
@@ -500,7 +500,7 @@ void ParStyle::WriteDefinition(ostream& ios) const
     ios << ' ' << sName() << ";}\n";
 }
 
-void ParStyle::Write(ostream& ios) const
+void ParStyle::Write(std::ostream& ios) const
 {
     ios << "\\pard\\plain";
     if ( m_n != 0 )
@@ -509,7 +509,7 @@ void ParStyle::Write(ostream& ios) const
     ios << ' ';
 }
 
-void ParStyle::WriteFormatting(ostream& ios) const
+void ParStyle::WriteFormatting(std::ostream& ios) const
 {
     if ( m_pstysetMyOwner->bMarkerFontFormatting() )
         ios << m_sFormatting;
@@ -688,7 +688,7 @@ BOOL StyleSet::bMakeValidUniqueName(Str8& sName, CNote** ppnot)
         bMadeValidUnique = TRUE;
         }
     
-    const maxlen = 250;
+    const int maxlen = 250;
     if ( maxlen < sName.GetLength() )
         {
         sName = sName.Left(maxlen);
@@ -705,7 +705,7 @@ BOOL StyleSet::bMakeValidUniqueName(Str8& sName, CNote** ppnot)
     return bMadeValidUnique;
 }
 
-void StyleSet::WriteDefinition(ostream& ios)
+void StyleSet::WriteDefinition(std::ostream& ios)
 {
     pfnmset()->WriteDefinition(ios);
     ios << "{\\stylesheet\n";
@@ -758,7 +758,7 @@ MarkerStyleRef* StyleSet::psrfSearchForWholeSubString(const char* pszName,
 
 static const int s_maxlenRenBuf = 30000;  // 1998-03-03 MRP
 
-RTF_ostream::RTF_ostream(ostream& ios, CMarkerSet* pmkrset,
+RTF_ostream::RTF_ostream(std::ostream& ios, CMarkerSet* pmkrset,
         BOOL bAutoUpdateStyles, BOOL bMarkerFontFormatting,
         BOOL bInterlinearTabAligned, RtfTwips twxInterlinearSpacing,
         const Str8& sHeaderLeft, const Str8& sHeaderRight,
@@ -1349,7 +1349,8 @@ BOOL RTF_ostream::bAtRawOutput(const char* pch, const char* pchEnd) // 1.4rad Ad
 
 void RTF_ostream::WriteRawOutput(const char** ppch, const char* pchEnd) // 1.4rad
 	{
-	for ( const char* pch = *ppch + 2; pch < pchEnd; pch++ ) // While in raw output, write it out
+	const char* pch = *ppch + 2;
+	for ( ; pch < pchEnd; pch++ ) // While in raw output, write it out
 		{
 		if ( pch < pchEnd - 1 && *pch == '|' && *(pch + 1) == ']' ) // If at end of raw output, return
 			{
@@ -1779,8 +1780,8 @@ void RTF_ostream::WriteChar(const char** ppsz, BOOL bUnicode)
 		{
 		LONG lUTF32 = lUTF8ToUTF32( psz, iNumBytes );
 		char pszUTF32[20];
-		_ltoa( lUTF32, pszUTF32, 10 );
-//        m_ios << "\\uc0\\u" << pszUTF32; // 1.4ywk 
+		_ltoa_s(lUTF32, pszUTF32, (int)sizeof(pszUTF32), 10);
+		//        m_ios << "\\uc0\\u" << pszUTF32; // 1.4ywk 
         m_ios << "\\u" << pszUTF32; // 1.4ywk Change RTF export to only write \uc0 once
 		}
     else

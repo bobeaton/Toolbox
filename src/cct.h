@@ -3,9 +3,12 @@
 #ifndef CCT_H
 #define CCT_H
 
-#include <iostream.h>  // classes istream, ostream, streambuf
-#include <strstrea.h>  // class strstreambuf
+#include <iostream>
+using namespace std;  // classes istream, ostream, streambuf
+#include <sstream>  // class strstreambuf
+#include <strstream> 
 
+#if UseCct
 typedef int WINAPI CCInputProc(char FAR *, int, long* plUserInputData);
 typedef int WINAPI CCOutputProc(char FAR *, int, long* plUserOutputData);
 
@@ -52,7 +55,7 @@ public:
 		// and outputs the result to pszOutputPath. The contents of the 
 		// output file will be replaced if it already exists; otherwise,
 		// it will be created.
-	BOOL bMakeChanges(istream& iosInput, ostream& iosOutput);
+	BOOL bMakeChanges(std::istream& iosInput, std::ostream& iosOutput);
 		
 	BOOL bMakeChanges(const char* pszInput, int lenInput,
 			char* pszOutputBuffer, int* plenOutput);
@@ -89,7 +92,7 @@ private:
 	BOOL bSetInputCallback(CCInputProc *pfn, long lClientData);
 	BOOL bPullOut(char* psz, int* plen, BOOL* pbEndOfInput);
 };  // class ChangeTable
-
+#endif
 
 // --------------------------------------------------------------------------
 
@@ -116,20 +119,22 @@ private:
 
 // --------------------------------------------------------------------------
 
-class Change_istreambuf : public streambuf  // Hungarian: buf
+class Change_istreambuf : public std::streambuf  // Hungarian: buf
 {
 private:
 	ChangeTable m_cct;
-	istream& m_iosInput;  // The actual source of input to be changed
+	std::istream& m_iosInput;  // The actual source of input to be changed
 	BOOL m_bAtEOF;
-	
+	char* m_pszBuffer;
+	int m_iBufferLen;
+
 	// Prevent use of the copy constructor and assignment operator
 	// by making them private and omitting their definitions.
 	Change_istreambuf(const Change_istreambuf& buf);
 	Change_istreambuf& operator=(const Change_istreambuf& buf);
 
 public:
-	Change_istreambuf(const char* pszChangeTablePath, istream& iosInput);
+	Change_istreambuf(const char* pszChangeTablePath, std::istream& iosInput);
 		// Make changes to the text to be got from this buffer
 		// according to the table contained in the file pszChangeTablePath.
 		// The buffer's and table's source is stream iosInput. 
@@ -156,27 +161,29 @@ private:
 		// See the implementation of Change_istream::s_bDebugFailure.
 
 	// Connect the input stream source m_ios to the change table m_cct.
-	int lenReadFromSource(char* psz, int len);
-	friend int WINAPI s_iInputFromChange_istreambuf(char FAR * psz,
+	std::streamsize lenReadFromSource(char* psz, int len);
+	friend std::streamsize WINAPI s_iInputFromChange_istreambuf(char FAR * psz,
 			int len, long* plUserInputData);
 };  // class Change_istreambuf
 
 
 // --------------------------------------------------------------------------
 
-class Change_ostreambuf : public streambuf  // Hungarian: buf
+class Change_ostreambuf : public std::streambuf  // Hungarian: buf
 {
 private:
 	ChangeTable m_cct;
-	ostream& m_iosOutput;  // The actual destination for changed output
+	std::ostream& m_iosOutput;  // The actual destination for changed output
 	
 	// Prevent use of the copy constructor and assignment operator
 	// by making them private and omitting their definitions.
 	Change_ostreambuf(const Change_ostreambuf& buf);
 	Change_ostreambuf& operator=(const Change_ostreambuf& buf);
 
+	char* m_pszBuffer;
+
 public:
-	Change_ostreambuf(const char* pszChangeTablePath, ostream& iosOutput);
+	Change_ostreambuf(const char* pszChangeTablePath, std::ostream& iosOutput);
 		// Make changes to the text put into this buffer
 		// according to the table contained in the file pszChangeTablePath.
 		// The buffer's and table's destination is stream iosOutput.
@@ -214,7 +221,7 @@ private:
 
 // --------------------------------------------------------------------------
 
-class Change_istream : public istream  // Hungarian: ios
+class Change_istream : public std::istream  // Hungarian: ios
 {
 private:
 	Change_istreambuf m_bufChangeTable;
@@ -225,7 +232,7 @@ private:
 	Change_istream& operator=(const Change_istream& ios);
 
 public:
-	Change_istream(const char* pszChangeTablePath, istream& iosInput);
+	Change_istream(const char* pszChangeTablePath, std::istream& iosInput);
 		// Make changes to the text extracted from this stream
 		// according to the table contained in the file pszChangeTablePath.
 		// The table's input source is stream ios. 
@@ -246,7 +253,7 @@ public:
 
 // --------------------------------------------------------------------------
 
-class Change_ostream : public ostream  // Hungarian: ios
+class Change_ostream : public std::ostream  // Hungarian: ios
 {
 private:
 	Change_ostreambuf m_bufChangeTable;
@@ -257,7 +264,7 @@ private:
 	Change_ostream& operator=(const Change_ostream& ios);
 
 public:
-	Change_ostream(const char* pszChangeTablePath, ostream& iosOutput);
+	Change_ostream(const char* pszChangeTablePath, std::ostream& iosOutput);
 		// Make changes to the text inserted into this stream
 		// according to the table contained in the file pszChangeTablePath.
 		// The table's output destination is stream ios. 
@@ -290,7 +297,7 @@ public:
 	virtual int underflow();
 };
 
-class strstream_d255 : public iostream
+class strstream_d255 : public std::iostream
 {
 private:
 	strstreambuf_d255 m_buf;

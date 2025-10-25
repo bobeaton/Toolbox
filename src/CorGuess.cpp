@@ -92,16 +92,46 @@ int iStrFind( const wxChar* pszS, const wxChar* pszFind ) // 1.6.1aj Utility fun
 	return -1; // 1.6.1aj Return -1 for failure
 	}
 
-void StrReplace( wxChar* pszS, wxChar* pszReplace, int iLoc, int iNum ) // 1.6.1aj Replace a section of pszS with pszReplace
-	{
-	wxChar* pszTail = new wxChar[ wxStrlen( pszS ) + 1 ]; // 1.6.1aj Temp storage of tail
-	wxStrcpy( pszTail, pszS + iLoc + iNum ); // 1.6.1aj Save tail
-	*(pszS + iLoc) = 0; // 1.6.1bb Terminate head // 1.6.1be Change back to pointer arithemetic
-//	wxStrcpy( pszS + iLoc, "" ); // 1.6.1aj Shorten source // 1.6.1bb 
-	wxStrcat( pszS, pszReplace ); // 1.6.1aj Copy replace in // 1.6.1bb Get rid of pointer arithmetic
-	wxStrcat( pszS, pszTail ); // 1.6.1aj Put tail back on // 1.6.1bb 
-	delete pszTail;
-	}
+//void StrReplace( wxChar* pszS, wxChar* pszReplace, int iLoc, int iNum ) // 1.6.1aj Replace a section of pszS with pszReplace
+//	{
+//		int len = wxStrlen( pszS ) + 1;
+//		wxChar* pszTail = new wxChar[ len ]; // 1.6.1aj Temp storage of tail
+//		// wxStrcpy( pszTail, pszS + iLoc + iNum ); // 1.6.1aj Save tail
+//		strcpy_s( pszTail, len, pszS + iLoc + iNum ); // 1.6.1aj Save tail
+//		*(pszS + iLoc) = 0; // 1.6.1bb Terminate head // 1.6.1be Change back to pointer arithemetic
+//		wxStrcat( pszS, pszReplace ); // 1.6.1aj Copy replace in // 1.6.1bb Get rid of pointer arithmetic
+//		wxStrcat( pszS, pszTail ); // 1.6.1aj Put tail back on // 1.6.1bb 
+//		delete pszTail;
+//	}
+void StrReplace(wxChar* pszS, const wxChar* pszReplace, int iLoc, int iNum)
+{
+    if (!pszS || !pszReplace)
+        return;
+
+    size_t len = wxStrlen(pszS) + 1;
+
+    wxChar* pszTail = new wxChar[len]; // Temporary tail storage
+
+    // Copy the tail safely
+#if wxUSE_UNICODE
+    wcscpy_s(pszTail, len, pszS + iLoc + iNum);
+#else
+    strcpy_s(pszTail, len, pszS + iLoc + iNum);
+#endif
+
+    pszS[iLoc] = 0; // Terminate the string at the replacement point
+
+    // Append replacement and tail safely
+#if wxUSE_UNICODE
+    wcscat_s(pszS, len, pszReplace);
+    wcscat_s(pszS, len, pszTail);
+#else
+    strcat_s(pszS, len, pszReplace);
+    strcat_s(pszS, len, pszTail);
+#endif
+
+    delete[] pszTail;
+}
 
 int iCorrespondenceBack( wxChar* psz1, wxChar* psz2 ) // Return length of correspondence from start // 1.6.1dm Revise correspondence back func
 	{
@@ -208,14 +238,24 @@ Corresp::Corresp()
 
 Corresp::Corresp( const wxChar* pszSrc1, const wxChar* pszTar1, int iFreq ) // Constructor that allocates strings for source and target
 	{
-	pszSrc = new wxChar[ wxStrlen( pszSrc1 ) + 1 ];
-	wxStrcpy( pszSrc, pszSrc1 );
-	pszTar = new wxChar[ wxStrlen( pszTar1 ) + 1 ];
-	wxStrcpy( pszTar, pszTar1 );
-	iFreq = iFreq; // 1.6.1ad 
-	iNumInstances = 1;
-	iNumExceptions = 0;
-	pcorNext = NULL;
+		int len = wxStrlen( pszSrc1 ) + 1;
+		pszSrc = new wxChar[ len ];
+#if wxUSE_UNICODE
+        wcscpy_s(pszSrc, len, pszSrc1);
+#else
+        strcpy_s(pszSrc, len, pszSrc1);
+#endif
+		len = wxStrlen( pszTar1 ) + 1;
+		pszTar = new wxChar[ len ];
+#if wxUSE_UNICODE
+        wcscpy_s(pszTar, len, pszTar1);
+#else
+        strcpy_s(pszTar, len, pszTar1);
+#endif
+		iFreq = iFreq; // 1.6.1ad 
+		iNumInstances = 1;
+		iNumExceptions = 0;
+		pcorNext = NULL;
 	}
 
 Corresp::~Corresp()
@@ -345,8 +385,13 @@ void CorrespListKB::Add( const wxChar* pszSrc, const wxChar* pszTar, int iFreq )
 		if ( iFreq > pcorF->iFreq ) // 1.6.1ae If higher frequency, replace previous with this
 			{
 			delete pcorF->pszTar;
-			pcorF->pszTar = new wxChar[ wxStrlen( pszTar ) + 1 ];
-			wxStrcpy( pcorF->pszTar, pszTar ); // 1.6.1bb Store new target
+			int len = wxStrlen( pszTar ) + 1;
+			pcorF->pszTar = new wxChar[ len ];
+#if wxUSE_UNICODE
+            wcscpy_s(pcorF->pszTar, len, pszTar);
+#else
+            strcpy_s(pcorF->pszTar, len, pszTar);
+#endif
 			pcorF->iFreq = iFreq; // 1.6.1ae Store new frequency
 			}
 		}
@@ -500,10 +545,18 @@ void Guesser::CalculateCorrespondences() // Calculate correspondences // 1.6.1aj
 			int iCorrBack = iCorrespondenceBack( pszS, pszT ); // 1.6.1dm See if there is a prefix difference // 1.6.1dn  // 1.6.1dp 
 			if ( iCorrBack ) // If there is a correspondence, store it // 1.6.1dp 
 				{
-				wxStrcpy( pszSFront, pszS ); // 1.6.1dn 
+#if wxUSE_UNICODE
+				wcscpy_s(pszSFront, sizeof(pszSFront), pszS);
+#else
+				strcpy_s(pszSFront, sizeof(pszSFront), pszS);
+#endif
 				int iSPrefLen = wxStrlen( pszSFront) - iCorrBack; // 1.6.1dp 
 				*(pszSFront + iSPrefLen) = 0; // 1.6.1dn  // 1.6.1dp 
-				wxStrcpy( pszTFront, pszT ); // 1.6.1dn 
+#if wxUSE_UNICODE
+				wcscpy_s(pszTFront, sizeof(pszTFront), pszT);
+#else
+				strcpy_s(pszTFront, sizeof(pszTFront), pszT);
+#endif
 				int iTPrefLen = wxStrlen( pszTFront) - iCorrBack; // 1.6.1dp 
 				*(pszTFront + iTPrefLen) = 0; // 1.6.1dn  // 1.6.1dp 
 				corlstPrefGuess.Add( pszSFront, pszTFront, 0 ); // Add to list, count if already there // 1.6.1dn 
@@ -544,7 +597,12 @@ void Guesser::CalculateCorrespondences() // Calculate correspondences // 1.6.1aj
 
 bool Guesser::bRootReplace( const wxChar* pszSrc, wxChar** ppszTar ) // Try to replace a root // 1.6.1aj 
 	{
-	wxStrcpy( *ppszTar, pszSrc ); // Copy source to target, so caller can use it if no replace // 1.6.1dc Fix guesser bug of no guess if no root list
+		int iLenSrc = wxStrlen( pszSrc ); // 1.6.1dm 
+#if wxUSE_UNICODE
+		wcscpy_s(*ppszTar, iLenSrc, pszSrc);
+#else
+		strcpy_s(*ppszTar, iLenSrc, pszSrc);
+#endif
 	/* This for loop gives spurious replacements of substrings in Adapt It, so should not be allowed to run
 	for ( Corresp* pcorRoot = corlstRootGuess.pcorFirst; pcorRoot; pcorRoot = pcorRoot->pcorNext ) // See if a guess is possible for this string
 		{
@@ -564,7 +622,11 @@ bool Guesser::bRootReplace( const wxChar* pszSrc, wxChar** ppszTar ) // Try to r
 bool Guesser::bSuffReplace( const wxChar* pszSrc, wxChar** ppszTar, int iLevel ) // Try to replace a suffix // 1.6.1aj  // 1.6.1dk Add level arg to limit number
 	{
 	int iLenSrc = wxStrlen( pszSrc ); // 1.6.1dm 
-	wxStrcpy( *ppszTar, pszSrc ); // Copy source to target, so caller can use it if no replace // 1.6.1dc Fix guesser bug of no guess if no root list
+#if wxUSE_UNICODE
+		wcscpy_s(*ppszTar, iLenSrc, pszSrc);
+#else
+		strcpy_s(*ppszTar, iLenSrc, pszSrc);
+#endif
 	if ( iLevel >= iMaxSuff ) // 1.6.1aj If no replace, return target same as source // 1.6.1dk Stop if max number reached
 		return false;
 	if ( iLenSrc <= 2 ) // 1.6.1dm Don't try affix if only 2 letters of root left
@@ -579,11 +641,21 @@ bool Guesser::bSuffReplace( const wxChar* pszSrc, wxChar** ppszTar, int iLevel )
 			const wxChar* pszEndSrc = pszSrc + iLenSrc - iLenSuffSrc; // Get start of end of source for match
 			if ( !wxStrcmp( pszSuffSrc, pszEndSrc ) ) // If source matches, replace it with target
 				{
-				wxChar* pszSrcShortened = new wxChar[ wxStrlen( pszSrc ) + 1 ]; // 1.6.1aj Shortened source to try further suff
-				wxStrcpy( pszSrcShortened, pszSrc ); // Copy source to shortened source
+				int len = wxStrlen( pszSrc ) + 1;
+				wxChar* pszSrcShortened = new wxChar[ len ]; // 1.6.1aj Shortened source to try further suff
+#if wxUSE_UNICODE
+				wcscpy_s(pszSrcShortened, len, pszSrc);
+#else
+				strcpy_s(pszSrcShortened, len, pszSrc);
+#endif
+
 				*(pszSrcShortened + wxStrlen( pszSrc ) - iLenSuffSrc) = 0; // 1.6.1aj Shorten source // 1.6.1be Change back to pointer arithmetic
 				bSuffReplace( pszSrcShortened, ppszTar, iLevel ); // 1.6.1aj Try replace suff on shortened source, but only if guess level 40 or more // 1.6.1dk Pass in level
-				wxStrcat( *ppszTar, pcorSuff->pszTar ); // 1.6.1aj Append target suff to end of target
+#if wxUSE_UNICODE
+				wcscat_s(*ppszTar, iLenSrc, pcorSuff->pszTar);
+#else
+				strcat_s(*ppszTar, iLenSrc, pcorSuff->pszTar);
+#endif
 				delete pszSrcShortened; // 1.6.1aj 
 				return true;
 				}
@@ -595,7 +667,11 @@ bool Guesser::bSuffReplace( const wxChar* pszSrc, wxChar** ppszTar, int iLevel )
 bool Guesser::bPrefReplace( const wxChar* pszSrc, wxChar** ppszTar, int iLevel ) // Try to replace a prefix // 1.6.1aj  // 1.6.1dk Add level arg to limit number
 	{
 	int iLenSrc = wxStrlen( pszSrc ); // 1.6.1dm 
-	wxStrcpy( *ppszTar, pszSrc ); // Copy source to target, so caller can use it if no replace // 1.6.1dc Fix guesser bug of no guess if no root list
+#if wxUSE_UNICODE
+	wcscpy_s(*ppszTar, iLenSrc, pszSrc);
+#else
+	strcpy_s(*ppszTar, iLenSrc, pszSrc);
+#endif
 	if ( iLevel >= iMaxPref ) // 1.6.1aj If no replace, return target same as source // 1.6.1dk Stop if max number reached
 		return false;
 	if ( iLenSrc <= 2 ) // 1.6.1dm Don't try affix if only 2 letters of root left
@@ -610,7 +686,11 @@ bool Guesser::bPrefReplace( const wxChar* pszSrc, wxChar** ppszTar, int iLevel )
 			if ( bStrMatch( pszSrc, pszPrefSrc, 0 ) ) // If source matches, replace it with target
 				{
 				wxChar* pszSrcShortened = new wxChar[ iLenSrc + 1 ]; // 1.6.1aj Shortened source to try further pref
-				wxStrcpy( pszSrcShortened, pszSrc + iLenPrefSrc ); // Copy source to shortened source
+#if wxUSE_UNICODE
+				wcscpy_s(pszSrcShortened, iLenSrc + 1, pszSrc + iLenPrefSrc);
+#else
+				strcpy_s(pszSrcShortened, iLenSrc + 1, pszSrc + iLenPrefSrc);
+#endif
 				bPrefReplace( pszSrcShortened, ppszTar, iLevel ); // 1.6.1aj Try replace pref on shortened source, but only if guess level 40 or more // 1.6.1dk Pass in level
 				StrReplace( *ppszTar, pcorPref->pszTar, 0, 0 ); // 1.6.1aj Prepend target pref to front of target
 				delete pszSrcShortened; // 1.6.1aj 

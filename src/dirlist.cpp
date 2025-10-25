@@ -50,7 +50,7 @@ void CFileList::AddFilesWithExt( const char* pszDirPath, const char* pszExt, BOO
 
                 const char* pszFileExt = (const char*)sFileNameExt + len - lenExt; // 1.4qxz
                 ASSERT( (const char*)sFileNameExt < pszFileExt ); // 1.4qxz
-                if ( stricmp(pszFileExt, pszExt) != 0 )
+                if ( _stricmp(pszFileExt, pszExt) != 0 )
                     continue;
                 }
 		    
@@ -121,7 +121,7 @@ void CFileList::AddFilesWithExt( const char* pszDirPath, const char* pszExt, BOO
 			int iLen = *(char*)filename; // pick up string length
 			_p2cstr( filename ); // convert to C string
 			int iExtLen = strlen( pszExt );
-			if ( iLen > iExtLen && !stricmp( (char*)filename+iLen-iExtLen, pszExt ) )
+			if ( iLen > iExtLen && !_stricmp( (char*)filename+iLen-iExtLen, pszExt ) )
 				{ // file has extension matching pszExt
 				Str8 sFileFound = sPath( pszDirPath, (char*)filename );
 				Add( sFileFound ); // add to list

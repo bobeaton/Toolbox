@@ -366,13 +366,13 @@ void CMarkerRangeSetPage::OnBuildRangeSet()
     
     Str8 sPartOfMessage;                
     char cTemp[33];
-    ltoa ( (long)iItemsTotal, cTemp, 10 );
+    _ltoa_s((long)iItemsTotal, cTemp, (int)sizeof(cTemp), 10);
 	sInformation = sInformation + "\n" + _("Total number:") + " " + (const char*)cTemp; // 1.5.0fg 
      
-    ltoa( (long)iItemsAdded, cTemp, 10 );
+    _ltoa_s((long)iItemsAdded, cTemp, (int)sizeof(cTemp), 10);
 	sInformation = sInformation + "\n" + _("Newly added:") + " " + (const char*)cTemp; // 1.5.0fg 
 
-    ltoa( (long)iItemsNotFound, cTemp, 10 );
+    _ltoa_s((long)iItemsNotFound, cTemp, (int)sizeof(cTemp), 10);
 	sInformation = sInformation + "\n" + _("Not found in the data:") + " " + (const char*)cTemp; // 1.5.0fg 
     AfxMessageBox(sInformation, MB_ICONINFORMATION);
     
