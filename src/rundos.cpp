@@ -105,6 +105,7 @@ void CRunDos::OnRundos()
 		}
 	//	RDE: for Win2000, command.com doesn't work (nicely). For example, it doesn't allow batch files which use long // 1.4sb
 	//	filenames. Therefore, determine if this is 2K/NT and if so, use CMD.exe instead.
+#ifdef AllowPreWindowsNt
 	OSVERSIONINFO osvi;
 	osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFO);
 	GetVersionEx (&osvi);
@@ -113,6 +114,9 @@ void CRunDos::OnRundos()
 		strCmd = "Cmd.Exe /C ";
 	else
 		strCmd = "COMMAND.COM /C ";
+#else
+    Str8 strCmd = "Cmd.Exe /C ";
+#endif
 	strCmd += str;
 	bWinExecWait( strCmd, SW_SHOW ); // 1.4qzfs
 	m_didCommand = TRUE;

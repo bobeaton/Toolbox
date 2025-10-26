@@ -693,9 +693,10 @@ void CFindComboBox::Init() // subclass combo's edit control and set edit control
 #ifdef _MAC
     m_iHeight -= 3; // need to trim a little - full height doesn't seem to be totally visible
 #else
-    DWORD dwVersion = GetVersion(); // see if we're running 3.1
-    if ( LOBYTE(LOWORD(dwVersion)) == 3 && HIBYTE(LOWORD(dwVersion)) < 95 ) // 3.1, NT 3.51 requires more padding at top and bottom
-        m_iHeight -= 8;
+    // this is no longer relevant
+    //DWORD dwVersion = GetVersion(); // see if we're running 3.1
+    //if ( LOBYTE(LOWORD(dwVersion)) == 3 && HIBYTE(LOWORD(dwVersion)) < 95 ) // 3.1, NT 3.51 requires more padding at top and bottom
+    //    m_iHeight -= 8;
 #endif // MAC
     SetItemHeight( 0, m_iHeight ); // set height of listbox items to same as edit control height
 }

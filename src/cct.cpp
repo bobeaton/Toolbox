@@ -94,7 +94,7 @@ BOOL ChangeTable::bMakeChanges(const char* pszInputPath,
 // into the pszInput buffer. It is required to fill the buffer except
 // [on the last call] when the input is exhausted.
 
-std::streamsize WINAPI _export s_iInputFromStream(char FAR * pszInputBuffer, int len,
+int WINAPI _export s_iInputFromStream(char FAR * pszInputBuffer, int len,
         long* plUserInputData)
 {
     ASSERT( pszInputBuffer );
@@ -105,7 +105,7 @@ std::streamsize WINAPI _export s_iInputFromStream(char FAR * pszInputBuffer, int
     (void) piosInput->read(pszInputBuffer, len);
     std::streamsize lenRead = piosInput->gcount();
 
-    return lenRead; 
+    return (int)lenRead; 
 }
 
 BOOL ChangeTable::bMakeChanges(std::istream& iosInput, std::ostream& iosOutput)
@@ -370,13 +370,13 @@ std::streamsize Change_istreambuf::lenReadFromSource(char* psz, int len)
 // The callback function will copy to the psz buffer len characters
 // from its input source unless there are fewer characters remaining.
 
-std::streamsize WINAPI _export s_iInputFromChange_istreambuf(char FAR * psz, int len,
+int WINAPI _export s_iInputFromChange_istreambuf(char FAR * psz, int len,
         long* plUserInputData)
 {
     ASSERT( plUserInputData );
     Change_istreambuf* pbuf = (Change_istreambuf*)*plUserInputData;
     ASSERT( pbuf );
-    return pbuf->lenReadFromSource(psz, len);  // Number of characters read
+    return (int)pbuf->lenReadFromSource(psz, len);  // Number of characters read
 }
 
 

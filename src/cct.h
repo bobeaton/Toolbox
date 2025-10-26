@@ -162,7 +162,7 @@ private:
 
 	// Connect the input stream source m_ios to the change table m_cct.
 	std::streamsize lenReadFromSource(char* psz, int len);
-	friend std::streamsize WINAPI s_iInputFromChange_istreambuf(char FAR * psz,
+	friend int WINAPI s_iInputFromChange_istreambuf(char FAR * psz,
 			int len, long* plUserInputData);
 };  // class Change_istreambuf
 

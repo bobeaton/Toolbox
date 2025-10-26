@@ -74,7 +74,6 @@ void CHeaderInfoList::LoadData(CPrintInfo* pInfo, const CShwView* pView)
 
     while (phdr)
         {
-		errno_t err;
         switch (phdr->m_eType)
             {
             case ePageNumber:
