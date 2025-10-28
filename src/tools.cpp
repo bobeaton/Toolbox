@@ -297,7 +297,7 @@ Str8 sGetDirPath(const char* pszFile)
     return Str8(dir);
 #else
     char drive[_MAX_DRIVE];
-	_splitpath_s(pszFile, drive, _MAX_DRIVE, dir, _MAX_DIR, NULL, _MAX_FNAME, NULL, _MAX_EXT);
+	_splitpath_s(pszFile, drive, _MAX_DRIVE, dir, _MAX_DIR, NULL, 0, NULL, 0);
 	std::string newPath = std::string(drive) + dir;
 	Str8 sNewFile = newPath.c_str();
 	return sNewFile;
@@ -313,7 +313,7 @@ Str8 sGetFileName(const char* pszFile, BOOL bIncludeExt)
 #else
 	char fname[_MAX_FNAME];
     char ext[_MAX_EXT];
-	_splitpath_s(pszFile, NULL, _MAX_DRIVE, NULL, _MAX_DIR, fname, _MAX_FNAME, bIncludeExt ? ext : NULL, _MAX_EXT);
+	_splitpath_s(pszFile, NULL, 0, NULL, 0, fname, _MAX_FNAME, bIncludeExt ? ext : NULL, bIncludeExt ? _MAX_EXT : 0);
 #endif
     Str8 sName(fname);
     if (bIncludeExt)
@@ -328,7 +328,7 @@ Str8 sGetFileExt(const char* pszFile)
     MacSplitPath( pszFile, NULL, NULL, ext );
 #else
     char ext[_MAX_EXT];
-	_splitpath_s(pszFile, NULL, _MAX_DRIVE, NULL, _MAX_DIR, NULL, _MAX_FNAME, ext, _MAX_EXT);
+	_splitpath_s(pszFile, NULL, 0, NULL, 0, NULL, 0, ext, _MAX_EXT);
 #endif
     Str8 sName(ext);
     if ( sName.GetLength() > 0 )
@@ -344,7 +344,7 @@ Str8 sGetDrive(const char* pszFile)
     return Str8(dir);
 #else
     char drive[_MAX_DRIVE];
-	_splitpath_s(pszFile, drive, _MAX_DRIVE, NULL, _MAX_DIR, NULL, _MAX_FNAME, NULL, _MAX_EXT);
+	_splitpath_s(pszFile, drive, _MAX_DRIVE, NULL, 0, NULL, 0, NULL, 0);
     return Str8(drive);
 #endif
 }
