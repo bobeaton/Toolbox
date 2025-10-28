@@ -9,9 +9,6 @@
 #include "spath_d.h"
 #include "project.h"
 #include <fstream>  // ifstream
-#if UseCct
-#include "cct.h"  // strstream_d255
-#endif
 #include "mdf.h"  // CExportProcessMDF
 #include "pgs.h"  // RtfPageSetup
 #include "obstream.h"  // Object_istream, Object_ostream
@@ -898,7 +895,7 @@ CDatabaseTypeSet::CDatabaseTypeSet(CLangEncSet* plngset,
     // concatenated together in pszProperties.
     m_bReadFromString = TRUE;   
     ASSERT( pszProperties );
-    std::istrstream ios((char*)pszProperties);
+    std::istringstream ios((char*)pszProperties);
     CNoteList notlst;
     Object_istream obs(ios, notlst);
     while ( !obs.bAtEnd() )

@@ -9,7 +9,7 @@
 #include "font.h"
 #include "obstream.h"  // Object_istream, Object_ostream
 #if UseCct
-#include "cct.h"  // ChangeTable
+#include "ChangeTable.h"  // class ChangeTable
 #endif
 #include "tools.h"  // sPath
 #include <fstream>  // ifstream
@@ -25,14 +25,12 @@
 #include "shwnotes.h"
 
 #include "lng_d.h"
-#if UseCct
-#include "cct.h"
-#endif
 #include "find_d.h"
 
 #include "dirlist.h"
 #include "typ.h"
 #include "malloc.h"
+#include "strstream_d255.h"
 
 // #define _Graphite // Temp for initial test
 #ifdef _Graphite
@@ -2292,7 +2290,7 @@ CLangEncSet::CLangEncSet(const char* pszSettingsVersion,
     // concatenated together in pszProperties.
     m_bReadFromString = TRUE;   
     ASSERT( pszProperties );
-    std::istrstream ios((char*)pszProperties);
+    std::istringstream ios((char*)pszProperties);
     CNoteList notlst;
     Object_istream obs(ios, notlst);
     while ( !obs.bAtEnd() )

@@ -7,9 +7,8 @@
 #include "mkr.h"  // CMarker, CMarkerSet, CMarkerSubSet
 #include "project.h" // For update path
 #include <fstream>
+#include "Change_ostream.h" // For change table stream classes
 
-class Object_ostream;  // obstream.h
-class Object_istream;  // obstream.h
 class CIndex;  // ind.h
 class CRecLookEl;
 class CDatabaseType;  // typ.h

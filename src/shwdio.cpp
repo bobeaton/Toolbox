@@ -15,7 +15,8 @@
 #include "resource.h"
 
 #if UseCct
-#include "cct.h"  // class Change_ostream
+#include "Change_ostream.h" // For change table stream classes
+#include "Change_istream.h"
 #endif
 #include "sfstream.h"  // class SF_istream, SF_ostream
 #include "progress.h"

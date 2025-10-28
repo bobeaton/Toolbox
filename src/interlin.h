@@ -8,9 +8,6 @@
 #include "project.h" // For update path
 #include "crecpos.h"
 #include "trie.h"    
-#if UseCct
-#include "cct.h"
-#endif
 #include <fstream>
 
 class Object_istream;  // obstream.h

@@ -25,6 +25,7 @@
 #include <errno.h>
 #include <cderr.h>  // FNERR_INVALIDFILENAME
 #include "alan.h" // 1.5.8h 
+#include "Change_ostream.h" // For change table stream classes
 
 extern BOOL bDebugKaren; // 1.4bk
 extern Str8 g_sVersion; // 1.5.9eh 

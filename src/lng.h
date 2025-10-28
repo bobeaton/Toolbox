@@ -23,13 +23,13 @@ typedef unsigned short LngSortCode;  // cod
 #include "update.h"  // CUpdate
 #include "cbo.h"  // CSetComboBox
 #include "lbo.h"  // CSetListBox
+#include "ChangeTable.h"  // class ChangeTable
 
 class Object_istream;  // obstream.h // 1.6.1cb 
 class Object_ostream;  // obstream.h // 1.6.1cb 
 
 class CMarkerUpdate;
 class CFilterUpdate;
-class ChangeTable;  // cct.h
 
 
 // **************************************************************************

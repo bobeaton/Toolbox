@@ -15,7 +15,7 @@ typedef unsigned short LngSortCode;  // cod
 #include "set.h"  // classes CSet and CSetEl
 #include "ref.h"
 #if UseCct
-#include "cct.h"  // class ChangeTable
+#include "ChangeTable.h"  // class ChangeTable
 #endif
 #include <fstream>
 

@@ -7,7 +7,8 @@
 #include "typ.h"  // CDatabaseType
 #include "obstream.h"  // Object_istream, Object_ostream
 #if UseCct
-#include "cct.h"  // Change_ostream
+#include "Change_ostream.h" // For change table stream classes
+#include "Change_istream.h" 
 #endif
 #include "sfstream.h"  // SF_istream, SF_ostream
 #include "rtf.h"  // RTF_ostream
@@ -25,6 +26,8 @@
 #ifdef HTML_LINK_SORT
 #include <ctype.h>  // __isascii, isprint
 #endif
+
+#include "strstream_d255.h"
 
 // #define abmdf2011  // 1.5.9b 
 

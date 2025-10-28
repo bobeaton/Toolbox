@@ -20,6 +20,7 @@
 #include "project.h"
 #include "progress.h"
 #include "stdiofil.h"
+#include <sstream>
 #include <strstream> 
 #include "alan.h" // 1.5.8h 
 
@@ -396,7 +397,7 @@ void CWordListDlg::DoWordList()
 				(m_bCount ? psz_WordLstWndCountFld : ""), (m_bRefs ? psz_WordLstWndRefFld : "") );
         ASSERT(strlen(pszBuffer) < strlen(psz_WordLstWndSettings) + strlen(sOutputPath) + 
 				strlen(psz_WordLstWndCountFld) + strlen(psz_WordLstWndRefFld)  );
-        std::istrstream iosIn(pszBuffer);
+        std::istringstream iosIn(pszBuffer);
         Object_istream obsIn(iosIn, notlst);
         CShwDoc::s_bReadProperties(obsIn);
         delete pszBuffer;
@@ -989,7 +990,7 @@ void CConcordanceDlg::DoConcordance(const Str8& sCurrentWord)
                     wsprintfA(pszBuffer, psz_LookupWndSettingsLeftToRightScript, // 1.4qwe Upgrade wsprintf for Unicode build
                              (LPCSTR) sOutputPath, z);
                     }
-                std::istrstream iosIn(pszBuffer);
+                std::istringstream iosIn(pszBuffer);
                 Object_istream obsIn(iosIn, notlst);
                 CShwDoc::s_bReadProperties(obsIn);
                 delete pszBuffer;

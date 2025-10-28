@@ -16,7 +16,7 @@
 #include "status.h"
 #include "project.h"
 #if UseCct
-#include "cct.h"  // class ChangeTable
+#include "ChangeTable.h"  // class ChangeTable
 #endif
 #include "doclist.h"
 #include "obstream.h"  // Object_istream, Object_ostream
