@@ -14,6 +14,7 @@
 #include <windowsx.h>
 #include <malloc.h>
 #include <afxpriv.h> // 1.5.0gd For USES_CONVERSION
+#include <atlconv.h>
 
 extern Str8 g_sVersion;
 

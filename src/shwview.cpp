@@ -34,6 +34,7 @@
 #include <fstream>
 
 #include <afxpriv.h> // For WM_COMMANDHELP
+#include <atlconv.h>
 
 #ifdef _DEBUG
 #undef THIS_FILE
@@ -4129,7 +4130,7 @@ void CShwView::OnWindowClose()
 }
 #endif
 
-LONG CShwView::OnMCNotify(WPARAM wParam, LPARAM lParam)
+LRESULT CShwView::OnMCNotify(WPARAM wParam, LPARAM lParam)
 {
     Str8 sErr;
 #ifndef _MAC

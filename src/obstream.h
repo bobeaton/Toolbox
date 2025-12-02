@@ -6,8 +6,8 @@
 #undef Object_ostream // 1.6.1cb 
 #undef Object_istream // 1.6.1cm 
 
-class istream;  // iostream.h
-class ostream;  // iostream.h
+//class istream;  // iostream.h
+//class ostream;  // iostream.h
 #ifdef OBSTREAM_NOTES  // 1.6.4aa Not defined
 class CNoteList;  // not.h
 #endif  // 1.6.4aa 

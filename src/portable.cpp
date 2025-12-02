@@ -5,6 +5,7 @@
 #else
 #include "stdafx.h"
 #include <afxpriv.h> // 1.5.0gd For USES_CONVERSION
+#include <atlconv.h>
 #endif
 
 #include "portable.h"

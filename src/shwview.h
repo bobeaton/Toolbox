@@ -876,7 +876,7 @@ protected:
     afx_msg void OnUpdateEditPlayFile(CCmdUI* pCmdUI);
     //}}AFX_MSG
     afx_msg void OnWindowClose();
-    afx_msg LONG OnMCNotify(WPARAM wParam, LPARAM lParam);
+    afx_msg LRESULT OnMCNotify(WPARAM wParam, LPARAM lParam);
     afx_msg LRESULT OnUnicodeChar(WPARAM wParam, LPARAM lParam); // AB Unicode support
 #ifdef TLB_MRP_2000_09_19_EDIT_SOUND
     afx_msg void OnEdit_Editsound();

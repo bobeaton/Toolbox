@@ -12,7 +12,7 @@ static char BASED_CODE THIS_FILE[] = __FILE__;
 #endif
 
 
-CDocument* CShwMultiDocTemplate::OpenDocumentFile(LPCTSTR pswzPathName, BOOL bMakeVisible)
+CDocument* CShwMultiDocTemplate::OpenDocumentFile(LPCTSTR pswzPathName, BOOL bAddToMRU, BOOL bMakeVisible)
 {
     CShwDoc* pDocument = (CShwDoc*)CreateNewDocument(); // 1.4qzd Upgrade pDocument for Unicode build
     if (pDocument == NULL)

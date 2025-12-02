@@ -11,6 +11,7 @@
 #include "kmn.h"  // ActivateKeyboard(), DeActivateKeyboards()
 #include "SHConv.h" // 1.4qzhm // 1.4zam 
 #include <afxpriv.h> // For WM_COMMANDHELP
+#include <atlconv.h>
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

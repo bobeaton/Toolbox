@@ -139,7 +139,7 @@ protected:
     afx_msg void OnEndSession(BOOL bEnding);
     //}}AFX_MSG
     afx_msg void OnMenuSelect(UINT nItemID, UINT nFlags, HMENU hSysMenu);
-    afx_msg LONG OnSetMessageString(UINT wParam, LONG lParam);
+    afx_msg LRESULT OnSetMessageString(WPARAM wParam, LPARAM lParam);
     afx_msg void OnOK();
     afx_msg void OnCancel();
     afx_msg void OnSetPreviewMode( BOOL bPreview, CPrintPreviewState* pModeStuff );
@@ -169,7 +169,6 @@ protected:
     afx_msg void OnNcLButtonDown(UINT nFlags, CPoint point);
     afx_msg void OnMDIActivate(BOOL bActivate, CWnd* pActivateWnd, CWnd* pDeactivateWnd);
     //}}AFX_MSG
-    afx_msg LONG OnSetMessageString(UINT wParam, LONG lParam);
+    afx_msg LRESULT OnSetMessageString(WPARAM wParam, LPARAM lParam);
     DECLARE_MESSAGE_MAP()
 };
-

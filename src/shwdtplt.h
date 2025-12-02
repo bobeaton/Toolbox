@@ -17,6 +17,6 @@ public:
 		CMultiDocTemplate(nIDResource, pDocClass, pFrameClass, pViewClass)
 		{ ; }
 	// Override to prevent it from automatically setting the title.
-	virtual CDocument* OpenDocumentFile(LPCTSTR pswzPathName, BOOL bMakeVisible ); // 1.4qzb Make first arg TSTR so Unicode will call this
+    virtual CDocument* OpenDocumentFile(LPCTSTR lpszPathName, BOOL bAddToMRU = TRUE, BOOL bMakeVisible = TRUE);
 
 };

@@ -857,8 +857,7 @@ void CShwViewFrame::OnNcLButtonDown(UINT nFlags, CPoint point)
     CMDIChildWnd::OnNcLButtonDown(nFlags, point);
 }
 
-
-afx_msg LONG CShwViewFrame::OnSetMessageString(UINT wParam, LONG lParam)
+afx_msg LRESULT CShwViewFrame::OnSetMessageString(WPARAM wParam, LPARAM lParam)
 {
     // strip any bubble help text from the resource ID strings
   
@@ -937,8 +936,7 @@ void CMainFrame::OnHelpSearch()
     papp->WinHelp((DWORD)pszEmpty, HELP_PARTIALKEY);
 }
 
-
-afx_msg LONG CMainFrame::OnSetMessageString(UINT wParam, LONG lParam)
+afx_msg LRESULT CMainFrame::OnSetMessageString(WPARAM wParam, LPARAM lParam)
 {
     // strip any bubble help text from the resource ID strings
   
