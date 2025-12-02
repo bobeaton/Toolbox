@@ -22,6 +22,7 @@
     </SccLocalPath>
     <Keyword>MFCProj</Keyword>
     <ProjectGuid>{DA4C386E-B0CF-D270-B199-588BEB284909}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'" Label="Configuration">
@@ -29,6 +30,7 @@
     <UseOfMfc>Dynamic</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MacWine Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -88,6 +90,8 @@
       <ObjectFileName>.\Release_U\</ObjectFileName>
       <ProgramDataBaseFileName>.\SHW32.PDB</ProgramDataBaseFileName>
       <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Midl>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -109,12 +113,16 @@
       <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <OutputFile>$(OutDir)Toolbox.exe</OutputFile>
-      <AdditionalDependencies>Cclib32.lib;winmm.lib;usp10.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>winmm.lib;usp10.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <StackReserveSize>10240</StackReserveSize>
       <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
       <SubSystem>Windows</SubSystem>
       <ModuleDefinitionFile>.\Shw32.def</ModuleDefinitionFile>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy $(SolutionDir)..\redist\32-bit\*.* $(TargetDir) /d /y</Command>
+      <Message>copy dependency DLLs, etc., to the build folder</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MacWine Release|Win32'">
     <ClCompile>
@@ -174,6 +182,8 @@
       <ObjectFileName>.\Debug_U\</ObjectFileName>
       <ProgramDataBaseFileName>.\SHW32.PDB</ProgramDataBaseFileName>
       <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Midl>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -204,6 +214,12 @@
       </IgnoreAllDefaultLibraries>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy $(SolutionDir)..\redist\32-bit\*.* $(TargetDir) /d /y</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>copy dependency DLLs, etc., to the build folder</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Alan.cpp" />
@@ -214,10 +230,12 @@
     <ClCompile Include="Cbo.cpp" />
     <ClCompile Include="cck.cpp" />
     <ClCompile Include="cck_d.cpp" />
-    <ClCompile Include="cct.cpp" />
     <ClCompile Include="Cdblel.cpp" />
     <ClCompile Include="Cdbllist.cpp" />
     <ClCompile Include="Cfield.cpp" />
+    <ClCompile Include="ChangeTable.cpp" />
+    <ClCompile Include="Change_istream.cpp" />
+    <ClCompile Include="Change_ostream.cpp" />
     <ClCompile Include="CorGuess.cpp" />
     <ClCompile Include="Corpus.cpp" />
     <ClCompile Include="Corpus_d.cpp" />
@@ -319,6 +337,7 @@
     <ClCompile Include="StdioFil.cpp" />
     <ClCompile Include="Str8.cpp" />
     <ClCompile Include="StringEx.CPP" />
+    <ClCompile Include="strstream_d255.cpp" />
     <ClCompile Include="Subfield.cpp" />
     <ClCompile Include="tom.cpp" />
     <ClCompile Include="Tools.cpp" />
@@ -379,10 +398,13 @@
     <ClInclude Include="Cbo.h" />
     <ClInclude Include="cck.h" />
     <ClInclude Include="cck_d.h" />
-    <ClInclude Include="Cct.h" />
+    <ClInclude Include="CCWrapper.h" />
     <ClInclude Include="Cdblel.h" />
     <ClInclude Include="Cdbllist.h" />
     <ClInclude Include="Cfield.h" />
+    <ClInclude Include="ChangeTable.h" />
+    <ClInclude Include="Change_istream.h" />
+    <ClInclude Include="Change_ostream.h" />
     <ClInclude Include="Charset.h" />
     <ClInclude Include="Corpus.h" />
     <ClInclude Include="Corpus_d.h" />
@@ -412,6 +434,8 @@
     <ClInclude Include="Find_d.h" />
     <ClInclude Include="Font.h" />
     <ClInclude Include="generic.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="strstream_d255.h" />
     <ClInclude Include="Hint.h" />
     <ClInclude Include="Hints.h" />
     <ClInclude Include="Hugestr.h" />
