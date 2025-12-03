@@ -1,0 +1,1072 @@
+{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl\f0\froman\fcharset77 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;}
+\vieww9680\viewh12560\viewkind0
+\deftab720
+\pard\tx455\tx851\tx1308\tx1696\tx2103\tx2552\tx3000\tx3423\tx3847\pardeftab720\li1151\fi-1151\ql\qnatural
+
+\f0\fs36 \cf0 vTake size and number of lines into account on scroll 0.0dk\
+vScroll wxVScrollWindow based on number of fields 0.0dk\
+vSet number of fields when vw changes record 0.0dk\
+vProblems with scroll\
+	vPaints a little bit of prev line at top 0.0dk\
+	vLeaves a little bit below line unpainted 0.0dk\
+	vIf too short for last line, doesn't paint anything 0.0dk\
+		Should paint the line anyway 0.0dk\
+Notes for Neil Mayhew on trying wxWidgets, what I did:\
+	Download wxMac-2.8.0.tar.gz\
+	Double click it, makes wxMac-2.8.0 folder\
+	Move that folder to my user folder\
+	Run Xcode, choose File, New Project, Carbon Application\
+	Make project name wxDesignerTest\
+	Copy wxDesignerTest files to project folder\
+	Choose Project, Add Files to add wxDesigner cpp files\
+	Won't compile, lots of errors in wxChar.h, etc.\
+	Can't find lib, won't build, error doesn't say what\
+xTrying wxPython\
+	(No success with wxWidgets for C++)\
+	Seems very strongly supported on Mac and Linux\
+	No success with that either\
+Notes on wxWidgets for C++ on Mac Mon 15 Jan 2007\
+	No success at all\
+	Installed all right\
+	Started project all right\
+	Won't compile, oodles of errors in wxWidgets\
+	No libs provided\
+	Libs won't build, error but won't say what\
+vCount lines and multiply by line height for field height  0.0dh\
+vAsk Fld number of lines 0.0dh\
+vAsk Rec number of Flds and Fld num 0.0dg\
+vMake pvw->SetRec to set locCur and number of flds 0.0df\
+vMake only one window in the frame\
+	vChange its name to LadWnd\
+	Assume it will have a switch in paint to choose view\
+	Any window could be browse or formatted or fields\
+	Looks simpler and more powerful\
+	Browse and flds wndws can be "attached" to move togethr\
+		This will allow me to get a similar effect, but better\
+	Maybe I am being pushed toward more like current Tbx\
+	That will be more comfortable for users in the long run\
+vConsider not panes, but associate frames to stay together\
+	Panes are rather odd, not common on user Windws progs\
+	Some common Mac apps have panes, calndar, music playr\
+	But wxWidgets panes may not look and act like that\
+	Safer to just use plain ordinary windows\
+	One scrolled window in frame seems to work well\
+	Multiple windows in frame could be a lot of hassle\
+	Sash window in frame seemed tricky to get right\
+		Sounds like it needs another scrolled window inside\
+		Extra layers begin to cause lots of hassle and problms\
+vGet rid of all the extra junk\
+vThree derived windows for three ways of displaying\
+	Each has its own paint and edit functions\
+	Each has its own event table\
+	Each can show its own scroll bar and do scrolling\
+vChange to multiple windows instead of lines\
+	I still worry about the sash windows as being odd\
+	Probably best to draw three windows\
+	Can resize them all whenever one is resized\
+	A bit like the MDI, but with fixed window types\
+vChange to three scrolled windows, no sashes 0.0dc\
+	vPut them in LadFrame, seems safer\
+xDraw my own scroll bars and manage them\
+xTry sashtest on Mac to see how it looks\
+vTry to place a scroll bar\
+	I can't use wxScrollBar, it draws a non-native one\
+	Its scroll bar would look really bad on the Mac\
+	Giving a window scroll style produces a native scroll bar\
+vChange top of field var to Loc 0.0db\
+	vMove it and locCur both on move from rec to another 0.0db\
+vView needs a variable for top field of view 0.0db\
+vEach marker have height of a line in its font 0.0da\
+	vCalculate them at load time\
+	>Recalculate if font or lang changed\
+		Can't change them yet, so no place to do this\
+	vUse it in view instead of measuring 0.0da\
+vShow prj name before file name in frame title 0.0cw\
+vEvaluate wxPython once more\
+	Versioning on the Mac seems a horrible hassle\
+	Maybe the freedom of an interpreter is worth considering\
+	It appears that wxPython does the same windowing as C++\
+	Mark says that wxPython code of a complex prog runs fast\
+	The interpreter may not slow things down much at all\
+	If I require Unicode, I have a lot more hope\
+	I would have overhead of learning Python\
+	So that would probably make the initial program later\
+	But the full thing might come out sooner anyway\
+	It really may be time to consider a language change\
+	vAsk Mark for an opinion\
+		Mark's response to yesterday's questions will tell me a lot\
+		xMaybe Dan Edwards also\
+	Wait for response from Mark before doing any more\
+	Maybe requiring 10.3 wouldn't be so bad\
+	Could try the build system on 10.2?\
+		But I don't know if it would have any hope with wxWidgets\
+xMake func cByte() to get current byte from Str\
+	vMake GetByte default to iCurPos 0.0cv\
+vMake func bEnd() to test if Str iCurPos is at end 0.0cv\
+vHandle empty lines in bGetNextLine 0.0.0ct\
+	Normal one leaves pos just before nl\
+	That way next one can return empty line\
+	Normal one moves past nl if at one\
+	First one leaves pos same, but doesn't move past first nl\
+vMulti-line fields do not display multiple lines 0.0.0ct\
+vTry Kannada project\
+vEmpty fields do not give height measure correctly 0.0.0cs\
+	vMeasure sample char to get height\
+vSize was interpreted wrong 0.0.0cs\
+	Third number is right side, not width\
+	Fourth number is bottom, not height\
+vShows DateStampHasFourDigitYear as mkr 0.0.0cr\
+vMove black lines to near the edges 0.0.0cp\
+vPick up window loc from prj 0.0.0cp\
+vMeasure width of marker 0.0.0cn\
+vTurn off save to view only 0.0.0cm\
+	I want to see Kannada project, etc, but don't want messed up\
+vAdd exercise no save to project, so I can turn off save 0.0.0cm\
+vMove marker down for big font 0.0.0ck\
+	Try using calculation on size of font as something to add\
+vShow with fonts 0.0.0ch\
+vMake db type set the lng of each mkr 0.0.0ch\
+	This requires the full lng list to be available\
+	Make separate loops to load lng and mkr properties\
+		Can include loading name\
+vRead typ and lng files 0.0.0cg\
+	vGet folder of prj file\
+	vUse wxDir to get file names of typ and lng\
+	vRead each file into a Str member of typ and lng\
+	vCollect name from file and store in typ and lng\
+vPick up a prj file and open a file from that 0.0.0cf\
+	vDo prj open by detecting it on File, Open\
+vPut pointer to Vw in LadFrame 0.0.0cd\
+	vSet it when Vw creates the LadFrame\
+	This will avoid the Find step\
+	The two are always in a pair\
+	It is kind of an owner pointer\
+vPaint the markers 0.0.0ca\
+	vUse blue box around them\
+	vChoose a font for marker\
+		>Measure a marker height in it to find height\
+	vSet max width of marker\
+	vAdd marker width and height to Db\
+	vWidth and height go in typ, not db\
+		But there is not typ\
+		vMake a typ for db\
+	vChange marker name to not include backslash\
+		vChange file write to include backslash on marker\
+	vTyp needs to have font so it can measure mkrs\
+vMove between records 0.0.0bz\
+	xAdd database menu?\
+		No, it goes no view menu\
+		Maybe no database menu, it is confusing\
+	vAdd view menu\
+	vAdd record move to view menu\
+vUse Loc instead of rps 0.0.0by\
+	Don't make very many member funcs of it\
+	vPut a current loc in each Vw, locCur\
+xTry to eliminate maximinze button on frame\
+	Didn't go away, only grayed it out\
+	Probably won't hurt, probably only maximizes current frame\
+vDraw pane dividing lines 0.0.0bw\
+	vI should be able to just make a pen and draw a line\
+	vFor this way, just have variables for line positions\
+	vUse those variables for starting the paint of text 0.0.0bw\
+vDraw data from first record 0.0.0bv\
+vUse Times Roman font 0.0.0bu\
+vMake function to do the paint 0.0.0bu\
+	vMember func of view\
+	vPut all the view funcs in view.cpp\
+		That would be nice, since they will get big\
+vDraw sample text into window 0.0.0bt \
+vTrying to see how to get multiple panes to show different views\
+	There are lots of complicated samples, but no easy start\
+	I can get a single window to fill the frame\
+		But two windows overlap partially and don't do anything\
+	Everything I look at sounds not quite suited\
+	The sash layout window relies on SDI or MDI\
+		That is why the sash example broke when I turned off MDI\
+xMake my own view window class so I can handle events\
+	I think this will be the key to everything\
+	But the frame is a window, so I might be able to paint in it\
+	If I draw my own separator lines, I don't need subwindows\
+	I did it, but it is unnecessary, I think\
+	I think I can paint everything directly into the frame window\
+vTest CrypSolv on 10.2 Mac\
+	No, it doesn't work\
+	If I need to change it to 10.3 I will have made one test anyway\
+	vTry for release build instead of debug build\
+		No, it doesn't get any smaller, could ask Neil to be sure\
+vShare files with Mac\
+	Lad is shared and Mac can see it\
+	I can copy from here to Mac and back\
+	I can also see the Mac from the Compaq, so all is well\
+	Probably easiest is to copy both ways from Compaq\
+		Usually will copy to Mac\
+		Aftr fix compile fail or bug on Mac will want to copy back\
+vAdd File, Close 0.0.0br\
+	vRun wxDesigner to add menu item\
+vBackup 0.0.0bp\
+vWork on getting frame and view handling going well 0.0.0bp\
+	vExit delete all views\
+		Calls OnQuit of frame\
+	vAllow for view with empty Db\
+	vPut first empty frame into view list\
+	vWhen view is deleted, save and delete its Db\
+	vWhen view is deleted, Destroy its window\
+	vClose view needs to be done by project to remove from list\
+	vTest frame behaviours, open several, open same\
+vEliminate ToolBar 0.0.0bn\
+vEliminate redundant Db refs in prj list and views\
+		xI might be able to get by with no DbLst in prj\
+			xVw could construct one on the fly whenever it is wanted\
+			xBut destructing a DbLst would delete the Db's\
+		xWhen Vw deletes Db, must delete it from prj DbLst\
+			okBut only do this if no other Vw references it\
+		xAnother way is to give VwLst pdbFirst and pdbNext, etc.\
+			xThese could avoid returning the same one twice\
+		vOr maybe I can prevent mult view of same db\
+			If that is not possible, would users suffer?\
+			If open view includes browse, they might not\
+				Quick sort change in browse avoids many mult windows\
+			Having only one would be less confusing\
+			Maybe for a start that would be OK\
+			As implemented now, user can't make a second view\
+vChange to make Prj derive from VwLst, not DbLst 0.0.0bk\
+vOpen file detect that a Db of the file already exists 0.0.0bh\
+	vIf so, just activate an existing view of it\
+		Can't allow accidental open of same file twice\
+vAdd derived pdbFind to DbLst 0.0.0bg\
+	vFor DbLst make a variant that adds it\
+vIf new view finds an empty view previously, delete it 0.0.0bg\
+vMake smooth way to get wxString sw from Str s\
+	vMaybe just Str::sw()\
+vOn file open, make a new doc with a new view and frame 0.0.0bf\
+vPut views in their own list in prj\
+	Each view refers to its own Db\
+vMake sure exit deletes all frames\
+	This may be easier if a single list of views\
+vFor testing, default to a file\
+vImplement File, Save 0.0.0be\
+	vOpen and save a copy name, use file compare to verify\
+vMove file open code into separate func so it can be called 0.0.0bd\
+	OnFileOpen collect file name, call bFileOpen to read it\
+	This will also allow project to open files\
+Notes on how to add a new menu item\
+	Here is an impression from looking at file open\
+		1. I add menu item in wxDesigner and give it id wxID_OPEN\
+			Add Menu Item to add it\
+			Fill in ID name, may be wx standard or my own name\
+			Fill in Label, & makes shortcut key\
+			wxDesigner puts a line with wxID_OPEN into its cpp file\
+		2. I put a line in the EVT_MENU table in my Lad.cpp\
+			It makes wxID_OPEN event call OnFileOpen\
+		3. I make LadFrame::OnFileOpen in Lad.cpp and LadApp.h\
+		4. I implement the behaviour in OnFileOpen\
+	Search for OnFileOpen shows all the places I need to change\
+vEvaluate Python, wxPython\
+	Looks like wxPython and ActiveState are best\
+	Also, Komodo is only $30 for non-commercial\
+		Says it runs same on Mac as on Windows\
+	At lunch I had a good evaluation time with K\
+		Concerns:\
+			It cannot be put on a thumb drive\
+			It may not scale up enough to handle a really big source\
+			It may not be a long-lived language\
+			It will take me quite awhile to learn it well\
+			It would take about the same amount of code as C++\
+			C++ code would be a lot easier to bring across\
+		New source seems well worth doing\
+			They would surely force a variant of Tbx into open source\
+			Using old code would move slower than starting new\
+				It has lots of cross dependencies\
+vLook up Glade interface developer information\
+	Only claims to be for C and C++ code\
+	Sits on top of GTK+, which is the Gnome interface builder\
+	Need to ask Mark more about how it was used with Python\
+		I see it says using libglade it can be used with Python, etc.\
+	Ask Mark for names of workshop leaders, if he doesn't mention\
+		Ask Mark for possible info on CTC CD or elsewhere\
+	I see it comes as sources and needs compiling\
+		It is about 1M or so, so not big, but needs to be built\
+	Not at all clear if it can work on Mac\
+		That is the real killer of a lot of these things\
+		They are really Linux tools and not much into Mac at all\
+		Whereas Mac is heavily going for Python\
+			And wxPython is available for Mac\
+vAdd comments to clarify meanings of base classes\
+	Each based on a list uses list as a substitute for a member var\
+	Each based on a list element is a thing that can be named\
+vSave file path of Db in Db sName 0.0.0aw\
+vAdd File, Save to menu 0.0.0aw\
+vSave file top, everything up to first record mkr 0.0.0av\
+	vInclude the header line, exactly as is\
+	vPut it in a var in db\
+vDivide db into records 0.0.0au\
+	vTreat first marker as record marker\
+vMake Str::bFirstWord to force start at beginning 0.0.0au\
+xDelete db list in Prj destructor\
+	xDelete records in Db destructor\
+	xDelete fields in Rec destructor\
+	No need, the list destructor does all these, no memory leaks\
+vLsn pelFind can't do add if new 0.0.0at\
+	Doesn't know the type to create, so doesn't initialize\
+	vSeparate Find from add new\
+vMove Typ into db.h, remove typ.h, typ.cpp\
+vMake db type 0.0.0as\
+vLsn list include a Find function with option to add if new 0.0.0ar\
+vRemove sTyp from Typ\
+	It is now provided by sName in the LsnEl\
+okMake marker list in database type\
+	Already there, not a pointer, so doesn't need to be constructed\
+vRead file into database structure 0.0.0ap\
+	vComplete structures to put it in\
+vClear iCurPos on every operation that modifies string 0.0.0an\
+	Clear if string is set to something new or modified\
+	xSet to modified position if string is modified\
+		Eg Delete or Insert\
+		Probably those should just clear it to beginning\
+			I have external iPos to show where modify happened\
+vMove this comments file into Lad so it will be backed up\
+vMake bNextChar and bGetChar using iCurPos 0.0.0an\
+vMake bNextWord use iCurPos 0.0.0an\
+	Much cleaner and simpler code than external pos\
+vAdd iCurPos to Str as current position 0.0.0an\
+vRead one field at a time 0.0.0am\
+	If line does not start with \\ append to field\
+	If line starts with \\ start new field\
+vMake a way to read a line at a time 0.0ak\
+	Could this be a member of Str?\
+		I think it would be all right as that\
+	vMake bReadLine member func of Str\
+vTest putting UTF8 in string to translate\
+	Yes, if loaded into Str, it works fine\
+	vDifferent macro, _U() to tag translatable string\
+		It does nothing\
+		But _() already does the wrong thing, so can't be used\
+vMake simple Message function\
+vChange names of classes\
+	Class names can start with upper case\
+		Variable always starts with lower case Hungarian\
+		So upper case first letter is a good distinction for class name\
+xUse Strw as wide derived from wxStr\
+	Probably no need, since it is easy to convert both ways\
+vAdd convert from wxString to Str and vice versa 0.0.0ag\
+	vCan make Str constructor as one way to do it\
+	xCan make Str = wxString do it automatically\
+		Constructor gets used instead of this\
+	xCan make cast to turn into wxString\
+		Can't return a wxString made internally\
+	vUse wxString constructor with UTF8 conversion\
+		wxString sw( s, wxConvUTF8 );\
+vMake a list in which each element contains a name 0.0.0af\
+	Special name Lsn and LsnEl for named list elements\
+	There are four such\
+		vMkrLst\
+		vDbLst, if path is put into the name\
+		vTypLst, member of Prj\
+		LngLst (not implemented yet, member of Prj)\
+vMake project Prj 0.0.0af\
+	It is a list of databases, derived from DbLst\
+	DbLst is derived from Lsn so Prj has a name, which is file path\
+	Only one in the whole program\
+	It is global Prj prj\
+vMake version file 0.0ae\
+vInclude Lad.h in everything\
+	This makes it easy, and helps precompile go faster\
+	Put comment note in those that could be generic.h\
+		This allows for possible separate use later if desired\
+	But Lad.h includes some defines that are needed by others\
+	Maybe rename it to LadApp.h\
+		It is too generic as just Lad.h\
+	Make a new generic Lad.h that is only includes\
+		It can include LadApp.h before things that use it\
+vUse Str as Str8 string\
+	Put in str.cpp and str.h\
+xMove viewlist and view out of db\
+	They really are related to LadFrame, not to the db\
+	I put them in there because doc includes a view list\
+	It can do that just from the include of Lad.h\
+	But no, they are more tightly associated with db than frame\
+Make source new to avoid having it come under Toolbox rulings\
+	vPut (c) 2006 at top of every file\
+	Use all different class names\
+vChange name to Language Analysis and Documentation program\
+	Use Lad as short name\
+	xChange short name to Ladbox, and use Lad internally\
+	This is easier to type than Tbx, and is a nice thing\
+	xOr maybe it would be better as LADbox\
+		No, I don't like that, especially the way the L and A separate\
+	It doesn't matter what I call it internally, external can be different\
+	But it is good if the source never uses the word toolbox at all\
+	It turns out that Language Documentation is a good name\
+		It is the standard name for the new discipline\
+		Its goal is to document language use in non-technical terms\
+		Should be understandable to educated non-linguists\
+	Toolbox is already positioned as an important tool for this\
+		So making the new version focus even more on it is good\
+	Many SIL related people may find ways of publishing in this way\
+vConsider using pure Unicode in Lad\
+	Steve already proposed that once, even for upgrade of old\
+	Even more so it is suitable for fresh coding\
+	Natural transition from legacy to Unicode \
+		Shoebox is no Unicode\
+		Toolbox is transition tool that can handle both\
+		Lad is pure Unicode\
+	Can be made to load any file that doesn't actually use legacy\
+		Legacy lng can be checked for actually including legacy chars\
+		If typ includes legacy lng, can check for actual chars in the file\
+		If actual chars in the file, can offer to try to convert to Unicode\
+			Use code page as default\
+			If they need CC or other convert, should do it before load\
+	I think it is probably the right choice\
+	Unicode is the future, legacy is defnitely going away\
+	No Language Documentation project should ever use legacy\
+		That is a good strong reason to push the issue with this prog\
+vChange name once more, to just Lad\
+	Can mean LAD, Language Analysis and Documentation program\
+	Can also mean lad, person who takes care of racehorses\
+		Keeps them in good shape so they go quickly and smoothly\
+		Lad program can help your project go quickly and smoothly\
+	vMake new project again for the new name\
+vSet up version file like in Tbx\
+	vAfter macro change, put version back to two digits\
+		vAlso change to two letters for internal\
+vBackup 0.0a\
+vMake ToolboxMac version macro Ctrl+Shift+M\
+vBuild once more with new name Ladbox\
+	vMake folder\
+	vMake new source with wxDesigner\
+	vMake new project using steps above\
+vBuild fresh again, using different name for App versus Frame\
+	I accidentally gave them same name, so it wouldn't compile\
+	I might prefer LadboxApp instead of just LadApp?\
+		No, I think LadApp and LadFrame will be just fine\
+	vGenerate new Ladbox app, in Ladbox folder\
+		vMake desktop shortcut to wxDesigner file in Ladbox\
+vDesign how to handle frames & db's\
+	I had put db as member func of frame, but other way is betr\
+	Make a list of db's\
+	Each db has a list of frames\
+	That gives a doc/view effect\
+		Every frame of a db can update when db changes\
+Steps to add a new menu item\
+	Add in wxDesigner with ID\
+	Add ID and func to EVT_MENU table\
+	Add func to tbxmain.cpp\
+	Add func to tbsmain.h\
+_Try making my own document/view windows\
+	I think it can be done reasonably well\
+	Don't use the docviewmdi sample as a start\
+		Bill Martin regretted trying to use it for Adapt It\
+		He said it would have been better to write their own\
+	Their doc/view has lots of complications I don't need\
+		I don't use the different types of views, only one\
+		I had trouble with drawing overlapping windows\
+		I couldn't get at the Windows menu topic to change it\
+vMake Str8 way to read a file\
+	There is one, but maybe can't read non-English file name\
+	Yes, I think it can\
+	_Test non-English file name\
+vStart new source\
+	vToolboxMac is new name\
+	vSet up new ToolboxMac project on Win\
+	_Set up new ToolboxMac project on Mac\
+Steps to set up new project on Windows\
+	Make folder for proj\
+	Put source files in proj foldr\
+		Maybe make them with wxDesigner\
+	Open an existing project\
+	Choose File, New, Projects, Win32 app\
+	Enter proj name and choose proj foldr\
+	Click OK (Create new wrkspc), Click Finish (Empty proj), OK\
+	Add files to proj: Project, Add to Project, Files\
+	Add include path: Project, Settings, All Configurations, C/C++,\
+		Preprocessor, Additional include dirs, c:\\wx263\\include\
+	Add libraries for link (these can replace default set)\
+		wxmsw26u_adv wxmsw26u_core.lib wxbase26u.lib wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregexu.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib oleacc.lib odbc32.lib\
+		wxmsw26ud_adv.lib wxmsw26ud_core.lib wxbase26ud.lib wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexud.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib oleacc.lib odbc32.lib\
+		(All libraries have d added for debug version)\
+		(Some libraries have u added for Unicode version)\
+	Ignore libraries libcd.lib in debug and libc.lib in release\
+	xLibraries put in by new project: (same for debug & release)\
+		kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib \
+		kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib \
+	Add additional libr path Link, Input c:\\wx263\\lib\\vc_lib\
+	Add define of _UNICODE in C++ page, both debug & releas\
+	Build and run to verify that it works\
+	Make desktop shortcut to dsw file\
+xPort, new useful approaches\
+	Temporarily disable include of stdafx.h from each source file\
+		Compile and take care of all the MFC specific things in it\
+		Most can be substituted with my own forms of them\
+			For example, my own message box and assert\
+		Try to isolate things that require MFC in just a few files\
+	Rewrite or revise some things in the main source\
+		For example, language encoding can be reworked there\
+		New way to read and write settings files can be done there\
+xTry Unicode build of CrypTool\
+	Lots of problems, not worth doing right now\
+	Probably has places that don't compile\
+	Can be done by just adding a couple of new Configurations\
+	This must be doable for ToolboxMac\
+vMake files portable\
+	Work toward making CRecord portable\
+	It is derived from various underlying\
+	Use generic.h for general classes, toolbox.h for Tbx classes\
+	Generic can compile with no library\
+		But if run that way, asserts don't do anything\
+	Maybe almost everything can compile with no library\
+		Try each one to see\
+	Generic has no other includes, Toolbox has lots of them\
+	Everything can assume a library, either MFC or wxWidgets\
+		Except that for testing the compile, generic.h can allow neither\
+			If neither, define ASSERT as the release assert, or nothing\
+		How test for MFC?\
+			I can't find a define intended for that\
+			But there are lots of general ones that can be used\
+			#ifdef AFX_DATA should do it fine, it is always defined\
+vDecide what to name wxDesigner generated main\
+	vChoose tbxmain.cpp? and tbxmain_wdr.cpp and tbxmain.wdr\
+vMake generic.h\
+vTry various starting builds with wxDesigner\
+	See what the various parts look like\
+vChange new project steps to use updated version 2.6.3\
+	It is supposed to be better on Mac\
+xSet up new Mac project as Toolbox2\
+	Start with same files and settings as CrypTool\
+	Keep notes of the steps to set it up\
+	Then change to new version of WxWidgets\
+		Install it\
+		Change names of paths for include and link\
+xChange name of CrypDoc and CrypView to Toolbox2\
+	Or maybe keep Cryp and make new Tbx?\
+vStart a new project in Alan\\Toolbox2\
+	Follow instructions above\
+	vInstall and use new wxWidgets 2.6.3 version\
+	Win: Successfully done\
+	Mac: Not started yet\
+	vBackup, to Toolbox2 on K backup\
+	>Set up version\
+	vSet up shortcut to Toolbox2 on K backup\
+vTry adding one wx message box in Tbx source to see if it works\
+	No, it doesn't work\
+	Problem is that tools.cpp is a mix\
+		Some pure tools\
+		Some highly MFC or Windows dependent tools\
+		I see that many of them were originally Mac portability\
+	Major problems with link\
+		Seemed to compile, but once it was active link went crazy\
+		Lots of conflicts, which I couldn't remove the lib\
+		A couple of undefined symbols related to the box\
+	So I think this is not a workable way after all\
+vCheck out GTK+ once more\
+	wxWidgets is so solidly based on UTF16, it is a hassle\
+	GTK+ has problems:\
+		Draws its own windows\
+		Uses run-time dll's\
+		Requires oodles of other packages installed to build\
+vGet rid of stdafx.cpp, move last bits to tools.cpp\
+	vRemove it from project\
+	vDelete file\
+vMake toolbox.h for everything Toolbox specific from stdafx.h\
+	vMove all toolbox specific to toolbox.h\
+		This makes stdafx.h only MFC, similar to wxprec.h\
+vAnother full backup 1.5.0gg\
+vUse CC to add #include "toolbox.h" after every "stdafx.h"\
+	vMake full backup (as 1.5.0gf, although no exe of that version)\
+	vAlso, same CC to change all wxStr8 to Str8\
+	vRun CC from ToolboxStr8 to Toolbox\
+	vMove *.cpp, *.h to ToolboxStr8\
+vMake portable.cpp and h for portability functions\
+vDefine a symbol wxTbx for wx build\
+vAdd all libraries used in CrypTool to wx build config\
+	It links without any complaints\
+vMake a wx build config in settings\
+vMake a new folder for Toolbox2\
+vDecide on name for new Toolbox\
+	xTbx.exe? Tbx2.exe? LingBox.exe? Lingbox.exe?\
+	It will still be Toolbox to all users\
+	It will be version 2\
+	But will first alpha be 2.0.0? Maybe yes\
+		First release could be 2.1.0\
+		That way all the alphas and betas can use 2.0.x\
+	Maybe just Toolbox2.exe\
+		The 2 can stay for a long time, but eventually be dropped\
+		If it fully replaces the old Toolbox, it can become Toolbox\
+		The old one can stay in the 1.x.x series all its life\
+		With three digits I can release for many years in that series\
+	Probably Toolbox2 is a good and effective designation\
+vConsider how far to go in CrypTool\
+	Could change to new Toolbox any time\
+		Keep CrypTool functionality for testing\
+		Trigger it by some code in the file, maybe\
+	I will eventually have to change that functionality anyway\
+	Question is when to change it \
+		Could be when I move to Tbx\
+		Or could move first and change it later\
+	I keep being inclined to bring in things from Tbx\
+	For example, version file, project, assert, etc.\
+	Those are all part of port, and are really for Tbx\
+	It feels like the more I do of that, the more I will have to move\
+	Moving seems like a hassle, and is a hassle\
+	Starting the real Tbx project now might be encouraging\
+	Probably no more work, maybe less than moving it later\
+vBring Str8 into CrypTool project\
+	vNeeds defs of strcmp, BOOL, etc.\
+		Including all.h fixed that\
+	vDefine AfxMessageBox to wxMessageBox\
+	vDefine pszBigBuffer and BIGBUFMAX in str8.cpp\
+vStart a separate Mac comments file? commentsmac.rtf\
+	Would let me use the bottom of file system there too\
+	Would make progress record at top show only Mac, not mix\
+	Probably good and worth doing\
+QuizTool thoughts on doing inside current Tbx:\
+	If I want to use QuizTool soon, inside Tbx would be quicker\
+	That also answers doubts about relevance of quiz code to port\
+	Once it exists in Tbx, it will port to Mac with all the rest\
+	Start w simple list of ansrs, type number as response\
+	Can begin with collection and browse cover technique\
+	Will Tbx play sound from browse view?\
+		vTest for this, it might\
+		No, it doesn't seem to\
+\
+vStart new project on Mac Xcode 1.1\
+		File, New Project\
+		Choose Empty Project\
+		Click Next\
+		Enter Project name and choose a parent folder\
+			It makes a new folder of project name under parent\
+		Click Finish\
+vPut files in folder of new project\
+		Both: Put files in top CrypTool folder\
+		vSource files *.h, *.cpp\
+vMake a way to open the project\
+		vMac: Make alias to CrypTool.xcode file, drag it to desktop\
+vAdd files to the new project\
+		Mac: Make Target first, before add project files target\
+			vProject, New Target, Carbon Application\
+		Mac: Project, Add Files, select file, Add, Add\
+vTry compile\
+		Both complain about can't find wx/wxprec.h\
+	vAdd the wx include files (or at least path)\
+		Mac: Select Target, CrypTool\
+				Project, Get Info, Build, Common Settings,\
+				Header Search Paths,\
+				/Users/macuser/wx253/include\
+			In docvwmdi, path is in Target, Info, Build\
+			In original CrypTool, Target, Info has no Build\
+			vApparently needs to start target as Carbon app or etc.\
+			xRecommends start project as Carbon app\
+				This makes target automatically\
+			I can try removing Carbon stuff later to see if needed\
+			vFirst, try making Carbon app target\
+vMac build setup\
+	Add library files to project\
+		Folder wx253\\build-release\\lib\
+		libwx_base_carbon-2.5, libwx_mac_core-2.5.a\
+	At that point it complains about __WIN32__ not defined\
+		It needs some Mac symbol defined\
+		vSee what is defined in docview\
+			Other C Flags: -D__WXMAC__ probably fixes it\
+			Others were included as well, from docvwmdi\
+				They may be useful\
+	At that point it complains about missing framework\
+		It needs more frameworks included\
+		_See what is included in docview\
+			I pasted in the whole set from there\
+	At that point it complains about undefined symbol\
+		Turning off optimization didn't help\
+		Adding all the header search paths didn't help\
+		Turning on Unstripped Product didn't help\
+		Changing Prefix Header to all.h didn't help\
+		Everything else in settings lookd identical\
+		Copying files again from CrypTool didn't help\
+vLink\
+		Mac wx/defs.h complains that WIN32 is not defined\
+			Probably needs some kind of MAC defined\
+			Target, Info, Build, Customized Settings,\
+				Other C Flags, -D__WXMAC__\
+		Mac complains about no case insensitive compare defined\
+			vFix by uncommenting default implementation\
+		Both complain cannot open include file mondrian.xpm\
+		vComment out, looks optional, sets icon of prog\
+		Mac makes it to link, needs wx lib\
+		Win makes it to link, needs wx lib\
+		Win: docvmdi app links all these libraries\
+			wxmsw25_core.lib wxbase25.lib wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregex.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib oleacc.lib odbc32.lib\
+		Docvmdi build has additional libr path c:\\wx253\\lib\\vc_lib \
+		Errors: wxAssert, multiple lib defs\
+		But Ignore default libs gives thousands of errors\
+		Needs to ignore libcd.lib in debug and libc.lib in release\
+		With those ignored, it builds and runs\
+		Mac now runs also\
+			It took some of copying of framework, etc. to get going\
+			But once it had all the same things, it works\
+			Libraries for wx are added by adding file to project\
+			Frameworks appear to add standard libraries to build\
+			Optimization on gave run-time error in wxstring.h\
+			No optimization makes it run all right\
+			I was confused for awhile because it didn't appear to run\
+			It didn't find Cryp.txt, so just ran the top menu\
+			I didn't realize to look there, so didn't see that it had run\
+	Try adding libraries slowly\
+	vAdd libraries for link\
+		kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib oleacc.lib odbc32.lib wxmsw25d_core.lib wxbase25d.lib wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexd.lib wxexpatd.lib \
+vBuild on Xcode on Mac\
+	Bill Martin sent a ref to wxWiki article which gave details\
+	Command line build of library worked, Xcode didn't\
+	Parameters come from wx-config --cppflags\
+		-D parameters to to Other C Flags\
+		-I parameters go to Header Search Path\
+	Other Linker Flags\
+		-framework IOKit -framework Carbon \
+			-framework System -liconv\
+	Linker flags come from wx-config --libs\
+		More than above, others may be needed\
+	Libary /build-release/lib/libwx_mac-2.8.a\
+	Code Generation\
+		Generate Debug Symbols\
+		Optimization Level = None\
+\
+vStart completely new project on Windows VC++6\
+		File, New, Projects\
+		Choose Win32 application\
+		Enter project name and choose a parent folder\
+			It makes a new folder of project name under parent\
+			Defaults to Create new workspace\
+		Click OK\
+		Choose Empty project (default)\
+		Click Finish\
+		Click OK\
+vStart one that can be real if it succeeds\
+		vCall it CrypTool\
+			Maybe somebody could use it to decipher an encoding\
+			An encoding is a one-to-one mapping of codes\
+			That is the same as a cryptogram\
+			The objective is to make the target look right\
+			It automatically does encoding convert at each change\
+vMake Alan\\Coding folder on both\
+vChoose a folder path and project name to use on both\
+		vBoth have an Alan folder, could be there\
+		I was using TestProjects, but these are not tests now\
+			I want to start a couple of real projects with real names\
+			I want to back up partial steps, but not change name\
+				Better to make a copy and change its name\
+				Copy can automatically make Copy (2) of xxx, etc.\
+				Copy might work as a way to make hisorical backups\
+		Do I want these under Alan, or another layer down\
+			Seems like another layer might be best\
+			What is it called?\
+				It contains projects, development projects\
+				What do I call this work generically?\
+					Coding? or Development? or Software development?\
+					vCoding may be my normal name for it\
+vStart new project on Mac also\
+		I couldn't get it to rename the output file before\
+			Hopefully new project will let me name the output file\
+-----------------------------------------------------------------\
+vDecide which app to start with\
+	Begin with clean port of CrypTool\
+	Change wxWidgets data classes to Tbx classes\
+	Advantage of this is that I can play with a running app\
+	Disadvantage is that it doesn't feel like direct progress\
+	But direct progress might be slower\
+		It might mean playing with non-running build a long time\
+		That would be discouraging\
+	If I know most of what I build will be used in Tbx, it is fine\
+	Also, I have to learn by success\
+	Building a running app is important for me\
+	QuizTool could be good progress\
+	I think it is the best start\
+		I can use it to study from Karen's Nepali tapes\
+		It can be set up to use lng and db typ\
+		It will be natural for it to read real Tbx settings and files\
+		A Tbx way to manage a collection file will make that nice\
+		QuizTool can add extra fields to the collection file\
+		Those fields will stay OK if the collection file is updated\
+	WordFindTool is another possible port test program\
+		Can start with just a list of words\
+		Then can move to database, from one field\
+vName for ported Toolbox\
+	ToolboxMac is latest thinking\
+	xToolbag is latest thinking\
+		Similar, but different\
+	xCould just call it Mac Toolbox and start with low versions\
+		This would work for a long time\
+		This saves a lot of hassle and questions\
+		Someday if it overtakes the Windows version, can change\
+			Maybe just leapfrog Windows version number then\
+	xCould consider MacToolbox\
+		Might be usable for a long time\
+		vDo a web search for that, it might be used (MacDonald's)\
+		Or even McToolbox\
+			No, I don't think I like that\
+vGoogle name search\
+	MacToolbox is the Mac official widgets set\
+		Also called Mac Toolbox and Macintosh Toolbox\
+	McToolbox is also used a number of times\
+	Lingbox is used a lot\
+		Is the name of a (German?) software program \
+			Speech recognition and synthesis\
+		There is a website www.lingbox.com, not linguistics\
+		Something Slingbox\
+		Something about downloading\
+		Name of some home theater product, says better than Tivo\
+	Linguibox does not occur\
+		Could keep full name in parentheses\
+			Linguibox (Field Linguist's Toolbox)\
+				Keeps full name same, just supplies differnt abbrev\
+		Upper/lower case?\
+			LinguiBox (Field Linguist's Toolbox)\
+				I think looks better, makes it parse into two words\
+		Name dstinction?\
+			LinguiBox (Linguist's Portable Toolbox)\
+		Version?\
+			Hard to know, would be nice to let Toolbox go on up\
+			Maybe Toolbox can go up to 1.10, 1.1, etc. if needed\
+			So, maybe can start at 2.0? \
+				But that is tough before first release\
+					Maybe use 0.1, etc. for test verns, 2.0 for release\
+						This says 0.1 is less than Toolbox 1.6, 2.0 is more\
+		Maybe split name more?\
+			LinguiBox (Field Linguist's Box of Tools)\
+				I don't care for this\
+		Maybe just put number on end\
+			Toolbox2\
+				But that is hard to give version numbers\
+		Maybe some other ending?\
+			Toolbox\
+		File type possibilities\
+			LBX is not a registered file type in my Windows Explorer\
+				Some app may use it, but it may be quite safe\
+			TBX is also available, may be as good or better\
+----------------- Mac version notes\
+I tried to use Karen's Mac for reading ebooks as being lighter.\
+But 10.2 doesn't have near as nice of a pfm reader.\
+	It doesn't do the fonts nearly as nice.\
+	Space doesn't move down.\
+	I tried reading with text edit, but it isn't as nice.\
+	Fonts not as nice. Space doesn't move down.\
+The older machine doesn't have nearly as nice a keboard.\
+	It is a lot stiffer, so not very good for carpal tunnel problems.\
+Battery is still good, holds for almost two hours.\
+-------------------\
+vCryp Big Mac now has development tools Xcode 1.1\
+vCryp Big Mac now has wxWidgets and samples working\
+vCryp Big Mac now has Xcode working with docview\
+	vNeeds to change Xcode to docvwmdi\
+		Mdi looks right on both Windows and Mac\
+vCryp Mac experiments:\
+vCryp Changing product name did not work.\
+	The program seemed to run, but didn't really.\
+	Apparently that must come from the initial setup.\
+	Making a copy of whole folder may have worked.\
+vCryp Set up a new project named docvwmdi.\
+	vSave the exact strings to set up a new project.\
+Cryp Letter frequencies: etaoin shrdlu cmfgyp wbvkxj qz\
+vCryp Status is that I have a buildable CrypSolve setup\
+	vRemove extra configurations and projects\
+vCryp Set up a new project named CrypSolve.\
+	On Mac, change of name causes undefined syms.\
+		Folder name change still has problem.\
+		Project name change still has problem.\
+		Even the standard setup still has problem.\
+		Copies of working proj don't have problem.\
+		Copy to different folder name is OK.\
+	On Mac, let it make docvwmdi, rename to real name.\
+vCryp Try transfer modified files from Win to Mac 0.1d\
+	TestProjects\\CrypSolve to Mac TestProjects\\CrypSolve\
+vCryp Mac shows view name on window header instead of file name\
+	Explicit SetTitle seems to do it well\
+	vAlso needs to get just the file name from full path 01g\
+vCryp Open a new window automatically\
+	I can't figure out how to call this, it is in the framework.\
+vCryp Add a new doc and view for crypt 0.1e\
+xCryp Try without the CLASSINFO, it is necessary\
+vCryp Put shortcuts on menu when view open 0.1f\
+	That makes them work on Mac also\
+K computer wireless IP Address 169.254.104.128\
+vCryp Read and write crypt file 0.1h\
+	First line is crypt, second line answer.\
+vCryp Paint and refresh whole line of crypt as test of view 0.1j\
+vCryp Mac positioned window under menu 0.1k\
+vCryp Add alphabet as first line of crypt arran 0.1m\
+vCryp Set up answer at the beginning\
+	vMake crypt all upper case 0.1n\
+	vMake freq count 0.1n\
+		vFor each letter in all crypt lines\
+			Add 1 to hash of the letter\
+	vMake frequency line 0.1n\
+		While hash contains letters\
+			For each letter in hash\
+				Remember highest count\
+			Append highest count letter to freq line\
+			Remove highest count letter from hash\
+	vPut freq line as second line 0.1p\
+	vChange make freq line to separate function 0.1p\
+	vDisplay all crypt lines for test purposes 0.1r\
+	vGet rid of New and Save menu items 0.1r\
+	vDon't write alphabet line to file, only answr line needed 0.1r\
+	vSet up blank answer, for each letter in all crypt lines 0.1s\
+		If upper case letter, store underscore in answer\
+		Else store same char in answer (includs spc & punc)\
+vCryp Fix problem of scoping of "for" variable 0.1t\
+vCryp Spread out display of letters for alignment 0.1u\
+vCryp Display ans letters under cryp letters 0.1u\
+vCryp Change to display cryp and answer at the same time 0.1u\
+	This will allow easy highlight of selected answer letters\
+vCryp Make spacing and position vars members of view 0.1u\
+vCryp Make cursor highlight current letter 0.1u\
+vCryp On mouse event find nearest horizontal alphabet char 0.1v\
+vCryp On key event, enter letter into answer everywhere 0.1v\
+vCryp Reverse video makes char hard to read 0.1v\
+	Just bigger font, normal reverse for select is OK\
+vCryp Right and left arrow move around 0.1v\
+vCryp Mouse click detect which line 0.2a\
+	vRemember both char and line for arrow 0.2a\
+vCryp Up and down arrow move around 0.2a\
+vCryp Don't allow cursor on space or punc 0.2a\
+vCryp Add color to follow most recently focused letters 0.2b\
+vCryp Improve paint position of extra wide and narrow letters 0.2c\
+vCryp If answer line in file, initialize all the answer letters 0.2c\
+vCryp Add labels to alphabet and frequency lines 0.2c\
+vCryp Do highlight on crypt instead of answer 0.2d\
+vCryp Fix bug of mouse click not correct on frequency line 0.2d\
+vCryp Fix wxString conversions the Mac doesn't like 0.2f\
+xCryp Different font size on Mac\
+vCryp Complain if same letter is already used 0.2g\
+vCryp Fix bug of error if Cryp.txt doesn't exist 0.2g\
+vCryp Fix typo in message "Alrady used" 0.2h\
+vCryp Fix bug of underline already in use 0.2j\
+vCryp Delete or delete back clear to underline 0.2j\
+Status is that I have a combination MDI and SDI base\
+	It compiles either way from def MDIStyle in docview.h\
+	It is in c:\\Alan\\ToolboxC\\TestProjects\\testdocview\
+	Backed up testdocview project same path on Delly\
+	It turns out that the MDI base works fine on Mac\
+		Does not show and MDI frame, just separate window\
+		SDI base gives an odd extra window\
+I need a sample wxWidgets app for my own learning\
+	An internet Scrabble program would be fun\
+		If it shows the board as a view, it would be nice\
+	Also Crypt and Anacrost are nice little projects\
+What does a completely new project look like?\
+	It works best to copy a workspace, rename it and project\
+		When first opening it, tell it to open the new project\
+	This works well, seems to give an independent new project\
+\pard\tx455\tx851\tx1308\tx1696\tx2103\tx2552\tx3000\tx3423\tx3847\pardeftab720\li1151\fi-1151\sb100\ql\qnatural
+\cf0 The full sequence is "etaoin shrdlu cmfgyp wbvkxj qz."\
+\pard\tx455\tx851\tx1308\tx1696\tx2103\tx2552\tx3000\tx3423\tx3847\pardeftab720\li1151\fi-1151\ql\qnatural
+\cf0 xTry downloading Xcode 1.5 (too big)\
+----------------------- Mac Port, above here is historical ----------\
+>Maybe allow Save As to save prj as well\
+	Or maybe better File, New could allow prj file\
+		Could ask if completely new or copy of current prj\
+	This allows simpler menus, Project menu is obscure for users\
+_Skips blank line at front of field\
+	Doesn't matter much and can wait till later\
+		Almost never done\
+		Seems quite meaningless\
+		Might be well to trim the front in general\
+		Shouldn't be spaces in front either\
+	It isn't there when display tries to show it\
+	Can't tell diffrnc between empty field and first line blank\
+	Apparently has to remember nl at end of mkr line\
+		Then if next line has content, put the nl in front of it\
+		But if next line is another mkr, don't the nl in anywhere\
+_Set up tools file like in Tbx\
+	Tbx tools has way too much, but a few will be useful\
+I invented a way to avoid using write protect for safety\
+	But right now I can't remember it\
+	When I think of it again, I will make notes here\
+Design plans\
+	Sorting:\
+		Each view will have an index\
+			Index is a sorted list of Rec*\
+		Adjust index when anything is edited\
+		Notify other views what record has changed\
+	Index:\
+		Build by insertion sort\
+		Hash done by linked list of places in index\
+		When build index reaches 100, make all 100 hash places\
+			Up to 20,000 or more, this is a good hash number\
+			10,000 is 100 times 100\
+			So avg 50 compare place, plus avg 50 compare rec\
+		Search index by hash:\
+			Compare places till higher found, or end\
+			Back up from higher place till equal or lower found\
+			Insertion is after equal or lower\
+				This keeps equals in order of insertion\
+				Build index in order keeps mults same key in order\
+	DB typ:\
+		Read whole file, as planned before\
+		Keep most structures as they are\
+	String:\
+		Make StrL with Lng* included\
+		That one can know how to move by char\
+	Language encoding:\
+		Read whole file, as planned before\
+		Make read section with option to delete\
+			Or maybe write section with replace would be enough\
+		Case associations:\
+			Store as linked list of strings, one pair per string\
+			Can use special Find to see if first of pair matches\
+		Sort order:\
+			Store as linked list of strings, one line per string\
+			Can use special Find to see if match any of them\
+	Database storage:\
+		Store as linked list of records\
+		Store in order read\
+			That will maintain order of multiples with same key\
+		On write, build index on key, use that for write sequence\
+		Building index as below keeps mults same key in order\
+	Scrolling\
+		No horizontal scroll bar, just auto wrap lines\
+		If window width changed, wrap everything\
+		If window width diffrnt than saved in file, wrap evrything\
+			The wrap width in file is very useful for this purpose\
+			Possibly check wrap of everything on read?\
+		Save in each rec its current wrap width\
+			On paint, compar windw width to current wrap of rec\
+			If same, just paint without checking widths\
+			If narrower, wrap rec before paint\
+			If a little wider, leave alone\
+			If much wider, wrap rec before paint\
+_Major things required for first real version: 2mo\
+	vVertical scrolling: Critical to see and access all flds.\
+	vBuild on Mac: Critical to be a Mac program. 1wk\
+	Window layout system: Foundational 2wk\
+	Go to same record on open: Nice for normal wrk. 1da\
+	Edit: Critical to be able to do any work at all. 2wk\
+	Write prj settings: Reqd to rembr wndw plc, etc. 2da\
+	Sort: Can do temp w/o, but wll look bad soon. 2wk\
+	Horz wrap: Reqd to see whole fld w/o horz scroll. 1wk\
+_Show Version Information button in About box\
+_Show version number in About box\
+_Make db type set custom style of mkr, if given\
+	Future is to allow only variations, not actual font\
+		So there won't really be a font in the marker\
+		If there is, it can be ignored, or used to find variations\
+	For now can use font if given\
+	Future will be that interface won't allow different face?\
+	Not so much of a problem with unicode\
+	But interface allow change in style & color would be nice\
+	At least plan to change all mkr fonts if lng face chngd\
+_Ask Db number of Recs and Rec num\
+	Needed for browse\
+	Will need to start from last one looked up for speed\
+_Remove the extra nl between recs 0.0dm started, do as 0.0dn\
+	_Output it again on write\
+	_Scroll counts one too many lines\
+		Because last field has the nl from between recs\
+_Problems with Mac appearance\
+	_No window header with file name, etc.\
+	_No lower down arrow on scroll bar\
+	_Markers not shown, looks way too narrow for them to fit\
+		Might be because no db type, direct open\
+		Test direct open on Windows to see if same\
+		Test prj type open on Mac\
+	vTry default window style\
+		First result is that it no longer opens file like it did\
+\
+%------------------------------------------------------------width to here>}

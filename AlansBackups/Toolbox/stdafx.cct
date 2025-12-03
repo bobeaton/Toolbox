@@ -1,0 +1,4 @@
+c stdafx.cpp Toolbox portability steps
+
+'afx.h"' nl > dup '#include "toolbox.h"' nl c Add toolbox.h to every file
+'wxStr8' > 'Str8' c Get rid of all old wxStr8

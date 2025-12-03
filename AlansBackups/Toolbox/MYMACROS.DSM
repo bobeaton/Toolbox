@@ -1,0 +1,74 @@
+'------------------------------------------------------------------------------
+'FILE DESCRIPTION: New Macro File
+'------------------------------------------------------------------------------
+
+Sub PasteVersion()
+'DESCRIPTION: Paste change into version history
+'Begin Recording
+	ActiveDocument.Selection.Paste
+	ActiveDocument.Selection.NewLine
+	ActiveDocument.Selection.CharLeft
+	ActiveDocument.Selection = ". \r\n\"
+'End Recording
+End Sub
+
+Sub PasteVersionChangeAndMoveToVersion()
+'DESCRIPTION: Paste version change comment into change history and move up to version number
+'Assigned to Ctrl+Shift+V
+'Begin Recording
+	ExecuteCommand "PasteVersion"
+	ActiveDocument.Selection.StartOfLine dsFirstText
+	ActiveDocument.Selection.WordRight dsMove, 5
+	ActiveDocument.Selection.CharLeft
+	ActiveDocument.Selection.WordLeft dsExtend
+	ActiveDocument.Selection.Copy
+	ActiveDocument.Selection.StartOfLine dsFirstText
+	ActiveDocument.Selection.LineUp dsMove, 5
+	ActiveDocument.Selection.WordRight dsMove, 4
+	ActiveDocument.Selection = " "
+	ActiveDocument.Selection.WordRight dsMove, 5
+	ActiveDocument.Selection.CharLeft
+	ActiveDocument.Selection.WordLeft dsExtend
+	ActiveDocument.Selection.Paste
+	ActiveDocument.Selection.WordLeft dsExtend, 5
+	ActiveDocument.Selection.CharLeft dsExtend
+	ActiveDocument.Selection.Copy
+	ActiveDocument.Selection.CharLeft
+	ActiveDocument.Selection.Delete
+	ActiveDocument.Selection.WordRight dsMove, 3
+'End Recording
+End Sub
+
+Sub VersionComment()
+'DESCRIPTION: A description was not provided.
+'Assigned to Ctrl+Shift+N
+'Begin Recording
+	ActiveDocument.Selection.EndOfLine
+	ActiveDocument.Selection = " // 1.5.2aa "
+'End Recording
+End Sub
+
+Sub VersionCommentM()
+'DESCRIPTION: A description was not provided.
+'Assigned to Ctrl+Shift+M
+'Begin Recording
+	ActiveDocument.Selection.EndOfLine
+	ActiveDocument.Selection = " // 0.0cv "
+'End Recording
+End Sub
+
+Sub IfdefOut()
+'DESCRIPTION: A description was not provided.
+'Begin Recording
+	ActiveDocument.Selection.NewLine
+	ActiveDocument.Selection.LineUp
+	ActiveDocument.Selection = "#ifdef ToolbarFindCombo // 1.4yq"
+	ActiveDocument.Selection.LineDown
+	ActiveDocument.Selection.EndOfLine
+	ActiveDocument.Selection.NewLine
+	ActiveDocument.Selection.StartOfLine dsFirstText
+	ActiveDocument.Selection = "#endif // ToolbarFindCombo 1.4yq"
+	ActiveDocument.Selection.CharLeft dsMove, 5
+	ActiveDocument.Selection = "// "
+'End Recording
+End Sub

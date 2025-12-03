@@ -1,0 +1,414 @@
+vBackup 00dg
+vScroll bar correctly at bottom if end of record painted 00dg
+vOpen prj files at size and position shown in prj 00df
+vTrim spaces off end of typ name before adding .typ 00de
+vRead prj file and open files 00de
+	Status: detects prj and loads it as a settings file, nothing more
+	vMake a simple prj for testing 00da
+		Can just pick simple.prj from Windows
+			It looks like it will work fine
+			It loads SimpleAdapt.txt and SimpleAdapt3.txt
+			They are both db typ Simple
+			It uses only Default language
+		vProbably fix paths by hand for first test
+	vSo next step is look for file in settings file and open it 00de
+vGet settings tag section include tag 00de
+	It may be needed, as in db
+vChange SettingsFile to just Settings 00de
+	That way it can more naturally be returned from GetSettings
+	The way it is, I can't easily look for internal settings
+vSettingsTagSection can't return place for next to start 00de
+	All object parameters are reference, only ints are not
+	vSo pass a Settings for result and change its contents 00de
+vBackup 00dd
+	vFix version in resource
+xDon't allow extra scroll at end unless last fld has mult lines
+	No, maybe needed any time extra lines in latter flds
+	Leave as is for now, can improve later
+vLad: Scroll vertical 00dd
+	vRemember current top line in Vw
+	vMake DbView extnd JComponent instead of JScrollPane 00dc
+	vThey recommend JPanel as a good content pane
+	vI need to figure out how to paint the JPanel
+		vUses paintComponent 00dc
+	vBetter to use JComponent instead of JPanel 00dc
+		It doesn't try to invoke a layout manager
+	vCan put multiple JComponents into container of JFrame 00dc
+		I can size them so they fit however I want
+		I think the user can resize any one of them
+		I can resize the others when the user does that
+		Probably this gives me a lot more control
+		For now, just do one in the frame
+			Eventually can do different, or maybe best not
+	vPut a scroll bar in it 00dc
+	>Scroll bar as a component in frame container allows multiples
+		This will work for the browse view
+		Separate browse scroll bar can be positioned as desired
+		Changes to it can be detected to scroll browse
+		Boundary position can be used to place it
+		Dragging boundary can change its position
+	xOverride validate() to lay out compnents, including scroll bar
+		Causes nothing to paint at all
+	vRemembr frame size, paint redo layout if siz has changed 00dc
+		vThat worked well
+	vGet scroll bar position setting when painting 00dd
+	xSet scroll bar parameters based on record size
+	xMeasure record size
+		Look at how paint measures lines
+	xStore record height in record 00dd
+		Set it to zero to initialize, or to force recalculate
+		If non-zero, assume it is correct height of record
+	vIf iY goes past rectFrame height, stop painting 00dd
+		vRemember number of fields painted 00dd
+	vSet block increment to number of fields painted minus 2 00dd
+		vCheck to make sure it is at least 1 00dd
+	vSince scrolling is by fields, use field number as value 00dd
+		vDuring paint, count fields that fit 00dd
+		vUse that number as extent 00dd
+	vSet maximum to total number of fields in record 00dd
+		vMake func in rec to return total number of fields 00dd
+	vSet var to indicate paint in process to prevent extra paints
+	vUse remember and compare technique for scroll bars 00dd
+		vRemember current scroll bar pos
+		vIf scroll bar has changed from most recent, recalculate pos
+	vAllow scroll all the way to the last field 00dd
+		vWorking, block increment shrinks at end, but not bad 00dd
+	vNext and prev record reset scroll first line 00dd
+vLad: Put indent of close brace back to standard Java way 00dd
+	Will look better if others see my code
+	Will make me more able to read other code
+	Won't take long, just left arrow, delete at each
+	I find myself slightly confused with current mixed way
+vBackup Lad 00db
+xLad: Consider putting text in edit controls
+	I decided the later hassle would be greater than saving
+	Maybe saves some work, maybe not
+	Same measurement to place cntrls as to paint text
+	Gives a lot of early functionality
+		Mouse click in cntrl gives it focus and shows cursor
+		Arrows work within the cntrl
+		Editing insert and delete work within the cntrl
+	Karen is in favor of no hard line breaks in file
+		All fields would wrap on the fly
+		This might make edit control possible
+vLad: Open file even if no project
+	vLooks in same folder for typ & lng
+vAdd File, Save to save after standardize 00cw
+	vTest with Simple.txt
+Backup 00cv
+vStandardize record structure in Lad 00cv
+	vPick up record structure from db typ 00cj
+	xOpen new db for the standardized form
+		No, make backup and modify current db
+	vBreak record structure into array of strings 00ct
+	vFor each record 00ct
+	vFor each field name in record structure 00ct
+	vFor field in record 00ct
+		vIf matches field in record structure 00ct
+			If first time, put new into record
+			Else, not first time, append
+	vSave a backup of file first 00ct
+		vName it Backup *.*
+		Then I can replace the record with new one
+	vMake a way to write the db file 00ct
+		vAllow writ to a diffrnt name for backup 00ct
+	vUse structure outline to standardize records 00cv
+		vAppend with semicoln if more thn one 00cu
+		vTest with different order 00cu
+		vDon't append if empty 00cv
+		vAdd new empty field if not found 00cv
+vBackup 00ct
+vMake a variant of iWrite with no nl 00ct
+vGive message if no record structure 00cs
+vDo marker inventory on Kevin dict
+Backup 00cr
+Make marker inventory 00cm
+	vAdd Checks menu for it 00cm
+	vAdd nums to Mkr 00cm
+	vAdd func to clear all Mkr nums in MkrLst 00cm
+	vHow many occurrences of each marker 00cn
+	vHow many have content
+	vBuild info in mkrlst of typ 00cn
+		vFor each fld of each rec 00cn
+			vIncr num of flds 00cn
+			vIf not empty, incr num of cont
+	vPrint counts to verify it is working 00cn
+	vMake BufferedWriter function 00cp
+	vOut \mkr mrkr \num total \cont non-empty 00cq
+		viNum, iNumWithContent 00cq
+		vShow mkr without backslash 00cq
+	vPut hdr wth db typ in MarkerInventory.txt 00cq
+	vOpen MarkerInventory.txt file in Lad 00cr
+First and Last record don't repaint changed rec 00ck
+vPut command on menu to standardize recs 00cj
+	(By analogy of other menus)
+	vAdd Tools top menu 00cj
+	vAdd Standardize records to Tools 00cj
+	vMake it call function to do this 00cj
+		vGoes in db type
+vGetSettingsTagSectn retrn only content, not tags 00ch
+vEdit Simple.typ to put in Record structure
+	vChoose a tag for it
+	\+RecordStructure
+Possible system for new code
+	Choose the upcoming version for the code
+	Make comment pseudo code with version
+	Search for that version and fill them in
+vPick up database type file on file open 00cg
+	vIf db type does not exist
+		vBuild typ file name
+		vBuild typ path using db path (later prj path)
+		vOpen typ file path as typ settings file
+	vSave path of file or prj in Prj
+		xSave as File? maybe so
+		vSave as sProjectFolder
+vIndent system change to more like I use in C++ 00cf
+	Keep open curly in line, that saves a line
+	Move close curly to line up with indented
+		Keys my eye same as C++
+		Easier to type, auto indent same as above
+	I cn see at a glanc I would find this easier to read
+	This is like my thinking file hanging indent style
+	Any problems? Probably not
+		Compiler doesn't mind
+			Unlike Python that relies on indent
+			I like this a lot better
+	If someone else looks at it, so what
+vBackup Highland work Kevin
+vDownload Windows Java IDE in Ktm
+xDownload Java other tutorial
+	Didn't seem to work, wants to be done online
+xInstall stuff from Daniel, test with Kevin
+vKevin dict convert from LTibetan to Unicode
+	>Do TibMachine for further experience & info
+	vCan see complete correct appearance on Mac
+	vFinish all I can see in LTibetan
+vBackup Lad 00ce, include on Cmpq & pockt thmb
+vStudy Tibetan script
+vPut in XenoType font and call for it 00ce
+	Renders much worse than default
+vPut in Devanagari MT font and call for it 00ce
+	Doesn't render any better than default
+	But now default renders correctly
+vDeal with fail to render Dev 2h
+	vProbably needs font
+	vTest whether it renders in text edit
+		vDoesn't even display Dev
+		Don't know where Lad gets Dev font
+		Arial U MS doesn't rendr or do conjncts
+	vI need to get with somebody
+		vSee what their machine does
+			vPackage to run on somebody else
+				vLad.app appears to be it
+		xGet their S Asia 10.3 install
+vChange back to ask for file to open 00ce
+	vDefault to LadTest
+vBrng Daniel stuff out f email onto Mac nd unzip it
+vAdd mkrs to Kevin's text files N21 & N29
+vVery slow repaint of scripture files on resize
+	Probably from painting outside visible area
+		Small record repaints fast on resize
+	vLimit paint to viewable (approximate for now)
+Test loading of large files and display of non-Rom
+	vRemove Arial Unicode MS
+	vLoad Nepali part of my interlinearized Matt
+		Loads fine and shows Dev, but no rendering
+		No conjuncts formed, short i not moved
+	vLoad Illum as large file time test
+		Wonderfully fast! Loads in 8 seconds!
+	vLoad whole Tib Mrk
+		Loads fast, only a second or so.
+	vLoad wordlist of Tib Mrk
+		vSee what happens without Xenotype font
+		Looks fine, stacks seem fine
+		All I see renders like TibMachU on Win
+		Stacks generally spread more, look nice
+vAdd Page up and down for viewing 00cd
+	Temp till later get scroll to work
+xUse JComponent instead of JScrollPane
+	Couldn't get it to paint correctly
+	Stayed grey background, no vertical line
+vMove to next, prev, first, last Rec 00cb
+	vAdd View menu and record moves
+	vRemember current Rec in Vw
+Handle multiple lines 00ca
+	Display each line separately
+		That lets me control the line spacing
+vAllow user to adjust baseline 00ca
+	Needs to be in Lng
+	Very useful for Tib & Dev
+vAllow user to adjust line spacing 00bz
+	Eventually put iAdjustSpacing in Lng interface
+vCorrect line pos 00bz
+vDifferent font for line than markers 00bz
+vMeasure and move down before paint 00bz
+Backup 00by
+vAdd iAdjustSpacing to allow user to adjust 00by
+vStart first line correctly 00by
+	vNeeds to start down full height of line
+vMeasurement of height is not correct 00by
+	vGet FontMetrics from Graphics and Font
+vEnlarge the default window 00by
+vMake ask default to test folder 00by
+vMake it ask for file 00by
+vSettingsFile method to read file 00bw
+vSettingsFile methods to extract sections 00bw
+vRead prj 00bw
+	vTest read
+Backup 00bv
+vMake separate file open to retrn buffered reader 00bv
+	Keeps checks for failures in one place
+vChange all bFileOpen errors to return values 00bu
+vGet rid of JDK version from About box 00bu
+vAdd description to About box 00bu
+vAdd Freeware to About box instead of copyright 00bu
+vPaint record 00br
+	vGet marker and field to paint
+	Follow wx paint code, it is quite good
+vMeasure markers to get max width 00br
+Don't need a VwLst
+	Each Db will have one or more views
+	If multiple, they will be in JSplitPane panes
+		Probably make DbSplitPane frm JSplitPane
+	I can walk through the panes to find them
+		That will be sufficient for what I need
+	Maybe Vw nests inside Db
+		That way it can easily access its Db
+vInclude horizontal scroll bar 00bq
+	Without it drag corner covers lower arrow of vert
+vMake DbScrollPane visible 00bq
+ vDbScrollPane goes into contentPane f DbFrame 00bq
+	It is a container
+	It is derived from JScrollPane
+		It may want some customizing
+vDbView is set as the viewport of DbScrollPane 00bp
+vMake DbView 00bp
+	DbView is a subclass of JViewPort
+vBackup 00bn
+vMake DbFrame to be the outer frame 00bn
+	It can be in Prj because multiples in a Prj
+	Vw also can be in Prj because multiples in frame
+	vConsider whether the existing Lad can be it?
+		No, seems in wrong relationship to Prj
+vMake LadFrame nd see if I can get it to come up 00bn
+vConstrctr of empty Prj makes Empty frame 00bj
+vMake EmptyFrame nd see if cn get it to come up 00bk
+	Nested class inside Prj
+	Derived from JFrame
+vSwing tutorial read
+vFind or make Mkr on file read 00bh
+vStore top lines in file top 00bg
+Backup 00bg
+vFind or make Typ on file read 00bg
+vAt each record marker, start new record 00bf
+vRead file into Db 0.0bf
+vRead up to record marker 0.0be
+vCheck for valid header line 0.0bd
+vCheck for empty file 0.0bc
+Backup 0.0bb
+vMove most classes nested into Prj 0.0bb
+	Leave generic list and SettingsFile separate
+	Plan sequence
+		Bottom to top?
+		Yes, wx has Lng, Mkr, Typ, Fld, Rec, Db
+vBackup 0.0ap
+vMake bFileOpen give error messages 0.0ap
+Backup 0.0an
+vInstantiate all member variables 0.0an
+vMake Db have a read function 0.0am
+	What does wxLad do?
+		Db has bFileOpen and FileSave
+	DbLst is not used at all in wxLad
+	Better to use, even if partially redundant w/Vw
+vRead one line at a time 0.0ak
+vFile read will use BufferedReader 0.0aj
+	BufferedReader wrapper on InputStreamReader
+	InputStreamReader has Charset constructor
+	UTF-8 is an available Charset
+	readLine from BufferedReader into a String
+vPrepare a file to read 0.0aj
+	I have FileInputStream
+	vMake BufferedReader( InputStreamReader )
+vInitialize to open my default file 0.0ah
+	/Users/admin/Lad/test/Simple.txt
+vBring up file chooser 0.0ag
+vOpen file to read 0.0ag
+vBackup 0.0af
+vPut DbLst in Prj 0.0af
+vMake DbLst class 0.0af
+	Like LngLst
+vMake Db class 0.0af
+	Derived from LstEl
+	Has sFileName
+	Has RecLst d (for database)
+vMake RecLst class 0.0af
+	Like LngLst
+vMake Rec class 0.0af
+	Derived from LstEl
+	Has FldLst r (for record)
+vMake FldLst class 0.0af
+	Like LngLst
+vMake Fld class 0.0af
+	Derived from LstEl
+	Has Mkr and String s members
+vAdd MkrLst to Typ 0.0af
+vMake MkrLst class 0.0af
+	Like LngLst
+vMake Mkr class 0.0af
+	vDerived from LstEl
+	vHas sName member
+	vHas Lng member
+vMake Prj class 0.0af
+	Contains LngLst and TypLst
+	Also sName and SettingsFile
+	Also bExerciseNoSave
+vMake Typ and TypLst classes 0.0ae
+	Just like Lng and LngLst
+	Might be able to use Replace in file to make them
+vMake Lng and LngLst classes
+	vMake Lng class
+		Has sName and SettingsFile as members
+	vMake LngLst
+	vTry adding Lng without override of Add
+		That works fine
+		It allows wrong derived class to be added
+			But that is unlikely to happen
+			Compiler wouldn't block, even if ovrd
+To make a new class (has to be in its own file)
+	Choose File, New File, Pure Java, Java class
+	Click Next
+	Enter name of class as File Name
+	Click OK
+	New class comes up empty, ready to fill in
+vMake SettingsFile class wth fil nam nd content 0.0ab
+vAdd default forms of add to Lst 0.0aa
+vAdd member functions to Lst 0.0aa
+vReview need for Lsn
+	Not needed, didn't gain hardly anything
+
+Lad =========================
+Lad record structure template thoughts
+	"Record structure" as name, K and I both like
+	Edit in a text box
+	Use + for repeating, or * for repeating
+	Use - for optional, or + for required
+	Use indent for hierarchy
+	Repeat applies to all under in hierarchy
+	Each \lx (rec marker) starts alternative structure
+		xUse / for alternative with next at same level
+	But what about optional above required?
+		Sense number is optional, but high up
+		Under it is required, even if it is not present
+		Maybe requird under optionl will work OK
+>Lad: Allow for plain text file
+_Use remember and compare technique for wrapping
+	Store most recent wrap value in each record
+	If width of paint is different, rewrap and store new value
+	On write, wrap records that are not wrapped at current val
+		On read they can all be assumed wrapped at db val
+_Don't allow last Db of real project to close
+_Check for errors returned from iFileOpen
+_On prj open, close prev prj and db's
+_Fix paths in settings file based on previous loc of prj file
+_Get font from lng
+	_Pick up lng files
