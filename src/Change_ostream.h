@@ -12,7 +12,7 @@ public:
 
 protected:
     virtual int sync() override;
-    virtual int overflow(int ch = EOF) override;
+    virtual int overflow(int ch = std::char_traits<char>::eof()) override;
 
 private:
     ChangeTable   m_cct;

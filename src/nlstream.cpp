@@ -29,14 +29,14 @@ Newline_istreambuf::~Newline_istreambuf()
 int Newline_istreambuf::overflow(int ch)
 {
     ASSERT( FALSE );  // Not intended to be called for input
-    return EOF;
+    return std::char_traits<char>::eof();
 }
 
 
 int Newline_istreambuf::sync()
 {
     ASSERT( FALSE );  // Not intended to be called for input
-    return EOF;
+    return std::char_traits<char>::eof();
 }
 
 
@@ -47,7 +47,7 @@ int Newline_istreambuf::underflow()
     if (ilenRemaining == 0)   // If the get area is empty
         {
         if (m_bAtEOF )       // If the last fill exhausted the input
-            return EOF;
+            return std::char_traits<char>::eof();
     
            // Fill the get area again!
         std::streamsize ilenread = lenReadFromSource(m_pszbuffer,m_ibufferlen);
@@ -90,7 +90,7 @@ std::streamsize Newline_istreambuf::lenReadFromSource(char* psz, int ilen)
     
     std::streamsize ilenread = m_iosInput.gcount();  
              
-    if ( (ilenread < ilen) || (m_iosInput.peek() == EOF)) // If EOF is reached
+    if ( (ilenread < ilen) || (m_iosInput.peek() == std::char_traits<char>::eof())) // If EOF is reached
         m_bAtEOF = TRUE;
    
     return ilenread;

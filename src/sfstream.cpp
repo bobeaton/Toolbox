@@ -39,18 +39,18 @@ SF_istream::SF_istream(std::istream& ios, CMarkerSet* pmkrset, CMarker* pmkrReco
     m_lenInsertableMarker(strlen(s_pszInsertableMarker)),
     m_maxlenInsertion(1 + m_lenInsertableMarker + 1)
 {
-    ASSERT( m_pmkrset );
-    ASSERT( m_pmkrRecord );
-    
+    ASSERT(m_pmkrset);
+    ASSERT(m_pmkrRecord);
+
     m_pfldNext = NULL;
     m_pszFieldBuf = new char[s_maxlenField + 1];
     m_pszFieldEnd = NULL;
     m_lenFieldRemaining = 0;
-    
+
     m_pszNextLineBuf = new char[m_maxlenInsertion + s_maxlenLine + 1];
     m_pszNextLine = NULL;
     m_bNextLine = FALSE;
-    
+
     m_bSh1 = FALSE;
     m_bSkippedLines = FALSE;
     m_lFieldsSkipped = 0;
@@ -59,16 +59,22 @@ SF_istream::SF_istream(std::istream& ios, CMarkerSet* pmkrset, CMarker* pmkrReco
     m_bFieldTooLong = FALSE;  // 07-26-1997   
 
     // Read ahead; sets m_bNextLine
-    if ( bSkipToFirstRecordMarker ) 
-		{
-		while ( m_ios.peek() != '\\' &&  m_ios.peek() != '\n' )
-			{
-			int iSucc = m_ios.get();	// move past possible UTF-8 BOM before first \ in first line
-			if ( iSucc == -1 ) // 1.4hfh Fix bug of possible hang on MDF export
-				break;
-			}
+    if (bSkipToFirstRecordMarker)
+    {
+        while (true)
+        {
+            int c = m_ios.peek();
+            if (c == std::char_traits<char>::eof())
+                break;
+            if (c == '\\' || c == '\n')
+                break;
+            // consume one char to advance (was previous logic)
+            int iSucc = m_ios.get();
+            if (iSucc == std::char_traits<char>::eof())
+                break;
+        }
         SkipToNextRecordMarker();
-		}
+    }
     else
         SkipToNextMarker();
 }
@@ -269,7 +275,7 @@ BOOL SF_istream::bReadNextLine()
        }
     
     ASSERT(!m_bNextLine);
-    while ( !m_bNextLine && m_ios.peek() != EOF )
+    while ( !m_bNextLine && m_ios.peek() != std::char_traits<char>::eof())
         {
         GetNextLine();
         
@@ -373,7 +379,7 @@ void SF_istream::SkipToNextRecordMarker()
 	BOOL bShHeaderLinePrev = FALSE; // 1.4pck Skip blank lines after shoebox header line
 	BOOL bShHeaderLine = FALSE; // 1.4pcg Don't put header line into skipped fields
 	m_sSkippedFields = ""; // 1.4pcp Clear skipped fields string at each new start
-    while ( !m_bNextLine && m_ios.peek() != EOF )
+    while ( !m_bNextLine && m_ios.peek() != std::char_traits<char>::eof())
         {
         GetNextLine();
 		bShHeaderLinePrev = bShHeaderLine; // 1.4pck Skip blank lines after shoebox header line
@@ -435,7 +441,7 @@ void SF_istream::SkipToNextMarker()
 // skips lines until a useable marked line is in m_pszNextLineBuf
 {
     ASSERT( !m_bNextLine );
-    while ( !m_bNextLine && m_ios.peek() != EOF )
+    while ( !m_bNextLine && m_ios.peek() != std::char_traits<char>::eof())
         {
         GetNextLine();
         

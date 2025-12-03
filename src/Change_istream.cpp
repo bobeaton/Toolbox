@@ -24,7 +24,7 @@ Change_istreambuf::~Change_istreambuf()
 int Change_istreambuf::underflow()
 {
     if (m_bAtEOF)
-        return EOF;
+        return std::char_traits<char>::eof();
 
     // Read from source
     m_iosInput.read(m_pszBuffer, m_buflen);
@@ -33,7 +33,7 @@ int Change_istreambuf::underflow()
     if (lenRead <= 0)
     {
         m_bAtEOF = true;
-        return EOF;
+        return std::char_traits<char>::eof();
     }
 
     // Apply change table transformation
@@ -43,10 +43,11 @@ int Change_istreambuf::underflow()
     if (!m_cct.bMakeChanges(m_pszBuffer, (int)lenRead, outBuf, &outLen))
     {
         m_bAtEOF = true;
-        return EOF;
+        return std::char_traits<char>::eof();
     }
 
     // Reset buffer pointers
     setg(outBuf, outBuf, outBuf + outLen);
-    return (unsigned char)*gptr();
+    // return as an int_type per std::char_traits<char>
+    return std::char_traits<char>::to_int_type(*gptr());
 }

@@ -310,13 +310,13 @@ Change_istreambuf::~Change_istreambuf()
 int Change_istreambuf::overflow(int ch)
 {
     ASSERT( FALSE );  // Not intended to be called for input
-    return EOF;
+    return std::char_traits<char>::eof();
 }
 
 int Change_istreambuf::sync()
 {
     ASSERT( FALSE );  // Not intended to be called for input
-    return EOF;
+    return std::char_traits<char>::eof();
 }
 
 int Change_istreambuf::underflow()
@@ -325,7 +325,7 @@ int Change_istreambuf::underflow()
     if ( lenRemaining == 0 )  // If the get area is empty
         {
         if ( m_bAtEOF )  // If the last fill exhausted the input
-            return EOF;
+            return std::char_traits<char>::eof();
             
         // Fill the get area with changed output from the table
         char* psz = m_pszBuffer;         
@@ -336,7 +336,7 @@ int Change_istreambuf::underflow()
         if ( len < maxlen )  // If the table has exhausted its input,
             m_bAtEOF = TRUE;  // Then don't refill the get area again.
         if ( len == 0 )  // If the get area is still empty after filling
-            return EOF;
+            return std::char_traits<char>::eof();
 
         setg(psz, psz, psz + len);  // Get area
         }
@@ -399,7 +399,7 @@ Change_ostreambuf::Change_ostreambuf(const char* pszChangeTablePath,
 Change_ostreambuf::~Change_ostreambuf()
 {
     // 1a. Flush anything remaining in the put area into the table
-    if ( sync() == EOF )
+    if ( sync() == std::char_traits<char>::eof())
         IndicateFailure();
     // 1b. Indicate to the table that this is the end of input
     if ( !m_cct.bPushEndOfInput() )
@@ -413,7 +413,7 @@ int Change_ostreambuf::overflow(int ch)
 {
     int iResult = sync();  // Flush the contents of the buffer's put area
     
-    if ( ch != EOF )
+    if ( ch != std::char_traits<char>::eof())
         {
         *pptr() = ch;  // Put character ch into the buffer's put area
         pbump(1);         
@@ -431,11 +431,11 @@ int Change_ostreambuf::sync()
         {
         char* psz = pbase();
         if ( !m_cct.bPushIn(psz, len, FALSE) )
-            iResult = EOF;  // Error
+            iResult = std::char_traits<char>::eof();  // Error
         pbump(-len);
         }
 
-    if ( iResult == EOF )
+    if ( iResult == std::char_traits<char>::eof())
         IndicateFailure();
         
     return iResult;
@@ -444,7 +444,7 @@ int Change_ostreambuf::sync()
 int Change_ostreambuf::underflow()
 {
     ASSERT( FALSE );  // Not intended to be called for output
-    return EOF;
+    return std::char_traits<char>::eof();
 }
 
 void Change_ostreambuf::WriteToDestination(char* psz, int len)
@@ -509,7 +509,7 @@ Change_ostream::Change_ostream(const char* pszChangeTablePath,
 int strstreambuf_d255::underflow()
 {
     int ch = strstreambuf::underflow();  // Call the base class function
-    if ( ch == EOF && in_avail() != 0 )  // If the EOF might be incorrect
+    if ( ch == std::char_traits<char>::eof() && in_avail() != 0 )  // If the EOF might be incorrect
         {
         int chNext = *(unsigned char*)gptr();  // Double-check it
         if ( chNext == 255 )  // If it should be a d255 character instead

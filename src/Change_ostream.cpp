@@ -42,12 +42,13 @@ int Change_ostreambuf::sync()
 
 int Change_ostreambuf::overflow(int ch)
 {
-    if (ch != EOF)
+    if (ch != std::char_traits<char>::eof())
     {
         *pptr() = (char)ch;
         pbump(1);
     }
-    if (sync() == EOF)
-        return EOF;
+    // sync returns 0 on success, EOF (traits::eof()) on failure.
+    if (sync() == std::char_traits<char>::eof())
+        return std::char_traits<char>::eof();
     return ch;
 }

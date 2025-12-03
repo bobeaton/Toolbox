@@ -291,7 +291,7 @@ void Object_ofstream::WriteWindowPlacement(const char* pszMarker, const CWnd* pw
 
 static const Length maxsizMString = 32000001; // 1.4qzhz Fix bug of crash on too many file names in corpus
 
-Object_ifstream::Object_ifstream( FILE* pf, CNoteList& notlst) : // 1.6.1da 
+Object_ifstream::Object_ifstream(FILE* pf, CNoteList& notlst) : // 1.6.1da 
     m_notlst(notlst)
 {
     m_pf = pf; // 1.6.1da 
@@ -765,22 +765,20 @@ void Object_ifstream::ReadMarkedString(const char** ppszMarker,
     }
     *m_pszEnd = '\0'; // 1.4qzgj Fix problem of not terminating string on Read
     if ((bTrimWhiteSpace) && (!m_bStringTooLong))
-        {
-        // 1995-10-02 MRP: Clean this up and separate out for use of
-        // settings properties but *not* Standard Format data fields.       
+    {
         // Trim white space from the beginning and end of the string
-        m_pszString += strspn ( m_pszString, s_pszWhiteSpace);      //BDW 9-2-97
-        if ( *m_pszString )  // string contains non-ws
-            {
+        m_pszString += strspn(m_pszString, s_pszWhiteSpace);      //BDW 9-2-97
+        if (*m_pszString)  // string contains non-ws
+        {
             char* psz = m_pszString + strlen(m_pszString) - 1;  // last char
-            while ( strchr(s_pszWhiteSpace, *psz) != NULL )
-                {
-                ASSERT( psz != m_pszString );  // have not moved past beginning
+            while (strchr(s_pszWhiteSpace, *psz) != NULL)
+            {
+                ASSERT(psz != m_pszString);  // have not moved past beginning
                 *psz-- = '\0';  // remove last char
-                }
             }
         }
-        
+    }
+
     *ppszString = m_pszString;
 }
 
@@ -839,24 +837,34 @@ void Object_ifstream::ReadMarkedLine(const char** ppszMarker, const char** ppszS
 void Object_ifstream::ReadLine()
 {
     ASSERT(!m_bUnRead);
-    // 1995-04-12 MRP: use get in order to detect line longer than buffer
+    // Remaining space in buffer including room for terminating NUL
     Length sizRemaining = maxsizMString - (m_pszEnd - m_pszMStringBuf);
-    (void)m_ios.get(m_pszEnd, sizRemaining, m_chEndOfLine);
-    size_t lenLine = strlen(m_pszEnd);
+    // Max characters we may copy (leave room for terminating NUL as original did)
+    size_t maxCopy = (sizRemaining > 0) ? (size_t)(sizRemaining - 1) : 0;
 
-    m_pszEnd += lenLine;
-    *m_pszEnd = '\0';
-    int ichNext = m_ios.get();
-    // ichNext is an int_type; check eof using traits
-        // 07-26-1997
-        // The ASSERT statement terminated the program if the string in
-        // the fist field is too long. This is no good solution. So the 
-        // ASSERT is replaced by the other code to detect and handle the error.
-        // ASSERT( FALSE ); // at end of input buffer-- RECOVERY
+    std::string line;
+    std::getline(m_ios, line, m_chEndOfLine); // consumes the delimiter
+
+    // Strip possible trailing CR when reading CRLF text files
+    if (!line.empty() && line.back() == '\r')
+        line.pop_back();
+
+    // Detect if the line exceeds our buffer capacity
+    if (line.size() > maxCopy)
         m_bStringTooLong = TRUE;
+
+    // Copy up to maxCopy characters into buffer
+    size_t copyLen = (line.size() <= maxCopy) ? line.size() : maxCopy;
+    if (copyLen > 0)
+    {
+        memcpy(m_pszEnd, line.data(), copyLen);
+        m_pszEnd += copyLen;
+    }
+    *m_pszEnd = '\0';
 }
 
 // **************************************************************************
+
 #endif // FileStream // 1.6.1cm  // 1.6.4aa Never define FileStream
 
 // **************************************************************************
@@ -1057,18 +1065,23 @@ Object_istream::Object_istream(std::istream& ios, CNoteList& notlst) :
     m_bUnRead = FALSE;
     m_chEndOfLine = '\n';  // Default for Mac and Windows
     m_bStringTooLong = FALSE;  //26-07-1997
-	UINT i = m_ios.peek();
-	if ( i == 0xef )
-		{
-		(void) m_ios.get();	// move past possible UTF-8 BOM before first \ in first line
-		i = m_ios.peek();
-		if ( i == 0xbb )
-			(void) m_ios.get();	// move past possible UTF-8 BOM before first \ in first line
-		i = m_ios.peek();
-		if ( i == 0xbf )
-			(void) m_ios.get();	// move past possible UTF-8 BOM before first \ in first line
-		i = m_ios.peek();
-		}
+
+    // Safely check for optional UTF-8 BOM: check eof first then compare bytes.
+    auto c = m_ios.peek();
+    if (c != std::char_traits<char>::eof())
+    {
+        unsigned char uc = static_cast<unsigned char>(c);
+        if (uc == 0xEF)
+        {
+            (void)m_ios.get(); // move past possible UTF-8 BOM before first \ in first line
+            c = m_ios.peek();
+            if (c != std::char_traits<char>::eof() && static_cast<unsigned char>(c) == 0xBB)
+                (void)m_ios.get(); // move past possible UTF-8 BOM before first \ in first line
+            c = m_ios.peek();
+            if (c != std::char_traits<char>::eof() && static_cast<unsigned char>(c) == 0xBF)
+                (void)m_ios.get(); // move past possible UTF-8 BOM before first \ in first line
+        }
+    }
 }
 #else
 Object_istream::Object_istream(std::istream& ios) :
@@ -1109,8 +1122,12 @@ BOOL Object_istream::bAtBackslash()
 {
     // Stream represents Standard Format if a field has already been read
     // successfully, or if the first char of the stream is a backslash.
-	UINT i = m_ios.peek();
-    return ( m_bUnRead || m_ios.peek() == '\\' );
+    if (m_bUnRead)
+        return TRUE;
+    int c = m_ios.peek();
+    if (c == std::char_traits<char>::eof())
+        return FALSE;
+    return (c == '\\');
 }
 
 BOOL Object_istream::bAtBeginMarker()
@@ -1598,16 +1615,30 @@ void Object_istream::ReadMarkedLine(const char** ppszMarker, const char** ppszSt
 void Object_istream::ReadLine()
 {
     ASSERT(!m_bUnRead);
-    // 1995-04-12 MRP: use get in order to detect line longer than buffer
+    // Remaining space in buffer including room for terminating NUL
     Length sizRemaining = maxsizMString - (m_pszEnd - m_pszMStringBuf);
-    (void)m_ios.get(m_pszEnd, sizRemaining, m_chEndOfLine);
-    size_t lenLine = strlen(m_pszEnd);
+    // Max characters we may copy (leave room for terminating NUL as original did)
+    size_t maxCopy = (sizRemaining > 0) ? (size_t)(sizRemaining - 1) : 0;
 
-    m_pszEnd += lenLine;
-    *m_pszEnd = '\0'; // 1.4qzgj Fix problem of not terminating string on Read
-    int ichNext = m_ios.get(); // int_type from stream
-    if ((ichNext != static_cast<int>(m_chEndOfLine)) && (ichNext != std::char_traits<char>::eof()))
+    std::string line;
+    std::getline(m_ios, line, m_chEndOfLine); // consumes the delimiter
+
+    // Strip possible trailing CR when reading CRLF text files
+    if (!line.empty() && line.back() == '\r')
+        line.pop_back();
+
+    // Detect if the line exceeds our buffer capacity
+    if (line.size() > maxCopy)
         m_bStringTooLong = TRUE;
+
+    // Copy up to maxCopy characters into buffer
+    size_t copyLen = (line.size() <= maxCopy) ? line.size() : maxCopy;
+    if (copyLen > 0)
+    {
+        memcpy(m_pszEnd, line.data(), copyLen);
+        m_pszEnd += copyLen;
+    }
+    *m_pszEnd = '\0';
 }
 
 // **************************************************************************
