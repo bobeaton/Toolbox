@@ -294,7 +294,7 @@ static const Length maxsizMString = 32000001; // 1.4qzhz Fix bug of crash on too
 Object_ifstream::Object_ifstream( FILE* pf, CNoteList& notlst) : // 1.6.1da 
     m_notlst(notlst)
 {
-	m_pf = pf; // 1.6.1da 
+    m_pf = pf; // 1.6.1da 
     m_pszMStringBuf = new char[maxsizMString];
     m_pszEnd = NULL;
     m_pszMarker = NULL;
@@ -302,18 +302,23 @@ Object_ifstream::Object_ifstream( FILE* pf, CNoteList& notlst) : // 1.6.1da
     m_bUnRead = FALSE;
     m_chEndOfLine = '\n';  // Default for Mac and Windows
     m_bStringTooLong = FALSE;  //26-07-1997
-	UINT i = m_ios.peek();
-	if ( i == 0xef )
-		{
-		(void) m_ios.get();	// move past possible UTF-8 BOM before first \ in first line
-		i = m_ios.peek();
-		if ( i == 0xbb )
-			(void) m_ios.get();	// move past possible UTF-8 BOM before first \ in first line
-		i = m_ios.peek();
-		if ( i == 0xbf )
-			(void) m_ios.get();	// move past possible UTF-8 BOM before first \ in first line
-		i = m_ios.peek();
-		}
+
+    // Safely check for optional UTF-8 BOM: check eof first then compare bytes.
+    auto c = m_ios.peek();
+    if (c != std::char_traits<char>::eof())
+    {
+        unsigned char uc = static_cast<unsigned char>(c);
+        if (uc == 0xEF)
+        {
+            (void)m_ios.get(); // consume
+            c = m_ios.peek();
+            if (c != std::char_traits<char>::eof() && static_cast<unsigned char>(c) == 0xBB)
+                (void)m_ios.get();
+            c = m_ios.peek();
+            if (c != std::char_traits<char>::eof() && static_cast<unsigned char>(c) == 0xBF)
+                (void)m_ios.get();
+        }
+    }
 }
 
 Object_ifstream::~Object_ifstream()
@@ -330,15 +335,22 @@ BOOL Object_ifstream::bAtEnd()
     // Have read to end if no "unread" field, and all chars have been read
     // from the stream. NOTE: Because no attempt has yet been made actually
     // to get chars from beyond the end of the stream, eof() will NOT be true.
-    return ( !m_bUnRead && m_ios.peek() == EOF );
+    //return ( !m_bUnRead && m_ios.peek() == EOF );
+    //return (!m_bUnRead && !m_ios.good());
+    // Have read to end if no "unread" field and peek() indicates EOF.
+    return (!m_bUnRead && (m_ios.peek() == std::char_traits<char>::eof()));
 }
 
 BOOL Object_ifstream::bAtBackslash()
 {
     // Stream represents Standard Format if a field has already been read
     // successfully, or if the first char of the stream is a backslash.
-	UINT i = m_ios.peek();
-    return ( m_bUnRead || m_ios.peek() == '\\' );
+    if (m_bUnRead)
+        return TRUE;
+    int c = m_ios.peek();
+    if (c == std::char_traits<char>::eof())
+        return FALSE;
+    return (c == '\\');
 }
 
 BOOL Object_ifstream::bAtBeginMarker()
@@ -728,24 +740,30 @@ BOOL Object_ifstream::bReadWindowPlacement(const char* pszMarker, WINDOWPLACEMEN
 void Object_ifstream::ReadMarkedString(const char** ppszMarker,
         const char** ppszString, BOOL bTrimWhiteSpace)
 {
-    if ( m_bUnRead )
-        {
+    if (m_bUnRead)
+    {
         *ppszMarker = m_pszMarker;
         *ppszString = m_pszString;
         m_bUnRead = FALSE;
-        return; 
-        }
-        
+        return;
+    }
+
     ReadMarkedLine(ppszMarker, ppszString);
 
     // Read any additional lines of the marked string
-    int ich;
-    while ( (((ich = m_ios.peek()) != EOF) && (ich != '\\')) && (!m_bStringTooLong))
-        {
+    while (!m_bStringTooLong)
+    {
+        int ich = m_ios.peek();
+        if (ich == std::char_traits<char>::eof())
+            break;
+
+        if (ich == '\\')
+            break;
+
         *m_pszEnd++ = '\n';
         ReadLine();
-        }
-	*m_pszEnd = '\0'; // 1.4qzgj Fix problem of not terminating string on Read
+    }
+    *m_pszEnd = '\0'; // 1.4qzgj Fix problem of not terminating string on Read
     if ((bTrimWhiteSpace) && (!m_bStringTooLong))
         {
         // 1995-10-02 MRP: Clean this up and separate out for use of
@@ -820,16 +838,16 @@ void Object_ifstream::ReadMarkedLine(const char** ppszMarker, const char** ppszS
 
 void Object_ifstream::ReadLine()
 {
-    ASSERT( !m_bUnRead );
+    ASSERT(!m_bUnRead);
     // 1995-04-12 MRP: use get in order to detect line longer than buffer
     Length sizRemaining = maxsizMString - (m_pszEnd - m_pszMStringBuf);
-    (void) m_ios.get(m_pszEnd, sizRemaining, m_chEndOfLine);
+    (void)m_ios.get(m_pszEnd, sizRemaining, m_chEndOfLine);
     size_t lenLine = strlen(m_pszEnd);
-  
+
     m_pszEnd += lenLine;
-	*m_pszEnd = '\0'; // 1.4qzgj Fix problem of not terminating string on Read
+    *m_pszEnd = '\0';
     int ichNext = m_ios.get();
-    if ( (ichNext != m_chEndOfLine) && (ichNext != EOF) )
+    // ichNext is an int_type; check eof using traits
         // 07-26-1997
         // The ASSERT statement terminated the program if the string in
         // the fist field is too long. This is no good solution. So the 
@@ -1082,7 +1100,9 @@ BOOL Object_istream::bAtEnd()
     // Have read to end if no "unread" field, and all chars have been read
     // from the stream. NOTE: Because no attempt has yet been made actually
     // to get chars from beyond the end of the stream, eof() will NOT be true.
-    return ( !m_bUnRead && m_ios.peek() == EOF );
+    // return ( !m_bUnRead && m_ios.peek() == EOF );
+    //return ( !m_bUnRead && !m_ios.good() );
+    return (!m_bUnRead && (m_ios.peek() == std::char_traits<char>::eof()));
 }
 
 BOOL Object_istream::bAtBackslash()
@@ -1480,41 +1500,46 @@ BOOL Object_istream::bReadWindowPlacement(const char* pszMarker, WINDOWPLACEMENT
 void Object_istream::ReadMarkedString(const char** ppszMarker,
         const char** ppszString, BOOL bTrimWhiteSpace)
 {
-    if ( m_bUnRead )
-        {
+    if (m_bUnRead)
+    {
         *ppszMarker = m_pszMarker;
         *ppszString = m_pszString;
         m_bUnRead = FALSE;
-        return; 
-        }
-        
+        return;
+    }
+
     ReadMarkedLine(ppszMarker, ppszString);
 
     // Read any additional lines of the marked string
-    int ich;
-    while ( (((ich = m_ios.peek()) != EOF) && (ich != '\\')) && (!m_bStringTooLong))
-        {
+    while (!m_bStringTooLong)
+    {
+        int ich = m_ios.peek();
+
+        if (ich == std::char_traits<char>::eof())
+            break;
+
+        if (ich == '\\')
+            break;
+
         *m_pszEnd++ = '\n';
         ReadLine();
-        }
-	*m_pszEnd = '\0'; // 1.4qzgj Fix problem of not terminating string on Read
+    }
+    *m_pszEnd = '\0'; // 1.4qzgj Fix problem of not terminating string on Read
     if ((bTrimWhiteSpace) && (!m_bStringTooLong))
-        {
-        // 1995-10-02 MRP: Clean this up and separate out for use of
-        // settings properties but *not* Standard Format data fields.       
+    {
         // Trim white space from the beginning and end of the string
-        m_pszString += strspn ( m_pszString, s_pszWhiteSpace);      //BDW 9-2-97
-        if ( *m_pszString )  // string contains non-ws
-            {
+        m_pszString += strspn(m_pszString, s_pszWhiteSpace);      //BDW 9-2-97
+        if (*m_pszString)  // string contains non-ws
+        {
             char* psz = m_pszString + strlen(m_pszString) - 1;  // last char
-            while ( strchr(s_pszWhiteSpace, *psz) != NULL )
-                {
-                ASSERT( psz != m_pszString );  // have not moved past beginning
+            while (strchr(s_pszWhiteSpace, *psz) != NULL)
+            {
+                ASSERT(psz != m_pszString);  // have not moved past beginning
                 *psz-- = '\0';  // remove last char
-                }
             }
         }
-        
+    }
+
     *ppszString = m_pszString;
 }
 
@@ -1572,21 +1597,16 @@ void Object_istream::ReadMarkedLine(const char** ppszMarker, const char** ppszSt
 
 void Object_istream::ReadLine()
 {
-    ASSERT( !m_bUnRead );
+    ASSERT(!m_bUnRead);
     // 1995-04-12 MRP: use get in order to detect line longer than buffer
     Length sizRemaining = maxsizMString - (m_pszEnd - m_pszMStringBuf);
-    (void) m_ios.get(m_pszEnd, sizRemaining, m_chEndOfLine);
+    (void)m_ios.get(m_pszEnd, sizRemaining, m_chEndOfLine);
     size_t lenLine = strlen(m_pszEnd);
-  
+
     m_pszEnd += lenLine;
-	*m_pszEnd = '\0'; // 1.4qzgj Fix problem of not terminating string on Read
-    int ichNext = m_ios.get();
-    if ( (ichNext != m_chEndOfLine) && (ichNext != EOF) )
-        // 07-26-1997
-        // The ASSERT statement terminated the program if the string in
-        // the fist field is too long. This is no good solution. So the 
-        // ASSERT is replaced by the other code to detect and handle the error.
-        // ASSERT( FALSE ); // at end of input buffer-- RECOVERY
+    *m_pszEnd = '\0'; // 1.4qzgj Fix problem of not terminating string on Read
+    int ichNext = m_ios.get(); // int_type from stream
+    if ((ichNext != static_cast<int>(m_chEndOfLine)) && (ichNext != std::char_traits<char>::eof()))
         m_bStringTooLong = TRUE;
 }
 
