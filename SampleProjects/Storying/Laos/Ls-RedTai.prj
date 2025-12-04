@@ -1,0 +1,330 @@
+\+ShProjectSettings 
+\ver 5.0
+\ProgramVersion 1.5.5 Jan 2009
+\ProjectPath L:\Pahari\Storying\Laos\Ls-RedTai.prj
+\LockProject 0
+\AutomaticKeyboardSwitching
+\+CorpusSet 
+\WordLstMaxCount 10
+\ConcordanceSearchType 3
+\ConcordanceLimitCount
+\ConcordanceMaxCount 1000
+\ConcordanceOutput lookup.db
+\-CorpusSet
+\LangCtrlHeight 24
+\+fntMarkers 
+\Name MS Sans Serif
+\Size 8
+\charset 00
+\-fntMarkers
+\+rundosMarkers 
+\-rundosMarkers
+\placementMain max -1 -1 -1 -1 0 0 1024 612
+\+dblst 
+
+\+db L:\Pahari\Storying\Laos\L&CNotes.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 677 498 898 667
+\z 2
+\ViewMarkers
+\widthMarkerArea 50
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr r
+\width 195
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey r
+\srtPriKey Default
+\-ind
+\+rec 
+\fldPriKey God
+\-rec
+\+keySearch 
+\fldPri 02
+\match_char p
+\-keySearch
+\+keyInsert 
+\fldPri God
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 0
+\CaretLineScroll 0
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\NETBIBLE.TXT
+\ReadOnly
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 -1 497 678 668
+\z 3
+\ViewMarkers
+\widthMarkerArea 30
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr v
+\width 653
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey v
+\srtPriKey Scripture
+\-ind
+\+rec 
+\fldPriKey gen.03:11 And the Lord God said, "Who told you that you were naked? Did you eat from the tree that I
+commanded you not to eat from?" 
+\-rec
+\+keySearch 
+\fldPri 96.06
+\match_char p
+\-keySearch
+\+keyInsert 
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 24
+\CaretLineScroll 0
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\Laos\OldRedThaiBT.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 481 497 899 667
+\z 1
+\ViewMarkers
+\widthMarkerArea 50
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr c
+\width 22
+\-brf
+\+brf 
+\mkr t
+\width 363
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey c
+\srtPriKey Default
+\-ind
+\+rec 
+\fldPriKey
+\-rec
+\+keySearch 
+\fldPri 02
+\match_char p
+\-keySearch
+\+keyInsert 
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 0
+\CaretLineScroll 0
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\Laos\OldConNotes.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 898 498 1276 667
+\z 0
+\ViewMarkers
+\widthMarkerArea 50
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr c
+\width 21
+\-brf
+\+brf 
+\mkr t
+\width 324
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey ln
+\srtPriKey Default
+\-ind
+\+rec 
+\fldPriKey 01.20
+\-rec
+\+keySearch 
+\fldPri 02
+\match_char p
+\-keySearch
+\+keyInsert 
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 32
+\CaretLineScroll 0
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\Laos\LsBT.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 0 0 741 498
+\z 4
+\ViewMarkers
+\widthMarkerArea 38
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr c
+\width 22
+\-brf
+\+brf 
+\mkr t
+\width 686
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey c
+\srtPriKey Default
+\-ind
+\+rec 
+\fldPriKey 02
+\-rec
+\+keySearch 
+\fldPri 02
+\match_char p
+\-keySearch
+\+keyInsert 
+\fldPri XX
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 0
+\CaretLineScroll 0
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\Laos\LsConNotes.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 739 0 1275 500
+\z 5
+\ViewMarkers
+\widthMarkerArea 35
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr c
+\width 21
+\-brf
+\+brf 
+\mkr t
+\width 482
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey c
+\srtPriKey Default
+\-ind
+\+rec 
+\fldPriKey 02
+\-rec
+\+keySearch 
+\fldPri 02 Uakne / Kejatuhan / The Fall
+\match_char p
+\-keySearch
+\+keyInsert 
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 97
+\CaretLineScroll 30
+\CaretChar 11
+\-wnd
+\-wndlst
+\-db
+
+\-dblst
+\+Find 
+\SingleRecord
+\Field ln
+\match_char p
+\+ftxlst 
+\+ftx 
+\text 2sa.12
+\lng Default
+\-ftx
+\+ftx 
+\text Lk.
+\lng Default
+\-ftx
+\+ftx 
+\text Luk.1
+\lng Default
+\-ftx
+\+ftx 
+\text Mt. 1
+\lng Default
+\-ftx
+\+ftx 
+\text Tazig
+\lng Default
+\-ftx
+\+ftx 
+\text D.
+\lng Default
+\-ftx
+\+ftx 
+\text 10.
+\lng Default
+\-ftx
+\+ftx 
+\text 02.
+\lng Book References
+\-ftx
+\+ftx 
+\text 99.
+\lng Default
+\-ftx
+\+ftx 
+\text 01.
+\lng Default
+\-ftx
+\-ftxlst
+\Replace 02.
+\-Find
+\AmbigBoxLeft 0
+\AmbigBoxTop 20
+\-ShProjectSettings

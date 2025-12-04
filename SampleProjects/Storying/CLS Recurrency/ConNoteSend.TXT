@@ -1,0 +1,34 @@
+\c 01
+\t TITLE: STORY #1
+\cat ConNotes -- (Consultant's name)
+\co Lg. name
+\con Consultant comment
+\fac Facilitator's responses 
+\ln 01.01
+\con Consultant comment
+\ln 01.02
+\ln 01.03
+\ln 01.04
+\ln 01.05
+\ln 01.06
+\ln 01.07
+\ln 01.08
+\ln 01.09
+\ln 01.10
+\ln 01.11
+\ln 01.12
+\ln 01.13
+\ln 01.14
+\ln 01.15
+\ln 01.16
+\ln 01.17
+\ln 01.18
+\ln 01.19
+\ln 01.20
+\ln 01.21
+\ln 01.22
+\ln 01.23
+\ln 01.24
+\ln 01.25
+\ln 01.26
+\ln 01.27

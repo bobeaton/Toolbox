@@ -1,0 +1,17 @@
+\_sh v3.0  400  L&C Note
+\_DateStampHasFourDigitYear
+
+\r angel, angels
+\wrd
+\co
+\dt 18/Jan/2007
+
+\r God
+\wrd Pawa
+\co used in the Asheninka scriptures. Refers to the Creator God.
+\dt 18/Jan/2007
+
+\r keyterm or word
+\wrd word in the lg.
+\co how it's used.
+\dt 18/Jan/2007

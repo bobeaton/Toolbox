@@ -1,0 +1,1074 @@
+\_sh v3.0  454  StoryNotes
+\_DateStampHasFourDigitYear
+
+\c 01
+\t Creation
+\cat ConNotes -- Sarah Haahr
+\fac Facilitator – Mi Hwa Han
+\co Language: L National language
+
+\con SH2 = 12 Aug 2009 -- I have answered your questions below.  Also, when you respond to
+the Consultant Notes, please send both the ConNotes file and the BT file.  This will help
+me to see what changes you have made in the BT file.
+\fac MH1: 24 July 2009  
+\con SH1 = 15 June 2009 -- Good job with this story!  I like how it is simple and not full of
+many details.
+
+\con SH1:  Below you will see four categories listed (anchors, testing questions, key terms,
+and retellings).  These are the four main areas that I am checking for when I consult
+your stories.  Sometimes I may make general comments about that area in your story at
+the top of the consulting notes.  Other times, all the comments will be listed below and will
+correspond to the specific line number in the story.
+
+\co ANCHORS:
+\co TESTING Qs:  As part of your ongoing training, I have written some testing questions
+for this story.  Please write testing questions for stories 3, 4 & 5 and put them into your
+story file.  Then send me the story files and I will review your questions.  
+\co KEYTERMS:  
+\co RETELLINGS:  As part of the testing process, you will need to get recordings of two
+people retelling the story.  These recordings should then be backtranslated into English. 
+Then put the  backtranslations into the story file in Toolbox.  You can backtranslate
+these retellings yourself.  As I check the story, I will be looking to see how well people
+are retelling the story and what changes they are making.  I have added some lines to the
+story file so you can see where the retellings will need to be inserted.  This requirement
+for documenting the retellings has been added recently in OneStory.  I am not sure if
+this was included in your CLS training.  If you have any questions about this, please let
+me know.
+
+\con SH1:  Please provide the following information about your crafter, backtranslator,
+testees, and retellers:  name (you can also use initials or a nickname  instead of their real
+name), education level, approximate age, gender, religious background,
+believer/non-believer, etc.   This can be included in chapter 00 with the story set
+information.  Once you add this information, please send me a new copy of that file.
+\fac MH1:I did but still it is on the way. It will be finishing next week.
+
+\con SH1:  Your project is still in Stage 1 consulting.  This means that many of my comments
+will focus on continuing the training you've received.  My goal at this stage is to help
+mentor you as you craft, back translate, and test these stories.  I want you to know that
+in Stage 1 consulting, I will not make comments about everything in a story that may need
+to be adjusted.   We try to only make comments on about half the number of lines in a
+Stage 1 story so that facilitators don't get overwhelmed. Some comments may wait until
+you reach Stage 2 consulting which is more in-depth.
+\fac MH1:I sent a copy of chapter00 through email  
+
+\con SH1:  In your emails, you mentioned that you have been crafting the stories first into
+Lao and that you are also working on stories in TDG.  So are these backtranslations from
+a Lao story or TDG story?  If they are from Lao, then we should change the language
+name in the file. 
+\fac MH1:Yes, I changed name of language.
+
+\ln 01.01
+\ln 01.02
+\con SH1:  If an anchor includes verses that follow each other, you can type them as
+Gen.01:01 -02.  Just be sure to include a space between the verses numbers.  This will
+save you time so that you don't have to type a separate anchor for each verse.
+\fac MH1:I changed it.
+\ln 01.03
+\con SH1:  re: "The creator has all power"  -- Please include an anchor for this line.
+\con SH1:  re: "He created the heaven and the earth" -- Please add Gen.01:01 to your anchors
+for this line. 
+\fac MH1:I changed it
+\ln 01.04
+\con SH1:  re: God -- This is a keyterm and should be included in your L&C Notes file.
+\fac MH1:I did
+
+\ln 01.05
+\ln 01.06
+\ln 01.07
+\ln 01.08
+\con SH1:  re: "After then, He created the fish in the river" -- In line 01.06, the story already
+says that God created all living things.  Would fish be included in "all living things"? 
+What was reason to specifically mention fish but not mention any other animals by name?
+\fac MH1: L people might think living things are animals in the earth. Also God made
+vegetation, wild animals, cattle on 3rd & 6th day. But God made fish on 5th day.
+\fac MH1: May I change 01:06 into detail things?
+\con SH2:  Do you mean that you want to say the specific categories, such as animals, fish,
+vegetation?  Since you are not mentioning the days of creation, it is fine to include all
+of these things in one line of the story.  You could add these details to line 01:06 and
+remove line 01:08 from the story.
+
+\ln 01.09
+\ln 01.10
+\con SH1:  re: "dust of the earth" -- It would be good to test what people understand by this
+term.  We want to check whether people think that this type of dust can be gathered
+together to form an image.  There may be different words that can be translated as
+'dust.'  We want to use a word that is similar to the English words 'mud' or 'soil.'  These
+forms of dirt are more wet and can hold together to be molded into an image.  I have
+written a testing question for this in the story file.
+\fac MH1:In L term dust means mud.
+\con SH2:  Please add your above note to the BT file as a crafting note.  The crafting note
+line should follow the anchor line.  It would look like this:   \cn  In L term dust means mud.
+
+\ln 01.11
+\con SH1:  re: "in the garden" -- The story has not mentioned yet that there is a garden.  You
+may want to add that God created a garden for the man to live in.
+\fac MH1: Yes, I want to insert. Gen02:09, Gen02:15
+\con SH2:  I think that is a good idea.
+
+\ln 01.12
+\ln 01.13
+\con SH1:  Please correct your anchors for this line since they do not match the story.
+\fac MH1: I did. It's Gen 2
+
+\ln 01.14
+\ln 01.15
+\ln 01.16
+\ln 01.17
+\con SH1:  re: "lived together in happiness" -- Please add Gen.02:25 to your anchors to
+support this line.
+\fac MH1:I did.
+\ln 01.18
+\con SH1:  re: "and they also loved God" -- Do you have an anchor to support this line?
+\fac MH1: May I put more anchors? Gen.01:31, Gen.02:07 -08, Gen.02:15 -18, Gen. 02:20-22 
+\con SH2:  I don't think these anchors give enough Biblical support to say directly that they
+loved God.  I think this is an interpretation of the text.  I think it would be better to say
+something like:  "they had a good relationship with God".  We know this is true because
+in Gen.03:09 it shows that God would walk with them in the garden.
+
+\ln 01.19
+\con SH1:  Please add Gen.03:08 to your anchors
+\fac MH1: I did
+\ln 01.20
+\dt 29/Sep/2009
+
+\c 02
+\t Fall
+\cat ConNotes -- Sarah Haahr
+\fac Facilitator -- MiHwa Han
+\co Language: L National language
+
+\fac **When you respond to my comments, insert your initials here followed by the date.  This
+will help us to track the comments and questions between us.  For example, you will type: 
+MH1:  (date).  
+\con SH1 = 16 June 2009
+
+\co ANCHORS:
+\co TESTING Qs:  As part of your ongoing training, I have written some testing questions
+for this story.  Please write testing questions for stories 3, 4 & 5 and put them into your
+story file.  Then send me the story files and I will review your questions.  
+\co KEYTERMS:
+\co RETELLINGS:   Once you have backtranslations of two retellings, please add them to the
+story file.  
+
+\con SH1:  Please add a note about why this story was selected and how it relates to the
+redemptive theme.
+
+\ln 02.01
+\con SH1:  re: "They lived..." -- If the listener does not hear this story immediately after the
+first story, they may be confused about who 'they' are.  I recommend making this line
+clearer by saying specifically 'the man and woman' or 'the first man and woman that God
+had created.'
+
+\con SH1:  re: "they lived with God happily in the garden" -- The backtranslation implies that
+God was also living in the garden with them.  However, the text does not support this
+idea.  We know that God would come and walk in the garden with them.  But it does not
+say that God actually lived in the garden.
+
+\ln 02.02
+\ln 02.03
+\ln 02.04
+\ln 02.05
+\ln 02.06
+\ln 02.07
+\ln 02.08
+\ln 02.09
+\con SH1:  re:  "then she took it and gave her husband, they ate the fruit" -- It would be good
+to test this line.  You want to test whether people understand that Adam knew it was the
+forbidden fruit or not.  If people think that Eve tricked him or he was unaware he was
+disobeying, you may want to add to the story the part from Gen.03:06 that says that
+Adam was there with her.
+
+\ln 02.10
+\ln 02.11
+\ln 02.12
+\ln 02.13
+\con SH1:  re: "After that, God was walking in the Garden" -- The story does not include that
+they hid from God when they heard him walking.  Did you have a specific reason for not
+including this? 
+
+\ln 02.14
+\con SH1:  re:  "God call out to the man and asked, "Where are you?" -- It would be good to
+test this line.  You want to make sure that it does not imply that God was lacking in
+knowledge by asking Adam.    
+\ln 02.15
+\ln 02.16
+\ln 02.17
+\con SH1:  re: "It was the woman you brought to me, gave me the fruit and I ate some." -- The
+story does not state specifically that Adam said this,   If this is natural story telling
+style, that is fine.  However, be sure to test that the audience understands that Adam said
+this.
+
+\ln 02.18
+\ln 02.19
+\con SH1:  re: "You are cursed" -- It is important to test the meaning of the word 'curse'.  Are
+there different words in Lao that are used for curse?  Is it appropriate for God to curse
+someone?
+
+\con SH1:  re: "eat dust" -- You will need to test that people understand that the snake will not
+literally eat dust for its food.  See this note from Translator's Handbook (TH):  "The
+second consequence, and dust you shall eat, does not necessarily mean that the snake will
+live on dust, or eat nothing but dust for its food, but rather that as a crawling animal its
+mouth will be near the ground, and its food will be dusty." 
+
+\ln 02.20
+\ln 02.21
+\ln 02.22
+\ln 02.23
+\ln 02.24
+\con SH1:  re: "you will become/turn into dust" -- You want to test that people understand that
+God is talking about the man's death.  
+
+\con SH1:  re: "soil" -- Is this the same word in Lao that is used in line 01.10 of the first
+story?  It would be good to use the same word so there is consistency between the two
+stories.
+
+\ln 02.25
+\ln 02.26
+\ln 02.27
+\ln 02.28
+\ln 02.29
+\con SH1:  re: "angels" -- This is a keyterm and should be included in your L&C Notes file.
+\ln 02.30
+\dt 28/Sep/2009
+
+\c 02
+\t Uakne / Kejatuhan / The Fall
+\cat ConNotes -- Bob Eaton
+\fac Facilitator -- MiHwa Han
+\co Language: Naya
+
+\con INFO / BOOKKEEPING:
+\co Is there something about your context that prevents you from having a few visual
+resources as well (e.g. the Genesis film, the picture Bible, and picture story boarding)?
+\co See common on 02.11
+\co Seeing the very literal back-translation you made was useful and interesting, but if
+possible could you also include a free translation so that we can more easily understand
+who did what to whom. (like you did in 02.09).
+\con STORY FLOW:
+\co It's good that you left the space at line 02.07 for inserting the important part she
+missed.
+\co See 02.18
+\con TRANS ISSUES:
+\con ANCHORS / LINE LENGTH / EXEG:
+\co See 02.07
+\con KEY TERMS / L&C NOTES:
+\co write an L&C note on the key terms for human, person, woman, man, Lord Creator.
+\con INFERENCE TESTING:
+\co Of course, the testing questions that we've included need to be in Naya and in as much
+as possible the exact wording from the original story.
+\con RETELLING TESTING:
+
+\con 2009-09-29
+
+\ln 02.01
+\ln 02.02
+\ln 02.03
+\co as you suspect from the anchor, this rendering of the question by the snake is
+misleading, who was clearly challenging God (see \cn in BT file). Do you have any good
+"trickster" stories in your collection that might suggest a good way to imply his being
+crafty?
+\ln 02.04
+\co be sure the background information here (i.e. what tree in the center, etc) is in the
+earlier creation story so that this reference here make sense. We've included a number
+of possible testing questions from which you can choose what you think will be
+interesting... roughly 1 question for every 2-3 lines.
+\ln 02.05
+\ln 02.06
+\co Is it clear from the passive form of this verse who's doing what the giving?
+\ln 02.07
+\co So that the following question might make more sense, it might be good to include also
+here that "they were hiding". And then include a testing question like, "Why do you think
+they hid?"
+\co I know that you used Word to edit this story, but in Toolbox for the the anchor to be able
+to jump properly to the NetBible, you need to add a '0' to pad the verse number.
+\ln 02.08
+\ln 02.09
+\co The rendering here is probably fine (i.e. unpacking the rhetorical question). gen.03:09
+would also work to anchor this verse. See also the \cn line in the BT file.
+\ln 02.10
+\co The rendering here is very indirect (as if the agent of his being "ordered" is unknown).
+Is there some (discourse?) reason why this is said in such an indirect/passive way? The
+emotional force of the source text is that Adam basically blames his failure on his wife
+and that seems to be missing (unless this is the way that he blames her in this language).
+See testing question?
+\ln 02.11
+\co Good question that you have in the anchor line, but it would be better to be in a separate
+'co' (comment line) in the BT file, which we'll move here to the ConNotes files.
+\ln 02.12
+\co the snake *tricked* her, but she doesn't really say that he "ordered" her to do it.
+\ln 02.13
+\co as you noted in the anchor, this isn't really anchorable and should be left out. See also \cn
+\ln 02.14
+\ln 02.15
+\co I think what you have here is ok.  It's interesting (to me, anyway) that the scripture
+passage says, specifically "the *woman*" and "*her* seed" whereas you have just *that
+human*. I could find nothing in the exegetical helps which would imply that there's some
+special meaning regard the 'woman-ness' of the enemyhood, so I think this is ok. Is there
+something in the reference system that forces "that human" to refer specifically to the
+woman (as opposed to the man or both indiscrimately).
+\ln 02.16
+\ln 02.17
+\ln 02.18
+\co Is there some reason that you have the punishments coming in the order: 1) snake, 2) man,
+3) woman when the biblical story has it: snake, woman, and then man? If the crafter just
+gave it out of order, then maybe you should revise to be in the same order (esp, if you
+have "After that" in one of the punishments). In the "blind man" story, he has the order
+as in the scripture, so probably no special reason for the reordering.
+\ln 02.19
+\ln 02.20
+\ln 02.21
+\ln 02.22
+\ln 02.23
+\co re: 02.22 - 02.25, it sounds like you recognize the problems here... just work with the
+team to revise this part.
+\ln 02.24
+\ln 02.25
+\ln 02.26
+\ln 02.27
+\ln 02.28
+\ln 02.29
+\ln 02.30
+\dt 30/Sep/2009
+
+\c 03
+\t Noah
+\cat ConNotes -- Sarah Haahr
+\fac Facilitator -- MiHwa Han
+\co Language: L National language
+
+\fac **When you respond to my comments, insert your initials here followed by the date.  This
+will help us to track the comments and questions between us.  For example, you will type: 
+MH1:  (date).  
+\con SH1 = 17 June 2009
+
+\co ANCHORS:
+\co TESTING Qs:  Please write testing questions for your story and insert them into the
+story file using the \tst marker.  Then send me the story file so I can review your
+questions and give suggestions on them.  Testing questions are normally formed at the
+rate of one question per every two lines (or sentences) of the story.   For example, if a
+story has 30 lines, there would normally be around 15 testing questions distributed
+through it.
+\co KEYTERMS:
+\co RETELLINGS:  Once you have backtranslations of two retellings, please add them to the
+story file.  
+
+\con SH1:  Please add a note about why this story was selected and how it relates to the
+redemptive theme.
+
+\ln 03.01
+\con SH1:  re: "Adam and Eve disobeyed God" -- Please add Gen.03:06 to your anchors to
+support this line.
+
+\ln 03.02
+\ln 03.03
+\ln 03.04
+\con SH1:  re: "every bad thing" -- You should test this to find out what people think of when
+they hear 'every bad thing' in the story.  
+
+\ln 03.05
+\ln 03.06
+\con SH1:  re: "he was so sad" -- Please add Gen.06:06 to your anchors to support this line.
+
+\ln 03.07
+\ln 03.08
+\con SH1:  re: "and communicated with Noah" -- Please add Gen.06:13 to your anchors to
+support this line.
+
+\con SH1:  re: "God was pleased with Noah" -- In testing, you should ask about Noah.  You
+could ask questions like:  What type of person do people think he was?  Why was God
+pleased with Noah?  How was he different from the others?
+
+\ln 03.09
+\con SH1:  re: "God told Noah, "Many people do the bad thing in the world," -- You need to
+change this anchor from Gen.06:07 to Gen.06:13-14 because this is where God speaks to
+Noah.
+
+\ln 03.10
+\ln 03.11
+\ln 03.12
+\con SH1:  re: "Noah believed God"  -- The word 'belief' is a keyterm and should be added to
+your L&C Notes file.
+
+\ln 03.13
+\ln 03.14
+\ln 03.15
+\ln 03.16
+\ln 03.17
+\ln 03.18
+\ln 03.19
+\ln 03.20
+\con SH1:  re: "and God was so love them" -- Do you have an anchor or other exegetical
+support for this statement?  If so, please add this to the story file.
+
+\ln 03.21
+\ln 03.22
+\ln 03.23
+\con SH1:  re: "altar" and "sacrifice" -- These are both keyterms and should be added to your
+L&C Notes file.  You will also want to test their understanding of these terms in this story.
+
+\ln 03.24
+\ln 03.25
+\ln 03.26
+\con SH1:  re: "bless" -- This is a keyterm and should be added to your L&C Notes file.
+
+\ln 03.27
+\con SH1:  re: "the rainbow in the sky" -- It would be good to test whether they have any
+beliefs about rainbows in their culture.
+
+\ln 03.28
+\dt 28/Sep/2009
+
+\c 04
+\t Abraham
+\cat ConNotes -- Sarah Haahr
+\fac Facilitator -- MiHwa Han
+\co Language: L National language
+
+\fac **When you respond to my comments, insert your initials here followed by the date.  This
+will help us to track the comments and questions between us.  For example, you will type: 
+MH1:  (date).  
+\con SH1 = 17 June 2009
+
+\co ANCHORS:
+\co TESTING Qs:  Please write testing questions for your story and insert them into the
+story file using the \tst marker.  Then send me the story file so I can review your
+questions and give suggestions on them.  
+\co KEYTERMS:
+\co RETELLINGS:  Once you have backtranslations of two retellings, please add them to the
+story file.  
+
+\con SH1:  Please add a note about why this story was selected and how it relates to the
+redemptive theme.
+
+\ln 04.01
+\ln 04.02
+\ln 04.03
+\ln 04.04
+\ln 04.05
+\ln 04.06
+\con SH1:  re: "his wife" -- I recommend using Sarai's name here and throughout the rest of
+the story, instead of just saying 'his wife.'  This helps to establish her as an important
+character in the story.  It also leads up to her name being changed later in the story.
+
+\con SH1:  re: "and slaves" -- It would be good to test what people think about Abraham having
+slaves.  If they think he is a bad person because he has slaves, you may need to change
+the wording of this line.
+
+\ln 04.07
+\ln 04.08
+\con SH1:  re: "vision" -- You will want to test what they think about Abraham having a vision.  
+Also, if this word is used in other stories, then it should be included in your L&C Notes as
+a keyterm.
+
+\ln 04.09
+\ln 04.10
+\con SH1:  re: "I choose one servant of mine, who will inherit everything." -- What are the
+inheritance practices in their culture?  Is it similar or different than during the time of
+Abraham?  You will want to test what people think of this.  
+
+\ln 04.11
+\ln 04.12
+\con SH1:  re: "and God was pleased with him" -- Please add the TEV translation of this verse
+to anchor which uses similar wording as your story.  TEV:  'Abram put his trust in the
+LORD, and because of this the LORD was pleased with him and accepted him.'
+
+\ln 04.13
+\ln 04.14
+\con SH1:  re: "So Abram's wife gave her servant to Abram and Abram accepted"  -- I am
+wondering why you chose to include this part in the story.  Was there a specific reason
+for including this?  Because you have included the full story of Hagar and Ismael, it
+seems a little confusing to just have these few lines that mention Hagar.     
+\ln 04.15
+\ln 04.16
+\ln 04.17
+\con SH1:  Please add Gen.17:01 to your anchors.
+
+\ln 04.18
+\ln 04.19
+\con SH1:  re: "And I change your name from Abram to Abraham!  Your wife's name will now
+be Sarah instead of Sarai" -- You should test to see what people think about their names
+being changed.  In some cultures, this can be viewed negatively.  I will be interested to
+see in the retelling if people are able to remember the names well.
+
+\ln 04.20
+\con SH1:  re: "hot summer afternoon" -- Do you have an anchor or other exegetical support
+that this happened in the summer?  If so, please add this to your story file.
+
+\con SH1:  re: "Abraham was so happy" -- Please add an anchor to support this line.
+
+\ln 04.21
+\ln 04.22
+\ln 04.23
+\ln 04.24
+\con SH1:  Please add verse 14-15 to your anchors to support this line.
+
+\ln 04.25
+\dt 28/Sep/2009
+
+\c 05
+\t Daniel
+\cat ConNotes -- Sarah Haahr
+\fac Facilitator -- MiHwa Han
+\co Language: L National language
+
+\fac **When you respond to my comments, insert your initials here followed by the date.  This
+will help us to track the comments and questions between us.  For example, you will type: 
+MH1:  (date).  
+\con SH1 = 18 June 2009
+
+\co ANCHORS:
+\co TESTING Qs:  Please write testing questions for your story and insert them into the
+story file using the \tst marker.  Then send me the story file so I can review your
+questions and give suggestions on them.  
+\co KEYTERMS:
+\co RETELLINGS:  Once you have backtranslations of two retellings, please add them to the
+story file.  
+
+\con SH1:  Please add a note about why this story was selected and how it relates to the
+redemptive theme.
+
+\ln 05.01
+\con SH1:  I think this story needs some introduction that helps transition it from the previous
+story.  Perhaps you could say that Daniel was a descandant of Abraham.  I know that you
+will be adding more stories to the set so the introduction may need to be adjusted later. 
+But you want to think about how you can connect this stories with those before it.
+
+\ln 05.02
+\ln 05.03
+\ln 05.04
+\ln 05.05
+\con SH1:  re: "So the king appointed Daniel to govern the whole country" -- >From the
+backtranslation, it sounds like the king did appoint Daniel.  However, the text says that he
+was only thinking about doing this.  See this note from TH:  "Planned to set him over the
+whole kingdom: it should be made clear that this was merely something that the king was
+thinking about doing, but that it had not actually taken place: compare "it was the king's
+intention" (REB). It should also be clear that this did not mean that Daniel would replace
+the king, but rather that he would be the top official in the king's administration."
+
+\ln 05.06
+\con SH1:  re: "The other governors were so jealous" -- Since the anchor does not specifically
+say this, I was wondering if you another anchor or other exegetical support for this line.
+
+\ln 05.07
+\ln 05.08
+\ln 05.09
+\ln 05.10
+\con SH1:  re: "You should make a law that doesn't allow anyone to pray to other gods for 30
+days" -- I think you need to add that the people were only allowed to pray to the king.  It
+seems confusing to me to only mention 'other gods' without mentioning who they are
+supposed to pray to.  Was there a reason that this was not included?
+
+\con SH1:  re: "pray" -- Prayer is a keyterm and should be added to your L&C Notes file.
+
+\ln 05.11
+\ln 05.12
+\ln 05.13
+\ln 05.14
+\con SH1:  re: "Jersusalem"  -- Are the listeners familiar with the city of Jerusalem?  It has
+not been mentioned in any of your stories yet although you may add it when more stories
+are crafted.
+
+\ln 05.15
+\ln 05.16
+\ln 05.17
+\con SH1:  re: "the Jew" -- You need to think about what term you are going to use throughout
+your story set to refer to the Jews.  In other story sets, people often choose one term
+and use that throughout the entire set.  This is easier for the listeners to remember and
+understand.  There are many possibilities and you can think about what will be best for
+your people.  Some teams have used 'descendants of Abraham', 'Israelites',  etc.  
+
+\ln 05.18
+\ln 05.19
+\ln 05.20
+\ln 05.21
+\ln 05.22
+\ln 05.23
+\ln 05.24
+\ln 05.25
+\ln 05.26
+\ln 05.27
+\ln 05.28
+\ln 05.29
+\ln 05.30
+\ln 05.31
+\dt 28/Sep/2009
+
+\c 06
+\t Birth
+\cat ConNotes -- Sarah Haahr
+\fac Facilitator -- MiHwa Han
+\co Language: L National language
+
+\fac **When you respond to my comments, insert your initials here followed by the date.  This
+will help us to track the comments and questions between us.  For example, you will type: 
+MH1:  (date).  
+\con SH1 = 20 June 2009
+
+\co ANCHORS:
+\co TESTING Qs:  Please write testing questions for your story and insert them into the
+story file using the \tst marker.  Then send me the story file so I can review your
+questions and give suggestions on them.  
+\co KEYTERMS:
+\co RETELLINGS:  Once you have backtranslations of two retellings, please add them to the
+story file.  
+
+\con SH1:  Please add a note about why this story was selected and how it relates to the
+redemptive theme.
+
+\ln 06.01
+\con SH1:  re: "Many years later, Jewish people went to their country" -- Can you please
+explan this transition?  Is it referring to the time when the Jews returned to Israel from
+being in captivity?  You also need to include an anchor for this line even though it is only
+the introduction to the story.
+
+\ln 06.02
+\ln 06.03
+\ln 06.04
+\con SH1:  re: "They had not married yet" -- Please include Mat.01:27 in your anchors for this
+line.
+
+\ln 06.05
+\ln 06.06
+\ln 06.07
+\ln 06.08
+\con SH1:  re: "Son of God" -- This is a keyterm and should be included in your L&C Notes
+file.  
+
+\ln 06.09
+\con SH1:  re: "I am not married" -- You will need to test to see if people understand from the
+story that Mary was a virgin.  Is it common in the Lao culture to have sex before
+marriage?  If so, then the story may need to be state specifically that she was a virgin.
+
+\ln 06.10
+\con SH1:  re: "Holy Spirit" -- This is a keyterm and should be included in your L&C Notes
+file.  
+
+\ln 06.11
+\ln 06.12
+\ln 06.13
+\ln 06.14
+\con SH1:  re: "he decided to break off the engagement"  -- What are the engagement customs
+of the Lao people?  Would it be a serious matter to break an engagement?  
+
+\ln 06.15
+\ln 06.16
+\ln 06.17
+\ln 06.18
+\con SH1:  re: "he did everything God said" -- You should test to see if people understand that
+the angel was bringing a message from God.  It was actually the angel who told him these
+things to do.  So, people may be confused if they don't understand that angels bring
+messages from God.
+
+\ln 06.19
+\con SH1:  re: "they didn't sleep together" -- In English this figure of speech is used to say
+that they did not have sex together.  Is this also true in Laotian?  If so, please add a
+crafting note about this figure of speech and its meaning.  You should also test to make
+sure that people understand this line.
+
+\ln 06.20
+\con SH1:  re: "It means he will save his people from their sins." -- Please add Mat.01:25 to
+your anchors.
+
+\con SH1:  re: "sins" -- This is a keyterm and should be included in your L&C Notes file.  
+
+\dt 28/Sep/2009
+
+\c 07
+\t Jesus heals paralyzed man
+\cat ConNotes -- Sarah Haahr
+\fac Facilitator -- MiHwa Han
+\co Language: L National language
+
+\fac **When you respond to my comments, insert your initials here followed by the date.  This
+will help us to track the comments and questions between us.  For example, you will type: 
+MH1:  (date).  
+\con SH1 = 20 June 2009
+
+\co ANCHORS:
+\co TESTING Qs:  Please write testing questions for your story and insert them into the
+story file using the \tst marker.  Then send me the story file so I can review your
+questions and give suggestions on them.  
+\co KEYTERMS:
+\co RETELLINGS:  Once you have backtranslations of two retellings, please add them to the
+story file.  
+
+\con SH1:  Please add a note about why this story was selected and how it relates to the
+redemptive theme.
+
+\ln 07.01
+\con SH1:  re: "taught many people to know the kingdom of God" -- Please add an anchor to
+support this part of the line.
+
+\con SH1:  re: "kingdom of God"  -- this is a keyterm and should be added to your L&C Notes
+file.
+
+\ln 07.02
+\ln 07.03
+\ln 07.04
+\ln 07.05
+\ln 07.06
+\ln 07.07
+\con SH1:  re: "they made a hole in the roof" -- What are the homes like in Laos?  In some
+places it is difficult for people to understand how these men could get onto the roof with
+a crippled man.  If so, then it might be helpful to mention that they went up outside stairs
+to the flat roof.  This is something you can check about in your testing.
+
+\ln 07.08
+\con SH1:  re:  comment 'friend?' -- Can you explain your comment?  Are you considering
+saying 'friend' instead of 'son'?
+
+\con SH1:  re: "faith" -- this is a keyterm and should be added to your L&C Notes file.
+
+\ln 07.09
+\ln 07.10
+\ln 07.11
+\ln 07.12
+\con SH1:  re: "Which one is better..." -- In the text, Jesus says 'which one is easier.'  This is
+different than saying 'which one is better.'  Jesus is asking about the difficulty of the
+two actions.  See this note from Translator's Notes (TN) that talks about this verse: 
+"Which is easier: It is a problem in some languages to translate comparative ideas such
+as easier. When you translate this, perhaps you will need to say something like
+“Which is easy and which is not easy,” or “Which is easy and which is
+difficult.”
+
+\ln 07.13
+\con SH1:  re: "Son of Man" -- You will definitely what to test what people understand by this
+term.  In other projects, teams have decided to omit 'Son of Man' and just use the
+pronoun 'I'.  Here is a note from TN that gives more information about this term:  "When
+you translate this name, remember that Jesus was talking about himself, not about
+another man. He used this kind of name so people could not say he was speaking too
+highly about himself. In your language you may not be able to talk about yourself as if
+you were someone else. If so, you will need to try and show in your translation, or in a
+note, that Jesus was talking about himself when he used this name."
+
+\ln 07.14
+\con SH1:  re: "praise" -- this is a keyterm and should be added to your L&C Notes file.
+
+\ln 07.15
+\dt 28/Sep/2009
+
+\c 09
+\t Crucifixion
+\cat ConNotes -- Sarah Haahr
+\fac Facilitator -- MiHwa Han
+\co Language: L National language
+
+\fac **When you respond to my comments, insert your initials here followed by the date.  This
+will help us to track the comments and questions between us.  For example, you will type: 
+MH1:  (date).  
+\con SH1 = 20 June 2009
+
+\co ANCHORS:  You have done a good job in anchoring your stories.  I did want to tell you
+that if a story is found in multiple gospels, you do not need to give an anchor from each
+gospel.  You can choose one passage as your main source and provide the anchors for
+there.  If a different gospel provides some information that is not in your main source
+text, then you can add an anchor for that specific information from the other gospel. 
+This will save you time as you are anchoring your stories.
+\co TESTING Qs:  Please write testing questions for your story and insert them into the
+story file using the \tst marker.  Then send me the story file so I can review your
+questions and give suggestions on them.  
+\co KEYTERMS:
+\co RETELLINGS:  Once you have backtranslations of two retellings, please add them to the
+story file.  
+
+\con SH1:  Please add a note about why this story was selected and how it relates to the
+redemptive theme.
+
+\ln 09.01
+\con SH1:  re: 'to a mount' --  Please add Luk.22:39 to your anchors because this verse
+describes the place as the Mount of Olives.
+
+\ln 09.02
+\ln 09.03
+\con SH1:  re: "Jesus prayed and then he talked with disciples" -- Please add Mat.26:36-46 to
+your anchors.
+
+\ln 09.04
+\con SH1:  re: "Jesus was arrested" -- Please add Mat.26:57 to your anchors.
+
+\con SH1:  re: "Son of God" -- This is a keyterm and should be added to your L&C Notes.
+
+\ln 09.05
+\con SH1:  re: "Son of Man" -- Please see my note about this term in story 7, line 13
+
+\con SH1:  re: "And you will see the Son of Man sitting at the right side of God All Powerful
+and coming with the clouds of heaven." -- You will definitely want to test this line to find
+out what people are understanding.  Do they understand that Jesus is talking about
+himself?  One question you could ask is "Why will Jesus be coming with the clouds of
+heaven?"
+
+\ln 09.06
+\con SH1:  re: "they were so angry" -- A  good testing question to ask here would be "Why
+were the religious leaders so angry at Jesus' response?"
+
+\con SH1:  re:  "they were so angry" -- Please add this note to your story file from the
+Consultant Notes in TW.  This note is needed to show that the tearing of clothes was a
+sign of their anger.   From:  CN:  "Tore his clothes” is an act symbolizing his anger or
+chagrin at what he construed as blasphemy," 
+
+\ln 09.07
+\con SH1:  re: "He is guilty" -- It would be interesting to ask in testing what people think Jesus
+was guilty of.  You could ask questions like "Why did the religious people arrest Jesus? 
+Why were they accusing Jesus of doing?"  The answers to these questions will help you
+know what additional stories you may need to add to your set.  It is often necessary to
+add some stories that mention the growing conflict between Jesus and the religious
+leaders.  If their disapproval of him is never mentioned before the crucifixion story, it
+can be confusing to people.  They don't understand why anyone would want to kill Jesus.
+
+\ln 09.08
+\ln 09.09
+\con SH1:  re: "The religious leaders accused Jesus" -- Please add an anchor for this line.
+
+\ln 09.10
+\con SH1:  re: "Pilate was a ruler of Rome" -- Please add Mat.27:02 to your anchors.
+
+\ln 09.11
+\ln 09.12
+\ln 09.13
+\con SH1:  re: "Yes!  it is as you said" -- The anchor provided does not support this phrase. 
+Please add another anchor or exegetical support for this phrase.
+
+\ln 09.14
+\ln 09.15
+\ln 09.16
+\con SH1:  re: "Give us Barabbas" -- It may be confusing to mention Barabbas without any
+explanation of who he is.  People will not know about the custom of releasing one
+prisoner each year.   I would recommend either not mentioning Barabbas in the story.  Or
+you may need to provide more information about him and this custom of releasing a
+prisoner.  You can also test this and see what works best.
+
+\ln 09.17
+\ln 09.18
+\ln 09.19
+\con SH1:  re: "Pilate said to the people, <<I do not have anything to do with killing this man.>>"
+-- Please add Mat.27:24 to your anchors to support this line.
+
+\ln 09.20
+\con SH1:  re: "Everyone answered, <<We and our descendants will take the blame for his
+death.>> -- Please add the NLT translation of this verse to your anchors:  NLT:  "And all
+the people yelled back, “We will take responsibility for his death—we and our
+children!”
+
+\ln 09.21
+\con SH1:  re: "Pilate ordered soldier to nail him to a cross." -- You can remove Mat.27:24
+from your anchors because it does not match with this line.
+
+\con SH1:  re: "soldier" -- In Lao, is this word in the plural or singular form?  If it is plural,
+can you please adjust the BT using brackets.  For example, "Pilate ordered soldier [MH: 
+soldiers]."  If it is in the singular form, then the story will need to be adjusted.   
+\ln 09.22
+\con SH1:  re: "soldier" -- Same comment as in line 09.21
+
+\ln 09.23
+\con SH1:  re: "My father, please forgive them because they do not know what they are doing"
+-- Please add Luk.23:34 to your anchors to support this line.
+
+\con SH1:  re: "Jesus prayed to God <<My father, please forgive them because they do not
+know what they are doing>>  After Jesus finished praying, he died." -- I feel that the
+story does not accurately tell the order of events in this line.  The story gives the
+impression that Jesus asked God to forgive them immediately before he died.  However,
+there were other things he said before dying.  
+
+\dt 28/Sep/2009
+
+\c 10
+\t Resurrection
+\cat ConNotes -- Sarah Haahr
+\fac Facilitator -- MiHwa Han
+\co Language: L National language
+
+\fac **When you respond to my comments, insert your initials here followed by the date.  This
+will help us to track the comments and questions between us.  For example, you will type: 
+MH1:  (date).  
+\con SH1 = 6 July 2009
+
+\co ANCHORS:
+\co TESTING Qs:  Please write testing questions for your story and insert them into the
+story file using the \tst marker.  Then send me the story file so I can review your
+questions and give suggestions on them.  
+\co KEYTERMS:
+\co RETELLINGS:  Once you have backtranslations of two retellings, please add them to the
+story file.  
+
+\con SH1:  Please add a note about why this story was selected and how it relates to the
+redemptive theme.
+
+\ln 10.01
+\ln 10.02
+\con SH1:  re: "Joseph" -- Some people may think that this is the same Joseph as in the Birth
+story.  This is something that you can ask about in testing.  If it is confusing to people,
+you could take out his name and just say 'a disciple of Jesus'.
+
+\ln 10.03
+\ln 10.04
+\con SH1:  re: "<<I will put the body in new tomb which had never been used.>> -- Do you have
+exegetical support that Joseph said this to Pilate?
+
+\con SH1:  re: "tomb" -- What are the burial practices of the Lao people?  Don't they usually
+cremate dead bodies?  If so, what is their understanding of a tomb?  
+
+\ln 10.05
+\ln 10.06
+\con SH1:  re: "soldier" -- See my comment on this from story 09.21
+
+\ln 10.07
+\ln 10.08
+\ln 10.09
+\ln 10.10
+\ln 10.11
+\con SH1:  re: "He is not here!  God has raised him to life."-  This anchor should be Mat.28:06.
+
+\ln 10.12
+\ln 10.13
+\con SH1:  re: "Suddenly, Jesus met them and greeted them, <<Peace be with you!" -- This
+anchor should be Luk.24:36
+
+\con SH1:  re: "Suddenly, Jesus met them" -- In testing, who do people think Jeus appeared
+to?  From the backtranslation, it seems that Jesus appeared to only the women while they
+were running to find the disciples.  The story should be clear that Jesus appeared to all
+the disciples.
+
+\ln 10.14
+\ln 10.15
+\ln 10.16
+\con SH1:  re:  "look at my hands and my feet and see who I am!  Touch me!" -- A good question
+to ask in testing would be "Why did Jesus want them to look at his hands and feet?"  It is
+good to test this because in the crucifixion story, it did not say specifically that Jesus'
+hands and feet were nailed into the cross.  
+
+\ln 10.17
+\ln 10.18
+\ln 10.19
+\ln 10.20
+\ln 10.21
+\ln 10.22
+\ln 10.23
+\ln 10.24
+\con SH1:  re: "You have to wait here for the Father to give you the Holy Spirit as He has
+promised" -- Please add this note from Translators Notes (TN) to your anchors:  TN:  "I
+am going to send you what my Father has promised: Jesus was referring to the Holy
+Spirit and to the new spiritual life and power that the Spirit would bring. This is what
+God promised in such passages as Joel 2:28-29. It is also what Jesus promised his
+disciples in John 14:16-17."
+
+\con SH1:  re: "Holy Spirit" -- Please add this keyterm to your L&C Notes.
+
+\ln 10.25
+\ln 10.26
+\ln 10.27
+\ln 10.28
+\con SH1:  re:  "two angels dressed in white clothes" -- Please add this note to your anchors:  
+from TN "when suddenly two men dressed in white stood beside them: Luke described
+them as two men dressed in white to make it clear that, although they looked like men,
+they were really angels. Also, they suddenly appeared and stood beside the apostles. This
+shows that these were not just ordinary people who had white clothes. The words stood
+beside them show that the location of the angels was right next to the apostles. If your
+language has a word for “angel,” you could use it here."  
+
+\ln 10.29
+\con SH1:  re: "Heave" -- Please add this keyterm to your L&C Notes.
+
+\dt 28/Sep/2009
+
+\c 99
+\t LINE NUMBERS 
+\ln xx.01
+\ln xx.02
+\ln xx.03
+\ln xx.04
+\ln xx.05
+\ln xx.06
+\ln xx.07
+\ln xx.08
+\ln xx.09
+\ln xx.10
+\ln xx.11
+\ln xx.12
+\ln xx.13
+\ln xx.14
+\ln xx.15
+\ln xx.16
+\ln xx.17
+\ln xx.18
+\ln xx.19
+\ln xx.20
+\ln xx.21
+\ln xx.22
+\ln xx.23
+\ln xx.24
+\ln xx.25
+\ln xx.26
+\ln xx.27
+\ln xx.28
+\ln xx.29
+\ln xx.30
+\ln xx.31
+\ln xx.32
+\ln xx.33
+\ln xx.34
+\ln xx.35
+\ln xx.36
+\ln xx.37
+\ln xx.38
+\ln xx.39
+\ln xx.40
+\ln xx.41
+\ln xx.42
+\ln xx.43
+\ln xx.44
+\ln xx.45
+\ln xx.46
+\ln xx.47
+\ln xx.48
+\ln xx.49
+\ln xx.50
+\ln xx.51
+\ln xx.52
+\ln xx.53
+\ln xx.54
+\ln xx.55
+\ln xx.56
+\ln xx.57
+\ln xx.58
+\ln xx.59
+\ln xx.60
+\ln xx.61
+\ln xx.62
+\ln xx.63
+\ln xx.64
+\ln xx.65
+\ln xx.66
+\ln xx.67
+\ln xx.68
+\ln xx.69
+\ln xx.70
+\ln xx.71
+\ln xx.72
+\ln xx.73
+\ln xx.74
+\ln xx.75
+\ln xx.76
+\ln xx.77
+\ln xx.78
+\ln xx.79
+\ln xx.80
+\ln xx.81
+\ln xx.82
+\ln xx.83
+\ln xx.84
+\ln xx.85
+\ln xx.86
+\ln xx.87
+\ln xx.88
+\ln xx.89
+\ln xx.90
+\ln xx.91
+\ln xx.92
+\ln xx.93
+\ln xx.94
+\ln xx.95
+\ln xx.96
+\ln xx.97
+\ln xx.98
+\ln xx.99
+\dt 27/Mar/2008

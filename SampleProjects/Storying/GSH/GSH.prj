@@ -1,0 +1,242 @@
+\+ShProjectSettings 
+\ver 5.0
+\ProgramVersion 1.5.4b Oct 2008
+\ProjectPath L:\Pahari\Storying\GSH\GSH.prj
+\LockProject 0
+\AutomaticKeyboardSwitching
+\+CorpusSet 
+\WordLstMaxCount 10
+\ConcordanceSearchType 3
+\ConcordanceLimitCount
+\ConcordanceMaxCount 1000
+\ConcordanceOutput lookup.db
+\-CorpusSet
+\UseImportCCT
+\ImportCCT C:\OneStoryProjects\del-line.cct
+\LangCtrlHeight 24
+\+fntMarkers 
+\Name MS Sans Serif
+\Size 10
+\-fntMarkers
+\+rundosMarkers 
+\-rundosMarkers
+\placementMain max -1 -1 -1 -1 369 51 624 621
+\+dblst 
+
+\+db L:\Pahari\Storying\NETBIBLE.TXT
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 -10 490 718 677
+\z 0
+\ViewMarkers
+\widthMarkerArea 50
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr c
+\width 710
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey v
+\srtPriKey Default
+\mkrSecKey c
+\-ind
+\+rec 
+\fldPriKey luk.02:01 Now in those days a decree went out from Caesar Augustus to register all the empire for taxes. 
+\fldSecKey 42 Luke 002
+\-rec
+\+keySearch 
+\fldPri 09
+\match_char p
+\-keySearch
+\+keyInsert 
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 3
+\CaretLineScroll 3
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\GSH\GSH-Stories--Jan08.TXT
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -4 -30 2 -4 716 492
+\z 2
+\ViewMarkers
+\widthMarkerArea 50
+\Browse
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr c
+\width 53
+\-brf
+\+brf 
+\mkr t
+\width 227
+\-brf
+\+brf 
+\mkr voi
+\width 402
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey c
+\srtPriKey Default
+\-ind
+\+rec 
+\fldPriKey 09
+\-rec
+\+keySearch 
+\fldPri MRK.2:1
+\match_char p
+\-keySearch
+\+keyInsert 
+\fldPri xx
+\MatchWhole
+\match_char p
+\-keyInsert
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\GSH\GSH-L&C Notes.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 638 321 1019 463
+\z 1
+\ViewMarkers
+\widthMarkerArea 50
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr r
+\width 363
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey r
+\srtPriKey Default
+\-ind
+\+rec 
+\fldPriKey ceremonial washing
+\-rec
+\+keySearch 
+\fldPri 09
+\match_char p
+\-keySearch
+\+keyInsert 
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 5
+\CaretLineScroll 5
+\CaretChar 105
+\-wnd
+\-wndlst
+\-db
+
+\-dblst
+\+Find 
+\Field bt
+\match_char i
+\+ftxlst 
+\+ftx 
+\text David
+\lng Default
+\-ftx
+\+ftx 
+\text Jesus
+\lng Default
+\-ftx
+\+ftx 
+\text JESUS
+\lng Default
+\-ftx
+\+ftx 
+\text spit
+\lng Default
+\-ftx
+\+ftx 
+\text disciple
+\lng Default
+\-ftx
+\+ftx 
+\text DAVE
+\lng Default
+\-ftx
+\+ftx 
+\text all nations
+\lng Default
+\-ftx
+\+ftx 
+\text spiritual
+\lng Default
+\-ftx
+\+ftx 
+\text Isa
+\lng Default
+\-ftx
+\+ftx 
+\text sin
+\lng Default
+\-ftx
+\+ftx 
+\text Peter
+\lng Default
+\-ftx
+\+ftx 
+\text blasphemy
+\lng Default
+\-ftx
+\+ftx 
+\text case
+\lng Default
+\-ftx
+\+ftx 
+\text crucif
+\lng Default
+\-ftx
+\+ftx 
+\text repent
+\lng Default
+\-ftx
+\+ftx 
+\text covenant
+\lng Default
+\-ftx
+\+ftx 
+\text Covenant
+\lng Default
+\-ftx
+\+ftx 
+\text 24.
+\lng Book References
+\-ftx
+\+ftx 
+\text 25.
+\lng Book References
+\-ftx
+\+ftx 
+\text spokesman
+\lng Default
+\-ftx
+\-ftxlst
+\Replace 24.
+\-Find
+\AmbigBoxLeft 0
+\AmbigBoxTop 20
+\-ShProjectSettings

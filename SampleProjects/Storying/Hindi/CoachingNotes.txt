@@ -1,0 +1,345 @@
+\_sh v3.0  184  StoryNotes
+
+\c 01
+\t Jesus appears to disciples, is taken up into heaven
+\cat Judy coaching Bob
+\co Hindi
+
+\cch JP1 = 2009-01-18 Nice work!
+
+\ln 01.01
+\ln 01.02
+\cch JP1 -- It is a good question, but shouldn't have the "for forty days", since that's not in the story (or did it get left out of the BT?)
+\fac BE: Sorry, the BT was wrong.
+\ln 01.03
+\ln 01.04
+\con BE: We added the phrase, 'God will give you the holy spirit.' on the basis of the retelling (and since it's in the anchored verse)
+\ln 01.05
+\cch JP1 -- re your note which suggests they make "I" (Jesus) the agent, both Translator's Notes and Translator's Handbook use "God" as the agent when they change that clause from passive to active. If you have other evidence that "I" (Jesus) is appropriate, please paste that into the BT file as a cn (crafting note).
+\fac I didn't see the TN, but I'm pretty surprised by that... I thought jhn.16.07 ("but if I go, I will send him to you."--RSV) and luk.24:49 ("I send the promise of my Father upon you"--RSV) were clear. However, on seeing jhn.14:26, I think it becomes clear that the earlier two must be in a causative sense. I'll adjust my earlier comment so that God is the agent.
+\con Based on UNS feedback, it was clear that the UNSs (both) had previous knowledge of baptism and it was felt by the crafters and the testers that we needed to make this more clear. So we changed it from "John used to give baptism with water" to "John used to fulfill the ritual of baptism with water" (i.e. so that it's clear that baptism is a ritual of some sort--which will fit it into a category in their heads rather than just having zero meaning). For baptism of HS, however, that isn't considered a 'ritual', but rather a "gift" or a "blessing", so we changed that phrase from "you will get baptism of the holy spirit." to "you will get the gifting of baptism of the holy spirit."
+\ln 01.06
+\con The mini-conversation about "Will you now restore the kingdom to us?" was felt to be a distraction from what Jesus was trying to teach about the HS (since it interrupts what Jesus is saying about the coming of the HS in act.01.04 - 05, and then again in act.01.08 ff and in all the retellings, UNS#2 never got back to the more important/connection information about the HS that Jesus gives after the interruption). So we took the mini-conversation out totally.
+\ln 01.07
+\con Inclusio repetition of the command to stay in Jerusalem (based partly on the UNS's retelling, where he did the same thing and p.c. with Levinsohn who says that this is very common in S Asian languages.
+\ln 01.08
+\ln 01.09
+\ln 01.10
+\ln 01.11
+\ln 01.12
+\con BE: because the UNS tester (#1) said they were gods, we thought it best to make it explicit that they were angels. (#2 gave the right answer from too little information, but he's obviously answer this from previous knowledge
+\ln 01.13
+\ln 01.14
+\ln 01.15
+\ln 01.16
+\con BE: based on the UNS's misperception that it was the angels who went to the upper room, we re-did this verse to make it clear that it was "the companions of Jesus". We also changed it because it previously gave the impression that the two angels came to where they were already praying. Now it reads that the "companions" (apostles and any others that were there for the assention) came back. Also, based on the lack of understanding about why to pray, we changed it to express that they were getting together to pray as part of a "group" (introducing the keyterm for 'church') and put "used to pray together" in the habitual aspect, rather than only on that particular day. In this way, (we hope) it will signal the birth of the church.
+\ln 01.17
+\ln 01.18
+\ln 01.19
+\ln 01.20
+\ln 01.21
+\ln 01.22
+\ln 01.23
+\ln 01.24
+\ln 01.25
+\dt 18/Jan/2009
+
+\c 03
+\t Peter heals a paralytic
+\cat Judy coaching Bob
+\co Hindi CPM set
+
+\cch JP1 = 2009-01-16 -- Good job!
+
+\cch JP1 -- The headers in your ConNotes are for a coaching file. 
+\ln 03.01
+\ln 03.02
+\ln 03.03
+\ln 03.04
+\cch JP1 -- Good teaching in your note. But frankly, I think this particular question is a good one. It's speculative, but I wonder if the fact that he asked this question implied that he thought it was kind of funny for it to say Peter looked attentively at the man.  This bit of the story in English always sounds kind of odd to me. I could imagine a culture for which it would imply something pretty negative to have someone staring like that -- evil-eye or something. Or it might imply something good, like Peter was taking a minute to assess whether or not he had the faith to be healed. Anyway, I'd suggest he keep the question and see what he gets from it.
+\cch JP1 -- re "Look towards me" -- seems kind of odd for Peter to say this, when in line 03 it says the lame man is already looking at him.
+\ln 03.05
+\ln 03.06
+\ln 03.07
+\ln 03.08
+\ln 03.09
+\ln 03.10
+\ln 03.11
+\ln 03.12
+\con Judy, in this verse, they took the reported event from act.03:10 (i.e. "they recognized him as the man who used to sit and ask for donations at the Beautiful Gate of the temple") and turned it into direct speech (i.e. they began to say, "Isn't this the same lame man who having sat at the gate used to beg alms?!"). This is something that I was led to believe was acceptable by some consultant or other and I think tends to make the description of events a bit more vivid. Is this okay in your way of consulting?
+\cch JP1 -- I think it's very good. I think speech is implied here in the word "recognized" (vs 10). How else, other than speech, could Luke or whoever reported this incident have know the crowd recognized him as the one who had been lame?  So, yes, it's an excellent way to tell the story!
+\ln 03.13
+\con Now, in this verse, they've "put words in Peter's mouth" (i.e. "Yes, this is the same from-birth-lame man, who having sat at the gate used to beg alms."), which aren't technically recorded in the scripture. If feels like they might have done this to give an answer to the question that they've turned the preceding event reporting into direct speech. What's your feel about this? Could act.03:16 (i.e. "whom you see and know") be used as an anchor for this--i.e. a confirmation of their question from 03.12? I know this probably feels like a stretch (since the question this is supposedly an answer for is itself an extrapolation), but I think there are good "story-telling" reasons for doing this...
+\cch JP1 -- Yes, I think act.03:16 anchors the "this is the same...man", but also add act.03:11 (...as if we made this man walk...) for the "from-birth-lame" part. I'm not sure we have the right to have Peter also say "who having sat at the gate used to beg alms". Do you think they could omit that bit and still retain the meaning?
+\ln 03.14
+\ln 03.15
+\ln 03.16
+\ln 03.17
+\ln 03.18
+\ln 03.19
+\ln 03.20
+\con Do you have a problem with my advice here? Otherwise, I was going to ask them to just leave it out, because it doesn't seem crucial to the story and is otherwise probably too opaque to be of benefit.
+\cch JP1 -- Your advice seems good to me. I expect some of this long and complex sermon will change when they get a retelling. And if this line is too opaque, it will simply get lost in the retelling.
+\ln 03.21
+\con Help! I need your opinion on my advice on this one as well.
+\cch JP1 -- So, what do you feel the Redemptive Theme should be for a Hindu audience?  The R.Theme of the Low Caste Hindi set that we used at the first workshop was Restored Relationship. (I have no idea if that theme is appropriate or not, but it is a favorite of IMB!) If that should also be the theme in these stories, then perhaps salvation doesn't need to be mentioned, and this line could end with "...and believe on him." That would eliminate the problem of anchoring "get salvation". Or he could go on to add something relationshipish from vs 3:20 about times of refreshing from the presence of the Lord.
+\ln 03.22
+\ln 03.23
+\ln 03.24
+\ln 03.25
+\dt 16/Jan/2009
+
+\c 04
+\t Peter & John before the Sanhedrin
+\cat Judy coaching Bob
+\co HindiCPM set
+
+\cch JP1 = 2009-02-02 Well done! Just one suggested addition.
+
+
+\ln 04.01
+\ln 04.02
+\ln 04.03
+\ln 04.04
+\con BE: Judy, the 2nd person pronouns come in three different honorific levels in Hindi: intimate (used by husband/wife/kids/very close friends/relatives and (interestingly enough) with God by Hindus, 2) familiar (used by adults to kids, masters to their servants, bosses to their employees and otherwise in an "up to down" relationship, and 3) formal, used by the other direction in the "down to up" relationship, students to their teachers and (in this case) for defendents to the judge, etc. Madam crafted this with the familiar imperative, which might be possible, but seems a bit "informal" to me for a "court scenario" such as this. However, I suspect they've used it because what Peter eventually says (i.e. you tell us whether we should obey God or you) would be difficult to imagine if he were using the formal/high respect forms. So the question is, if it is ok to portray Peter as being somewhat *bold* and provocative (which seems to be a requirement if he's basically to challenge them the way he does), then the pronoun form she's used is okay. Otherwise, if he is supposed to be portrayed as a properly submissive "defendent/servant" to the judge(s), then she should change it to the formal version of the pronouns (which then probably makes Peter's "rebelliousness" later harder to understand)... What do you think?
+\cch JP1 -- Bruce's commentary (vs 11) says <<The apostles are technically on the defensive, but actually they have gone over to the attack.>> So you could maybe justify the less respectful form. But I think I'd recommend some testing of this version to make sure. Maybe ask the questions at the end of the speech so you can gather the listeners whole impression of Peter. Your questions should somehow find out if they think it's bad of him to address the council in this fashion? Can they imagine, for example, a respected pastor today speaking in this familiar fashion to government officials? If so, then it's probably ok.
+\ln 04.05
+\ln 04.06
+\ln 04.07
+\ln 04.08
+\ln 04.09
+\ln 04.10
+\ln 04.11
+\ln 04.12
+\ln 04.13
+\ln 04.14
+\ln 04.15
+\ln 04.16
+\ln 04.17
+\ln 04.18
+\ln 04.19
+\ln 04.20
+\ln 04.21
+\ln 04.22
+\ln 04.23
+\ln 04.24
+\cch JP1 -- since one of the teaching points is boldness in ministry, I think they should probably add something like "and began to preach God's word courageously", as a result of being filled with the HS.
+\ln 04.25
+\ln 04.26
+\ln 04.27
+\ln 04.28
+\ln 04.29
+\ln 04.30
+\dt 02/Feb/2009
+
+\c 06
+\t Apostles in jail
+\cat Judy coaching Bob
+\co Hindi
+
+\cch JP1 = 2009-02-02 -- Good!
+
+\ln 06.01
+\cch JP1 -- It would be good to link this to the preceding story so that it's clear where it falls in the chronology of events.
+\ln 06.02
+\ln 06.03
+\ln 06.04
+\ln 06.05
+\ln 06.06
+\ln 06.07
+\con I couldn't find anything that said that they "were sleeping", except as such things are implied in "in the night" and suggested by the fact that they managed to escape unnoticed. Is this a problem?
+\cch JP1 -- I think it would be better to not say they were sleeping. Who knows, it may have been early evening. In Acts 12 where it happens again to Peter, it specifically states the Peter was asleep and the angel shook him to wake him up. So, probably, since it's not mentioned here, it would be better to just stick to what's in the verse.
+\ln 06.08
+\ln 06.09
+\ln 06.10
+\ln 06.11
+\ln 06.12
+\ln 06.13
+\ln 06.14
+\ln 06.15
+\ln 06.16
+\ln 06.17
+\ln 06.18
+\ln 06.19
+\ln 06.20
+\ln 06.21
+\ln 06.22
+\ln 06.23
+\ln 06.24
+\ln 06.25
+\ln 06.26
+\ln 06.27
+\con This type of inclusio (i.e. repetition of the command 06.24, again in 06.27) is attested in Kangri discourse as a good device for giving instructions.
+\cch JP1 -- Good. It would be helpful to others who may someday read the BT file, if you'd put the above comment into a \cn (crafting note) right under the anchor. Since it's common in Kangri, we can probably assume that related lgs do it as well. 
+\ln 06.28
+\ln 06.29
+\ln 06.30
+\dt 02/Feb/2009
+
+\c 07
+\t Choosing helpers
+\cat Judy coaching Bob
+\co Hindi CPM set
+
+\cch JP1 = 2009-02-02 -- You do such good clear consulting!
+
+\ln 07.01
+\ln 07.02
+\ln 07.03
+\ln 07.04
+\ln 07.05
+\ln 07.06
+\ln 07.07
+\ln 07.08
+\ln 07.09
+\cch JP1 -- re apostles or disciples -- Is the word disciples in the line referring to the 7 men (i.e. chosen disciples?) or to the ones who prayed for them? If it's the latter, maybe you could put a comma between chosen and disciples.
+\ln 07.10
+\ln 07.11
+\dt 02/Feb/2009
+
+\c 10
+\t Conversion of Saul
+\cat Judy coaching Bob
+\co Hindi
+
+\cch JP1 = 2009-01-27 Nice job!
+
+\ln 10.01
+\ln 10.02
+\ln 10.03
+\ln 10.04
+\ln 10.05
+\ln 10.06
+\ln 10.07
+\ln 10.08
+\ln 10.09
+\ln 10.10
+\ln 10.11
+\ln 10.12
+\ln 10.13
+\ln 10.14
+\ln 10.15
+\ln 10.16
+\ln 10.17
+\ln 10.18
+\ln 10.19
+\con Is "believed in the Lord Jesus Christ" a problem, since it's not in the verse? Can we say "implied by the rest of the book" as the anchor :-)
+\cch JP1 -- Does "believed" in this sentence imply that it wasn't until this point that Paul believed? I think the implication is that he began believing out on the road at the first encounter. So, if the "believed" doesn't imply a specific time, then fine. Otherwise, it would be good to find a way to express it that had Paul beginning to believe a bit before Ananias comes to baptize him. It doesn't specifically say it, but I think the praying in vs 11, and the fact that Ananias calls him "Brother" implies it.
+\ln 10.20
+\ln 10.21
+\ln 10.22
+\ln 10.23
+\ln 10.24
+\ln 10.25
+\ln 10.26
+\dt 27/Jan/2009
+
+\c 13
+\t Gentiles in Antioch
+
+\cat Judy coaching Bob
+\co Hindi
+\cch JP1 = 2009-02-03 Looks good.
+
+\ln 13.01
+\ln 13.02
+\ln 13.03
+\ln 13.04
+\ln 13.05
+\ln 13.06
+\ln 13.07
+\ln 13.08
+\ln 13.09
+\ln 13.10
+\ln 13.11
+\ln 13.12
+\ln 13.13
+\ln 13.14
+\ln 13.15
+\ln 13.16
+\dt 03/Feb/2009
+
+\c 17
+\t Gentile in Antioch
+\cat Judy coaching Bob
+\co HindiCPM
+
+\cch JP1 = 2009-02-13 -- Good notes.
+
+\ln 17.01
+\cch JP1 -- It would be helpful to somehow connect this chronologically with the preceding story so that it's place in the timeline will will be clear.
+\ln 17.02
+\ln 17.03
+\cch JP1 -- the BT you sent me doens't have the 15:02 in it yet.  
+\ln 17.04
+\ln 17.05
+\ln 17.06
+\ln 17.07
+\ln 17.08
+\ln 17.09
+\ln 17.10
+\ln 17.11
+\ln 17.12
+\ln 17.13
+\ln 17.14
+\ln 17.15
+\ln 17.16
+\ln 17.17
+\dt 12/Feb/2009
+
+\c 18
+\t Macedonia vision - second missionary trip
+\cat Judy coaching Bob
+\co HindiCPM set
+
+\cch JP1 = 2009-02-10 (frm Newark Liberty) Nice work!
+
+\ln 18.01
+\ln 18.02
+\ln 18.03
+\ln 18.04
+\ln 18.05
+\ln 18.06
+\ln 18.07
+\ln 18.08
+\ln 18.09
+\cch JP1 -- you could have them ask: If you had to choose to work with either Paul or Barnabas, who would you choose?  And why? -- that might tell us their opinion of the two, and consequently some of their values. E.g. Paul was better because he was more concerned with what's right. Or Barnabas was better because he was more compasionate, etc.
+\ln 18.10
+\ln 18.11
+\ln 18.12
+\cch JP1 -- good Q they made up. 
+\ln 18.13
+\ln 18.14
+\ln 18.15
+\ln 18.16
+\cch JP1 -- re Hindi/Dogri -- is it young Vijay who is coordinating the Hindi CPM set? Or who are you talking to here? (this has nothing to do with the story, I'm just interested.)
+\fac Yes, these last two (18 & 20) Vijay did. Madam Goldsmith, whom you've not met did the rest (we when thru all the training with her after the last workshop and Pawan's been helping her as well.
+\ln 18.17
+\ln 18.18
+\ln 18.19
+\ln 18.20
+\ln 18.21
+\ln 18.22
+\ln 18.23
+\dt 10/Feb/2009
+
+\c 20
+\t Paul in Athens
+\cat Judy coaching Bob
+\co Hindi
+\cch JP1 = 2009-02-13 -- All good.
+
+\ln 20.01
+\ln 20.02
+\cch JP1 -- re "drop" -- I've never heard it used like this before. In my English it would mean they decided to ignore him and go with a more prestigious crowd. But I'm assuming that here it means "send away" to protect him?
+\fac I don't know if you're seeing what I'm seeing (the English and Hindi BTs have all been screwed up somehow... I'll have to sort it out from previous versions), but from the English BT that says "drop", that means "drop him off", so it should be okay.
+\ln 20.03
+\ln 20.04
+\ln 20.05
+\ln 20.06
+\ln 20.07
+\ln 20.08
+\ln 20.09
+\ln 20.10
+\ln 20.11
+\dt 12/Feb/2009

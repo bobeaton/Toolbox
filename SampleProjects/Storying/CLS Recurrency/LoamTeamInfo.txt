@@ -1,0 +1,60 @@
+\_sh v3.0  400  L&C Note
+\_DateStampHasFourDigitYear
+
+\r Agus
+\job Tester
+\rel M
+\co (m, ± 15, not finished primary)
+\dt 25/Aug/2009
+
+\r Dona 
+\job Crafter
+\rel CBB
+\co f, ± 25, midwife, diploma
+\dt 25/Aug/2009
+
+\r Herawati "Era" 
+\job Tester
+\rel M
+\co (f, ± 25, maybe junior high,
+housewife)
+\dt 25/Aug/2009
+
+\r Jeffry P. Hutabarat 
+\job ??
+\rel CBB
+\co (m, ± 40, MA, pastor)
+\dt 25/Aug/2009
+
+\r Kiagus Mahfudz 
+\job Tester
+\rel M
+\co (m, ± 45, maybe junior high,
+allrounder)
+\dt 25/Aug/2009
+
+\r Mitra 
+\job Tester
+\rel M
+\co (m, ± 15, not finished primary)
+\dt 25/Aug/2009
+
+\r Rio 
+\job Tester
+\rel M
+\co (m, ± 15, not finished primary)
+\dt 25/Aug/2009
+
+\r Wati 
+\job BT
+\rel M
+\co (f, ± 25, maybe junior high,
+housewife)
+\dt 25/Aug/2009
+
+\r Wida 
+\job BT & Test
+\rel M
+\co (f, ± 40, maybe junior high,
+household helper)
+\dt 25/Aug/2009

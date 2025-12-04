@@ -1,0 +1,863 @@
+\_sh v3.0  400  StoryBT
+\_DateStampHasFourDigitYear
+
+\c H-201
+\t O Nascimento de Jesus
+\stg Expl. (Hunsrik) NP
+\co HUNSRIK
+\co Redemptive Themes: Mediator Relationship Forgiveness 
+\co 31SEPT08  crafted with Bertilo Zimmer
+\co 1OCT08 backtranslated with JILASSIA KAIFER and Rosane
+
+\ln 100.01
+\bt Jesus nasceu assim.
+\eng Jesus was born like this.
+\anc Mat.01:18
+\cn
+
+\ln 100.02
+\bt Maria estava com José. Ela se viu gravida do Éspirito Santo.
+\eng Mary was with Joseph. She became pregnant by the Holy Spirit.
+\anc Mat.01:18
+
+\ln 100.03
+\bt José sempre era um homem correto. 
+\eng Joseph was always a right man.
+\anc Mat.01:19
+\cn This sentence would be better to come after the fact that Joseph wanted to
+abandon her. Just seems cut and pasted here. will revise.
+
+\ln 100.04
+\bt José no mesmo momento queria abandonar a Maria mas e um anjo veio em sonho
+e disse, "José, filho de Daví, ele não tinha medo de abandonar a Maria. O filho
+que ela está esperando é do Èspirito Santo e ela dar a luz e vocês vão dar a
+nome de Deus a ele. Ele vai salvar as pessoas dos pecados."
+\eng Joseph, at that same moment, wanted to leave Mary but an angel came in
+a dream and said, "Joseph, son of David, he didn't have any fear of leaving
+Mary. The child that she is waiting for is from the Holy Spirit and she will
+give birth and you (ya'll) will give the name of God to him. He will save the
+people from sins."
+\anc Mat.01:20
+\cn See L&C Notes: Éspirito Santo.
+\cn
+\fix Obviously there is a problem in Angels delcaration to Joseph as it switches to
+past tense. We will correct this in the future. Also, he said that Joseph was not
+afraid of abandoning Mary which is not true to the story.
+
+\ln 100.05
+\bt José casou com Maria e deu o nome de Deus a Ele. José não teve relações com
+Maria antes que Jesus nasceu.
+\eng Joseph married Mary and gave the name of God to Him. Joseph didn't
+have relations with Mary before Jesus was born.
+\anc Mat.01:24-25
+
+\ln 100.06
+\bt Jesus nasceu na cidade de Beleem.
+\eng Jesus was born in the city of Bethlehem
+\anc Mat.02:01
+
+\ln 100.07
+\bt Um pouco alguns homems estavam estudando as estrelhas. 
+\eng After a little bit som men were studying the stars.
+\anc Mat.02:01, 02
+
+\ln 100.08
+\bt Ele vem do Oriente em Jerusalem e perguntarem a onde que ´ta o menino. Nos
+viemos a estrela e viemos para ver ele.
+\eng they came from the East in Jerusalem and asked where is the boy. We
+saw the stars and came to see him.
+\anc Mat.02:02
+
+\ln 100.09
+\bt Herodes viu isto daí ficou muito preocupado. 
+\eng Herod saw this  and from there became very concerned.
+\anc Mat.02:03
+
+\ln 100.10
+\bt Nós vimos a estrela e gostamos dela.
+\eng We saw a star and we liked it.
+\anc Mat.02:02
+\cn
+\fix Clearly this needs to be corrected in regard to why the visitors from the East
+came. They came to worship/adore him and not simply to �like� him.
+
+\ln 100.11
+\bt E daí Herodes fiz os líderes da religião e pediu a onde que nasceu este Rei dos
+Judeus?
+\eng And from there Herod made the leaders of the religion and asked where
+this King of the Jews was born?
+\anc Mat.02:04
+\cn Unclear... no mention of meeting that Herod demanded.
+
+\ln 100.12
+\bt Daí responderam, "Na cidade de Beleem. Eles ganharem um profeta "
+\eng From there they responded, "In the city of Bethlehem. They have recieved
+a prophet"
+\anc Mat.02:05
+\fix No mention of the prophets who announced this. Seems the man thought the
+religious leaders were stating this of their own accord (no Scriptural backing).
+It is confusing as it is and will be corrected.
+
+\ln 100.13
+\bt E daí, Herodes urgentemente se reuniu com aqueles que vierem. Daí ele pediu
+quando que a estela veio? Daí eles falarem.
+\eng And from there, Herod met ungently with those who came. From there he
+asked when the star appeared? From there they said.
+\anc Mat.02:07
+\cn Needs to note that the meeting was in SECRET. Points to his underhandedness.
+
+\ln 100.14
+\bt Ele mandou eles para Beleem. "Vão pedir a onde que esta este menino. Daí vocês
+voltam para que eu posso gostar dele."
+\eng He sent them to Bethlehem. "Go ask where this boy is. From there you
+(ya'll) return so that I can like (enjoy) him."
+\anc Mat.02:08
+\cn Needs some attention to how they will find out where Jesus is. 
+\fix Also, Herod said that he wanted to worship/adore. I need to find out if they
+have a work for adore, worship which is more than �like� as it keeps recurring.
+Perhaps this is a word not known or it is intentional as worship of Mary is
+intense...Will field test.. (He was consistent with this word throughout...perhaps
+there is no other word...needs to be tested.
+
+\ln 100.15
+\bt No caminho eles viram de novo a estrela dele. Daí até lá na casa onde que ´tava
+o menino e eles gostavam dele.
+\eng On the path they again saw his star. From there to beyond there where
+the house where the boy was and they like him.
+\anc
+\cn
+\fix Noted above...came to worship/adore. Here he uses the past tense �they liked
+him.�
+
+\ln 100.16
+\bt Com muito alegre eles entrarem dentro da casa e se ajoelharem em frente dele e
+gostarem dele.
+\eng With much joy they went inside the house and knelt in front of him and
+liked him.
+\anc
+\cn
+\fix again �liked� him, no mention of worship. Consitently used this word throughout
+the story.
+
+\ln 100.17
+\bt Daí, eles derem presentes de ouro. 
+\eng And then, they gave presents of gold.
+\anc
+\cn
+\fix Offered more than just gold. Will be corrected.
+
+\ln 100.18
+\bt Deus aviso que não era para vim de volta porque Herodes estava esperando eles.
+\eng God advised that it wouldn't do to return because Herod was waiting for
+them.
+\anc Mat.02:12
+\cn Not clear who God advised. 
+
+\ln 100.19
+\bt Quando José estava dormindo um anjo do céu veio e o anjo disse, "Foge com o
+menino. Foge para o Egíto porque Herodes quer matar ele." José obedeceu.
+\eng When Joseph was sleeping and angel of heaven came and the angel says,
+"Flee with the boy. Flee to Egypt because Herod wants to kill him." Joseph
+obeyed.
+\anc Mat.02:13, 14
+\cn Needs a transition phrase here such as...a little time later...afterwards....
+
+\ln 100.20
+\bt Herodes viu que era enganado. Daí ele avisou que era para matar todo menor a
+baixo de dois anos em Beleem.
+\eng Herod saw that he was tricked. Then he advised that it should be done
+that everyone under two years in Bethleham should be killed.
+\anc Mat.02:16
+\anc
+\cn Needs to show in the story that Herods orders were carried out. 
+
+\ln 100.21
+\bt Quando Herodes morreu o anjo disse a José, "Pega a mai e o menino e vai para
+Israel. "
+\eng When Herod died an angel said to Joseph, "Get the mother and the boy
+and go to Israel."
+\anc Mat.02:19, 20
+
+\ln 100.22
+\bt E José obedeceu.
+\eng And Joseph obeyed.
+\anc Mat.02:21
+
+\ln 100.23
+\bt
+\anc
+
+\ln 100.24
+\bt
+\anc
+
+\ln 100.25
+\bt
+\anc
+
+\ln 100.26
+\bt
+\anc
+
+\ln 100.27
+\bt
+\anc
+
+\ln 100.28
+\bt
+\anc
+
+\ln 100.29
+\bt
+\anc
+
+\ln 100.30
+\bt
+\anc
+
+\ln 100.31
+\bt
+\anc
+
+\ln 100.32
+\bt
+\anc
+
+\ln 100.33
+\bt
+\anc
+
+\ln 100.34
+\bt
+\anc
+
+\ln 100.35
+\bt
+\anc
+
+\ln 100.36
+\bt
+\anc
+
+\ln 100.37
+\bt
+\anc
+
+\ln 100.38
+\bt
+\anc
+
+\ln 100.39
+\bt
+\anc
+
+\ln 100.40
+\bt
+\anc
+
+\ln 100.41
+\bt
+\anc
+
+\ln 100.42
+\bt
+\anc
+
+\ln 100.43
+\bt
+\anc
+
+\ln 100.44
+\bt
+\anc
+
+\ln 100.45
+\dt 26/Sep/2009
+
+\c H-203
+\t YOHAN, TE TAAFER
+\stg Expl. (Hunsrik) NP (testing not in Eng yet)
+\co HUNSRIK
+\co Repentance from sin, Obedience
+\co DRA
+\co August2009 crafted by Mabel Dewes
+\co 19August2009 Solange Johann, this is bt
+\tst1 27August2009 Jilacia Kaifer
+
+\ln 203.01
+\bt João passou por região Rio Jordão para dizer as pessoas “Arrependem-se dos
+seus pecados e batizem se todos.”
+\eng John passed through the region of the Jordan River to tell the people
+"Repent from your sins and baptize yourselves, everyone."
+\tst1 Q: Was is en fluus? A: RIO  Q:Te fluus Jordom? A:Israel...atravessaram para
+entrar na terra prometida. Q:Yohan hot kesaat, "Roy�t aych fom ayr� sinte?"
+Was pedayt tas wort 'roy�t'? A:arrepender se dos seus pecados (RAUT)
+\anc luk.03:03
+\cn Some words I test like RIVER, Fluus in Hunsrik, because many have taken to
+using the Portuguese RIO instead. Not unlike Texans who call the RIO
+GRANDE RIVER... Fluus works. They still use the word for creek in Hunsrik so
+it is no problem.
+
+\ln 203.02
+\bt Isto aconteceu como o Profeta Isáias tinha dito, “Aprontem o caminho porque
+o Senhor está chegando.”
+\eng This occured like the Prophet Isaiah and said, "Prepare the path because
+the Lord is arriving."
+\tst1 Q: Was is en profey�t? A:Messengeiro de Dues, passa mensagem de Deus.
+\anc luk.03:04
+
+\ln 203.03
+\bt João disse para milhares das pessoas. “Cobras venonosas que vocês são, faz
+alguma coisa para mostrar que se modificarem.
+\eng John said to thousands of people. "Venemous Snakes that you are, do
+something to show that you have changed.
+\anc luk.03:07, luk.03.08
+
+\ln 203.04
+\bt Não comecem dizer entre vocês que Abraham é o pai de vocês porque eu lhes
+digo que até das pedras Deus pode fazer descendentes de Abraham.
+\eng Don't begin to say among yourselves that Abraham is your father
+because I say to you even from these rocks God can make decendants
+of Abraham.
+\anc luk.03:08
+
+\ln 203.05
+\bt O machuda está pronto para cortar as árvores pelo o raiz.
+\eng The machete is ready to cut the tree at the root.
+\anc luk.03:09
+
+\ln 203.06
+\bt Eaí, o povo perguntou, “O que é para nós fazer?” 
+\eng And then, the people asked, "What should we do?"
+\anc luk.03:10
+
+\ln 203.07
+\bt E João respondeu, “Aquele que tem dois casacos deem para aquele que não
+tem. Aquele que tem comida sufficiente é para dividir com aquele que não
+tem.”
+\eng And John responded, "He who has two coats givie to him who doesn't
+have any. He who has enough food should divide with him who doesn't
+have."
+\anc luk.03:11
+
+\ln 203.08
+\bt Alguns cobradores de impostos perguntavam, “Mestre, e nós, o que é para nós
+fazer?”
+\eng Some tax collectors asked, "Master, and us, what should we do?"
+\tst1 Q:Was hon te Yohan fer te Khaseire kesaat faa se mache? A: Nao combrar
+mais do que a lei manda.
+\anc luk.03:12
+\cn This word for tax gatherer needs to furthers researched. It was understood
+fine. It is possible that the word for tax and tithe may be the same. If it is we
+will just have to explain the different....give it context. Does shed some light
+on the culture and how their Catholic worldview has developed. Honestly, in
+Germany to this day the TITHE is a tax taken out of the workers wages and
+distributed by the government to various acceptible churche (LUtheran,
+Catholic, for ex). A forced tithe is a tax.
+
+\ln 203.09
+\bt E João disse, “Não cobrem mais do que as leis mandam.”
+\eng And John said, "Don't charge more than is required."
+\anc luk.03:13
+
+\ln 203.10
+\bt Alguns soldados também perguntavaem, “O que devemos fazer.” E João disse,
+“Não tirem dinheiro de ninguem e não denunciam nenhum inocente. Estejam
+satisfeitos com os seu salário.”
+\eng Some soldiers also asked, "What should we do." And John said, "Don't
+take money from anyone and don't denounce anyone who is innocent.
+Be satisfied with your salaries."
+\anc luk.03:14
+
+\ln 203.11
+\bt Então as pessoas perguntarem, “ Você é o Cristo?” 
+\eng So the people asked, "Are you the Christ?"
+\tst1 Q: Ti layt hot kefroot fer te Yohan, "Pixt tu te Cristus?" Was pedayt tas
+Cristus? A: Salvador (remembered the story of Jesus' birth and recalled the
+angel saying that Jesus would be the Savior.)
+\anc luk.03:15
+
+\ln 203.12
+\bt Mas João respondeu, “Eu batize vocês en água mas virar outra que é muito
+mais poderoso (muito melhor) do que eu.
+\eng But John responded, "I baptise you in water but another will come who
+is much more powerful (much better) than me.
+\anc luk.03:16
+
+\ln 203.13
+\bt Eu nem mereço abrir as sandálias dele. Ele batize com o Éspirito Santo e fogo.
+\eng I don't even deserve to open his sandal. He baptises with the Holy Spirit
+and with fire.
+\tst1 Q: Was is te Hayliche Gayst? A:Espirito que ficou na terra, habita nos
+coracoes dos seguidores de Jesus. Um poder de Deus que transmite..Eu falo e
+o ES leva para ceu.
+\anc luk.03:16
+\cn I detected an inability to describe the Holy Spirit. This particular person is a
+believer and she did did not want to give me a wrong answer so I had to probe
+a bit. A story (ies) that cover the Holy Spirit will be important understanding
+the HS more fully.
+
+\ln 203.14
+\bt Ele tem um pá na mão com ela ele separa a palha do trigo. O trigo ele junto no
+seu paiol e a palha ele quemará com um fogo que nunca se apaga.
+\eng He has a shovel in the hand with it he separates the straw of the wheat.
+The wheat he will bring together in his storehouse and the straw he will
+burn in a fire that is never extinguist.
+\tst1 Q:Was hot te Yohan kesaat tas te Cristus will se mache mit en xip em hant? A:
+Separar o trigo da palha   Q: Was will te Cristus mit te stroh se mache? A: 
+ferbriner Q: Was will te Cristus mit te wayts se mache? A:  wech ketuun, uf
+kehol
+\anc luk.03:17
+
+\ln 203.15
+\bt E João anunciou as novas com muitas outras palavras.
+\eng And John anounced the news with many other words.
+\tst1 Q: Was pedayt tas, te "Guure Nayichkheet."  A: Te Cristus khome un is noch
+khreeste wii ich.
+\anc luk.03:18
+\cn She understood very well what the Good News was. John very clearly sets the
+stage for the Messiah. No confusion at all. I think it will be important that
+John returns in other stories including his death.
+
+\dt 26/Sep/2009
+
+\c H-204
+\t YEESUS TAAF
+\stg Expl. (Hunsrik) NP (testing not in Eng yet)
+\co HUNSRIK
+\co Obedience, Jesus is God's Son
+\co DRA
+\co August2009 crafted by Mabel Dewes
+\co 19August2009 Solange Johann, this is bt
+\tst1 27August2009 Jilacia Kaifer
+\ln 204.01
+\bt No mesmo tempo Jesus fui da Galiéia a Jordão para ser batizado.  
+\eng At the same time Jesus went from Galilee to Jordan to be baptised.
+\tst1 Q: Was iss ta Galieia? A:Lugar onde Jesus pregava. Q: Was pedayt TAAF? A:
+Batizar, arrependimento do seus pecados.    Q:Was is te richtige tsayt faa en
+layt tsu taaf sin? A: Quando tem a mente que entende...crianca nao
+ajante....preciso ser adulto.
+\anc mat.03:13
+\cn The issue of baptism, i.e. infant baptism, is huge in the Hunsrik culture. They
+are taught that without baptism of the baby salvation is not possible. While
+more and more fall away from this it is often difficult for parents to stand
+against the culture when grandparents and other family members pressure. But
+this knowledge is a BIG first step. We will be including many stories showing
+adult baptism.
+\ln 204.02
+\bt João, o Batista, não queria fazer isso. 
+\eng John, the Baptist, didn't want to do it.
+\anc mat.03:14
+\ln 204.03
+\bt Ele acreditava que ele deveria ser batizado por Jesus e não ele batizar Jesus. 
+\eng He believed that he needed to be baptised by Jesus and that he
+shouldn't baptise Jesus.
+\tst1 Q: Warom hot Yohaan ketinkt tas teyer muus net te Yeesus taaf? A: wuxt
+Yeesus te layt tsu reter... 
+\anc mat.03:14
+\ln 204.04
+\bt Mas Jesus disso, “ Deixa tudo como está por enquanto temos que fazer tudo
+como Deus falou.” João ouviu 
+\eng But Jesus said, "Leave everything like it is for now we need to do
+everything like God said." John heard
+\anc mat.03:15
+\ln 204.05
+\bt e batizou Jesus. Durante a oração de Jesus o ceu se abriu e o Éspirito Santo
+desceu como uma pomba 
+\eng and baptised Jesus. During the prayer of Jesus the sky opened and the
+Holy Spirit descended like a dove
+\anc mat.03:16
+\ln 204.06
+\bt e uma voz que veio do ceu disse, “Tu es meu filho muito amado. Tu vais me dar
+muita alegria.” 
+\eng and a voice that came from the sky said, "You are my much loved son.
+You will give me much happiness."
+\tst1 Q: Warom hot te Herkott kesaat faa Yeesus, "Tu khipst mich fiile freet!" A:
+faa te layt tsu rete...yeete ene woo eyer keret hot waar en freet faa te
+Herkott.
+\anc mat.03:17
+\ln 204.07
+\bt Depois disso, João chingou Herodes o governante, porque ele tirou a espousa
+do irmão e por causa das outras coisas ruins que ele já tinham feito.  
+\eng After this, John offended Herod the governer, because he took the wife
+of the brother and because of other bad things that he had already done.
+\tst1 Q: Warom hon te Yohan te governant Herootes kexent? A: sayn brurer say
+fraa wech kehol hot.  Q:Yohan waar richtig wan te hon iwer kexent te
+governant Herootes? Farom? A: xlecht kewent..
+\anc luk.03:19
+\cn This test question brought a lot of conversation about how the Hunsrik culture
+is very much like Herod. 
+\ln 204.08
+\bt Herodes fez ainda uma coisa pior. Ele mandou João para a prisão.  
+\eng Herod went ahead and did something worse. He ordered John to prison.
+\anc luk.03:20
+\dt 26/Sep/2009
+
+\c H-205
+\t YEESUS Wet KEPROOPT
+\stg Expl. (Hunsrik) NP (testing not in Eng yet)
+\co HUNSRIK
+\co Obedience, Jesus is God's Son
+\co DRA
+\co August2009 crafted by Mabel Dewes
+\co 19August2009 Solange Johann, this is bt
+\tst1 27August2009 Jilacia Kaifer
+
+\ln 205.01
+\bt Quando Jesus já tinho sido batizado o Éspirito Santo levou ele para uma terra
+selvagem.
+\eng When Jesus had been baptised the Holy Spirit took him to a wild land.
+\tst1 Q: Was pedayt "Wiltnes"? A: lugar selvagem
+\anc luk.04:01
+\cn Wiltnis (Wilderness) is a word that needed some introduction. However, after a
+short conversation she found the word OK because it spoke of an area as wild
+but not necessary wooded.
+
+\ln 205.02
+\bt Ele ficou lá durante quarenta dias. E daí veio o Diabo para ponha na prova.
+Quando os 40 dias já tinham passado Jesus tinha bestante fome.
+\eng He stayed there for fourty days. From there the Devil came to put him to
+the test. When the 40 days had passed Jesus had alot of hunger.
+\tst1 Q: Was is te Tayfel? A: Epirito que faz o mal....persegue os bons....
+\anc luk.04:02 
+\cn The Back Translater shared that she had trouble talking about the Devil as an
+individual. She was much more comfortable with the word Demon. The test
+question person had not trouble but she is a believer.
+
+\ln 205.03
+\bt Daí o Diabo disse, “Se tu es mesmo o Filho de Deus diga essa pedra se torna em
+pão.”
+\eng Then the Devil said, "If you really are the Son of God tell these rocks to
+turn into bread."
+\anc luk.04:03
+
+\ln 205.04
+\bt Mas Jesus respondeu, “Está escrito o homen não vive só do pão mas de tudo que
+Deus disse.
+\eng But Jesus responded, "It is written the man doesn't live only by bread but
+by everything God says.
+\tst1 Q: Wan Yeesus hot kesaat "tas xteet kexrip" waar...Was pedayt tas? Wo iss is
+kexrip? A: Confirmou que Deus deu a Escrituras....mus me soo xtarek sin....
+\anc luk.04:04
+\cn This portion pointed out very clearly to the heared that Jesus was confirming
+God's Word. Very helpful in presenting the TRUTH of the Good News to the
+people.
+
+\ln 205.05
+\bt Daí o Diabo levou Jesus para o morro mais alto e mostro para ele todos os reinos
+que existiam na aquele época e disse, “Todo o poder e todo alegria desses reinos
+eu te dou. Eu ganhei todos eles e eu posso dar-los quem eu quiser. Se tu me
+adorar tudo isso é teu.”
+\eng Then the Devil took Jesus to the highest wall and showed him all the
+kingdoms that existed in that era and said, "All the power and all the joy of
+these kingdoms I give you. I've gained all of them and i can give them to
+who I want. If you worship me all this is yours."
+\tst1 Q: Was pedayt tas 'aan peere'?  A: Adorar so Deus
+\anc luk.04:05, luk.04:06 ,luk.04:07
+
+\ln 205.06
+\bt Jesus respondeu, “Está escrito, devemos adorar somente a Deus e servir-lo em
+tudo.”
+\eng Jesus responded, "It is written, we need to worship only God and serve
+him with everything."
+\tst1 Q: Was pedayt tas...muus solte Kot an peere'? A: Q: Was pedayt tas...'un tem en
+alles diin'? A: tudo e so para servir Ele
+\anc luk.04:08
+
+\ln 205.07
+\bt Então o Diabo levou Jesus para o ponto mais alto do templo em Jerusalém e
+disse, “Te tira da que para baixo.
+\eng So the Devil took Jesus to the highest point of the temple in Jerusalem
+and said, "Throw yourself from here to below.
+\anc luk.04:09
+
+\ln 205.08
+\bt Está escrito, que Deus vai enviar os seus anjos para te proteger. Eles vão te
+segurar para que nem os teus se machuquem nas pedras.”
+\eng It is written, that God will send his angels to protect you. They will catch
+you so that not even yours will get hurt on the rocks
+\anc luk.04:09, luk.04:10
+
+\ln 205.09
+\bt Mas Jesus disse, Mas também está escrito, tu não ponha o Senhor teu Deus em
+prova.”  
+\eng But Jesus said, But it is also written, you don't put the Lord your God in a
+test."
+\anc luk.04:12
+
+\ln 205.10
+\bt Quando o Diabo estava pronto com todos os provações ele deixou Jesus em paz
+por algum tempo.
+\eng When the Devil was done with all the tests he left Jesus in peace for a
+time.
+\tst1 Q: Was is en fersuchnung? A:tentacao
+\anc luk.04:13
+
+\dt 26/Sep/2009
+
+\c H-220
+\t SIMON, TE FARISËYER
+\stg Expl. (Hunsrik) NP (testing not in Eng yet)
+\co HUNSRIK
+\co Forgiveness of Sin
+\co DRA
+\co 29July2009 crafted by Solange Johann
+\co 02August2009 Rosangela Klein, this is bt
+\tst1 02August2009 Rosangela Klein
+
+\ln 220.01
+\bt Simon convidou Jesus para ir jantar na casa dele. Jesus veio e sentou na mesa
+\eng Simon invited Jesus to go and have dinner in his house. Jesus came and
+sat at the table
+\tst1 Q: Was is en faris�yer? A: An Apostle, a disciple of Jesus
+\cn The testee did not know what a Pharisee was. The story does not describe what a
+Pharisee is or believed so it is one aspect that we will have to include in the
+earlier stories regarding the life of Jesus. She also called him Simon Peter
+several times so I think that knowing this name (supposed founder of the
+Catholic Church) also played a part. Nothing more than to point out that these
+distincitons/groups will need to be explained earlie.
+\anc luk.07:36
+
+\ln 220.02
+\bt Ela ficou sabendo que Jesus ia jantar na casa de Simon Ela preparou um
+perfume.
+\eng She was knowing that Jesus went to have dinner in the house of Simon 
+She prepared a perfume.
+\tst1 Q: Was is en fraa mit en xl�chter name? A: A prostitute...woman with a really bad
+\anc luk.07:37
+
+\ln 220.03
+\bt Ela se jogou aos pes de Jesus. Ela comecou chorar e as lagrimas lavou as pes.
+Ela comecou a beijar as pes dele e secou com os cabelos os pes de Jesus.
+\eng She threw herself at the feet of Jesus. She began to cry and the tears
+washed the feet. she began to kiss his feet and dried the feet of Jesus
+with hair
+\tst1 Q:Was hon te fraa kemacht faa Yeesus? A: She washed his feet with her tears
+and dried with her hair
+\tst1 Q:Was is Alebastro? A:A container for perfume
+\anc luk.07:38
+
+\ln 220.04
+\bt Simon pensou, Jesus deve saber que tipo de mulher é essa.
+\eng Simon though, Jesus must know what type of woman this is.
+\tst1 Q: Was hot te Simon ket�nkt wann t�yer hot kekukt tas te fraa mt en xl�chter name
+hon Yeesus sayn fiis kew�xt? A: He found that it was a bad thing for this woman
+to touch Jesus because she was a bad woman.
+\anc luk.07:39
+
+\ln 220.05
+\bt Jesus falou, Simon eu preciso falar alguma coisa para você. Fala Mestre, ele
+respondeu.
+\eng Jesus said, Simon I need to say something to you. Speak Master, he
+responded.
+\anc luk.07:40
+
+\ln 220.06
+\bt Jesus falou depois 2 pessoas com dívida com uma pessoa que sempre impresta
+dinheiro Um com 500 moedas e o outro com 50 moedas
+\eng Jesus said later two people with debt with one person who always lends
+money One with 500      coins and the other with 50 coins
+\tst1 Q: Was is te xulter? A: A debt
+\cn Checking to make sure this word was understood. Not one I have heard a lot but
+it was easily understood.
+\anc luk.07:41
+
+\ln 220.07
+\bt Nenhum dos dois pudiam pagar Mas o homem perdoou. Qual desses homens vai
+honrar ele mais?
+\eng Neither of the two could pay But the man forgave. Which of these men will
+honor him more?
+\tst1 Q: Fertsayert. Was is iss? A: forgive
+\cn I was checking to see if this was was well understood. No problem. The reason
+is that Hunsrik has no word for repentance. This is going to be a challenge to
+teach this word and its meaning.
+\anc luk.07:42
+
+\ln 220.08
+\bt Aquele que foi perdoado mais., Simon respondeu. Tá certo, Jesus falou.
+\eng The one who was forgiven more., Simon responded. It's true, Jesus said.
+\anc luk.07:43
+
+\ln 220.09
+\bt Quando eu entrei você nem me oferceu nem agua mas esta mulher lavou os meus
+pés com as suas próprias lágrimas.
+\eng When I came in you didn't even offer me water but this woman washed
+my feet with her own tears.
+\anc luk.07:44
+
+\ln 220.10
+\bt Tu não me beijou quando eu entrei e ela beijou os pés quando entrei.
+\eng You didn't kiss me when I came in and she kissed my feet when I came in.
+\anc luk.07:45
+
+\ln 220.11
+\bt Tu não colecou óleo perfumado na minha cabeça e ela colecou perfume nos meus
+pés.
+\eng You didn't put perfumed oil on my hair and she put perfume on my feet.
+\anc luk.07:46
+
+\ln 220.12
+\bt Eu ti digo, Ela demonstrou que os pecados dela já fossem perdoados.
+\eng I tell you, She demonstrated that her sins were already forgiven.
+\anc luk.07:47
+
+\ln 220.13
+\bt Jesus virou e disse, “Teus pecados são perdoados.”
+\eng Jesus turned and said, "Your sins are forgiven."
+\tst1 Q: Wii Yeesus hot tas fraa sayn sinte ferstayert? A: Because she showed Jesus 
+by what she did that she was a good person so he forgave her.
+\cn Clearly we did not address the scope and breath of Jesus' authority to forgive
+sins but for this one story it certainly highlighted repentance even though her
+answer did not use this word it hit all alround it. What needs to be done is to
+include stories as we go along showing the authority of Jesus Christ. Cures,
+casting out demons, calming the storm will help. Also, stories where Jesus is
+attributed to be more than a man by the demons that encounter him would also
+help. I don't see one story solving this issue. However, I am very pleased that
+the essence of repentance was understood.
+\anc luk.07:48
+
+\ln 220.14
+\bt E as outras pessoas que estavam sentados na mesa se perguntaram a eles, “Que
+homem esse que pode perdoar os pecados.”
+\eng And the other people who were seated at the table asked themselves,
+"What man is this who can pardon sins."
+\tst1 Q: Te andere layt am tish mit Yeesus un Simon te fares�yer hat kefroot "was is
+tas fer man fer te sinter ferstayert? Was pedayt tas? A: They questioned, "How
+could this man forgive a woman of such sin?"
+\anc luk.7:49
+
+\ln 220.15
+\bt E Jesus falou ao essa mulher, “Tua fé te salvou. Vai em paz”
+\eng And Jesus said to that woman, "Your faith saved you. Go in peace
+\tst1 Q:Am ent, was hon Yeesus faa tas fraa kemacht? A: Heforgave her sins.
+\anc luk.7:50
+
+\dt 26/Sep/2009
+
+\c H-250
+\t Te Xlëchter Aarwarter (The Wicked Servant)
+\stg Expl. (Hunsrik) NP (testing not in Eng yet)
+\co HUNSRIK
+\co Forgiveness
+\co DRA
+\co 27July2009 crafted by Mabel Dewes
+\co 02August2009 backtranslated by Rosangela Klein, this is bt 
+\tst1 02August2009 Rosangela Klein
+
+\ln 250.01
+\bt Pedro perguntou Jesus,”Quanta vezes é pra perdoar os pecados dos meus irmão?
+Sete vezes?” "
+\eng Peter asked Jesus, "How many times should the sins of my brother be
+forgiven? Seven times?"
+\tst1 Q: Was pedayt tas wort "ferk�we"? A: To forgive
+\tst1 Q: Peter hot Yeesus kefroot, "Wii fiil mol sol ich mayn prurer ferk�we?"  A:
+70x7
+\anc mat.18:21
+
+\ln 250.02
+\bt Jesus respondeu, “Não só sete vezes mas 70 x 7 vezes.
+\eng Jesus responded, "Not just seven times but 70 x 7 times
+\tst1 Q: Was pedayt tas was Yeesus hot keantwort? (70 x 7 mol) A: When someone
+does something bad to you then you need to know how to forgive and not just one
+time but many times.
+\anc mat.18:22
+
+\ln 250.03
+\bt é nem como um rei que quis consertar as suas contas com as suas empregados.
+\eng it's not like a king who wants to fix his accounts with his employees.
+\tst1 Q:Was pedayt tas "tii rechsnung ap mache wil mit sayn aarwarter"?A: Settle the
+books...debts.
+\tst1 Q:Was pedayt tas "Xulich waar"?  A: It means if have I been loaned money then
+I have to repay it.
+\tst1 Q: Was padayt tas "xulter"?   A:This means I have a credit balance. (dividas)
+\anc mat.18:23
+
+\ln 250.04
+\bt Veio um empregado que tinha uma dívida de mais do que mil moedas
+\eng An employee came who had a debt that was more than a thousand coins
+\anc mat.18:24
+
+\ln 250.05
+\bt mas não tinha dinheiro para pagar. Então o rei falou para o empregado que ele e
+toda família tem que ser vendido como escravos e todo o bem material que tinha.
+\eng but he didn't have money to pay. So the king said to the employee that he
+and all his family would need to be sold as slaves and all the possesions
+he had.
+\anc mat.18:25
+
+\ln 250.06
+\bt Mas daí o empregado se joelhou e pediu que não era para ser vendido porque ele
+ia pagar tudo.
+\eng But then the employee knelt and begged that he wouldn't be sold
+because he would pay everything.
+\anc mat.18:26
+
+\ln 250.07
+\bt O rei perdoou ele e decidiu em não vender.
+\eng The king pardoned him and decided tho not sell.
+\tst1 Q: Was hon to kheenich fa to aarwarter mit fiile xulich kemacht?   A: Forgave
+the debt
+\anc mat.18:27
+
+\ln 250.08
+\bt Depois o homen foi embora. Daí ele encontrou outro servidor que estava
+devendo 100 moedas e disse, “Tu me paga tudo que deve!”
+\eng After the man left. Then he found another servant who owed 100 coins
+and said "You must pay me everything you owe!"
+\anc Mat.18:28
+
+\ln 250.09
+\bt Daí o servidor falou que não tinha dinheiro para pagar
+\eng Then the servant said that he didn't have money to pay
+\anc mat.18:29
+
+\ln 250.10
+\bt Ele pegou ele no pescoso e começou (Shoqualhar) sacudir
+\eng He grabbed him by the neck and began to shake him
+\anc mat.18:28
+
+\ln 250.11
+\bt E ele mandou ele para a cadéia e que ele tinha que pagar toda dívida dele.
+\eng He sind him to be chained and he had to pay his whole debt.
+\tst1 Q: Was hon to aarwarter faa te mit aarwarter kemacht?   A:He did not forgive
+the coworker and put him behind bars.
+\cn During tst1 the testee used the words 'shake' for objects in portuguese rather
+than for people. No big deal. It points out the fact that the native Hunsrik
+speakers do have considerable difficulties like these in Portguese. Points to the
+need for Hunsrik stories.
+\anc mat.18:30
+
+\ln 250.12
+\bt E os outros empregados que viram isto foram para falar isso com o rei.
+\eng And the other employees who saw this went to tell talk about this with
+the king.
+\anc mat.18:31
+
+\ln 250.13
+\bt Então o rei chamou o servidor de volta e chingou ele. Ele falou para ele que ele
+devia perdoando o divido do outro como eu perdoei a tua.
+\eng So the king called the servand again and insulted him. He said to him that
+he should have pardoned the debt of the other just as I pardoned yours
+\tst1 Q: Am ent, was hon te kheenich kexproch faa to xl�chte aarwarter?    A:You
+should have forgiven like I forgave you.
+\anc mat.18:32-33
+
+\ln 250.14
+\bt O rei mandou ele para a cadéia para ele pagar a toda dívida ao rei.
+\eng The king sent him to the chains for him to pay his whole debt to the king.
+\tst1 Q: Un was hon te kh�nich kemacht mit te xl�chte aarwarter?  A: He did not
+forgive him any longer and put him in jail.l
+\anc mat.18:34
+
+\ln 250.15
+\bt E assim Jesus falou que Deus vai fazer com todos nós que não dá perdão aos
+seus irmãos.
+\eng It's like that Jesus said that God will do with all of us who don't give
+forgiveness to their brothers.
+\tst1 Yeesus saat tas sayn Fater will faa uns se mache  "Wen te n�t hertslich ayer
+priirer sayn sinte ferk�we tuut?"  A: He will not forgive you.
+\tst1 Q: Was pedayt tas "H�rtslich ayer priirer sayn sinte ferk�we tuut"? A:We have to
+know how to forgive to be forgiven.
+\anc mat.18:35
+
+\dt 26/Sep/2009

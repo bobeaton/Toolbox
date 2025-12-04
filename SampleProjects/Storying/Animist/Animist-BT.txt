@@ -1,0 +1,265 @@
+\_sh v3.0  634  StoryBT
+\_DateStampHasFourDigitYear
+
+\c 01
+\t CREATION
+\sound C:/OneStoryProjects/Animist/creation animist.mp3
+\co Animist Set
+\co Purpose:  This twelve-story panorama is an exploratory panorama used in training in the OneStory
+partnership. It provides one sample of a short panorama that OneStory suggests be used as a discovery
+tool -- a way of exploring worldview and socio-cultural issues with mother-tongue story crafters, starting
+with a set of stories that the OneStory team may consider from an initial exposure to the people group to
+be a useful starting point.  A completely different exploratory panorama would be constructed where the
+broad worldview is e.g. Muslim, Buddhist, Hindu, Secular / Agnostic, or other broad worldview types. 
+Even within these types, an initial panorama of this nature can be a uniquely designed tool that takes
+advantage of what the OneStory team discovers in an initial discovery period of considering the unique
+worldview and socio-cultural context of each people group.  So, for example, instead of the Elijah story
+used here, this may be useful among an animist group where animal sacrifice is a part of the culture or
+tradition, but in cases where sacrifice is unknown or abhorrent to a people group, it may be more helpful
+for this initial exploratory set to use a story like Balaam, as an example of a shaman who experiences
+God's over-ruling power; or Job as a priest making offerings for his family, and caught in the conflict of
+Satan and God, or the Witch of Endor story, if consulting someone from the world of the dead is a known
+concept
+\co Selection issues:  This Creation story begins with the concept of where spirit beings in the world come
+from.  In many animist contexts, and particularly where spirits are thought to be the souls of people who
+have died, it may be helpful to have an initial composite story (or story section) that gives an alternate
+(and biblical) view of where the spirit beings (both good and evil / angels and demons) come from.  The
+short version given in lines 01-07 below is considered to be non-controversial (1) in avoiding reference to
+the Isaiah 14 and Ezequiel 28 passages that some, but not most, exegetes think to be referring to Satan;
+and (2) in avoiding the placement of the fall of the angels in a particular point in time (i.e. before the
+creation of the world, versus after it, etc.).
+\co Selection issues:  The part of this creation story that deals with the creation of the world and of people
+uses the Genesis 2 account.  This is primarily done because the Genesis 2 account is more narrative and
+memorable (less of a "list") than the Genesis 1 account. 
+\co Redemptive Theme:  The primary redemptive theme use in this story set is that of Jesus as victor over
+the spirit world, and particularly over the master of the evil spirits, Satan.  The redemptive theme shows
+people calling on Jesus as the one having the power to rescue them from the darkness and death they
+find themselves bound in.  This creation story introduces this theme by giviing the origins of the spirit
+world as being created by God, but rebelling against him.
+\co Basic biblical concepts:  God as creater of all things, physical and spiritual.  Rebellion against God (sin) as
+something he doesn't tolerate, and that will be punished.
+\co Cohesion:  This story introduces the instruction from God not to eat of the tree of knowledge of good and
+evil, as background for the next story "Fall".
+\co Cohesion:  In this story there is the beginning of a "meaning of names" sub-theme.  Here in this story it
+is the meaning of Adam's name.
+\ln 01.01
+\bt This is the true story that starts at the begining of time. We know about these things,
+even way back then, because God told people about them long ago through his
+spokesmen.
+\anc Introductory remarks: 2Ti.03:16 
+\anc Psa.119:142 (New Century Version) "...your teachings are true"; Psa.119:160 (NIV) "all your words are true";
+Jhn.17:17 "your word is true"
+\ln 01.02
+\bt In the very beginning, before anything else existed, there was God. He has always
+existed. 
+\anc Jhn.01:01 -2, 1Ti.01:17
+\ln 01.03
+\bt He created spirit beings [KT: angel]  to be his messengers.
+\anc Psa.148:02, Psa.148:05
+\cn NOTE: "to be his messengers" is based on the meaning of key term.  See Key Biblical Terms document in TW
+(Translator's Workplace), where the first suggested phrase for translating "angel" is given as "messenger
+of/from God".
+\ln 01.04
+\bt These spirit beings praised God and carried out his commands.
+\anc Psa.103:20 -21
+\ln 01.05
+\bt They sang for joy as God created the earth, as he measured and structured it to make it
+exactly the way that he wanted it.
+\anc Job.38:04 -7
+\ln 01.06
+\bt At some point, some of these spirit beings [KT: angel] turned to evil. They weren't
+happy with the positions that God had given them. And so they turned against God and
+all the good that he had given them, and disobeyed [KT: disobey].
+\anc Jud.01:06; Jas.02:19, 2Pe.02:04
+\cn NOTE: see Translator's Handbook Jud.01:06 "they aspired to a higher status. The verse is saying that these
+angels were given a certain status or sphere of authority by God, but they were not content with such a
+position."
+\ln 01.07a
+\bt These disobedient spirits [KT: disobey] became the evil spirits we know of now --
+demons [KT: demon].  And one of them is the ruler of the rest. 
+\anc 2Pe.02:04, Mat.25:41, Mat.09:34
+\ln 01.07b
+\bt These evil spirits continue to work against what God is doing here on earth, and against
+those who follow God’s ways.  
+\anc Eph.06:11 -12
+\ln 01.07c 
+\bt God pronounced a judgment on them all.  He said that they would someday be punished
+in an everlasting fire.
+\anc Mat.25:41
+\ln 01.08
+\bt But back to the earth that God had created -- when God made the earth, at first there
+was no vegetation.
+\anc Gen.02:04 -5
+\ln 01.09
+\bt And there was no one there to farm the ground.
+\anc Gen.02:05
+\ln 01.10
+\bt And so God created the plants and the trees and the grass. And he created the fish and
+the birds and the animals.
+\anc Gen.01:11- 12, Gen.01:20- 21, Gen.01:24- 25
+\ln 01.11
+\bt And then God created humans. 
+\anc Gen.02:07, Gen.01:27
+\ln 01.12
+\bt He took some dirt from the ground and formed it into the shape of a man, and then
+phuuuuu, he breathed life into it, and it became a living breathing human being.
+\anc Gen.02:07
+\ln 01.13
+\bt Now God had also made an orchard--a beautiful place with rivers and trees -- beautiful
+trees that produced delicious fruit.
+\anc Gen.02:08 -9; 
+\anc Gen.02:10 -14 (rivers) 
+\cn The names of the rivers and this section in general is omitted because of the difficulty of introducing several
+new names in an oral story that is meant to be learned and spread by those initially unfamiliar with it.
+\ln 01.14
+\bt At the center of the orchard  he placed two special trees - the tree that gives life and
+the tree that gives knowledge of good and evil.
+\anc Gen.02:09
+\ln 01.15
+\bt God put the man in the orchard to take care of it.
+\anc Gen.02:15
+\ln 01.16
+\bt But he gave him this warning. He said: "You are free to eat any fruit in the garden
+EXCEPT the fruit from the tree that gives knowledge of good and evil. If you eat fruit
+from that tree, you'll die.
+\anc Gen.02:16 -17
+\ln 01.17
+\bt And God said, "It is not good for the man to be alone. I'll make a companion for him." 
+\anc Gen.02:18
+\ln 01.18
+\bt Now all of the animals that God had made, he brought to the man to see what he would
+name them; and whatever the man called each of them, that was its name.  (The man's
+own name came to be known as Adam, since the word for "man" in the language of the
+ones who first told this story sounded like Adam.)
+\anc Gen.02:19
+\cn Names and their meanings is a minor cohesive thread throughout the stories, beginning here. The comment
+about Adam's name justifies the switch in many translations from referring to the same word first as "the man"
+and then "Adam".
+\ln 01.19
+\bt So Adam named the domestic animals, birds, wild animals, everything. But none of
+them was a suitable companion for him.
+\anc Gen.02:20
+\ln 01.20
+\bt So then God put Adam into a deep sleep, and he opened up his side and took out a rib,
+and closed him back up.
+\anc Gen.02:21
+\ln 01.21
+\bt And from the rib he made a woman. He brought the woman to Adam, and he said, "Ahh!
+This one is like me!"
+\anc Gen.02:22 -23 
+\cn 23b through 24 are omitted since they are poetic and thus difficult to express in the flow of an oral story. 
+\ln 01.22
+\bt Now the man and woman were not wearing any clothes, but they didn't feel any shame.
+\anc Gen.02:25
+\dt 19/Nov/2008
+
+\c 02
+\t FALL 
+\sound C:/OneStoryProjects/Animist/Animist 02--Fall.mp3
+\co Animist Set
+\co Redemptive Theme:  This story shows the master of the demons, in the form of a snake, deceiving the
+woman and cause her and the man to disobey, bringing about their own state of curse and suffering, and
+need of redemption.
+\co Basic biblical concepts: Sin as disobedience to God's instructions.  
+\co Cohesion:  Continues the "meaning of names" sub-theme.  Here in this story it is the meaning of Eve's
+name, and even Adam giving the animals names.
+\ln 02.01
+\bt So Adam and his wife, were living in the garden that God had made for them. And their
+job was to cultivate it and take care of it. 
+\anc Gen.02:15
+\ln 02.02
+\bt And they spent their evenings being in God's presence when he would walk there in the
+cool part of the day. 
+\anc Gen.03:08 (rechronologized) 
+\cn Hamilton Commentary on Genesis in TW says "The verb used here to describe the divine movement...suggests
+iterative and habitual aspects. Such walks would take place in the early evening.
+\ln 02.05
+\bt But then one day something happened that changed everything. A snake, the most
+sneaky of all the animals God had made, had a conversation with the woman. He said to
+her. "Did God really say you must not eat any of the fruit in the garden?"
+\anc Gen.03:01
+\ln 02.06
+\bt And she answered, "Of course we may eat it. It's only the fruit from the tree at the
+center of the garden that we are not allowed to eat. God says we must not eat it or even
+touch it, or we will die."
+\anc Gen.03:02, 3
+\ln 02.07
+\bt "You won't die!" the snake hissed. "God knows that when you eat it you will become
+just like him, knowing everything, both good and evil."
+\anc Gen.03:04, 5
+\ln 02.08
+\bt Well, the woman was convinced. The fruit looked so fresh and delicious, and it would
+make her so wise! So she ate some of the fruit. She also gave some to her husband,
+who was with her. Then he ate it, too.
+\anc Gen.03:06
+\ln 02.09
+\bt And all of a sudden, something changed in them, and they felt shame at their
+nakedness. So they strung big fig leaves together to cover themselves.
+\anc Gen.03:07
+\ln 02.10
+\bt Toward evening they heard God walking in the garden, so they hid themselves among
+the trees.
+\anc Gen.03:08
+\ln 02.11
+\bt God called to Adam, "Where are you?"
+\anc Gen.03:09
+\ln 02.12
+\bt Adam answered, "I heard you, so I hid. I was afraid because I was naked."
+\anc Gen.03:10
+\ln 02.13
+\bt And God said, "Who told you that you were naked? Have you eaten the fruit I
+commanded you not to eat?"
+\anc Gen.03:11
+\ln 02.14
+\bt And Adam said, "The woman you gave me handed me the fruit, and I ate it."
+\anc Gen.03:12
+\ln 02.15
+\bt Then God asked the woman, "How could you do such a thing?"  And she replied, "The
+snake tricked me. That's why I ate it."
+\anc Gen.03:13
+\ln 02.16
+\bt So God said to the snake, "Because you have done this, you will be punished. You will
+grovel in the dirt as long as you live, crawling along on your belly.
+\anc Gen.03:14
+\ln 02.17
+\bt From now on, you and the woman will be enemies, and your offspring and hers will be
+enemies. You will strike his heel, but he will crush your head."
+\anc Gen.03:15
+\ln 02.18
+\bt Then he said to the woman, "You will give birth to your children with intense pain and
+suffering. And from now on your husband will be your master, even though you'll wish
+you were in charge."
+\anc Gen.03:16
+\ln 02.19
+\bt And to Adam he said, "Because you disobeyed [KT: disobey] me, and listened to your
+wife and ate the fruit I told you not to eat, I have placed a curse on the ground. All your
+life you will struggle to scratch a living from it.
+\anc Gen.03:17
+\ln 02.20
+\bt It will grow thorns and thistles for you.
+\anc Gen.03:18
+\ln 02.21
+\bt All your life you will sweat to produce food, until your dying day. Then you will return to
+the ground from which you came. For you were made from dirt, and to the dirt you will
+return." And that was Adam's punishment for disobeying God.
+\anc Gen.03:19
+\ln 02.22
+\bt Adam named his wife Eve, which means "living", because she would become the
+mother of all living human beings everywhere.
+\anc Gen.03:20
+\ln 02.25
+\bt And then God made clothes for Adam and Eve from animal skins.
+\anc Gen.03:21
+\ln 02.26
+\bt And he said, "The man and woman have become like me, knowing both good and evil. I
+can't let them eat the fruit of the Tree that gives Life because then they will live
+forever!"
+\anc Gen.03:22
+\ln 02.27
+\bt So the LORD God banished Adam and his wife from the garden.
+\anc Gen.03:23
+\ln 02.28
+\bt And he stationed powerful spirit beings, and a flaming sword flashing back and forth,
+guarding the way to the Tree that gives Life.
+\anc Gen.03:24
+\dt 20/Nov/2008

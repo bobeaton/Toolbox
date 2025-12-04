@@ -1,0 +1,1861 @@
+\_sh v3.0  400  StoryBT
+\_DateStampHasFourDigitYear
+
+\c H-00
+\t Hunsrik Exploratory Panorama Set Overview
+\stg Mentoring (Hunsrik)
+\co Hunsrik
+\co Reason: Daniel and Stan see the following possibilities for redemptive
+themes among the Hunsrik: Grace, Relationship, Forgiveness, Mediator,
+Messiah. We're leaning heavily to the Relationship and Mediator themes
+initially. The other themes listed above will probably still apear as currents
+through the exploratory panorama though they may not be fully developed in
+terms of Problem, Prediction, Jesus as the Solution and Response.
+\co We'll expand these descriptions in the days and weeks to come.
+\co Story crafter's name or initials
+\co Backtranslator's name or initials
+
+\bld Story 1 -- Creation of the Spirit World
+\co We're looking at separating the two creation stories based on length of
+telling. Consistently, all of our house churches have asked questions about
+this and othe raspects of cosmology.
+\cn God - creator of heaven
+
+\bld Story 2 -- Creation of the Physical World
+\co This story is the foundaiton for all we know about the relationship that God
+desires to have with man. Also relavent to our people is the basis of the
+relationship between a husband and wife.
+\cn God - creator of earth, Holy Spirit
+
+\bld Story 3 -- The Fall of Mankind
+\co This story shows the entrance of a need for a mediator between God and man
+and the broken relationship between God and man. This story is actually the
+one that introduces the problem related to relationship and mediator. We see
+here the seed form of the prediction of the Messiah.
+
+\bld Story 4 -- Covenant with Israel & 10 Commandments
+\co This story shows God entering into a relationship with Israel in order to have
+a relationship with the other nations. Israel becomes a nation-priest, a
+mediating nation, between God and the other nations. The 10 Commandments
+will provide a corrective to the Catholic catechism exclusion of having no
+"graven images."
+
+\bld Story 5 -- Golden Calf
+\co  This story shows Moses as mediator between God and Israel. This story also
+addresses the issue of idolatry, praying to the saints, among our people.
+
+\bld Story 6 -- David and Bathsheba w/ Nathan and David
+\co This story shows broken relationships on many levels of society and with
+God. Nathan's visit may be incuded with this story as well. God sends a
+prophet who is something as a  mediator.
+
+\bld Story 7 -- Nathan and David w/ Death of the Child and Psalm 51
+\co This story will either start with Nathan's visit or the death of the child,
+depending on how the previous story is crafted. We believe the Psalm is vital
+to show repentence. This story will address the idea of original sin that we
+discovered in Porto Velho about mother's milk passing sin to the child.
+\cn Forgiveness of sins
+
+\cn It appears that we have left out the "prediction" story, aside from the story
+of the Fall which is very general. We are now aware of this possible gap and
+will be considering stories to use for this purpose. We'll let you know when
+we decide a story that meets this need in the story set.
+
+\bld Story 8 -- The Birth of Jesus
+\co You can't have a redemptive set without this story. There's no way to
+understand Jesus without his birth. We may also use this in some way to
+counter the original sin issue and mother's milk. We'll see.
+\cn Jesus the Son, the Holy Spirit, born of the virgin Mary and forgiveness of
+sins
+
+\bld Story 9 -- John the Baptist and Jesus' Baptism
+\co John's proclamation was repentence for forgiveness of sin - restoration of
+relationship, and making straight the path for the Messiah. Jesus' baptism
+deals with one aspect of the baptism barrier we face among our people.
+
+\bld Story 10 -- Parable of the Unjust Servant
+\co This story deals with relationship and forgiveness. It is one that has struck a
+bell with our people in past studies.
+
+\bld Story 11 -- Parable of the Wedding Feast
+\co This story deals with relationship, heaven, and forgiveness.
+
+\bld Story 12 -- Parable of the Prodigal Son
+\co This story deals with relationship and forgiveness. It also has struck a bell
+with our people in the past. Here we see God as Father.
+\cn God the Father
+
+\bld Story 13 -- Crucifixion
+\co This story shows Jesus as mediator and the one who pays the price to restore
+the relationship that God desires to have with us. This one will probably end
+up being 2-3 stories in order to show the arrest/trial and crucifixion.
+\cn suffered under Pilate, crucified, died and buried
+
+\bld Story 14 -- Resurrection
+\co Without this there is no Christianity, regardless of theme choice.
+\cn Raised on the third day and ascended into heaven and seated at the right
+hand of the Father
+
+\bld Story 15 -- Peter's Proclamation (Acts 2)
+\co This story may be used in conjunction with Acts 1 in two stories. This will
+introduce the holy spirit, the church, and the Lord's supper and baptism after
+repentence.
+\cn Jesus is Lord, church, communion of the saints
+
+\cn After a once-over from the Creed, it seems we need to have a clearer picture
+of the bodily resurrection from the dead and the return of Christ to judge the
+living and the dead. We'll be looking more closely at these possible gaps in
+the exploratory set.
+
+\cn Below is where we will expand the exploratory set for our overall, longer set.
+\co Story 1 -- Creation of the Spirit World
+\co Story 2 -- Creation of the Physical World
+\co Story 3 -- The Fall of Mankind
+\dt 23/Sep/2009
+
+\c H-05
+\t Te Aanfang/ The Creation
+\stg CHECKED (Hunsrik) 
+\co HUNSRIK
+\co Kot hot te Welt Kemacht/ 
+\co DRA 
+
+\co 15OCT08 crafted with Bertillo Zimmer
+\co 15Oct08 backtranslated by Lucia Zimmer, this is bt
+\co 5June09 recrafted with Mabel Dewes to fix some problems with the  original
+\co 15June09 backtranslated by Solange Johann, this is bt2  
+\tst1 15July09 tested with young man at Herval Museum, this is tst1
+
+\ln 05.01
+\bt1 Sem planta de broto.
+\bt2 Quando Deus fez a terra, tudo estava vazio, n„o havia vida. 
+\eng When God made the earth, everything was empty, there was no life.
+\anc Gen.03:04-05
+\cn I used the Genesis 3 creation story because it relates to the Hunsrik better
+in that it sets the stage for the Fall which is our second story. Creation by
+God is not in doubt here among the Hunsrik. Rather, the sinful nature is.
+
+\ln 05.02
+\bt1 Saiu da terra uma fonte que molho a terra. 
+\bt2 SÛ havia uma fonte de ·gua que molhava tudo.
+\eng There was only a spring of water that wetted everything
+\anc Gen.03:06
+
+\ln 05.03
+\bt1 Do pÛ Deus fez o homem.
+\bt2 Ent„o do pÛ Deus criou o ser humana, o homen. A soprou em suas narinas e lhe
+deu a vida.
+\eng And so from the dust God created the human being, the man. He
+breathed into his nostrels and gave him life.
+\anc Gen.03:07
+
+\ln 05.04
+\bt1 Eles soprou no nariz e deu vida e assim ele ganhou a vida. 
+\bt2 Ent„o Ele fez o Jardim do …den e l· colocou todo tipo de ·rvores e l· tambÈm Ele
+colocou o homen.
+\eng And so He made the Gaden of Eden and placed in it every type of tree
+and also placed the man there.
+\tst1 Q: O que È o significado que Deus soprou no nariz do Ad„o e deu vida? A: nao
+entendeu
+\tst1 Q: O que È o Jardim do …den? Descreva o jardim?
+\anc Gen.03:08
+
+\ln 05.05
+\bt1 Ele fiz o Jardim do …den daÌ Ele colocou o homem. No jardim tinha muitas
+frutas boas. No meio do jardim tinha a ¡vore da Vida. Tinha a ·vore que dava
+as frutas bons e tinha a ·vore das frutas m·s.
+\fix This is obviously wrong and we will be correcting this in the next revision.
+The Tree of the Knowledge of Right and Wrong was not understood.
+\bt2 No meio do jardim Deus colocou a ·rvore da vida. E l· tambÈm estava a ·rvore do
+conhecimento do bem e do mal. No meio do jardim tinha a ¡vore da Vida. Tinha
+a ·vore que dava as frutas bons e tinha a ·vore das frutas m·s.
+\eng In the middle of the garden God placed the tree of life. And there also
+was the tree of the knowing of good and bad. In the middle of the
+garden had the Tree of Life. It had the tree that gave the good fruits
+and it had the tree that gave the bad fruits.
+\cn The Tree of Knowledge was corrected. 
+\tst1 Q: Por que Deus colocou o homen no jardim? A: plantar
+\tst1 Q: O que vocÍ acha era a import‚nica da ·rvore da vida? A:complicado disso.
+\anc Gen.03:08
+
+\ln 05.06
+\bt1 Deus mandou o homem cuidar o jardim e para plantar o jardim. Deus deu a
+dÌreito a ele, ëTu sÛ pode comer da fruta do ·vore que d· o bem mas n„o da fruta do
+·vore que d· a mal. N‚o È para comer a fruta do ·rvore que d· o mal. No dia em que
+vocÍs v„o comer deste fruta vocÍs morrer„o.í
+\fix This is obviously incorrect and we will be correcting this in the next revision.
+\bt2 Deus mandou que o homen fizesse plantaÁıes para que ele tivesse de tudo para
+comer e tambÈm pudia comer de todos as ·rvores sÛ n„o do ·rvore do
+conhecimento, se n„o ele morreria.
+\eng God caused the man to plant so that he could have his choice of
+anything to eat and also he could eat from all the trees just not from
+the tree of knowledge, because if he did he would die.
+\tst1 Q: O que Deus mando o homen fazer? Porque Ele mandou o homen fazer isto?
+A: Cuidar jardim. Responsibilidade dele. Comer.
+\tst1 O que vocÍ acha era a import‚nica da ·rvore que da a fruta do conhecimento do
+bem e do mal?  A:      Por que Deus proibiu o homen comer desta fruta? A: Dar
+escolha. Porque Deus ia criar desta ·rvore? A:  O mesmo. Dar a eles escolha.
+\anc Gen.03:15-17
+\cn 2nd time through the Tree of Knowledge was corrected. Culture: The fact
+that God planned for Adam to care for the land and plant crops is important
+to this agriculturally-based society. This was shown by how easily the
+command given to Adam to care for the Garden of Eden was picked up during
+testing. Today, the government's enviromental agencies as well as private
+ones are making agricultural life difficult. The are more incentives for
+people to return their lands to forest than to plant them with crops. The
+larger Urban culture, among the more educated, do not value the agricultral
+industry and view it as destroying the nature beauty. However this passage is
+useful in combating an unbiblical view that the elite, in many Western
+nations are touting.
+
+\ln 05.07
+\bt1 ëN„o È bom que o homem vive solzinho. Eu vou ter que de arrumar alg˙em de
+ajudar. Vamos fazer a tua outra metade.
+\bt2 Deus achou que n„o seria bom que o homen ficasse solzinho. 
+\eng God thought that it would not be good that the man would remain alone.
+\tst1 Q: O que Deus achou que o homen faltava? A: A wife. The ladies with us
+pointed this out before the young man had time to answer. Showing he had
+reason to be somewhat tentative???? Hmmmm.
+\anc Gen.03:1
+
+\ln 06.08
+\bt1 Deus fez todos as animais e os passeros. Ele deixou o homem escolher os
+nomes dos bichos.
+\bt2 Ent„o, Deus criou todo tipo de animais e levou para o homen lhes darem o
+nome.
+\eng And so, God created every type of animal and brought them for the
+man so that he would give them the name.
+\tst1 Q: Por que Deus deu ao homen a responsibilidade nomear todos os animais?
+A: Presenteu para o homen. Como presente. Simolizar que deu tudo para ele e
+ele tenho que tomar conta.
+\anc Gen.03:19
+
+\ln 05.09
+\bt2 Deus fiz um par para cada tipo de animal.  
+\eng God made a pair for each kind of animal.
+\anc Gen.01:21-25, Gen. 03:19
+
+\ln 05.10
+\bt1 Para Ad„o Ele n„o achou uma companheira. 
+\bt2 SÛ n„o tinha um casal para Ad„o.
+\eng He just didn't have a match for Adam (There just wasn't a match for
+Adam)
+\anc Gen.03:20
+
+\ln 05.11
+\bt1 Deus fiz que Ad„o caisse num sono profundo. Quando ele dormiu
+profundamente Ele tirou uma costela. Da costela Deus fez a mulher.
+\bt2 Ent„o Ele fez com que Ad„o adormicesse profundamente e tirou ele uma
+costella. Da costella Ele fez uma mulher para o homem e levou para ele.
+\eng And so He made it so that Adam put himself into a deep sleep and he
+took from him a rib. From the rib He made a woman for the man and
+brought the woman to him.
+\tst1 Q: Por que Deus usou uma parte do homen para fazer a compaheira? A:
+Simbolizar que eles sao um so.
+\anc Gen.03:21-22
+
+\ln 05.12
+\bt1 Ele trouxe a mulher para o homem e daÌ o homem disse, ëAgora sim!í Ela foi
+chamado de mulher porque Deus tirou a mulher do homem.
+\bt2 O homen ficou muito feliz com isso.
+\eng The man was very happy with that.
+\anc Gen.03:23
+
+\ln 05.13
+\bt1 Por isso o homem deixa o seu pai e a sua mai para ficar com a sua mulher e os
+dois se unem em uma sÛ carne.
+\bt2 Por isso o homen vai deixar o seu pai e a sua m„e e vai se unir com sua mulher
+para que se tornarem apenas um.
+\eng Because of that the man will leave his father and mother and he will
+unite with his woman so that they will become just one.
+\tst1 Q: O que sigifica o homen e a mulher se tornam um sÛ carne? A: Deficil.... He
+is a single guy and probably answered this question correctly....Also, may
+have been intimidated with the ladies present.
+\anc Gen.03:24
+\cn Today, the younger generations of the Hunsrik and even some older are not
+respectful of the bond that God intends between a man and woman. While
+Catholics do not officially receive divorces many of them live separated
+form their husbands and wives but with another partner creating children
+outside the bonds of marriage. They prefer this and accept it over leaving
+the Catholic Church. The government grants divorce but most do not seek it
+because they still recognize the authority of the Catholic Church in regard to
+marriage. Younger Hunsrik most often live together for 5-10 years before
+officially marrying in the Catholic Church. This in hopes of avoiding an
+official separation.
+
+\ln 05.14
+\bt1 Eles eram n˙s e n„o tinham vergonha. 
+\bt2 Os dois estavam n˙s mas n„o se envergonhavam um do outro. 
+\eng The two were nude but they were not ashamed of each other.
+\tst1 Q: Por que o homen e a mulher n„o tinham vergonha para estar nu? A: Pura,
+pureza. Depois comeram a fruta e envergonhou.
+\anc Gen.03:25
+\cn Among the Hunsrik this is significant because their tranditional view of
+marital relations is that it is based in sin, i.e. marital, 'sexual', relations are
+sinful. In Hunsrik the word for 'sexual relations' literally translates into
+English as 'the bads.' This comes from their understanding of their Catholic
+heritage which teaches that 'sex' is sinful. A generation or two ago brides
+would be given a nuptial lace clothe that was to cover or veil the brides
+entire body on her wedding night so as to cover her 'shame.' The only
+opening was over the genital area. While this view is changing today among
+secularizing forces it still remains an important aspect of culture and needs
+to be dealt with. Among the older generation this view is quite strong still and
+any public display of affection is viewed with disdain. Naturally in our
+Brazilian Latin American context where public display of affection is
+demonstrated, if not outright flaunted, their is a conflict between cultural
+worldviews. Dealing with this also will set the stage for showing that it is not
+sinful for those called to ministry to marry.
+
+\dt 23/Sep/2009
+
+\c H-06
+\t O Premeiro Pecado
+\stg CHECKED (Hunsrik) 
+\co HUNSRIK
+\co Disobedience and Punishment
+\co DRA
+\co 20Oct2008 crafted by Ronsane Haubert
+\co 22Oct2008 backtranslated by Jilassia Kaifer, this is bt
+\co 08June2009 crafted by Mabel Dewes
+\co 12June2009 backtranslated by Solange Johann, this is bt 2
+\co 15July2009 tst1 with Hunsrik Young man at museum. 
+
+\ln 06.01
+\bt1 A cobra era o bicho mais esperta que Deus criou. 
+\bt2 A cobra era o animal mais esperta que Deus criou. 
+\eng The snake was the smartest animal that God created.
+\tst1 Quem era a cobra? Diablo
+\anc Gen.03:01
+
+\ln 06.02
+\bt1 Fui na mulher e pediu. … verdade que Deus proibiu todas as frutas para comer.
+\bt2 Fui na mulher e pediu. … verdade que Deus proibiu todas as frutas para comer.
+\eng It went to the woman and asked. Is it true that God prohibited the
+eating of all the fruits.
+\tst1 Q:Por que Deus deixou a cobra entrar no jardim?  A: Nao sei.
+\tst1 Q: Por que a cobra pergunta a mulher assim, ì… verdade que Deus proibiu vocÍs
+de comer de todas as frutas do jardim? A: Para enganhar.
+\tst1 Q:Por que a cobra foi ao mulher premeiro? A:Nao sei.
+\anc Gen.03:01
+
+\ln 06.03
+\bt1 N„o! N„o È todas as frutas que Ele proibiu. NÛs podemos comer de tudo menos a
+·rvore do conhecimento do bem o do mau. Isto n„o È para comer. Nem podemos
+tocar a ·rvore. Se n„o, nÛs vamos morrer.
+\bt2 N„o! Isto n„o È verdade. N„o È todas as frutas que Ele proibiu. NÛs podemos comer
+de tudo menos a ·rvore no meio do jardim. Isto n„o È para comer.
+\eng No! This isn't true. He didn't prohibit all the fruits. We can eat from all of
+them except the tree in the middle of the garden. This is not for eating.
+\tst1 Q: Por que Deus criou uma ·rvore com fruta que da o conhecimento do bem o
+do ma˙? A: Para deixar eles escolher o que fazer.
+\anc Gen.03:02-03
+
+\ln 06.04
+\bt1 Morrer!, a cobra falou. VocÍs n„o v„o morrer! Deus so ques enganhar vocÍs. Ele
+n„o quer que vocÍs tem o conhecimento.
+\tst1 O que significa morrer? A:Sair de paraiso.
+\anc Gen.03:04-05
+
+\ln 06.05
+\bt1 DaÌ Eva achou que era interesante e viu que a ·rvore tinha uma fruta bonita e
+ela comeu da fruta da ·rvore.
+\bt2 DaÌ Eva achou que era interesante e viu que a ·rvore tinha uma fruta bonita e
+ela comeu da fruta da ·rvore.
+\eng From that, Eve thought that it was interesting and she saw that the tree
+had a pretty fruit and she ate the fruit for the tree.
+\anc Gen.03:06
+
+\ln 06.06
+\bt1 E tambÈm ofereceu para Ad„o e ele achou muita boa tambÈm. 
+\bt2 E tambÈm ofereceu para Ad„o e ele achou muita boa tambÈm. 
+\eng And also she offered it to Adam and he saw that it was good as well.
+\anc Gen.03:06
+
+\ln 06.07
+\bt1 E daÌ abriu os olhos deles. AÌ eles viram que estavam nu e acharam folhas para
+se cobrir.
+\bt2 E daÌ abriu os olhos deles. AÌ eles viram que estavam nu e acharam folhas para
+se cobrir.
+\eng And from there, their eyes opened. There the saw that they were nude
+and they grabbed leaves to cover themselves.
+\tst1 Q: O que significa que eles foram direito para colacar aroupas feito de
+folhas? A: perderam pureza
+\anc Gen.03:07
+
+\ln 06.08
+\bt1 Daqui um pouco Ad„o escutou a voz de Deus e se escondeu. 
+\bt2 Daqui um pouco Ad„o escutou a voz de Deus.
+\eng A little bit after that Adam heard the voice of God.
+\anc Gen.03:08
+
+\ln 06.09
+\bt1 Ad„o, a onde vocÍ est·? 
+\bt2 Ad„o, a onde vocÍ est·?
+\eng Adam, Where are you? 
+\tst1 Q: Porque Deus procurou Adao? A:Ele ja sabia o que Adao ia escolher errado.
+\anc Gen.03:09
+
+\ln 06.10
+\bt1 E Ad„o respondeu, ìOuvi a sua voz, mas estava nu.î 
+\bt2 E Ad„o respondeu, ìEu escutei a sua voz, mas eu estava com medo porque
+estava nu.î
+\eng And Adam responded, "I heard your voice, but I was afraid because I
+was nude."
+\anc Gen.03:10
+
+\ln 06.11
+\bt1 E Deus perguntou, " Quem falou isto para voce? Voce comeu a fruta que Eu
+proibi?
+\bt2 E Deus falou, ìQuem falou que vocÍ est· nu? Por acaso vocÍ comeu da fruta
+proibida?î
+\eng And God said, "Who said that you were nude? By chance did you eat
+from the fruit that was prohibited?"
+\anc Gen.03:11
+
+\ln 06.12
+\bt1 A mulher que VocÍ me deu ofereceu a fruta.
+\bt2 A mulher que VocÍ me mandou ofereceu a fruta.
+\eng The woman that You gave me offered the fruit.
+\tst1 Q: O que vocÍ achou da resposta do homem para Deus?  A: Nao era certo. (Did
+not go into more detail at this time.)
+\anc Gen.03:12
+
+\ln 06.13
+\bt1 E Deus perguntou a mulher. ìPor que vocÍ fez isso?î
+\bt2 E Deus pediu para a mulher. ìPor que vocÍ fez isso?î
+\eng And God asked the woman. "Why did you do this?"
+\anc Gen.03:13
+
+\ln 06.14
+\bt1 E Eva respondeu, ìA cobra me enganhou.î
+\bt2 E Eva respondeu, ìA cobra me enganhou.î
+\eng And Eve responded, "The snake tricked me."
+\tst1 Q: O que vocÍ achou da resposta da mulher para Deus?  A: Nao sei. (We had 2
+ladies with us so I think he did not want to say what he thought.)
+\anc Gen.03:13
+
+\ln 06.15
+\bt1 Deus castigou as trÍs.
+\bt2 Deus castigou as trÍs.
+\eng God punished the three.
+\anc Gen.03:14
+
+\ln 06.16
+\bt1 E daÌ a mulher vai moir a tua cabeÁa. A mulher vai pisar com a calcanhar na tua
+cabeÁa e a cobra vai mordendo no teu calcanhar.í
+\bt2 Para a cobra Ele falou. ìEu faÁa com que vocÍ e a mulher ficam inimigos por
+toda a geraÁ„o. Ela vai torÁer a sua cabeÁa e vocÍ vai morder ela na calcanhar
+dela.
+\eng For the snake He said. "I am making it so that you and the woman will
+be enemies for a whole generation. She will twist your head and you
+will bite her on her heel.
+\tst1 Q: O que significa que a cobra e a mulher seria enimigos em todas as
+geracoes? A:nao entendeu direito. Literalmente entendo que eles vao brigar
+mas symbolicamente nao entendo. (I found it interesting that he associated
+symbolism when I had said nothing about this being a prophecy.)
+\tst1 Q: Justo o castigo da cobra e a mulher? A: Servir marido......meio deficil.
+(Again, we had two ladies with us so I don't think he wanted to anwer
+directly. One of the ladies shared that she does not like this part at all!)
+\anc Gen.03:15
+
+\ln 06.17
+\bt1 E Deus disse para a mulher, ëCom dores do parto tu ganhar·s os teus filhos. Tu
+vai desejar ficar com teu marido.í
+\bt2 E para a mulher Ele falou, ìCom muito dor vocÍ vai criar seus filhos. Tu quer
+sempre ficar com os seu marido mais ele vai te dominar.
+\eng And for the woman He said, "With much pain you with make your
+babies. You will always have a want for your husband (there is a
+mistake here, directly it's: You want always to be or stay with those
+your husband.) But he will dominate you.
+\tst1 O que significa este castigo? Justo? A: Again the young man did not answer.
+\anc Gen.03:16
+
+\ln 06.18
+\bt1 PrÛximo que Deus falou com Ad„o, ëA terra È ruin. Tu tehn que trabalhar dura
+nela e suar muito para ter o teu sustento.
+\bt2 E para Ad„o Ele falou, ìEssa terra È maldiÁoada. Tu tehn que trabalhar bestante e
+suar muito para ganhar a sua comida..
+\eng And to Adam He said, "That earth is cursed. You have to work enough
+and sweat alot to earn your food...
+\tst1 Q: O castigo do Adao era justo? A: suor, (lots of versions of this story he
+said...commenting about the punishments. He said that in catechism class
+there are many different punishments listed. He rattled several off that I
+noted were not in the text.).  Sim, era justo. (Because he answered on the
+man's punishment is why I felt that he was hindered by the womens presence.
+Note to self...stories can be gender sensitive. An interesting insight when
+using discussion based storying) Ele fiz escolhe. Pegou outro caminho.
+Mesmo aind e dificil este pergunto.
+\anc Gen.03:17, 19a
+
+\ln 06.19
+\bt1 Tu È feito do pÛ da terra. Vai virar pÛ de novo.í 
+\bt2 Tu fui feito da terra e para a terra vai voltar.î 
+\eng You were made from earth and to the earth you will return."
+\tst1 Q:O que significa significa votlar para terra? A: Morte. Deus 'ta dizendo
+que ele vai voltar de onde fui criado (o corpo).
+\anc Gen.03:19
+
+\ln 06.20
+\bt1 Deus fez aroupas de pele de animais. 
+\bt2 Deus fez aroupas para Ad„o com peles de animais 
+\eng God made clothes for Adam with skins of animals
+\tst1 Q: Por que Deus ia fazer aroupas para eles? E por que de pele? A: Pele de
+animais? Nao sei...por causa da vergonha, acho.
+\anc Gen.03:21
+
+\ln 06.21
+\bt1 Ele tirou eles do jardim.  
+\bt2 ...e jogou eles fora do Jardim. 
+\eng and threw them out of the Garden.
+\tst1 Q: Por que Deus jogou eles fora do Jardim? A: Fizeram escolha deles.
+Disobediencia. Comeram fruta proibida.
+\anc Gen.03:23
+
+\ln 06.22
+\bt1 Deus colocou os anjos no lado leste do jardim para proteger a ·rvore da fruta
+da vida para ninguem comer.
+\bt2 E botou um anjo do lado da do lado da ·rvore da vida para cuidar dela para que
+ninguem comer-se da fruta dela.
+\eng And place an angel from the side to the side of the tree of life for care
+for it so that noone would eat from it's fruit.
+\tst1 Q:Por que Deus criou uma ·rvore da vida e colcou no jardim? Nao entendo
+assim. Nao sei. Deficil.
+\tst1 Q:Por que Deus colocou um anjo para cuidar o Jardim? A: nao lembrou
+\anc Gen.03:224
+
+\ln 06.23
+\bt1
+\anc
+
+\ln 06.24
+\bt1
+\anc
+
+\ln 06.25
+\bt1
+\anc
+
+\ln 06.26
+\bt1
+\anc
+
+\ln 06.27
+\bt1
+\anc
+
+\ln 06.28
+\bt1
+\anc
+
+\ln 06.29
+\dt 23/Sep/2009
+
+\c H-100
+\t O Nascimento de Jesus
+\stg Mentoring (Hunsrik)
+\co HUNSRIK
+\co Redemptive Themes: Mediator Relationship Forgiveness 
+\co 31SEPT08  crafted with Bertilo Zimmer
+\co 1OCT08 backtranslated with JILASSIA KAIFER and Rosane
+
+\ln 100.01
+\bt Jesus nasceu assim.
+\eng Jesus was born like this.
+\anc Mat.01:18
+\cn
+
+\ln 100.02
+\bt Maria estava com Jos√©. Ela se viu gravida do √âspirito Santo.
+\eng Mary was with Joseph. She became pregnant by the Holy Spirit.
+\anc Mat.01:18
+
+\ln 100.03
+\bt Jos√© sempre era um homem correto. 
+\eng Joseph was always a right man.
+\anc Mat.01:19
+\cn This sentence would be better to come after the fact that Joseph wanted to
+abandon her. Just seems cut and pasted here. will revise.
+
+\ln 100.04
+\bt Jos√© no mesmo momento queria abandonar a Maria mas e um anjo veio em
+sonho e disse, "Jos√©, filho de Dav√≠, ele n√£o tinha medo de abandonar a Maria.
+O filho que ela est√° esperando √© do √àspirito Santo e ela dar a luz e voc√™s v√£o
+dar a nome de Deus a ele. Ele vai salvar as pessoas dos pecados."
+\eng Joseph, at that same moment, wanted to leave Mary but an angel came
+in a dream and said, "Joseph, son of David, he didn't have any fear of
+leaving Mary. The child that she is waiting for is from the Holy Spirit and
+she will give birth and you (ya'll) will give the name of God to him. He
+will save the people from sins."
+\anc Mat.01:20
+\cn See L&C Notes: √âspirito Santo.
+\cn
+\fix Obviously there is a problem in Angels delcaration to Joseph as it switches to
+past tense. We will correct this in the future. Also, he said that Joseph was
+not afraid of abandoning Mary which is not true to the story.
+
+\ln 100.05
+\bt Jos√© casou com Maria e deu o nome de Deus a Ele. Jos√© n√£o teve rela√ß√µes
+com Maria antes que Jesus nasceu.
+\eng Joseph married Mary and gave the name of God to Him. Joseph didn't
+have relations with Mary before Jesus was born.
+\anc Mat.01:24-25
+
+\ln 100.06
+\bt Jesus nasceu na cidade de Beleem.
+\eng Jesus was born in the city of Bethlehem
+\anc Mat.02:01
+
+\ln 100.07
+\bt Um pouco alguns homems estavam estudando as estrelhas. 
+\eng After a little bit som men were studying the stars.
+\anc Mat.02:01, 02
+
+\ln 100.08
+\bt Ele vem do Oriente em Jerusalem e perguntarem a onde que ¬¥ta o menino. Nos
+viemos a estrela e viemos para ver ele.
+\eng they came from the East in Jerusalem and asked where is the boy. We
+saw the stars and came to see him.
+\anc Mat.02:02
+
+\ln 100.09
+\bt Herodes viu isto da√≠ ficou muito preocupado. 
+\eng Herod saw this  and from there became very concerned.
+\anc Mat.02:03
+
+\ln 100.10
+\bt N√≥s vimos a estrela e gostamos dela.
+\eng We saw a star and we liked it.
+\anc Mat.02:02
+\cn
+\fix Clearly this needs to be corrected in regard to why the visitors from the East
+came. They came to worship/adore him and not simply to ¥like¥ him.
+
+\ln 100.11
+\bt E da√≠ Herodes fiz os l√≠deres da religi√£o e pediu a onde que nasceu este Rei
+dos Judeus?
+\eng And from there Herod made the leaders of the religion and asked
+where this King of the Jews was born?
+\anc Mat.02:04
+\cn Unclear... no mention of meeting that Herod demanded.
+
+\ln 100.12
+\bt Da√≠ responderam, "Na cidade de Beleem. Eles ganharem um profeta "
+\eng From there they responded, "In the city of Bethlehem. They have
+recieved a prophet"
+\anc Mat.02:05
+\fix No mention of the prophets who announced this. Seems the man thought the
+religious leaders were stating this of their own accord (no Scriptural
+backing). It is confusing as it is and will be corrected.
+
+\ln 100.13
+\bt E da√≠, Herodes urgentemente se reuniu com aqueles que vierem. Da√≠ ele pediu
+quando que a estela veio? Da√≠ eles falarem.
+\eng And from there, Herod met ungently with those who came. From there
+he asked when the star appeared? From there they said.
+\anc Mat.02:07
+\cn Needs to note that the meeting was in SECRET. Points to his
+underhandedness.
+
+\ln 100.14
+\bt Ele mandou eles para Beleem. "V√£o pedir a onde que esta este menino. Da√≠
+voc√™s voltam para que eu posso gostar dele."
+\eng He sent them to Bethlehem. "Go ask where this boy is. From there you
+(ya'll) return so that I can like (enjoy) him."
+\anc Mat.02:08
+\cn Needs some attention to how they will find out where Jesus is. 
+\fix Also, Herod said that he wanted to worship/adore. I need to find out if they
+have a work for adore, worship which is more than ¥like¥ as it keeps recurring.
+Perhaps this is a word not known or it is intentional as worship of Mary is
+intense...Will field test.. (He was consistent with this word
+throughout...perhaps there is no other word...needs to be tested.
+
+\ln 100.15
+\bt No caminho eles viram de novo a estrela dele. Da√≠ at√© l√° na casa onde que
+¬¥tava o menino e eles gostavam dele.
+\eng On the path they again saw his star. From there to beyond there where
+the house where the boy was and they like him.
+\anc
+\cn
+\fix Noted above...came to worship/adore. Here he uses the past tense ¥they liked
+him.¥
+
+\ln 100.16
+\bt Com muito alegre eles entrarem dentro da casa e se ajoelharem em frente
+dele e gostarem dele.
+\eng With much joy they went inside the house and knelt in front of him and
+liked him.
+\anc
+\cn
+\fix again ¥liked¥ him, no mention of worship. Consitently used this word throughout
+the story.
+
+\ln 100.17
+\bt Da√≠, eles derem presentes de ouro. 
+\eng And then, they gave presents of gold.
+\anc
+\cn
+\fix Offered more than just gold. Will be corrected.
+
+\ln 100.18
+\bt Deus aviso que n√£o era para vim de volta porque Herodes estava esperando
+eles.
+\eng God advised that it wouldn't do to return because Herod was waiting
+for them.
+\anc Mat.02:12
+\cn Not clear who God advised. 
+
+\ln 100.19
+\bt Quando Jos√© estava dormindo um anjo do c√©u veio e o anjo disse, "Foge com
+o menino. Foge para o Eg√≠to porque Herodes quer matar ele." Jos√© obedeceu.
+\eng When Joseph was sleeping and angel of heaven came and the angel
+says, "Flee with the boy. Flee to Egypt because Herod wants to kill
+him." Joseph obeyed.
+\anc Mat.02:13, 14
+\cn Needs a transition phrase here such as...a little time later...afterwards....
+
+\ln 100.20
+\bt Herodes viu que era enganado. Da√≠ ele avisou que era para matar todo menor
+a baixo de dois anos em Beleem.
+\eng Herod saw that he was tricked. Then he advised that it should be done
+that everyone under two years in Bethleham should be killed.
+\anc Mat.02:16
+\anc
+\cn Needs to show in the story that Herods orders were carried out. 
+
+\ln 100.21
+\bt Quando Herodes morreu o anjo disse a Jos√©, "Pega a mai e o menino e vai
+para Israel. "
+\eng When Herod died an angel said to Joseph, "Get the mother and the boy
+and go to Israel."
+\anc Mat.02:19, 20
+
+\ln 100.22
+\bt E Jos√© obedeceu.
+\eng And Joseph obeyed.
+\anc Mat.02:21
+
+\ln 100.23
+\bt
+\anc
+
+\ln 100.24
+\bt
+\anc
+
+\ln 100.25
+\bt
+\anc
+
+\ln 100.26
+\bt
+\anc
+
+\ln 100.27
+\bt
+\anc
+
+\ln 100.28
+\bt
+\anc
+
+\ln 100.29
+\bt
+\anc
+
+\ln 100.30
+\bt
+\anc
+
+\ln 100.31
+\bt
+\anc
+
+\ln 100.32
+\bt
+\anc
+
+\ln 100.33
+\bt
+\anc
+
+\ln 100.34
+\bt
+\anc
+
+\ln 100.35
+\bt
+\anc
+
+\ln 100.36
+\bt
+\anc
+
+\ln 100.37
+\bt
+\anc
+
+\ln 100.38
+\bt
+\anc
+
+\ln 100.39
+\bt
+\anc
+
+\ln 100.40
+\bt
+\anc
+
+\ln 100.41
+\bt
+\anc
+
+\ln 100.42
+\bt
+\anc
+
+\ln 100.43
+\bt
+\anc
+
+\ln 100.44
+\bt
+\anc
+
+\ln 100.45
+\dt 23/Sep/2009
+
+\c H-203
+\t YOHAN, TE TAAFER
+\stg Mentoring (Hunsrik)
+\co HUNSRIK
+\co Repentance from sin, Obedience
+\co DRA
+\co August2009 crafted by Mabel Dewes
+\co 19August2009 Solange Johann, this is bt
+\tst1 27August2009 Jilacia Kaifer
+
+\ln 203.01
+\bt Jo√£o passou por regi√£o Rio Jord√£o para dizer as pessoas ‚ÄúArrependem-se dos
+seus pecados e batizem se todos.‚Äù
+\eng John passed through the region of the Jordan River to tell the people
+"Repent from your sins and baptize yourselves, everyone."
+\tst1 Q: Was is en fluus? A: RIO  Q:Te fluus Jordom? A:Israel...atravessaram
+para entrar na terra prometida. Q:Yohan hot kesaat, "RoyÎt aych fom ayrÎ
+sinte?" Was pedayt tas wort 'royÎt'? A:arrepender se dos seus pecados
+(RAUT)
+\anc luk.03:03
+\cn Some words I test like RIVER, Fluus in Hunsrik, because many have taken to
+using the Portuguese RIO instead. Not unlike Texans who call the RIO
+GRANDE RIVER... Fluus works. They still use the word for creek in Hunsrik
+so it is no problem.
+
+\ln 203.02
+\bt Isto aconteceu como o Profeta Is√°ias tinha dito, ‚ÄúAprontem o caminho
+porque o Senhor est√° chegando.‚Äù
+\eng This occured like the Prophet Isaiah and said, "Prepare the path
+because the Lord is arriving."
+\tst1 Q: Was is en profeyÎt? A:Messengeiro de Dues, passa mensagem de Deus.
+\anc luk.03:04
+
+\ln 203.03
+\bt Jo√£o disse para milhares das pessoas. ‚ÄúCobras venonosas que voc√™s s√£o, faz
+alguma coisa para mostrar que se modificarem.
+\eng John said to thousands of people. "Venemous Snakes that you are, do
+something to show that you have changed.
+\anc luk.03:07, luk.03.08
+
+\ln 203.04
+\bt N√£o comecem dizer entre voc√™s que Abraham √© o pai de voc√™s porque eu lhes
+digo que at√© das pedras Deus pode fazer descendentes de Abraham.
+\eng Don't begin to say among yourselves that Abraham is your father
+because I say to you even from these rocks God can make decendants
+of Abraham.
+\anc luk.03:08
+
+\ln 203.05
+\bt O machuda est√° pronto para cortar as √°rvores pelo o raiz.
+\eng The machete is ready to cut the tree at the root.
+\anc luk.03:09
+
+\ln 203.06
+\bt Ea√≠, o povo perguntou, ‚ÄúO que √© para n√≥s fazer?‚Äù 
+\eng And then, the people asked, "What should we do?"
+\anc luk.03:10
+
+\ln 203.07
+\bt E Jo√£o respondeu, ‚ÄúAquele que tem dois casacos deem para aquele que n√£o
+tem. Aquele que tem comida sufficiente √© para dividir com aquele que n√£o
+tem.‚Äù
+\eng And John responded, "He who has two coats givie to him who doesn't
+have any. He who has enough food should divide with him who doesn't
+have."
+\anc luk.03:11
+
+\ln 203.08
+\bt Alguns cobradores de impostos perguntavam, ‚ÄúMestre, e n√≥s, o que √© para n√≥s
+fazer?‚Äù
+\eng Some tax collectors asked, "Master, and us, what should we do?"
+\tst1 Q:Was hon te Yohan fer te Khaseire kesaat faa se mache? A: Nao combrar
+mais do que a lei manda.
+\anc luk.03:12
+\cn This word for tax gatherer needs to furthers researched. It was understood
+fine. It is possible that the word for tax and tithe may be the same. If it is
+we will just have to explain the different....give it context. Does shed some
+light on the culture and how their Catholic worldview has developed.
+Honestly, in Germany to this day the TITHE is a tax taken out of the workers
+wages and distributed by the government to various acceptible churche
+(LUtheran, Catholic, for ex). A forced tithe is a tax.
+
+\ln 203.09
+\bt E Jo√£o disse, ‚ÄúN√£o cobrem mais do que as leis mandam.‚Äù
+\eng And John said, "Don't charge more than is required."
+\anc luk.03:13
+
+\ln 203.10
+\bt Alguns soldados tamb√©m perguntavaem, ‚ÄúO que devemos fazer.‚Äù E Jo√£o disse,
+‚ÄúN√£o tirem dinheiro de ninguem e n√£o denunciam nenhum inocente. Estejam
+satisfeitos com os seu sal√°rio.‚Äù
+\eng Some soldiers also asked, "What should we do." And John said, "Don't
+take money from anyone and don't denounce anyone who is innocent.
+Be satisfied with your salaries."
+\anc luk.03:14
+
+\ln 203.11
+\bt Ent√£o as pessoas perguntarem, ‚Äú Voc√™ √© o Cristo?‚Äù 
+\eng So the people asked, "Are you the Christ?"
+\tst1 Q: Ti layt hot kefroot fer te Yohan, "Pixt tu te Cristus?" Was pedayt tas
+Cristus? A: Salvador (remembered the story of Jesus' birth and recalled the
+angel saying that Jesus would be the Savior.)
+\anc luk.03:15
+
+\ln 203.12
+\bt Mas Jo√£o respondeu, ‚ÄúEu batize voc√™s en √°gua mas virar outra que √© muito
+mais poderoso (muito melhor) do que eu.
+\eng But John responded, "I baptise you in water but another will come who
+is much more powerful (much better) than me.
+\anc luk.03:16
+
+\ln 203.13
+\bt Eu nem mere√ßo abrir as sand√°lias dele. Ele batize com o √âspirito Santo e
+fogo.
+\eng I don't even deserve to open his sandal. He baptises with the Holy
+Spirit and with fire.
+\tst1 Q: Was is te Hayliche Gayst? A:Espirito que ficou na terra, habita nos
+coracoes dos seguidores de Jesus. Um poder de Deus que transmite..Eu falo e
+o ES leva para ceu.
+\anc luk.03:16
+\cn I detected an inability to describe the Holy Spirit. This particular person is a
+believer and she did did not want to give me a wrong answer so I had to probe
+a bit. A story (ies) that cover the Holy Spirit will be important understanding
+the HS more fully.
+
+\ln 203.14
+\bt Ele tem um p√° na m√£o com ela ele separa a palha do trigo. O trigo ele junto no
+seu paiol e a palha ele quemar√° com um fogo que nunca se apaga.
+\eng He has a shovel in the hand with it he separates the straw of the
+wheat. The wheat he will bring together in his storehouse and the
+straw he will burn in a fire that is never extinguist.
+\tst1 Q:Was hot te Yohan kesaat tas te Cristus will se mache mit en xip em hant?
+A: Separar o trigo da palha   Q: Was will te Cristus mit te stroh se mache? A: 
+ferbriner Q: Was will te Cristus mit te wayts se mache? A:  wech ketuun, uf
+kehol
+\anc luk.03:17
+
+\ln 203.15
+\bt E Jo√£o anunciou as novas com muitas outras palavras.
+\eng And John anounced the news with many other words.
+\tst1 Q: Was pedayt tas, te "Guure Nayichkheet."  A: Te Cristus khome un is noch
+khreeste wii ich.
+\anc luk.03:18
+\cn She understood very well what the Good News was. John very clearly sets the
+stage for the Messiah. No confusion at all. I think it will be important that
+John returns in other stories including his death.
+
+\dt 23/Sep/2009
+
+\c H-204
+\t YEESUS TAAF
+\stg Mentoring (Hunsrik)
+\co HUNSRIK
+\co Obedience, Jesus is God's Son
+\co DRA
+\co August2009 crafted by Mabel Dewes
+\co 19August2009 Solange Johann, this is bt
+\tst1 27August2009 Jilacia Kaifer
+
+\ln 204.01
+\bt No mesmo tempo Jesus fui da Gali√©ia a Jord√£o para ser batizado.
+\eng At the same time Jesus went from Galilee to Jordan to be baptised.
+\tst1 Q: Was iss ta Galieia? A:Lugar onde Jesus pregava. Q: Was pedayt TAAF?
+A: Batizar, arrependimento do seus pecados.    Q:Was is te richtige tsayt faa
+en layt tsu taaf sin? A: Quando tem a mente que entende...crianca nao
+ajante....preciso ser adulto.
+\anc mat.03:13
+\cn The issue of baptism, i.e. infant baptism, is huge in the Hunsrik culture. They
+are taught that without baptism of the baby salvation is not possible. While
+more and more fall away from this it is often difficult for parents to stand
+against the culture when grandparents and other family members pressure.
+But this knowledge is a BIG first step. We will be including many stories
+showing adult baptism.
+
+\ln 204.02
+\bt Jo√£o, o Batista, n√£o queria fazer isso. 
+\eng John, the Baptist, didn't want to do it.
+\anc mat.03:14
+
+\ln 204.03
+\bt Ele acreditava que ele deveria ser batizado por Jesus e n√£o ele batizar
+Jesus.
+\eng He believed that he needed to be baptised by Jesus and that he
+shouldn't baptise Jesus.
+\tst1 Q: Warom hot Yohaan ketinkt tas teyer muus net te Yeesus taaf? A: wuxt
+Yeesus te layt tsu reter...
+\anc mat.03:14
+
+\ln 204.04
+\bt Mas Jesus disso, ‚Äú Deixa tudo como est√° por enquanto temos que fazer tudo
+como Deus falou.‚Äù Jo√£o ouviu
+\eng But Jesus said, "Leave everything like it is for now we need to do
+everything like God said." John heard
+\anc mat.03:15
+
+\ln 204.05
+\bt e batizou Jesus. Durante a ora√ß√£o de Jesus o ceu se abriu e o √âspirito Santo
+desceu como uma pomba
+\eng and baptised Jesus. During the prayer of Jesus the sky opened and
+the Holy Spirit descended like a dove
+\anc mat.03:16
+
+\ln 204.06
+\bt e uma voz que veio do ceu disse, ‚ÄúTu es meu filho muito amado. Tu vais me
+dar muita alegria.‚Äù
+\eng and a voice that came from the sky said, "You are my much loved son.
+You will give me much happiness."
+\tst1 Q: Warom hot te Herkott kesaat faa Yeesus, "Tu khipst mich fiile freet!" A:
+faa te layt tsu rete...yeete ene woo eyer keret hot waar en freet faa te
+Herkott.
+\anc mat.03:17
+
+\ln 204.07
+\bt Depois disso, Jo√£o chingou Herodes o governante, porque ele tirou a espousa
+do irm√£o e por causa das outras coisas ruins que ele j√° tinham feito.
+\eng After this, John offended Herod the governer, because he took the
+wife of the brother and because of other bad things that he had already
+done.
+\tst1 Q: Warom hon te Yohan te governant Herootes kexent? A: sayn brurer say
+fraa wech kehol hot.  Q:Yohan waar richtig wan te hon iwer kexent te
+governant Herootes? Farom? A: xlecht kewent..
+\anc luk.03:19
+\cn This test question brought a lot of conversation about how the Hunsrik
+culture is very much like Herod.
+
+\ln 204.08
+\bt Herodes fez ainda uma coisa pior. Ele mandou Jo√£o para a pris√£o.
+\eng Herod went ahead and did something worse. He ordered John to
+prison.
+\anc luk.03:20
+
+\dt 23/Sep/2009
+
+\c H-205
+\t YEESUS Wet KEPROOPT
+\stg Mentoring (Hunsrik)
+\co HUNSRIK
+\co Obedience, Jesus is God's Son
+\co DRA
+\co August2009 crafted by Mabel Dewes
+\co 19August2009 Solange Johann, this is bt
+\tst1 27August2009 Jilacia Kaifer
+
+\ln 205.01
+\bt Quando Jesus j√° tinho sido batizado o √âspirito Santo levou ele para uma
+terra selvagem.
+\eng When Jesus had been baptised the Holy Spirit took him to a wild land.
+\tst1 Q: Was pedayt "Wiltnes"? A: lugar selvagem
+\anc luk.04:01
+\cn Wiltnis (Wilderness) is a word that needed some introduction. However,
+after a short conversation she found the word OK because it spoke of an
+area as wild but not necessary wooded.
+
+\ln 205.02
+\bt Ele ficou l√° durante quarenta dias. E da√≠ veio o Diabo para ponha na prova.
+Quando os 40 dias j√° tinham passado Jesus tinha bestante fome.
+\eng He stayed there for fourty days. From there the Devil came to put him
+to the test. When the 40 days had passed Jesus had alot of hunger.
+\tst1 Q: Was is te Tayfel? A: Epirito que faz o mal....persegue os bons....
+\anc luk.04:02 
+\cn The Back Translater shared that she had trouble talking about the Devil as an
+individual. She was much more comfortable with the word Demon. The test
+question person had not trouble but she is a believer.
+
+\ln 205.03
+\bt Da√≠ o Diabo disse, ‚ÄúSe tu es mesmo o Filho de Deus diga essa pedra se torna
+em p√£o.‚Äù
+\eng Then the Devil said, "If you really are the Son of God tell these rocks to
+turn into bread."
+\anc luk.04:03
+
+\ln 205.04
+\bt Mas Jesus respondeu, ‚ÄúEst√° escrito o homen n√£o vive s√≥ do p√£o mas de tudo
+que Deus disse.
+\eng But Jesus responded, "It is written the man doesn't live only by bread
+but by everything God says.
+\tst1 Q: Wan Yeesus hot kesaat "tas xteet kexrip" waar...Was pedayt tas? Wo iss
+is kexrip? A: Confirmou que Deus deu a Escrituras....mus me soo xtarek sin....
+\anc luk.04:04
+\cn This portion pointed out very clearly to the heared that Jesus was confirming
+God's Word. Very helpful in presenting the TRUTH of the Good News to the
+people.
+
+\ln 205.05
+\bt Da√≠ o Diabo levou Jesus para o morro mais alto e mostro para ele todos os
+reinos que existiam na aquele √©poca e disse, ‚ÄúTodo o poder e todo alegria
+desses reinos eu te dou. Eu ganhei todos eles e eu posso dar-los quem eu
+quiser. Se tu me adorar tudo isso √© teu.‚Äù
+\eng Then the Devil took Jesus to the highest wall and showed him all the
+kingdoms that existed in that era and said, "All the power and all the
+joy of these kingdoms I give you. I've gained all of them and i can give
+them to who I want. If you worship me all this is yours."
+\tst1 Q: Was pedayt tas 'aan peere'?  A: Adorar so Deus
+\anc luk.04:05, luk.04:06 ,luk.04:07
+
+\ln 205.06
+\bt Jesus respondeu, ‚ÄúEst√° escrito, devemos adorar somente a Deus e servir-lo
+em tudo.‚Äù
+\eng Jesus responded, "It is written, we need to worship only God and
+serve him with everything."
+\tst1 Q: Was pedayt tas...muus solte Kot an peere'? A: Q: Was pedayt tas...'un tem
+en alles diin'? A: tudo e so para servir Ele
+\anc luk.04:08
+
+\ln 205.07
+\bt Ent√£o o Diabo levou Jesus para o ponto mais alto do templo em Jerusal√©m e
+disse, ‚ÄúTe tira da que para baixo.
+\eng So the Devil took Jesus to the highest point of the temple in Jerusalem
+and said, "Throw yourself from here to below.
+\anc luk.04:09
+
+\ln 205.08
+\bt Est√° escrito, que Deus vai enviar os seus anjos para te proteger. Eles v√£o te
+segurar para que nem os teus se machuquem nas pedras.‚Äù
+\eng It is written, that God will send his angels to protect you. They will
+catch you so that not even yours will get hurt on the rocks
+\anc luk.04:09, luk.04:10
+
+\ln 205.09
+\bt Mas Jesus disse, Mas tamb√©m est√° escrito, tu n√£o ponha o Senhor teu Deus
+em prova.‚Äù  
+\eng But Jesus said, But it is also written, you don't put the Lord your God in
+a test."
+\anc luk.04:12
+
+\ln 205.10
+\bt Quando o Diabo estava pronto com todos os prova√ß√µes ele deixou Jesus em
+paz por algum tempo.
+\eng When the Devil was done with all the tests he left Jesus in peace for a
+time.
+\tst1 Q: Was is en fersuchnung? A:tentacao
+\anc luk.04:13
+
+\dt 23/Sep/2009
+
+\c H-220
+\t SIMON, TE FARIS√ãYER
+\stg Mentoring (Hunsrik)
+\co HUNSRIK
+\co Forgiveness of Sin
+\co DRA
+\co 29July2009 crafted by Solange Johann
+\co 02August2009 Rosangela Klein, this is bt
+\tst1 02August2009 Rosangela Klein
+
+\ln 220.01
+\bt Simon convidou Jesus para ir jantar na casa dele. Jesus veio e sentou na
+mesa
+\eng Simon invited Jesus to go and have dinner in his house. Jesus came
+and sat at the table
+\tst1 Q: Was is en farisÎyer? A: An Apostle, a disciple of Jesus
+\cn The testee did not know what a Pharisee was. The story does not describe
+what a Pharisee is or believed so it is one aspect that we will have to include
+in the earlier stories regarding the life of Jesus. She also called him Simon
+Peter several times so I think that knowing this name (supposed founder of
+the Catholic Church) also played a part. Nothing more than to point out that
+these distincitons/groups will need to be explained earlie.
+\anc luk.07:36
+
+\ln 220.02
+\bt Ela ficou sabendo que Jesus ia jantar na casa de Simon Ela preparou um
+perfume.
+\eng She was knowing that Jesus went to have dinner in the house of
+Simon  She prepared a perfume.
+\tst1 Q: Was is en fraa mit en xlÎchter name? A: A prostitute...woman with a really
+bad
+\anc luk.07:37
+
+\ln 220.03
+\bt Ela se jogou aos pes de Jesus. Ela comecou chorar e as lagrimas lavou as pes.
+Ela comecou a beijar as pes dele e secou com os cabelos os pes de Jesus.
+\eng She threw herself at the feet of Jesus. She began to cry and the tears
+washed the feet. she began to kiss his feet and dried the feet of Jesus
+with hair
+\tst1 Q:Was hon te fraa kemacht faa Yeesus? A: She washed his feet with her
+tears and dried with her hair
+\tst1 Q:Was is Alebastro? A:A container for perfume
+\anc luk.07:38
+
+\ln 220.04
+\bt Simon pensou, Jesus deve saber que tipo de mulher √© essa.
+\eng Simon though, Jesus must know what type of woman this is.
+\tst1 Q: Was hot te Simon ketÎnkt wann tÎyer hot kekukt tas te fraa mt en xlÎchter
+name hon Yeesus sayn fiis kewÎxt? A: He found that it was a bad thing for
+this woman to touch Jesus because she was a bad woman.
+\anc luk.07:39
+
+\ln 220.05
+\bt Jesus falou, Simon eu preciso falar alguma coisa para voc√™. Fala Mestre, ele
+respondeu.
+\eng Jesus said, Simon I need to say something to you. Speak Master, he
+responded.
+\anc luk.07:40
+
+\ln 220.06
+\bt Jesus falou depois 2 pessoas com d√≠vida com uma pessoa que sempre
+impresta dinheiro Um com 500 moedas e o outro com 50 moedas
+\eng Jesus said later two people with debt with one person who always
+lends money One with 500      coins and the other with 50 coins
+\tst1 Q: Was is te xulter? A: A debt
+\cn Checking to make sure this word was understood. Not one I have heard a lot
+but it was easily understood.
+\anc luk.07:41
+
+\ln 220.07
+\bt Nenhum dos dois pudiam pagar Mas o homem perdoou. Qual desses homens
+vai honrar ele mais?
+\eng Neither of the two could pay But the man forgave. Which of these men
+will honor him more?
+\tst1 Q: Fertsayert. Was is iss? A: forgive
+\cn I was checking to see if this was was well understood. No problem. The
+reason is that Hunsrik has no word for repentance. This is going to be a
+challenge to teach this word and its meaning.
+\anc luk.07:42
+
+\ln 220.08
+\bt Aquele que foi perdoado mais., Simon respondeu. T√° certo, Jesus falou.
+\eng The one who was forgiven more., Simon responded. It's true, Jesus
+said.
+\anc luk.07:43
+
+\ln 220.09
+\bt Quando eu entrei voc√™ nem me oferceu nem agua mas esta mulher lavou os
+meus p√©s com as suas pr√≥prias l√°grimas.
+\eng When I came in you didn't even offer me water but this woman washed
+my feet with her own tears.
+\anc luk.07:44
+
+\ln 220.10
+\bt Tu n√£o me beijou quando eu entrei e ela beijou os p√©s quando entrei.
+\eng You didn't kiss me when I came in and she kissed my feet when I
+came in.
+\anc luk.07:45
+
+\ln 220.11
+\bt Tu n√£o colecou √≥leo perfumado na minha cabe√ßa e ela colecou perfume nos
+meus p√©s.
+\eng You didn't put perfumed oil on my hair and she put perfume on my feet.
+\anc luk.07:46
+
+\ln 220.12
+\bt Eu ti digo, Ela demonstrou que os pecados dela j√° fossem perdoados.
+\eng I tell you, She demonstrated that her sins were already forgiven.
+\anc luk.07:47
+
+\ln 220.13
+\bt Jesus virou e disse, ‚ÄúTeus pecados s√£o perdoados.‚Äù
+\eng Jesus turned and said, "Your sins are forgiven."
+\tst1 Q: Wii Yeesus hot tas fraa sayn sinte ferstayert? A: Because she showed
+Jesus  by what she did that she was a good person so he forgave her.
+\cn Clearly we did not address the scope and breath of Jesus' authority to
+forgive sins but for this one story it certainly highlighted repentance even
+though her answer did not use this word it hit all alround it. What needs to be
+done is to include stories as we go along showing the authority of Jesus
+Christ. Cures, casting out demons, calming the storm will help. Also, stories
+where Jesus is attributed to be more than a man by the demons that encounter
+him would also help. I don't see one story solving this issue. However, I am
+very pleased that the essence of repentance was understood.
+\anc luk.07:48
+
+\ln 220.14
+\bt E as outras pessoas que estavam sentados na mesa se perguntaram a eles,
+‚ÄúQue homem esse que pode perdoar os pecados.‚Äù
+\eng And the other people who were seated at the table asked themselves,
+"What man is this who can pardon sins."
+\tst1 Q: Te andere layt am tish mit Yeesus un Simon te faresÎyer hat kefroot "was
+is tas fer man fer te sinter ferstayert? Was pedayt tas? A: They questioned,
+"How could this man forgive a woman of such sin?"
+\anc luk.7:49
+
+\ln 220.15
+\bt E Jesus falou ao essa mulher, ‚ÄúTua f√© te salvou. Vai em paz‚Äù
+\eng And Jesus said to that woman, "Your faith saved you. Go in peace
+\tst1 Q:Am ent, was hon Yeesus faa tas fraa kemacht? A: Heforgave her sins.
+\anc luk.7:50
+
+\dt 23/Sep/2009
+
+\c H-250
+\t Te Xl√´chter Aarwarter (The Wicked Servant)
+\stg Mentoring (Hunsrik)
+\co HUNSRIK
+\co Forgiveness
+\co DRA
+\co 27July2009 crafted by Mabel Dewes
+\co 02August2009 backtranslated by Rosangela Klein, this is bt 
+\tst1 02August2009 Rosangela Klein
+
+\ln 250.01
+\bt Pedro perguntou Jesus,‚ÄùQuanta vezes √© pra perdoar os pecados dos meus
+irm√£o? Sete vezes?‚Äù "
+\eng Peter asked Jesus, "How many times should the sins of my brother be
+forgiven? Seven times?"
+\tst1 Q: Was pedayt tas wort "ferkÎwe"? A: To forgive
+\tst1 Q: Peter hot Yeesus kefroot, "Wii fiil mol sol ich mayn prurer ferkÎwe?"  A:
+70x7
+\anc mat.18:21
+
+\ln 250.02
+\bt Jesus respondeu, ‚ÄúN√£o s√≥ sete vezes mas 70 x 7 vezes.
+\eng Jesus responded, "Not just seven times but 70 x 7 times
+\tst1 Q: Was pedayt tas was Yeesus hot keantwort? (70 x 7 mol) A: When someone
+does something bad to you then you need to know how to forgive and not just
+one time but many times.
+\anc mat.18:22
+
+\ln 250.03
+\bt √© nem como um rei que quis consertar as suas contas com as suas empregados.
+\eng it's not like a king who wants to fix his accounts with his employees.
+\tst1 Q:Was pedayt tas "tii rechsnung ap mache wil mit sayn aarwarter"?A: Settle
+the books...debts.
+\tst1 Q:Was pedayt tas "Xulich waar"?  A: It means if have I been loaned money
+then I have to repay it.
+\tst1 Q: Was padayt tas "xulter"?   A:This means I have a credit balance. (dividas)
+\anc mat.18:23
+
+\ln 250.04
+\bt Veio um empregado que tinha uma d√≠vida de mais do que mil moedas
+\eng An employee came who had a debt that was more than a thousand
+coins
+\anc mat.18:24
+
+\ln 250.05
+\bt mas n√£o tinha dinheiro para pagar. Ent√£o o rei falou para o empregado que
+ele e toda fam√≠lia tem que ser vendido como escravos e todo o bem material
+que tinha.
+\eng but he didn't have money to pay. So the king said to the employee that
+he and all his family would need to be sold as slaves and all the
+possesions he had.
+\anc mat.18:25
+
+\ln 250.06
+\bt Mas da√≠ o empregado se joelhou e pediu que n√£o era para ser vendido porque
+ele ia pagar tudo.
+\eng But then the employee knelt and begged that he wouldn't be sold
+because he would pay everything.
+\anc mat.18:26
+
+\ln 250.07
+\bt O rei perdoou ele e decidiu em n√£o vender.
+\eng The king pardoned him and decided tho not sell.
+\tst1 Q: Was hon to kheenich fa to aarwarter mit fiile xulich kemacht?   A:
+Forgave the debt
+\anc mat.18:27
+
+\ln 250.08
+\bt Depois o homen foi embora. Da√≠ ele encontrou outro servidor que estava
+devendo 100 moedas e disse, ‚ÄúTu me paga tudo que deve!‚Äù
+\eng After the man left. Then he found another servant who owed 100 coins
+and said "You must pay me everything you owe!"
+\anc Mat.18:28
+
+\ln 250.09
+\bt Da√≠ o servidor falou que n√£o tinha dinheiro para pagar
+\eng Then the servant said that he didn't have money to pay
+\anc mat.18:29
+
+\ln 250.10
+\bt Ele pegou ele no pescoso e come√ßou (Shoqualhar) sacudir
+\eng He grabbed him by the neck and began to shake him
+\anc mat.18:28
+
+\ln 250.11
+\bt E ele mandou ele para a cad√©ia e que ele tinha que pagar toda d√≠vida dele.
+\eng He sind him to be chained and he had to pay his whole debt.
+\tst1 Q: Was hon to aarwarter faa te mit aarwarter kemacht?   A:He did not
+forgive the coworker and put him behind bars.
+\cn During tst1 the testee used the words 'shake' for objects in portuguese
+rather than for people. No big deal. It points out the fact that the native
+Hunsrik speakers do have considerable difficulties like these in Portguese.
+Points to the need for Hunsrik stories.
+\anc mat.18:30
+
+\ln 250.12
+\bt E os outros empregados que viram isto foram para falar isso com o rei.
+\eng And the other employees who saw this went to tell talk about this with
+the king.
+\anc mat.18:31
+
+\ln 250.13
+\bt Ent√£o o rei chamou o servidor de volta e chingou ele. Ele falou para ele que
+ele devia perdoando o divido do outro como eu perdoei a tua.
+\eng So the king called the servand again and insulted him. He said to him
+that he should have pardoned the debt of the other just as I pardoned
+yours
+\tst1 Q: Am ent, was hon te kheenich kexproch faa to xlÎchte aarwarter?    A:You
+should have forgiven like I forgave you.
+\anc mat.18:32-33
+
+\ln 250.14
+\bt O rei mandou ele para a cad√©ia para ele pagar a toda d√≠vida ao rei.
+\eng The king sent him to the chains for him to pay his whole debt to the
+king.
+\tst1 Q: Un was hon te khÎnich kemacht mit te xlÎchte aarwarter?  A: He did not
+forgive him any longer and put him in jail.l
+\anc mat.18:34
+
+\ln 250.15
+\bt E assim Jesus falou que Deus vai fazer com todos n√≥s que n√£o d√° perd√£o aos
+seus irm√£os.
+\eng It's like that Jesus said that God will do with all of us who don't give
+forgiveness to their brothers.
+\tst1 Yeesus saat tas sayn Fater will faa uns se mache  "Wen te nÎt hertslich ayer
+priirer sayn sinte ferkÎwe tuut?"  A: He will not forgive you.
+\tst1 Q: Was pedayt tas "HÎrtslich ayer priirer sayn sinte ferkÎwe tuut"? A:We
+have to know how to forgive to be forgiven.
+\anc mat.18:35
+
+\dt 23/Sep/2009
+
+\c K-07
+\t Abraham Chosen
+\stg Mentoring (K'bou)
+\co Language: K'bou
+\co Reason for having this story in the set: Set lineage for Jacob; Abraham is
+example of someone learning to trust God; He learned it to the point of
+entrusting the life of the son of the promise , his only son,  into God's hands.
+\co Crafter: MHW 5 Sept 09
+\co Backtranslator: SMA 7 Sept 09
+\co Resources used in crafting this story: the story (in French) that we crafted
+first, some Bible passages (they are very spread out for this story) in French.
+\co Test 1: (Name of person tested and date; How did they do retelling the story;
+any other comments)
+\co Test 2: (Name of person tested and date; How did they do retelling the story;
+any other comments)
+
+\ln 07.01
+\bt Cette histoire, c'est l'histoire de Dieu, extraite de la Torah.
+\bteng This story is the story of God, taken from the Torah.
+\anc gen.06
+\ln 07.02
+\bt AprËs la mort d'Adam et Hawa, beaucoup de gens sont nÈs. Tous les gens nÈs sont
+pervers et la colËre de Dieu s'abat sur eux.
+\bteng After Adam and Hawa's death, many people were born. Everyone born is
+wicked/perverted and the anger of God fell on them.
+\anc gen.06:01 gen.06:05 gen.06:06 gen.06:07 
+\tst If you insult/dishonor an important person, what might he do? Why
+would he want to do that? How would that save his honor?
+\ln 07.03
+\bt (Dieu a amenÈ) Une grosse pluie est tombÈ sur toutes les personnes et tous sont
+morts.
+\bteng (God caused, understood -RH ) A great rain fell on every person and all of
+them died.
+\anc gen.07:11 gen.07:12 gen.07:22 
+\tst Why does God punish the lack of respect/disobedience toward Him?
+\ln 07.04
+\bt Sauf le prophÈte NoÈ craint Dieu; lui et ses enfants, au total de 8, sont entrÈs
+dans un grand bateau et Dieu les a sauvÈs.
+\bteng Only the prophet Noah feared God; he and his children, 8 people in all,
+entered a large boat and God saved them. 
+\anc gen.06:08  gen.07:13  gen.08:16 gen.08:17 
+\tst How does someone fear God?
+\cn We keep saying "the prophet Name" because M. respect uses "Nebi Name"
+for the title.
+\ln 07.05
+\bt AprËs la sortie, ils se sont multipliÈs et ils oublient Dieu en adorant les idoles.
+\bteng After leaving it, they multiplied and they forgot God, serving idols.
+\anc gen.09.01 gen.09.19 jos.24.02  xxxtheyforgotGod?Babel?xxxx
+\tst In the past, why did many people abandon God to follow idols?
+\ln 07.06
+\bt Parmi eux, le prophËte Abraham craint Dieu.
+\bteng Among them, the prophet Abraham feared God.
+\anc jos.24:03 
+\co2 Quest. for Biblical processing: Why would God choose a man from among
+those who do not honor Him, to do good to Him?
+\ln 07.07
+\bt Comme l'honneur d'Adam et Hawa, ils l'ont perdu, et ‡ cause d'Abraham, Dieu
+a donnÈ l'honneur pour tous les gens.
+\bteng Since Adam and Hawa lost their honor, because of [through - RH] Abraham,
+God brought back honor for everyone.
+\anc gen.18.18 gen.22.18 act.03.25-26 gal.03.08-09
+xxxxxxxxxxxxxxxxxx
+\cn Here we are trying to touch M. sensibilities of honor and shame, to help them
+understand why we need a change of heart. 
+\rev This sentence is not expressing the thought well. 
+\ln 07.08
+\bt Dieu dit au prophËte Abraham: "LËve-toi et vas-y l‡ ou` je te montre. AprËs toi
+aussi, ta descendance sera nombreuse comme le sable.
+\bteng God said to the prophet Abraham: "Get up and go where I show you. Your
+descendence after you will be as numerous as the sand.
+\anc gen.12:01 gen.12:02 gen.13.16?
+\tst How does God speak to a person? Why would God speak to
+someone?
+\ln 07.09
+\bt Donc celui qui te fait misÈricorde, je lui ferai misÈricorde, et celui qui te
+maudit, je le maudirai. ¿ cause de toi, ‡ l'avenir, tout le monde sera beni."
+\bteng So the one who shows you mercy, I will show him mercy and the one who
+curses you, I will curse him. In the future, because of you, everyone will be
+blessed."
+\anc gen.12:03 
+\tst How do K'bou people use blessings and cursings? What effects do
+they bring?
+\ln 07.10
+\bt Le prophËte Abraham a saisi la parole de Dieu et est allÈ vers le lieu ou` Dieu
+lui a montrÈ.
+\bteng The prophet Abraham took God's word and went toward the place that God
+showed him.
+\anc gen.12:04 gen.12:05 
+\ln 07.11
+\bt AprËs son dÈpart, le lieu ou` il est parti s'appella la Palestine. [L‡ ou il est parti,
+maintenant on l'appelle la Palestine. -RH, poor translation]
+\bteng Where he went is the place we now call Palestine.
+\anc gen.12:05 
+\ln 07.12
+\bt Il est restÈ tant d'annÈe. Il n'a pas d'enfant et implore Dieu: "O Dieu, je n'ai
+pas d'enfant."
+\bteng He stayed many years. He had no child and asks God: "Oh God, I don't have a
+child."
+\anc gen.13:03 gen.15.02
+\ln 07.13
+\bt Dieu dit: "Sors et regard les Ètoiles. Il faut les compter. Est-ce qu'on peut les
+compter?" Dieu dit: "Le nombre de tes enfants et de tes petits enfants sera
+nombreux comme des Ètoiles."
+\bteng God said: "Go outside and look at the stars. Count them. Can they be
+counted?" God said: "The number of your children and grandchildren will be
+as numerous as the stars."
+\anc gen.15:05 
+\ln 07.14
+\bt Donc, Abraham croit Dieu; la croyance qu'il a en Dieu constitue le pardon et
+la purÈtÈ venant de Dieu.
+\bteng So Abraham believes God; the faith he had in God amounts to the
+forgiveness and purity that comes from God.
+\anc gen.15:06 
+\cn "the forgiveness and purity that comes from God": attempt to express
+"righteousness".
+\tst Why was it so important to God that Abraham believed Him? How
+did God reward Abraham's believing?
+\ln 07.15
+\bt Il a son Èpouse Zara, le prophËte Abraham. Zara n'a jamais accouchÈ.
+\bteng He has his wife, Zarah, the prophet Abraham. Zarah has never given birth.
+\anc gen.16.01
+\ln 07.16
+\bt Zara dit: "Prends notre servante et couche avec elle; peut-Ítre on trouvera un
+enfant."
+\bteng Zarah said: "Take our servant girl and sleep with her; maybe we will have a
+child."
+\anc gen.16.02
+\tst Should Zarah have suggested that Abraham sleep with her slave
+girl? Why or why not?
+\tst Do you think she got this idea from God or from the culture around
+her?
+\ln 07.17
+\bt Abraham couche avec la servante, un enfant est donc nÈ. Cet enfant est nommÈ
+IsmaÎl. 
+\bteng Abraham slept with the servant girl, and so a child was born. This child is
+called Ishmael.
+\anc gen.16.02 gen.16.15
+\ln 07.18
+\bt Dieu dit ‡ Abraham: "IsmaÎl aussi, sa famille va devenir nombreuse. ProphËte
+Abraham, moi et toi, pour notre alliance sans fin, ce n'est pas envers IsmaÎl,
+cel‡ parvient. plutÙt entre l'enfant que toi et Zara, vous mettrez au monde,que
+cel‡ parvient," Dieu dit ‡ Abraham.
+\bteng God said to Abraham: "Ishmael also, his family will become numerous.
+Prophet Abraham, me and you, for our alliance without end, it isn't with
+Ishmael that it will come, rather with the child that you and Zarah will give
+birth to, that it will come." God said it to Abraham.
+\anc gen.17.19 gen.17:20 gen.17:21 
+\cn "alliance without end" is how we rendered "eternal covenant or agreement"
+\tst Why was it important to God to choose the son of Abraham's
+legitimate wife instead of the son of a concubine?
+\ln 07.19
+\bt Zarah, agÈe de 90 ans, et le prophËte Abraham ‡ 100 ans, ils ont mis un enfant
+au monde et cet enfant Ètait nommÈ Isaak. C'est vraiment Ètonnant pour celui
+qui met au monde ‡ 100 ans. 
+\bteng Zarah, aged 90, and the prophet Abraham, aged 100, they had a child and this
+child was named Isaac. It is very amazing for someone to have a child at 100
+years of age.
+\anc gen.17:17  gen.21:05 gen.21:03 
+\tst How are God's plans different than what men plan? Why does God
+do things that men do not expect (are surprising)?
+\ln 07.20
+\bt L'enfant que Zara a mis au monde, Isaak, au jour de son sevrage, IsmaÎl a
+tacquinÈ [embÍtÈ - RH] le petit enfant. 
+\bteng The child that Zarah gave birth to, Isaac, on the day he was weaned, Ishmael
+aggravated the little child.
+\anc gen.21:08 gen.21:09 
+\ln 07.21
+\bt Zara dit, "L'enfant de notre servante dÈrange mon enfant. Et moi je n'aime
+pas cel‡, car je ne veux pas qu'ils prennent ton hÈritage; chasse-les!"
+\bteng Zarah said: "The child of our servant girl is bothering my child. And I don't
+like that, because I don't want them to take your heritage; send them away!"
+\anc gen.21:10 
+\tst Zarah was the originator of the plan to have Ishmael, so why does
+she now not want Ishmael to inherit with her son, Isaak? 
+\tst Would you say that Zarah's reaction was too extreme? Why/ Why
+not?
+\ln 07.22
+\bt Donc le prophËte Abraham n'aime pas cette parole. Mais Dieu dit ‡ Abraham
+d'accepter ce que dit Zara, "...Car notre alliance entre toi et moi provient
+chez Isaak et non chez IsmaÎl."
+\bteng Well, the prophet Abraham doesn't like that word. But God told Abraham to
+accept what Zarah said, "... because our alliance between you and me comes
+with Isaac and not with Ishmael."
+\anc gen.21:11 gen.21:12 
+\tst Why does God keep talking about His alliance? Why does God make
+alliances? Does God make alliances with people today?
+\ln 07.23
+\bt Alors des l'aube, il a donnÈ aux gens un peu de nourriture et il les a encouragÈ ‡
+partir  [lit.- ils les a renvoyÈ et ils sont partis - RH]. 
+\bteng So at dawn, he gave the people [them - RH] a little food and he sent them
+away and they left.
+\anc gen.21:14 
+\ln 07.24
+\bt Alors, plusieurs annÈes sont passÈes. Un jour Dieu lui dit, "L'enfant que tu
+aimes, c'est Isaak, prends-le et amËne-le l‡ ou` je te montre. Et donne le moi en
+sacrifice." 
+\bteng So many years passed. One day God told him: "The child you love, it's Isaac,
+take him and bring him to where I show you. And give him to me as a
+sacrifice."
+\anc gen.22.02
+\tst Why did God want Abraham to sacrifice/kill his son? 
+\ln 07.25a
+\bt Il aimait beaucoup son fils; mais il n'a pas laissÈ la parole de Dieu. ¿ cause de
+cel‡, il a amenÈ son fils ‡ l'endroit ou` Dieu lui a montrÈ... 
+\bteng He loved his son very much, but he didn't disobey [leave] God's word.
+Because of this, he brought his son to the place God showed him...
+\anc gen.22:03 
+\cn "laisser la parole" is an idiomatic way of saying "disobey"
+\ln 07.25b
+\bt ... il l'a attachÈ et lorsqu'il Ètait sur le point de l'Ègorger, Dieu dit: "ArrÍte, car je
+sais que tu m'aimes plus que ton enfant." 
+\bteng ... he tied him up and just as he was about to kill him, God said: "Stop,
+because I know that you love me more than your child."
+\anc gen.22:09 gen.22:10 gen.22:12 
+\tst How do you think Abraham felt when God told him to stop and spare
+his son?
+\ln 07.26
+\bt Il s'est arrÍtÈ; et il regarde derriËre lui et a trouvÈ dans les herbes un bÈlier qu'il
+a attrappÈ et a ÈgorgÈ et a offert ‡ Dieu comme sacrifice ‡ la place de son fils. 
+\bteng He stopped and looked behind himself and he found in the grass a ram which
+he caught, killed and offered to God as a sacrifice in the place of his son.
+\anc gen.22:13 
+\tst What do you think Abraham thought about the ram who took Isaak's
+place as the sacrifice? How was this sacrifice different from other
+sacrifices for Abraham and Isaak?
+\ln 07.27
+\bt Dieu dit,"C'est moi qui te dit,"Toi, tu n'as pas transgressÈ [sautÈ=dÈsobÈir - RM]
+ma parole et gr‚ce ‡ [par - RH] toi, tout le peuple du monde aura la misÈricorde
+de Dieu, car toi tu n'as pas mÈprisÈ [ignorÈ - RH] ma parole. 
+\bteng God said: "It is I that tell you, 'You, you haven't jumped over my word
+(disobeyed Me), and through you all the people in the world will have the
+mercy [blessing - RH] of God, because you did not ignore my word.'"
+\anc gen.22:16 gen.22:18 
+\tst If you knew of anyone in Our Town who obeyed God completely like
+Abraham did, what would you think of him?
+\tst Are there times when we have to obey God even when it doesn't
+seem culturally correct?
+\ln 07.28
+\bt Et celle-ci est une parole de Dieu. 
+\bteng And this is a story from God.
+\anc
+\dt 23/Sep/2009
+
+\c 97
+\t ONESTORY TOOLBOX HELPS
+\co TO ADD A NEW STORY RECORD: 
+\co2 1. place the cursor in the ProjectBT window, click on Database / Insert
+Record. 
+\co2 2. It will ask you for the Record you want to insert--so you should write a
+new chapter number (be sure to insert a zero before single digit
+numbers)--try to estimate where the story will come in your story set.
+\co2 3. Click ok. 
+\co2 4. A new record will open and you can begin to key in the story and anchors. 
+\co2 4. The template will automatically give you 30 linenumbers. You can change
+them from "02.xx" to whatever chapter number you gave, by using Edit /
+Replace. Make sure that you leave the period after the number.
+\co2 5. Choose the "replace all" button. Hit "ok".
+
+\co TO SEE YOUR WHOLE LIST OF STORIES
+\co2 1. If you want to see titles as well as chapter numbers, click on View /
+Browse Fields.  A window will open up with a list of all available fields.
+Highlight "t" and click "last" to move it to the right.
+\co2 2. Click "ok"
+\co2 3. Click on the three-column icon above to see an index of your stories --
+both chapter numbers and titles.
+
+\co TO ADD A FIELD:  
+\co2 1. Click on Enter, and then "\"-- this brings up a list of Standard Format
+markers that this window can use. 
+\co2 2. Click on the marker you want, hit space and your cursor will be back in the
+window you can write in.
+
+\co TO DELETE A RECORD:  
+\co2 1. VERY IMPORTANT:  Click in the window of the record you want to delete.  
+\co2 2. Click on Database / Delete record
+\co2 3. Select "yes"
+
+\co TO ARRANGE YOUR WINDOWS:  
+\co2 1. Click on Window
+\co2 2. Choose the type of arrangement you want for your windows (cascade, tile,
+tile side by side) -- OR just drag each window to where you want it, and then
+resize it to fit.
+
+\co TO SEND A BACKTRANSLATION RECORD TO A CONSULTANT:  
+\co2 1. Click in the back-translation window 
+\co2 2. Click on File / Export - select "standard format" and select "show
+properties dialog box on export" 
+\co2 3. Click on the "export" button - another window will open.  If the "consistent
+changes" field has anything in it, make it blank.
+\co2 4. Hit the "browse" button on the "output file" field - another window will
+open 
+\co2 5. Give your file a name with a ".txt" extension and hit save. 
+\co2 6. Go to your email program and create a new email to your consultant. 
+Attach the file that you just exported from Toolbox.
+
+\co TO ADD A RECORD FROM A CONSULTANT:  
+\co2 1. Double-click on e-mail attachment to open it.  
+\co2 2. Select all the text in the document.  
+\co2 3. Copy the highlighted text. 
+\co2 4. Click in the Consultant Notes window in Toolbox 
+\co2 5. Go to the record number that you are working with - highlight the entire
+record. 
+\co2 6. Paste to replace the old copy of the file with the new updated one.
+
+\co TO SEND A CONSULTANT NOTES FILE BACK TO THE CONSULTANT
+(with your answers in it)
+\co2 1. Click in the ConNotes window
+\co2 2. Hit "file", then "export" - select "standard format" and select "show
+properties dialog box on export" 
+\co2 3. Hit the "export" button - another window will open.  Make the "consistent
+changes" field blank. 
+\co2 4. Hit the "browse" button on the "output file" field - another window will
+open 
+\co2 6. Go to your email program and create a new email to your consultant. 
+Attach the file that you just exported from Toolbox.
+
+
+\ln line number--this should match the line number in the ConNotes file,
+use the format xx.xx   
+
+\ln To JUMP from the 
+\ln field in this window to the equivalent 
+\ln field in the ConNotes window, rightclick on the number.
+\bt backtranslation (keep your lines fairly short)
+\bt to JUMP: From this line you can jump to records you have made in the
+keyterms database. For example, if this line had the word "God" in it, and if
+you have made a keyterm record called "God", then a rightclick on the word
+"God" will immediately bring up the record in the keyterms database.
+\anc anchor ref -- If you are working with a language for which there is
+translated scripture with a backtraslation, it would be helpful to your
+consultant for you to paste the BT of the appropriate vss.
+\anc to JUMP from anc to NETBIBLE rightclick on the reference here (eg.
+Gen.01:01) and your cursor will immediately bring up the verse in
+the Netbible window
+\cn Crafting note -- put cultural info here, or reasons why you crafted the story
+in a certain way, or information about this line from your testing groups.
+\cn to JUMP: From this line you can also reference records you have made of
+Cultural observations. For example, if this line of the story is about the
+Wedding at Cana, and you have made observations about weddings in the
+group you work with, A rightclick on the word Wedding will jump to the
+"Wedding" record in the Cultural notes database. (Note that in order for the
+jump to work, the Cultural Notes database needs to be sorted by \r)
+\tst testing question -- prepare testing questions ahead of time.  Then
+put the response here also.
+\old A preivous version of this line of this line of the story.  As you
+proceed through testing and editing of the story you occasionally
+decide to delete a line or to make major changes. If you do that,
+we'd like for you to keep old versions of each line--especially if
+there have been consultant comments about it.
+\dt 23/Sep/2009
+
+\c 98
+\t Bible Book 3-letter codes 
+\co OLD TESTAMENT
+\bt Genesis - GEN
+\bt Exodus - EXO
+\bt Leviticus - LEV
+\bt Numbers - NUM
+\bt Deuteronomy - DEU
+\bt Joshua - JOS
+\bt Judges - JDG
+\bt Ruth - RUT
+\bt 1 Samuel - 1SA
+\bt 2 Samuel - 2SA
+\bt 1 Kings - 1KI
+\bt 2 Kings - 2KI
+\bt 1 Chronicles - 1CH
+\bt 2 Chronicles - 2CH
+\bt Ezra - EZR
+\bt Nehemiah - NEH
+\bt Esther - EST
+\bt Job - JOB
+\bt Psalms - PSA
+\bt Proverbs - PRO
+\bt Ecclesiastes - ECC
+\bt Song of Songs - SNG
+\bt Isaiah - ISA
+\bt Jeremiah - JER
+\bt Lamentations - LAM
+\bt Ezekiel - EZK
+\bt Daniel - DAN
+\bt Hosea - HOS
+\bt Joel - JOL
+\bt Amos - AMO
+\bt Obadiah - OBA
+\bt Jonah - JON
+\bt Micah - MIC
+\bt Nahum - NAM
+\bt Habakkuk - HAB
+\bt Zephaniah - ZEP
+\bt Haggai - HAG
+\bt Zechariah - ZEC
+\bt Malachi - MAL
+\co
+\co NEW TESTAMENT:  
+\bt Matthew - MAT
+\bt Mark - MRK
+\bt Luke - LUK
+\bt John - JHN
+\bt Acts - ACT
+\bt Romans - ROM
+\bt 1 Corinthians - 1CO
+\bt 2 Corinthians - 2CO
+\bt Galatians - GAL
+\bt Ephesians - EPH
+\bt Philippians - PHP
+\bt Colossians - COL
+\bt 1 Thessalonians  - 1TH
+\bt 2 Thessalonians  - 2TH
+\bt 1 Timothy - 1TI
+\bt 2 Timothy - 2TI
+\bt Titus - TIT
+\bt Philemon - PHM
+\bt Hebrews - HEB
+\bt James - JAS
+\bt 1 Peter - 1PE
+\bt 2 Peter - 2PE
+\bt 1 John - 1JN
+\bt 2 John - 2JN
+\bt 3 John - 3JN
+\bt Jude - JUD
+\bt Revelation - REV
+
+\dt 10/Oct/2006

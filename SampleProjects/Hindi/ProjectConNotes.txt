@@ -1,0 +1,855 @@
+\_sh v3.0  290  StoryNotes
+
+\c 01
+\t Jesus appears to disciples, is taken up into heaven
+
+\cat ConNotes, Bob Eaton
+\co HindiCPM set
+\con BE = 2009-01-17 
+\fac Facilitator's responses
+
+\con BE: I know that you lost the original version of this data file, so I imagine you did it out of necessity, but remember that you need to get someone other than a team member (i.e. a UNS) to do the back translation into English (since Hindi is the source language).
+\fac ok
+
+\ln 01.01
+\con BE: I changed the anchor here to act.10.39 - 41 which says this more directly.
+\fac Thanks
+\ln 01.02
+\con use 'apostles' here rather than 'disciples'.
+\fac done
+\con BE: Good question! And if they can't give a good, biblical answer (e.g. to prove that he really was alive), you could add the other part of the anchored verse (e.g. "to give many convincing proofs that he was alive").
+\fac done
+\ln 01.03
+\ln 01.04
+\con BE: why don't you add "city" after /यरुशलम/ 'Jerusalam', since it is likely to be an unfamiliar word.
+\fac done
+\ln 01.05
+\con per the retelling, why don't you begin this verse (or end the last verse) with "God will give you the HS."
+\fac done
+\con BE: The focal contrast here is between "with water" vs. "with the Holy Spirit". So shouldn't those two phrases be immediately preceding the verbs?
+\fac Action of the two is different so we feel it's ok this way.
+\con Also, can you make /परमेश्‍वर/ 'God' the Agent of giving of the the latter (c.f. jhn.14:26). e.g. /यूहन्‍ना तो बपतिस्‍मा *पानी से* देता था, परन्‍तु परमेश्‍वर soon/in a few days तुम्‍ह़े बपतिस्‍मा *पवित्र आत्‍मा से* देगा/देने वाला हैं।/ 'John used to give baptism *with water*, but soon/in a few days God will give you baptism *with the holy spirit*'.
+\fac done
+\con BE: Also, isn't /पवित्र आत्‍मा/ likely to be understood as "a holy spirit" rather than "the Holy Spirit" (i.e. a specific being)? So as we are doing in our scripture translation work, shouldn't we make this "God's Holy Spirit"? (or in this case, /... मैं soon/in a few days तुम्‍ह़े बपतिस्‍मा *परमेश्‍वर की पवित्र आत्‍मा से* देगा/देने वाला हैं।/ '... I will give you baptism with God's Holy Spirit?'
+\fac It's ok
+\con BE: Good question! If the UNS can't give any answer here, you might add some content from John 16:8 ff (e.g. He will convince the world of its sin; He will guide us in the truth; He will tell us about the future, He will give us words to speak as a witness, Mrk.13.11, etc). Of course, this probably ought to be a whole other story in itself which precedes this current one.
+\fac ok
+\con BE: You might also ask a question here about 'baptism'. e.g. /बपतिस्‍मा चाहे पानी से, चाहे परमेश्‍वर की पवित्र आत्‍मा से आप क्‍या समझते हैं?/ 'What do you understand from 'baptism' whether with water or with God's Holy Spirit?
+\fac done
+\ln 01.06
+\con Because this "what about our kingdom" discussion is not really relevant to the story (even though the UNSs consistently tell it), we're going to take it out because it distracts from the important (following) point that always seems to get left out (i.e. "the HS is given so that we can have power to share the gospel"). So we're removing this and the next verse.
+\fac done
+\con BE: Is it /प्रेरितों/ or /चेलों/ for 'disciples' (see 01.02)?
+\fac Apostle is Prerit and disciples is Chela
+\con BE: Technically, in the anchored verse, they asked him *when*; not *if* he will return the kingdom to them. [They were still under the misapprehension that God's desire was a political kingdom.] You could fix this by adding /अब/ 'now'.
+\fac done
+\ln 01.07
+\con BE: You could ask the question here, "Why do you think Jesus said it wasn't necessary for them to know these things?"
+\fac done
+\ln 01.08
+\ln 01.09
+\con what kind of सामर्थ?
+\fac added 'so that... <witnesses>', so it's clear
+\con too many pronouns here. Dereference at least one of them.
+\fac done
+\con BE: If you go with the suggestion above about adding "God's" to "Holy Spirit", then adjust it here also.
+\fac done
+\ln 01.10
+\con BE: I like it! good simplification! :-)
+\fac ok
+\ln 01.11
+\con where did he go up?
+\fac no "up" is understood as "heaven"
+\con BE: According to luk.24:50 ff, this next part is a distinct episode, and in any case, it is probably confusing the way it is rendered here (e.g. it isn't clear where or why he was lifted upwards). Could you start this verse with, फिर 'then' (which signals a new episode) followed by 'when it was was time for Jesus to go up to heaven, on their seeing-seeing...'
+\fac done
+\ln 01.12
+\con BE: Good question!
+\fac Thanks
+\con It seems that the UNS thought these were gods. We should make it explicit that they were /स्‍वर्गदूत/ 'angels' (see the the new \cn note)
+\fac done
+\ln 01.13
+\con dereference one of the pronouns
+\fac done
+\con BE: You forgot the anchor here, but I added it (i.e. act.01:11)
+\fac Thanks
+\ln 01.14
+\con The UNS retelling suggests that he has a directional orientation: "he will come back down". Maybe it would be good to say, "He will come back to this earth" (so the destination is more clear).
+\fac as with 'up'='heaven', so 'down' means 'earth'
+\ln 01.15
+\con BE: As I hinted at above, the assension was not in Jerusalem where this story starts (they had gone to Bethany). But these details are not very important to the story. So, since we haven't really mentioned them going from Jerusalem (where Jesus had told them to stay) to where He assended, why don't you drop this verse about them returning home and just go straight to the next episode in 01.16.
+\fac Ok will be deleted
+\ln 01.16
+\con who is "they"?
+\fac done
+\con BE: Technically, this was when they returned to Jerusalem from the Assension, so instead of saying "One day", you should probably say, /बाद में/ "Later on".
+\fac Thanks
+\con BE: If you do get rid of 01.15, then use a full noun phrase reference for 'the disciples' (i.e. /चेले/) rather than a pronoun at the beginning here, so it isn't confusing who the "they" are.
+\fac done
+\con BE: There are two questions you could ask here: 1) "Why do you think they gathered at *the upper room of that house* to pray? (it was actually where they were staying, so if they can't tell that, then you could add, "... at the house where they were staying"), and 2) "Why do you think they got together to pray?" (I'm not sure what kind of answer you might get with this question, but act.01:14 gives some of the reasons: 'continued together in prayer with one mind'; no doubt "fellowship", etc).
+\fac done
+\con Add something to "used to pray" to express more of the function and purpose of 'church' (since the UNS thought they were only getting together to call out his name--c.f. Hindu worship services).
+\fac done
+\ln 01.17
+\con use 'apostle'
+\fac done
+\con BE: I've added "implied from act.01:20 to cover for "a disciple has to be chosen among us" to the anchor for this verse.
+\fac done
+\ln 01.18
+\con BE: Some implicit information here might be helpful here: consider adding, "because our lost disciple/brother/fellow servant (see also, act.01:17), Judas, had Jesus Christ caught." (e.g. /क्‍योंकि हमारे खोए हुए चेला/भाई यहूदा ने हमारे गुरु, यीशु मसीह को पकड़वा दिया था।)
+\fac Thanks
+\con BE: Assuming that the answer you are hoping to get here is "He was killed"... Though technically this is a question that we can't assume that the UNS will be able to answer (it assumes prior knowledge and it's "closed" as well). Nevertheless I still think it's a valuable question to ask here. And if the UNS can't give a proper answer, then you might consider adding, /पकड़वा दे मरवाया/ 'had caught and killed'. (or did you have some other answer in mind?)
+\fac UNS test may reveal something !
+\con Since UNS2 didn't get that Jesus had died (or at least didn't say it), do we want to add "had him caught and killed"?
+\fac no, because he didn't have Jesus killed; only caught
+\ln 01.19
+\con BE: I can't resist: what do you think of this, /और ऐसे करने से वह खुद उचित रीत से मर गया।/ 'And for doing this, he himself deservedly died.' (c.f. act.01:18 "the reward of his unjust deed").
+\fac done
+\ln 01.20
+\con use 'apostle'
+\fac done
+\ln 01.21
+\con qualities...
+\fac not needed
+\ln 01.22
+\con BE: good question! If the UNS can't answer, then you can add, /और जो उनकी फिर जीवत हो जाने की गवाही दे सकता हो।/ 'And who could give a witness of His coming to life again.'
+\fac ok
+\ln 01.23
+\ln 01.24
+\ln 01.25
+\con BE: Great ending. Nice and concise!
+\fac Thanks
+\ln 01.26
+\ln 01.27
+\ln 01.28
+\ln 01.29
+\ln 01.30
+
+\c 03
+\t Peter heals a paralytic
+
+\cat ConNotes, Bob Eaton
+\co HindiCPM set
+\con BE = 2009-01-16 
+\con Normally, when we're working on Kangri texts, it's totally fine for you or one of the team to do the Hindi to English BT (as long as a UNS has done the Kangri to Hindi BT). However, this is sort of a special case, because the story language *is* Hindi. So here, technically, we need someone else (a UNS) to do the Hindi to English BT.
+
+\ln 03.01
+\con Since this is the 2nd story (and I haven't seen the 1st story yet), I'm not sure if you've introduced these folks yet. If you haven't (and even if you have), you may want to start this story like this: "One day, two of Jesus' disciples--Peter and John--..."
+\fac done
+\con2 I changed the BT to be 'One time', since you have /एक बार/ in the story.
+\con since the time unit /पहर/ 'watch, hour' is not in common usage today, this is a good question to ask. If you generally aren't getting comprehension from people with this question, then since this is a *story* as opposed to scripture (where it is more likely that people would balk at the use of the time expression /बजे/ "o'clock"--as we found before when checking our scripture texts), I wonder if it would be okay to switch this back to "o'clock"? Don't change it in the Acts scripture, but since stories are a less *formal* method of communication, I wonder if it would be okay here. In any case, remember that these stories are for the Purnia workshop, so you also have to consider that your audience are mostly from Bihaar. Would they know what /पहर/ means? If not, then definitely change this to /बजे/.
+\fac done
+\con Note that /मंदिर/ 'temple' is a technical term in this context and yet would have a different connotation among our listeners, which could cause some misunderstanding. That is, if I say to anyone in Palampur /मंदिर/, they'd immediately think of whatever local temple was near them. But this is *the* temple in Jerusalam (for the Jews, there was only one; and even in the villages, they didn't have 'temples', but rather 'houses of prayer'). So maybe you could say, /बड़ा मंदिर/ 'big temple', or /मुख्‍या मंदिर/ 'main temple' so that it gives the impression that this is an important one and not just some local one.
+\fac We have changed it to Prayer house.
+\con2 I was concerned about the average Indian misunderstanding /मंदिर/ 'temple', because of their association of that word in their religion. But for this to be accurate, we can't use "Prayer House" here. "Prayer House" is the key term we use for synagoge, which are the small meeting places in the villages that people went to for worship. But in this verse, Peter & John (and the beggar) are at *the* one temple in Jerusalem. So here, we really do want to use /मंदिर/, but I was just suggesting that we modify it slightly in order to make it different than what the average Indian would think of it. So either make it /बड़ा मंदिर/ 'big temple', or /मुख्‍या मंदिर/ 'main temple', or even just /मंदिर/ 'temple' if you feel that the others won't work, but don't use "Prayer House".
+\ln 03.02
+\con The name of the gate could be a confusing thing for listeners. In scripture translation, we need to include the name of the gate, but when crafting a story, we can leave it out (since it doesn't seem to be crucial to the story). On the other hand, if by giving the name, it helps the story to sound more true/historical, then we can leave it in. Primarily, if in the retelling the UNSs say the name, then we can leave it in (because that implies it isn't too hard to remember), but if they leave it out or say, "some gate"... then take it out.
+\fac We feel it can remain.
+\con2 Change the question here to 'temple' (or whatever you decide about the above comment), rather than 'prayer house'.
+\ln 03.03
+\ln 03.04
+\con For my benefit, is there any difference in Hindi between asking the question /पतरस ने किस भाव से लंगड़े की ओर देखा?/ 'With what intent did Peter look at the lame man?' vs. /आप के ख़्‍याल से पतरस ने लंगड़े की ओर किस भाव से देखा?/ 'In your opinion, with what intent did Peter look at the lame man?' In English (an American, at least) would likely answer the first question, "How should I know?", but with the second one (i.e. "in your opinion..."), he'd be more likely to try to give *some* answer. Also, always be thinking about what benefit you might gain from the answer to any particular question. So your first question (i.e. What do you understand about the word 'watch'?) is a good question, because if the UNS can't answer it, then you know that you've chosen an inefficient word. Or if in 03.02 you ask the question, "Why do you think they put the lame one by the temple gate to beg alms?" and the UNS answers, "because that's where people are most generous" or "that's where there's the highest traffic", etc., then at least you've confirmed that they correctly understood a potentially confusing situation. In this question, is there some kind of answers you think you might get which would help you know whether the story is communicating or not? I'm not saying don't ask this question, but just to urge you always to think about what answers you might get and what benefit they'd be to you. Judy has added these comments: [Judy: I think this particular question is a good one. It's speculative, but I wonder if the fact that he asked this question implied that he thought it was kind of funny for it to say "Peter looked attentively at the man".  This bit of the story in English always sounds kind of odd to me. I could imagine a culture for which it would imply something pretty negative to have someone staring like that -- evil-eye or something. Or it might imply something good, like Peter was taking a minute to assess whether or not he had the faith to be healed. Anyway, I'd suggest he keep the question and see what he gets from it.]
+\fac done
+\con In 03.03, you said, "(he) looked towards them". Does it then sound odd for Peter to say here, "Look towards me"? (i.e. isn't he already looking towards them?). Maybe 03.03 needs to be "He glanced towards them" (i.e. not particularly carefully), and then Peter could say here to focus carefully. For that matter, when trying to get someone's attention on the street, a typical phrase could also be, /(ध्‍यान से) सुनो/ 'listen (carefully)'. That could work here too.
+\fac done
+\ln 03.05
+\con In 03.03, you said that he looked towards them to ask for alms, and here you said, "he began looking in their direction". Is that going to be confusing? Maybe you should move the /बड़े गौर से/ 'very attentively' from 03.04 to this verse to show that he looked at them more carefully?
+\fac We have put in "looked at them with hope to get something"
+\ln 03.06
+\ln 03.07
+\con "*right* hand" is another one of those things that you *can* have in a story, but you don't *need* to. Would it be easier just to say, "grabbed the lame one's hand and...", without specifying which hand it was? For that matter, in India, everyone will already assume that Peter picked him up by the right hand anyway, right? Because that's the clean hand? So when it's already understood, then to actually say it is probably unnatural and can create a doubt in the mind of the speaker as to why you felt the need to say it--making them think that you're trying to imply something else (but not being able to figure out what it is) or state some important piece of information (which it isn't at all).
+\fac In order to give some character to the story I feel it is worthwhile to say 'the right hand' to bring the picture in the listener's mind.
+\ln 03.08
+\con I'm not sure what benefit you can get from the UNS's answer to this question. Suppose he says, "by a miracle!", then how does that help you with the story? I guess you could say that he correctly interpreted the event as a miracle, but is that in doubt? Or were you thinking that you might get some other response(s)?
+\fac let's wait for the response of the UNS.
+\ln 03.09
+\ln 03.10
+\con Rather than asking /जो आदमी चंगा हुआ था/ 'the man who was healed' (which gives an interpretation of the event), just ask, "in your opinion, why did he go into the temple with them?" Or put that he was healed directly into the story (say, in 03.08-10), and then you can ask it the way you have.
+\fac done
+\ln 03.11
+\ln 03.12
+\con We both liked what you did here: taken the reported information from the text and turned it into direct speech. Does that make the story more vivid? On the other hand, be sure to compare carefully with the UNS retelling when you get to that point, because often the parts most often left out by UNSs are the direct speech quotes... they're the hardest things to remember correctly. If the UNS doesn't tell this in direct speech, then you should probably change it back to event reporting as in the NetBible.
+\fac ok
+\ln 03.13
+\con "this is the same...man" can be anchored by act.03:16 ("whom you see and know"). act.03:11 (...as if we made this man walk...) can anchor the "from-birth-lame" part. But since Peter didn't really make this statement, could we leave out the final clause (i.e. "who having sat at the gate used to beg alms")?
+\fac done
+\ln 03.14
+\con I've added act.03:16 to the anchor for this verse. Also added act.03:18 for the use of "Christ" along with "Jesus".
+\fac ok
+\con The question you ask here is a good question for a Storying Fellowship, but not for testing the story. This would be asking the UNS's for a his/her theological beliefs. Instead, you could maybe ask, "Why do you think Peter gave the credit to Jesus Christ rather than taking it for themselves?"
+\fac done
+\con2 I'm not sure what's "done" here. It's the same as it was before. (if you really want to ask this question, that's okay, I just don't know what "done" means here).
+\ln 03.15
+\con In act.03:15 (part of which your story verse here is anchored by), it says "whom God raised from the dead", but in the story you have "he became alive again". This is probably fine, but I'm wondering why you took out the agent (i.e. God). If you did this intentionally, that's okay, but I just wanted to make sure.
+\fac done
+\ln 03.16
+\con /जीवन के मालिक/ 'master of life' for 'Holy and Righteous One' is a bit of a stretch. However, "Holy and Righteous One" is a technical term (likely from Isa 53.11). Translator's Notes says, "Both Peter and his listeners would have understood the Holy and Righteous One as a title for the Messiah", so if you think "master of life" is an good/ acceptably accurate translation for "Messiah", then we're probably okay. I agree that just using the words "holy" and "righteous" will probably miscommunicate. Is there anything in your culture that points to "one who is holy and righteous"? Maybe that's "master of life"?
+\fac done
+\con The story question here seems odd to me. In the story, you just reported that Peter said that Jesus was the master of life. Then how can you ask the UNS who the master of life is? Won't he just say, "Jesus" (which makes it a closed question where the answer is in the text) or someone else (in which case, that tells us that the UNS disagrees with Peter). Maybe a better question would be, "What do you think Peter meant by the phrase "master of life"? Or "What are the characteristics of the master of life?" (to see if they understand it as a technical term).
+\fac done
+\con2 Shouldn't the question you have here (i.e. /आपके ख्‍़याल में पतरस ने अपने बजाए यीशु मसीह को श्रेय क्‍यों दिया?/ 'In your opinion why did Peter give credit to Jesus Christ instead of himself?' go up in 03.14 where Peter gives Jesus credit for the miracle?
+\ln 03.17
+\con A good question to ask here would be, "Why do you think Peter said that they did what they did *unknowingly*?" (the answer we'd be looking for is, "They didn't realize who he was when they did it--i.e. that he was the Messiah).
+\fac done
+\ln 03.18
+\con If you think that "master of life" might make a good translation for the keyterm Messiah, then you might/could even use that term here (i.e. "This thing was told a long time ago thru the prophets that the master of life will suffer...")
+\fac We feel we can leave it here.
+\con this is another one of those questions for which we probably can't get too much benefit. The UNS will either answer 'yes' or 'no'. But how would either of those answers help us? This could be okay for a Storying Fellowship, however, where it might start an interesting discussion! I can't think of anything to ask in its place...
+\ln 03.19
+\con Rather than having a question which asks what something 'means', it would be better to ask something more specific, such as, "How do you think they felt being told that these prophesies were fulfilled by them?"
+\fac done
+\ln 03.20
+\con The part of the anchored scripture verse which says, "until the time all things are restored" is probably very hard for a UNS to understand (I don't think *I* understand it!). According to the Translator's Note, there are two possible interpretations (neither of which seem to fit the context, in my opinion), but it also says, "These two interpretations really have a similar goal, that God will do whatever is necessary to prepare for the Messiah to come again and rule his people." So why don't you "unpack" this and make it something like, "And now it is necessary for Jesus Christ to remain in heaven until God has readied the world for him to return again." If this doesn't sound good or right to you, you could also just leave this verse out altogether, because it doesn't seem crucial to the story.
+\fac done
+\con2 Did you make a change here? It looks the same (again, I'm not forcing you to make a change, but just to say that you should only use "done" if you *are* going to make a change.
+\con Adjust the question accordingly, "In your view, what kinds of things might God be wanting to straighten out before the world is ready for him to return again?"
+\ln 03.21
+\con The anchored scripture verse says, "so that your sins may be wiped out". At some level, that has the implication of what you have in your story (i.e. "you will get salvation"), but they aren't necessarily the same thing. Did you phrase it this way because most Hindus don't actually believe they are sinners (and therefore, "being forgiven of their sins" is not meaningful to them)? Whereas they do want "salvation", so this ultimately means the same thing? If so, then maybe this is okay.
+\fac done
+\con Again, try to avoid questions that ask what something means. Instead, try, "In your opinion, what happens to someone who gets salvation?"
+\fac done
+\con Another good question here would be, "In your opinion, what kinds of things might might a person do to 'turn their heart'." Or "In your opinion, how does a person 'turn their heart'?"
+\fac done
+\ln 03.22
+\ln 03.23
+\con Be sure to word the question just as it is in the verse. So instead of "why did the rulers make them prisoners?" make it, "why did the rulers put them in jail?"
+\fac done
+\ln 03.24
+\con Change it from /वे यीशु मसीह पर विश्‍वास लाए।/ '(they) believed on Jesus Christ' to /उनमें से कई/बहुत यीशु मसीह पर विश्‍वास लाए।/ 'Many of them believed on Jesus Christ'.
+\fac done
+\con Shouldn't this verse begin with /लेकिन फिर भी/ "But even still" (i.e. even though they were jailed, nevertheless many people believed ...)?
+\fac It's ok
+\con You might ask the question, "Since the authorities put them in jail, why do you think many people still believed on Jesus Christ?"
+\fac Thanks
+\ln 03.25
+\con The 5000 number is the number of believers total (from before and from this event). Make sure this doesn't imply that 5000 people came became believers as a result of this event. So can you say, "And the number of those who believed *grew to* about five thousand."?
+\fac done
+\ln 03.26
+\ln 03.27
+\ln 03.28
+\ln 03.29
+\ln 03.30
+
+\c 04
+\t Peter & John before the Sanhedrin
+
+\cat ConNotes, Bob Eaton
+\co HindiCPM set
+\con BE = 2009-01-16 
+\ln 04.01
+\con It would be good to give the reason why they put them in jail. See act.04:02 for the reason.
+\con It might also be good to indicate the reason that the High Priest and other officials got together (e.g. "to decide what to do with them")
+\fac done
+\ln 04.02
+\con Is "having them stand" the natural way to talk about them being presented in court? (e.g. what about words like /हाज़र/ 'present', /पेश/ 'present', etc)?
+\fac this is the natural way to say.
+\con Also, pay close attention to how the UNS retells the "In whose name and by whose power" part. I have a feeling it will be different and probably more natural.
+\fac ok
+\ln 04.03
+\ln 04.04
+\con Do you think the 'tum' form of the 'you' pronoun is proper here? Is Peter being properly "deferential" to the high priest, etc? (esp. in light of his use of 'aap' (respect) form in 04.15).
+\fac changed into respected form
+\ln 04.05
+\con In one sense, your question here should be a closed question, because Peter is explaining by whose power the lame one was healed. However, because you haven't actually identified him (except as "the one you ... killed"), then technically it isn't a closed question. Nevertheless, it would be good if you were to explicitly say (as it does in the scripture verse) who he's talking about. eg. /तो सुनिए: यीशु मसीह थे! जिस (मनुष्‍य)/जिन को .../ 'Then listen: It was the Jesus Christ! The man/one which...' Then your question could be changed to something like, "Why do you think Peter answers their question in this way?"
+\ln 04.06
+\con This verse is probably not very meaningful for a UNS. Maybe you could unpack it. For example, if I were to unpack this in English (and change it from a direct speech quote), I might say something like, "Peter explained to them that they should have known better since they were the religious leaders (c.f. 'builders') and, but that they had rejected God's promised/chosen messiah (c.f. 'rejected the stone, but God made it the cornerstone')." Then you won't need the question here.
+\fac done
+\ln 04.07
+\con If you take my suggestion above, then switch back to direct quote for this one (e.g. "Then Peter said, /इस पुरे संसार में .../ 'In this whole world...')
+\fac changed
+\ln 04.08
+\ln 04.09
+\con This question is good for the Story Fellowship, but if you want to make it work for this Story testing you could change it to: "What is the significance of their coming to know that these were ordinary men, but that they have lived with Jesus Christ?"
+\fac changed
+\ln 04.10
+\con If you follow the suggestion in 04.11, then you can replace this question with a different one after the new reordered verse 04.11 something along the lines, "In your opinion, why did the authorities have difficulty deciding what to do?" (to get at whether they understand that the leaders didn't want to "approve" this miracle). This is especially important in light of verse act.04:17 (i.e. "to keep this matter from spreading any further among the people").
+\fac done
+\ln 04.11
+\con this happened before the events in 04.10, so just switch the order of these two verses to correct it (and you can get rid of any redundancy)
+\ln 04.12
+\ln 04.13
+\con Since most of the content of this verse is in the next verse also, perhaps you could merge these two and simplify them (i.e. don't have *both* the *thinking/deciding* to call them in and giving them a warning (in 04.13), and the actually *doing* of it also (in 04.14). You could just make this, "So they decided to (call them in and) give them a strict..."
+\con Good question! But instead of asking why they "were not able", perhaps you could ask, "why didn't they" (i.e. saying "not able" might lead the UNS to the answer).
+\ln 04.14
+\ln 04.15
+\ln 04.16
+\con There's nothing in this verse about an "amazing thing", so maybe this is one of those questions that works for a Story Fellowship group, but maybe not so useful for testing the story.
+\ln 04.17
+\ln 04.18
+\ln 04.19
+\con Do you need /सब मिलकर/ 'all got together'? That seems redundant from what you said in 04.18. If you remove it here, be sure to remove it from your question here also.
+\con I changed the anchor here to: act.04:24 (not sure what was supposed to be in act.01:15)
+\ln 04.20
+\con This could be simplified (e.g. "You only have made the entire earth and everything in it").
+\fac For telling story this would be better way. 
+\ln 04.21
+\con This needs to be simplified! e.g. "You knew that the rulers of this world would reject Jesus, just as the prophets told us." (anchor: , act.04:25 - act.04:27). Then you can get rid of this question also, which asks about something that is not in this story.
+\ln 04.22
+\con The part here about "give the power of the HS" is likely in Peter's mind from verses like act.01:08, but since he didn't actually say that, why don't you leave this part off here and just combine this verse with the next. (e.g. "Now O Lord our prayer to you is that you would give us opportunities so that...<rest of 04.23>. Then you won't need this question.
+\ln 04.23
+\con Another way to phrase your question that might be more useful is: "Why do you think they asked for this?"
+\con Instead of /हमारे द्वारा/ 'through us', make it /यीशु के द्वारा/ 'through Jesus' or /यीशु के नाम के द्वारा/ 'through Jesus' name'
+\ln 04.24
+\con since one of the teaching points is boldness in ministry, I think they should probably add something like "and began to preach God's word courageously", as a result of being filled with the HS.
+\ln 04.25
+\con The way you have this verse worded seems to imply that it was the event of 04.24 that caused many people to believe. But it doesn't say that in the scripture text. The section starting at act.04:32 is a totally new section, which is supposed to describe what life was like in the early church. So if you include any of that in this story, you'll need to make a clear break here (e.g. /उस दिन के बाद विश्‍वास करने वालों की मंड़ली.../ 'After that day, group of believing ones ...', etc. right into the rest of 04.26.
+\fac done
+\ln 04.26
+\con Remember what we talked about in the Kangri translation of this passage about the fact that we don't want to imply that the people all lived together (c.f. in a commune). So note how we rendered it there: /सारेआं बसुआस्‍सिआं दी मंडली इक दिल कने इक जान थी। जे किछ तिह़नां बह़ला था, सैह़ तिस जो अपणा नी, अपर सांह़जी मलकीत सह़मजदे थे।/ 'The group of all the believers was (of) one heart and one life. Whatever they had, they didn't used to consider their.own, but common property.' (this leaves out the "live together").
+\fac done
+\ln 04.27
+\con finish it up with "and God's grace was on them all!"
+\ln 04.28
+\ln 04.29
+\ln 04.30
+
+\c 06
+\t Apostles in jail
+
+\cat ConNotes, Bob Eaton
+\co HindiCPM set
+\con BE = 2009-02-02
+
+\ln 06.01
+\ln 06.02
+\con The anchor for this verse was act.05:16; not act.05:14 (I changed it).
+\fac Thanks
+\con excellent question!
+\fac Thanks
+\ln 06.03
+\ln 06.04
+\con To tie your question to the story (rather than the UNS's personal theological beliefs), maybe it would be better here to ask, "In your view, how do you think such people were cured by Peter's shadow?"
+\fac done
+\ln 06.05
+\con Is there a connector missing here? (e.g. "*because of this*, when...")
+\con Instead of saying the high priest and other authorities (which is accurate, but perhaps confusing), you can simplify this by just saying /धर्म शास्‍त्रियों/ 'the chief priests'.
+\fac done
+\con instead of /क्रोध/ 'anger', how about /जलन/ ‘jeolousy'. 
+\con Correct the question accordingly.
+\fac done
+\ln 06.06
+\con excellent use of the causative! (i.e. they probably didn't put them in jail themselves, but had the guards do it).
+\fac Thanks
+\ln 06.07
+\con It's okay that you turned this from the active form (i.e. "angel opened the doors") to the passive form (i.e. "the doors opened"), but it would be good to test to make sure that the UNS understands who did it. After all, according to the anchored verse, it was the angel. So if the UNS doesn't give that as the answer, then perhaps you need to go back to the active form. You could ask, "How do you think the doors of the prison opened?" (perhaps after verse 06.08)
+\fac done
+\ln 06.08
+\ln 06.09
+\con make it "temple courts" rather than prayer house (which is KT for synagogue)
+\fac done
+\con You could add to the end after the closing quote: "... which they began to do the next morning" to foreshadow the events in 06.14
+\ln 06.10
+\con Is it /दूसरे दिन/ 'second/other day' or /अगले दिन/ ‘next day'?
+\fac done
+\con Since you are using "the chief priests" (instead of distinguishing between them and the high priest), you could make this just, "the chief priests gathered again and ordered..."
+\fac done
+\ln 06.11
+\con since /अधिकारी/ 'authorities/officials' is generally used for the 'chief priests', maybe it would be better to use the word for who it was that they ordered to bring the prisoners? Wouldn't that be /सिपाही/ 'guards'?
+\fac done
+\ln 06.12
+\ln 06.13
+\ln 06.14
+\ln 06.15
+\con Though, no doubt, the high priest did become very angry, the anchored verse doesn't say (nor imply) that, so perhaps it would be best to leave it out and just say, "Then the guards went to bring..."
+\fac done
+\ln 06.16
+\con Whatever you decide for 06.11 (i.e. /सिपाही/ 'guard' vs. /अधिकारी/ 'authority'), adjust this accordingly
+\fac done
+\ln 06.17
+\con here you could use /धर्म शास्‍त्रियों का प्रधान कहने लगा/ 'the chief of the rel.teachers began to say'
+\fac done
+\ln 06.18
+\con in your question, use 'chief priests'.
+\con Also, in your question you say, "of the blood of the Lord Jesus", but in the story it reads, "of his blood". Can you make the question read: "of his blood" also?
+\fac done
+\ln 06.19
+\con Since it was probably just Peter that replied, you could say, "Then Peter said..."
+\fac done
+\ln 06.20
+\con *here* you could have 'hearing this they became very angry and wanted to kill them..." (i.e. here the 'anger' is anchored--c.f. 06.15, where it wasn't)
+\fac done
+\con /धर्म गुरू/ or /धर्म शास्‍त्री/? different words for 'rel.teacher', above we've been using the latter, I think.
+\fac done
+\ln 06.21
+\con You could ask, "Why did he order the prisoners to be taken out?"
+\fac done
+\ln 06.22
+\con /महासभा के लोगों/ 'people of the council' or /बाकि धर्म शास्‍त्रियों/ 'the rest of the rel.teachers'. You can keep the former if we used /महासभा/ 'great meeting/council' in an earlier verse.
+\fac ok
+\ln 06.23
+\con This second instance of someone becoming important, being killed, and having his followers scattered is okay (if you find it makes the story sweet), but it can also be left out if you find the UNS doesn't mention it.
+\fac ok
+\ln 06.24
+\con This feels like it needs /इसलिए इस स्‍थिति में भी/ ‘Therefore, in this situation also...'
+\fac ok
+\con You might ask a question like, "How could this be 'from the direction of man'?" to see what they understand that this expression means.
+\fac done
+\ln 06.25
+\con This is a good "Story Fellowship" kind of question. But for story testing, why don't you make it something like, "Why do you think he said that they can do nothing to them if this is from God's side?"
+\fac done
+\ln 06.26
+\con excellent!
+\fac Thanks
+\ln 06.27
+\ln 06.28
+\con Maybe it would be better to phrase the question, "In your view, why do you think they had the disciples beaten?" (in case it wasn't for any 'deeds')
+\fac ok
+\ln 06.29
+\ln 06.30
+
+\c 07
+\t Choosing helpers
+
+\cat ConNotes, Bob Eaton
+\co HindiCPM set
+\con BE = 2009-02-02
+
+\ln 07.01
+\con Since you're quoting from the end of the last story (which I like), why don't you add /जगह-जगह जाकर/ 'going from place-to-place' to highlight the disciples busyness.
+\fac done
+\con There's nothing in this verse of your story about people coming to faith. So you really shouldn't ask about that in your question. Why don't you make it something like, "Why do you think they went from place-to-place preaching the good.news?" In fact, the correct answer is in the earlier stories--i.e. because both Jesus (in 01.10) and the angel (in 06.09) told them to. But, of course, you can only do this if the same UNS checks both stories, because otherwise, we can't expect a true un-jaan (unknowing one) to know the answer.
+\fac done
+\ln 07.02
+\con Ah... now you can ask that question (must have been a copying error). [But the wording is slightly different: /विश्‍वास लाते थे/ 'used to bring faith' in the story vs. /विश्‍वास करते थे/ 'used to believe' in the question.
+\fac done
+\ln 07.03
+\con Way to introduce background material that makes sense of the following! Good job!
+\fac Thanks
+\ln 07.04
+\con You guys create the most wonderful Story Fellowship (or inductive Bible Story) questions! But I'm just not sure they will be that helpful for the purpose here which is to test the story. Why don't you ask the question, "In your thinking, why did the disciples have everything in common and share with others?"
+\fac done
+\ln 07.05
+\con Good question!
+\fac Thanks
+\ln 07.06
+\con Since we've introduced the new keyterm "apostles" in the first Acts story (i.e. 01.06), why don't you use that here (i.e. /बारह प्रेरितों/ 'twelve apostles') to distinguish them from the rest of the 'disciples' (otherwise, it seems like you are saying "12 of the disciples...")
+\fac done
+\con Boy, this seems like a good place for a question. Like, "Why do you think the apostles said that this wasn't proper?" [it's not that feeding the poor widows was not "real service" or that it was "beneath them" (or many other things which might be assumed by the Indian-Hindu mindset used to expecting lower caste folk to take care of certain menial tasks, etc). After all, they required fairly high standards of these other people before they'd let *them* "wait on tables". [aside: And I half suspect that more of "God's Chosen Servants" ought to spend time "giving attention to daily chores" to learn what "service" is. Even Jesus said that *he* had come, not to be served, but to serve]. Anyway, I think Peter's point here is that since they were specially chosen to preach the word of God, that others should be selected to share the burden. So by asking this kind of question, let's make sure we're getting a good answer or we might need to modify this].
+\fac done
+\con You've unpacked "word of God" quite a bit (i.e. "the prayer-worship and the service of the Lord Jesus Christ"). I know that these are things that are involved in a pastor's role in India and so they are probably okay (since they'll give roughly the same meaning as what I think Peter was trying to say, PLUS it is supported by act.06:04), but if this is complicated for the UNS to retell, it could be simplified here as, "preaching the word of God"
+\fac done
+\ln 07.07
+\con In the anchored verse for the last verse (07.06 = act.06.02) Peter does characterize this work in a fairly minimizing way (i.e. "waiting on tables"), but here in act.06.03 he expresses it differently as "this necessary task" (which perhaps gives it more 'honor/respect'). Maybe it would be good to phrase this differently here as compared with above. That is, I think "pay attention to the daily chores" is okay for "waiting on tables" in 07.06, but maybe here you could word it differently so it seems to have more respect/honor? (e.g. /यह जरूरी काम/ 'this necessary work').
+\fac done
+\con This is a good question. Perhaps another one you could ask is "Why do you think the apostles required these qualities for those who will look after the daily chores?" (or however you rephrase it)
+\fac ok
+\ln 07.08
+\con Since we're skipping the story about Stephen (the one of the 7 most referred to in the Bible), unless you have some overriding reason, I'd suggest that you simplify this by skipping the names. For one thing, as the TH says, "It is important in introducing the phrase "a man full of faith and the Holy Spirit" ... in such a way as to suggest that the other men were not in this same category. It is only that for Stephen this expression is an emphatic qualifier". Secondly, as the consultant notes (see \cn lines) I put in the HindiStoriesBT.txt file suggest, more important than their actual names is that all seven were likely "Hellenists" (another name for what you called "Greek speaking people" in 07.05). This highlights an important fact: the original complaint came from the "Greek speakers" (as you put it), and this suggests that in response, they chose all "Greek speakers" to serve in this way. So you could say something here like, "The whole group liked this thing and so they chose seven people with the proper qualities and who were even Greek speaking so there could be no basis for further grumbling."
+\fac done
+\con If you ask the question I suggested in 07.07 above, then you probably don't need this question (or you could ask this question there, if you like it better).
+\fac ok
+\ln 07.09
+\con use 'apostles' rather than /चेलों/ 'disciples' here (if you do what I suggested above)
+\fac done
+\con excellent rendering!
+\fac Thanks
+\con Have we ever asked a UNS about 'put their hands on'? If not, you might want to ask them what they think the significance of this is (e.g. "Why do you think they put their hands on those chosen people?")
+\fac done
+\ln 07.10
+\con use 'apostles' rather than /चेलों/ 'disciples' here (if you do what I suggested above)
+\fac done
+\ln 07.11
+\con add /मंडली/ 'group' as a key term to the L&CNotes.txt file for 'church' (as in "body of Christ"; not "building").
+\fac ok
+\con is /याजक/ 'priest' the right word? What about /पुजारी/ (I thought we were using a different word).
+\con Good question! It gets at whether the UNS will understand the political undercurrents between the disciples/apostles and the priests. But perhaps you should re-word the question to be, "Why does *priests becoming included in the group* seem like something strange?"
+
+\c 10
+\t Conversion of Saul
+
+\cat ConNotes, Bob Eaton
+\co HindiCPM set
+\con BE = 2009-01-23
+
+\ln 10.01
+\con BE: I added act.02:41 as the anchor for the "began to believe in Jesus", and act.06:07 for 'increase in numbers'
+\ln 10.02
+\ln 10.03
+\con BE: excellent! Do you want to add at the end: /--पुरुष भी और स्‍त्री भी!/ '--both men and women!'
+\fac ok
+\ln 10.04
+\con BE: On the one hand, I think I might know why you chose "the authorities"--perhaps because it might seem odd to people that a rel. teacher would have such authority. However, if we don't show it as being the high priest he ask, then we have an accurracy issue. So, instead of saying /अधिकारियों से/ 'from the authorities' (which might bring up the image of civil authorities), why don't you use our key term for the high priests: /धर्म शास्‍त्रियों के प्रधान से/ 'from the prime of the rel. teachers'?
+\fac Yes thats better.Thanks
+\con BE: Is /दमिश्‍क/ 'Damascus' going to be known? If not, you could say "another city". Or if they are familiar with 'Syria', you could say, the capital of Syria (see TN)
+\fac How about adding city?
+\con BE: A question you could ask here is, "Why do you think Saul wanted to go to Damascus to have the believers thrown in prisons?"
+\fac done
+\ln 10.05
+\con BE: very nice! good rendering and good question!
+\fac thanks
+\ln 10.06
+\ln 10.07
+\con BE: Is it clear that in Jesus' words the object of persecution is really "his people" or "his disciples" rather than He himself? that is, you could say, "Why are you persecuting my followers/disciples/people?"
+\fac How do you like it this way?
+\con BE: I'm not sure we can anchor the /हैरान होकर/ 'became surprised and'. Is it okay if we take that bit out?
+\fac done
+\ln 10.08
+\con BE: Here again, Saul is persecuting Jesus' followers, so maybe: "I am the same Jesus Christ, whose followers you are persecuting." NOTE: if there's any sort of idiom along the lines of "when you persecute my disciples, you are persecuting me", that would go well here, because that's what Saul is saying. From "Questions for Testing Translations": Q: What did Jesus mean when he asked Saul why he was persecuting him? A: He meant that when Saul persecuted the believers, it was the same as persecuting Jesus himself.
+\fac done
+\ln 10.09
+\con BE: I'm not sure if we need to do anything with this verse, but according to act.22:09, the companions heard a noise and didn't know what it was. As it turns out, in Hindi, the word for 'voice' and 'noise' is the same, right? If there's a way to imply that they heard gibberish, then that might work. Also, act.22:09 suggests that they saw the light, but just not the one speaking. But in any case, I think you've captured the meaning in act.09:07 well enough, even if it may not fit perfectly with the later verses.
+\fac Changed to 'sound'
+\ln 10.10
+\ln 10.11
+\con BE: The verse in act.09:08 implies that Saul was able to get up by himself, but then his companions took him by the hand and led him to D. Could you just change it from 'lifted him up' to something like, 'led him by hand' (or whatever idiom works here).
+\fac ok
+\ln 10.12
+\ln 10.13
+\con BE: Since act.09:17 says that "Jesus" is the one sending Ananias, you should use /प्रभु/ 'the Lord' here rather than /परमेश्‍वर/ 'God'.
+\fac ok
+\ln 10.14
+\con BE: Same in the question here: translate /परमेश्‍वर/ 'God' to /प्रभु/ 'the Lord' (e.g. 'Saul used to persecute his own followers, even still why do you think the Lord Jesus wanted to save him?'
+\fac ok
+\ln 10.15
+\con BE: there's a contrast here: the Lord is asking one thing, *but* Ananias is questioning the wisdom of what the Lord tells him to do. So can you make this, /उसने कहा, "पर प्रभु जी, यह तो वही मनुष्‍य है…"/ 'He said, "But Lord, this is that man,..."
+\fac done
+\ln 10.16
+\con BE: Good question; Calling a servant a 'vessel' is a metaphor that may not be meaningful in Hindi. If not, this could be /दासी/ 'servant'
+\fac vessal here also implies character.Will that do?
+\ln 10.17
+\ln 10.18
+\con BE: You could ask a question here about the scales. e.g. "What do you think the /छिलके से/ 'peel-like' something was?"
+\fac done
+\ln 10.19
+\ln 10.20
+\ln 10.21
+\con BE: question: "Why do you think they wanted to kill him?"
+\ln 10.22
+\ln 10.23
+\con BE: The latter part of your question here is 'leading'. Why don't you just leave the first part of it (and add 'still'): /आपके ख्‍याल में चेले उस से अभी भी क्‍यों डरते थे?/ 'According to you why were the disciples still scared of him?'
+\fac done
+\ln 10.24
+\con BE: Why don't you re-order this and the next verse like this: 'But from among them a disciple named Barnabas knew that Saul had been fearlessly preaching the name of Lord Jesus in Damascus. So he brought Saul to meet the other disciples.
+\fac done
+\con BE: You could then have a question like, "What do you think Barnabus' motive/reason was for introducing Saul to the other disciples?"
+\fac done
+\ln 10.25
+\con BE: I'm not sure I understand the question here: isn't the answer, "the event you just told in the story?" (or are you trying to get something else?)
+\fac To recapture the story. If not correct then can be deleted.
+\ln 10.26
+\con BE: The one piece that feels like it's missing from the story is the profound impact that Saul himself had on the growth of the church. In 10.20, you told how he began preaching, but in act.09:22 it talks about how capable (and no doubt, successful) he was at it and *that* is why they wanted to kill him. Then here (in 10.25) you have Barnabus telling the disciples how 'boldly' he preached in Damascus, but nothing is really said about his preaching now in Jerusalem, which is in the anchored verse: "associating openly with them in Jerusalem, speaking out boldly in the name of the Lord." Maybe you could add something to your summary statement in this last verse, like, "he continued to speak boldly about the Lord Jesus... and in this way, with the power of the Holy Spirit the church kept growing.
+\fac ok
+
+\c 13
+\t Gentiles in Antioch
+
+\cat ConNotes, Bob Eaton
+\co HindiCPM set
+\con BE = 2009-02-03
+
+
+\ln 13.01
+\ln 13.02
+\con See my 2nd con note in 13.03 before proceding here.
+\fac I have changed
+\con Since you have this same verse and question in 07.02, you don't need to ask it again here.
+\fac ok
+\ln 13.03
+\con /धार्मिक गुरुओं/ or /धार्मिक शास्‍त्रियों/ for 'chief priests'? Let's be consistent throughout all the stories.
+\fac done
+\con the "anger" of the religious priests in the anchored verse (i.e. act.05:33) was because the disciples weren't obeying them during the court case (rather than because of the growth of the church), so that's not really an anchor for what you have here. Also, the story you're crafting here begins (in act.11:19) with "those who had been scattered because of the persecution that took place over Stephen", which did involve anger (cf. act.07:54), but that wasn't specifically because of the conversions, but rather because of what Stephen had accused them of (i.e. killing Jesus, blasphemy, persistent opposition to God, etc). However, since we aren't doing the Stephen story to give the necessary background, perhaps this can be generalized with the earlier anger and characterize it as they were angry over the disciples' refusal to yield to their command to stop preaching in Jesus name and were otherwise uncontrollable. [aside: also, while the fact of the great number of conversions, no doubt made them angry, is usually portrayed as making them jealous (cf. act.05:17) AND you already have another story (07) starting with basically this same thing...] So why don't you re-do 13.02 along these lines: "And the chief priests kept telling them to stop doing this (i.e. "preaching of Jesus"; anchor act.05:28), but they refused (anchor: act.05:29) and kept blaming them for the death of God's chosen masiah" (anchor "act.05:28 implied, act.07:52"). Then the 'anger' you have here in 13.03 can be properly anchored by act.05:33 and act.07:54 and more properly lead to the reason for the 'scattering' (in act.11:19). But rather than "on seeing this", it would need to be modified (e.g. /इस की वजह से/ 'for this reason')
+\fac done
+\ln 13.04
+\con I've changed the anchor here from "act.11:19 (implied)" since act.08:01 is what act.11:19 was referring to.
+\fac Thanks
+\con Since act.08:01 suggests that the apostles stayed in Jerusalem, why don't you say /बहुत से चेले/ 'many disciples' left... (but see my 2nd con note in 13.09 first)
+\fac done
+\ln 13.05
+\con dereference /अंताकिया/ 'Antioch' with 'city'
+\fac done
+\con Good job simplifying.
+\fac Thanks
+\con You might ask why they chose to go to "Antioch and these other-other places" (to see what they might know of them).
+\fac ok
+\ln 13.06
+\ln 13.07
+\con Antioch comes up again, so it was good that you included it above, but I don't think Cyrene comes up again, does it? If not, then to avoid the cumbersome phrase "some people dwellers of Cyrene", you could use the word /जादातर/ ‘mostly' in 13.06 (as in 'These disciples mostly used to preach only among their own Jewish caste people.'), and then make this verse, 'But some of them also preached to others who weren't of the Jewish caste'
+\fac done
+\con if you do this suggestion, then be sure to update the question accordingly.
+\fac ok
+\con In any case, the phrase /वहां के लोगों में/ 'the people from there' won't work, because the Jews that they preached among (in 13.06) were also 'from there' (i.e. they were Jews that were already living there when the disciples came). So you have to say "other people too" ("others who weren't of the Jewish caste", etc).
+\fac done
+\con Since that issue might be confusing (i.e. that there were already Jews living in Antioch when the disciples arrived), why don't you say in 13.06 /और जो अपनी ही यहूदी जाति के लोग वहाँ रहते थे, चेले जादातर उन में प्रचार किया करते थे।/ 'The disciples mostly used to preach among their own Jewish caste people who lived there.'
+\fac clarified
+\ln 13.08
+\con I think it should be /दूसरी जातियों के/ 'of other castes' (i.e. plural)? 'Gentile' wasn't a caste, per se, it was all non-Jewish castes.
+\fac done
+\con should it be /वह भी उन पर विश्‍वास ले आए।/ 'They *also* brought faith on Him.'? (i.e. in addition to the disciples and the other Jews that were coming?)
+\fac done
+\con Great Story Fellowship question. But for testing, why don't you ask, "Why do you think people from other castes also brought faith on him?"
+\fac same
+\ln 13.09
+\con /वहां के चेलों ने/ 'the disciples of there' can be /वहां के प्रेरितों ने/ 'the apostles of there' or even just /प्रेरितों ने/ 'the apostles'.
+\fac done
+\con In fact, since it might be confusing that the apostles are in Jerusalem, why don't you considering adding that to 13.04 (i.e. /प्रेरितों को छोड़कर बहुत से चेले/ 'except for the apostles, many disciples' left...
+\fac done
+\con Just out of curiousity, what do you think of this rendering: /यह ख़बर जब यरुशलम में पहुंची, तो प्रेरितों ने उन लोगों के पास एक आदमी (या ‘खास चेले‘) को भेज दिया, जिस का नाम 'बरनबास' था। वह एक भला मनुष्‍य था और पवित्र आत्‍मा से परिपू्र्ण था। ‘This news, when it reached Jerusalem, then the apostles sent to those people a man (or 'special disciple'), whose name was 'Barnabas'. He was a good man and was filled with the holy spirit.' (this puts the focal things just before the verb and uses the proper 'presentational articulation'--if you remember that--for introducing new participants).
+\fac done
+\con Good question, but use /प्रेरितों ने/ 'the apostles' rather than 'the disciples'.
+\fac done
+\ln 13.10
+\con Saul has already been in the previous story, so if you say it as: /एक दूसरे साथी शाऊल/ 'another of his companions', will that make it seem like he's someone else? Perhaps you could say, "Barnabas brought with him to Antioch Saul who had been persecuting the Christians but had eventually become on himself." (or some other such back reference to the previous story)
+\fac done
+\con It would also be good to ask *why* Barnabas did this (e.g. "Why do you think B brought S with him to Antioch?")
+\fac done
+\ln 13.11
+\con You could say /वहां की मंडली में/ ‘in the church there, instead of /वहां के लोगों को/ 'the people of there' in order to further use the keyterm for church (i.e. it stands for the 'group' of believers wherever they are).
+\fac done
+\ln 13.12
+\con again, I want to ask your opinion about a rendering: /और अंताकिया में ही था, जहाँ (या ‘कि‘) प्रभु यीशु मसीह के चेलों को सबसे पहले मसीही कहा गया था।/ ‘And it was in Antioch itself where (or 'that') the disciples of Jesus were first called Christians.
+\fac done
+\ln 13.13
+\ln 13.14
+\con I think you included the parentheses there because you weren't sure you wanted to include that information? I think you could leave it out to simplify it.
+\fac Your guess was right
+\con Use this question in your Story Fellowships. But for testing, you could ask, "How do you think this prophet know that the drought was about to happen?" (which gets at what they know about prophets and whether we need to explain that they give messages from God (and not just foretelling the future)).
+\fac done
+\ln 13.15
+\con since the text says "send relief to the *brothers*", here you could say "help of the *believers* of Jerusalem" rather than "people".
+\fac done
+\con Although this sentence is already very long, I think it's important to add one further piece of (implied) information (but maybe try to break it up into two sentences). As you can see in the '\cn' line I added (in the HindiStoriesBT.txt file in this verse), the problem is that the famine was supposed to be "in the (whole) world". So why would the people of Antioch send food to Jerusalem? It's because (presumably) they were told that the people in Jerusalem were especially going to suffer. So if you could add, 'because they heard that that area would be hit very hard.' it would add the "logical explanation' that is missing. Alternate, you could ask a question here to see if the UNS can come to the proper conclusion by himself (e.g. "If the drought is about to happen in the world, then why do you think the people from Antioch were going to send food to the disciples in Jerusalem?"). If they give a reasonable answer, then you don't need to add that implicit information.
+\fac We will see after the UNS testing
+\con Depending on whether you still need the question you have here already or not (based on what way you decide the last con note), it might be more helpful to ask, "Why do you suppose they decided to help the people in Jerusalem?" (this will tell us whether they correctly interpreted the motives of the people from Antioch). [maybe your existing question does this too, but it just seemed different to me].
+\ln 13.16
+\con The word /पूंजी/ really means 'amount'? I've never heard that before.
+\fac Now you have heard.
+
+\c 17
+\t Council at Jerusalem
+
+\cat ConNotes, Bob Eaton
+\co HindiCPM set
+\con BE = 2009-02-02
+
+\con Excellent story! Way to distill a lot of (sometimes confusing) information very concisely :-)
+
+\ln 17.00
+\con Can we add the relationship to the last story: From Antioch, Barnabas and Paul were commissioned (act.13:02) to go throughout Asia to tell the message in many different places. They also began sharing only with Jewish people. But when the Jews mostly rejected the message, they said, "You have rejected the message and consider eternal life worthless, therefore we will go to the other castes and tell them. This is God's desire too, because he said, ‘I have made you a light to the Gentiles, to bring salvation to the farthest corners of the earth.’” फिर Afterwards, when he returned to Antioch...
+\fac done. we've even added the bit from act.13 about how Paul started going to the Gentiles also (since that resonates with the India folks)
+\ln 17.01
+\con If you want the English BT to read, "very important", should you add /बहुत/ to /ज़रूरी/? (I don't know which BT should be fixed).
+\fac fixed English BT
+\con good job adding the implied information (i.e. "it isn't enough only to believe")!
+\fac ok
+\ln 17.02
+\con you might add "the apostles in Jerusalem" or "the heads of the church in Jerusalem" /मंडली के प्रधान/ so it's clear why they went there.
+\fac done
+\con If I understand your question here correctly, it might be a closed question (answer is: whether those people had to obey all the laws given by Moses or not), however, I think it's probably still a good question, to see if they're understanding the dispute properly. You could also ask, "Why do you think they went to Jerusalem to search for the solution?" to see if they understand the importance of the Jerusalem part of the church in that period (although, if you make the "the heads of the church" change suggested above, it might be too obvious).
+\fac done
+\ln 17.03
+\con act.15:02 says, "(the sent) Paul and Barnabas and some others", so instead of saying "two", why don't you say /कई/ 'several'.
+\fac made it "
+\con I've changed the anchor here to: act.15:02 where the "sending" is from
+\fac ok
+\con One thing we haven't been doing a good job with is "key terms", which are supposed to go in the L&CNotes.txt file. The term /मंडली/ 'group' for 'Church' would be a good candidate to put there.
+\fac done
+\ln 17.04
+\ln 17.05
+\con /सुसमाचार/ 'good.news' would be another good candidate for the L&CNotes file. As well as /दूसरी जातियों/ 'other castes' for 'Gentiles'
+\fac done
+\ln 17.06
+\con Good Story Fellowship question, but leave it (out) for the testing.
+\fac done
+\ln 17.07
+\con the story has /प्रभु/ 'Lord', but the English BT has 'God'. I'm not sure which one you prefer, but adjust one or the other of them so they match. (both of these words also should be in the L&CNotes.txt file).
+\fac changed English BT to "Lord"
+\con Here's another Story Fellowship Question.
+\fac removed
+\ln 17.08
+\con Have a look at the '\cn' lines I've added and see if that's the phrase /परमेश्‍वर की परीक्षा करना/ 'to test God' has the same meaning in Hindi (there may be a different way to say this). It's okay to keep this as "to test God" if it has the same meaning. If you keep it, you could ask the question, "In what way does this test God?"
+\fac turned it into 'become against God' (rhetorical Q)
+\con The English BT portion "Therefore for us to put burden on them is not proper for us." is a fine rendering, but it isn't in the Hindi (I think you should add it to the Hindi rather than remove it from the English).
+\fac done
+\ln 17.09
+\con Above you called "Paul and Barnabus" the "two disciples" that were sent, but here you're calling them "the apostles". And remember that I was suggesting that it's the apostles in Jerusalem that they went to see (or "church heads"). These two become prominent in the next story (which begins with an introduction: /पौलुस और बरनाबास प्रभु यीशु के चेले थे।/ Paul and Barnabas were disciples of Lord Jesus.). So why don't you save us a step there and introduce them here (perhaps as: "Two of the from-Antioch-sent-ones--Paul and Barnabas--told this also..."; you could even add, "thru them" (the causees of the miracles).
+\fac done
+\ln 17.10
+\con /वचन/ 'word' is a keyterm.
+\fac done
+\con while it's true that "people of other castes also will believe in God", he actually said that "people of other castes also will seek/search for God"
+\fac done
+\con This is a Story Fellowship Group question. Instead, here you could ask, "What do you know about the word that James is telling about?" (to see if they connect that with the scriptures).
+\fac done
+\ln 17.11
+\con There seems to be something missing between 17.10 and 17.11. The reasons are explained in the preceding verses, but it seems unclear (to me, at least) in the context of these two verses. If you think it's clear, perhaps you could just as a question to see if the UNS can explain the reason (even though that would technically be a closed question)--e.g. "In your opinion, why didn't James want to put the burden of these laws on people of other castes?" Otherwise, maybe it would help to restate it: (17.10) <people of other castes also will search for God> [add in 17.11: ", so since he has already accepted them by their faith, and has already been doing miracles among them], therefore we should not ... (etc)".
+\fac no need
+\ln 17.12
+\ln 17.13
+\ln 17.14
+\con Here's a chance to test our Hindi vs. English list reversal (see ProjectConNotes.txt 75.03 in the Kangri Storying project for details). Would it be more natural to say, /व्‍यभिचार, गला घोंटे हुए पशुओं के माँस, लहू से, और मूर्तियों पर चढ़ाई हुई चीज़ों/ <the reverse order as in English>'?
+\fac done
+\con Good question!
+\fac ok
+\ln 17.15
+\con These disciples are from Jerusalem (i.e. they weren't the same ones (only) as were sent from Antioch). Perhaps it would be enough to say /कुछ और चेलों…/ 'through some other disciples' 
+\fac N/A
+\ln 17.16
+\con Question (perhaps too obvious): "Why do you think the those people became very happy and their courage increased?"
+\fac removed
+\ln 17.17
+\con Since we're going to introduce Paul & Barnabas above (please), you can say there names here (rather than "two apostles")
+\fac done
+\ln 17.18
+\ln 17.19
+\ln 17.20
+\ln 17.21
+\ln 17.22
+\ln 17.23
+\ln 17.24
+\ln 17.25
+\ln 17.26
+\ln 17.27
+\ln 17.28
+\ln 17.29
+\ln 17.30
+
+\c 18
+\t Macedonia vision - second missionary trip
+
+\cat ConNotes, Bob Eaton
+\co HindiCPM set
+\con BE = 2009-02-02
+
+\ln 18.01
+\con I've added the anchors here: rom.01:01, act.13:02 (which show that Paul and Barnabas were disciples).
+\fac OK
+\con Normally, it's better to ask a different kind of question than "what does <something> mean?". I think you are trying to make sure the word communicates, right? So maybe you could ask, "In your understanding, what kinds of things/works does a disciple of someone do?" (or something else like that)
+\fac Ok i have put this kind of qs.
+\ln 18.02
+\con Again, here it would be better to ask a question like, "In your own words, can you tell something about the message of Jesus?" Their answer will tell whether they understand the expression "message of Jesus".
+\fac All right i have changed.
+\ln 18.03
+\con Maybe "had told" is sufficient, but you might also add "had told before" or "let's go *again*' to make it clear that they'd been there once before.
+\con You might also ask a question here like, "Why do you think Paul wanted to go again to these places?" OR you might want to explicitly put in the reason: "to see how they are doing"
+\fac i have put qs there that "Why do you think  Paul wanted to go again to these places?" 
+\ln 18.04
+\con Instead of saying "a person named Mark", it might be good to indicate his relationship to them. So you might say, "another of the disciples named Mark" or "a believer named Mark".
+\fac I put believer
+\con You could ask here, "Why do you think Barnabas wanted to take Mark with them?"
+\fac Yes i put that qs
+\ln 18.05
+\ln 18.06
+\con This and the next verse is another one of those result-reason sentences, which normally are more natural the other way around. Could you say these like this and see if you like it better: /पौलुस ने बरनाबास से कहा कि "इसने हमारे साथ काम नही किया और हमारा साथ बीच में ही छोड़ दिया था। इसलिए यह हमारे साथ नही जाऐगा (या जाना चाहिए)।/ 'Paul said to Barnabas, "He didn't work with us and left us in the middle, so/for this reason, he will not (or should not) come with us."
+\fac Ok i have put this one
+\con to make this more clear, you should add "last time" as in "left us in the midst *last time*/*before*"
+\ln 18.07
+\con There are three problems with this question: 1) it's a "yes-no" question, which we try to avoid (they don't tell us as much as questions which ask for a longer answer than "yes" or "no"), 2) the question is too "lopsided" (meaning that the answer is too obvious). Is it possible for someone to respond "yes, it's okay to leave someone in the middle of the road." (who could say that?), and 3) even if the UNS says "no" (or "yes"), how does that help us with the story? So we always have to try to ask questions which get the UNS thinking and giving a longish answer, and it should be related to the story so that the answer can tell us something helpful for the story. So leave this one out. [I can't think of a good question here]
+\fac Yes you are right.
+\ln 18.08
+\con Since you say this same thing in 18.10, maybe you could change this to be "But even still Barnabus wanted to take him." (or you could leave it out since the next verse explains it).
+\fac Changed
+\con If you change this verse (and keep it), you could ask the question, "Why do you think that Barnabas wanted to take Mark even though Paul said they shouldn't?" (if you don't keep this verse, then you can ask the question in 18.10: "Why do you think that Barnabas took Mark even though..."
+\fac Put the qs in this line.
+\ln 18.09
+\con This is another one of those questions that you could use in a Story Fellowship group, but they don't help test the story much (who would say that such a disagreement was "proper"? and even if they did, how would that help us with the story?). You could ask, "If you had to choose to work with either Paul or Barnabas, who would you choose?  And why?"
+\fac ok
+\ln 18.10
+\ln 18.11
+\con I think there's a typo in this verse (i.e. the last word in / अपने लिए ने /
+\fac ne was by mistake changed it.
+\con as above, why don't you say 'a disciple' rather than 'a person'.
+\con Here you could ask, "Why do you think Paul chose Silas for himself?"
+\fac I have put this qs.
+\ln 18.12
+\con you did a good job of summarizing in this verse, but you need more anchors to cover all of the details. I've added additional anchors you can check.
+\con Good question here!
+\fac Thanks
+\ln 18.13
+\ln 18.14
+\ln 18.15
+\con This is an important question (to see if anyone knows what circumcision is), but the way it's phrased, it's a "yes-no" question. Why don't you ask it like this: "Why do you think his not being circumcised was a problem for living among Jews?"
+\fac Ihave changed the qs.
+\ln 18.16
+\con In the English BT, you had "to preach gospel", but it wasn't in your Hindi BT, so if you want to keep it, add it to the Hindi/Dogri and add it back to the English BT also.
+\fac ok
+\ln 18.17
+\con see the first comment in 18.18 before processing this verse.
+\con The commentaries (see the \cn lines in 18.18) suggest that in both act.16:06 ("Holy Spirit") and act.16:07 ("the Spirit of Jesus") are both referring to the same (Holy) Spirit. So since we really haven't use "Spirit of Jesus" before and since it otherwise could be confusing, why don't you make them both "Holy Spirit". If you want to keep them as they are in the scripture text, that's fine also, but then in that case, here in 18.17, it should read, "Holy Spirit" rather than "Spirit of Jesus".
+\fac holy spirit is better
+\con Good question (but add "In your opinion" and change it to "the Holy Spirit")
+\fac Changed
+\ln 18.18
+\con Actually, the first place they wanted to go was Asia (in 18.17). Here (in act.16:07), it was a place called "Bithynia". Maybe you could even just collapse these two into a single sentence: "One day, Paul wanted to go and tell the message of Jesus in several different places in Asia, but the Holy Spirit forbid them. (this would replace 18.17 - 18.19).
+\con Otherwise, if you keep these as separate, then begin this verse with, "And then another time..." /और फिर दुसरी बार…/
+\con in either case, why don't you ask a question around here like, "How do you think the Holy Spirit forbade him from going there?"
+\fac Changed the line and qs also
+\ln 18.19
+\ln 18.20
+\con In the English BT, you have "Then", but it's not in the story (and it should be: use /फिर/ 'Then', which signals a new episode).
+\fac put Phir
+\con /एक आदमी जो…/ 'a man' (to make it indefinite)
+\con /मेसोडोनिया प्रदेश/ 'Mesodonia region' or /मेसोडोनिया इलाके/ 'Mesodonia area'
+\fac Changed
+\ln 18.21
+\ln 18.22
+\con You could ask a question here like, "In your opinion, why did Paul think it was necessary to tell the message of the Lord in Mesodonia?"
+\fac put the qs.
+\ln 18.23
+\con Since the scripture text says, "we" (which must have include Luke as well), why don't you not say "he decide" and "he went there", but maybe, "Then/So Paul and his साथी ('companions') decided to go to Mesodonia and they went there."
+\fac i have done changed line.
+\ln 18.24
+\ln 18.25
+\ln 18.26
+\ln 18.27
+\ln 18.28
+\ln 18.29
+\ln 18.30
+
+\c 20
+\t Paul in Athens
+
+\cat ConNotes, Bob Eaton
+\co HindiCPM set
+\con BE = 2009-02-02
+
+\ln 20.01
+\con Why don't you start the story with something like, "Many times when the disciples of Jesus--Paul, Timothy and Silas--were traveling around telling the message of Jesus in different-different places, they were opposed by the local Jewish. (question: why do you think the local Jewish people opposed them). In one place (, called Berea), the Jewish people tried to start a riot to have Paul and the others chased away (is there an idiom, like the English: "run out of town"?). Some of the Christian brothers sent Paul away to another city while Silas and Timothy stayed back (in Berea). (questions: Why do you think the Christian brothers sent Paul away? Why do you think T & S remained in Berea?)
+\fac I have done this all things
+\ln 20.02
+\ln 20.03
+\con Question: "Why do you think Paul was waiting for them?" (it says in the text that he sent for them after reaching Athens, but since you don't mention that, we need to make sure they can give some sort of answer (or we should add it).
+\fac put that qs and reason also
+\ln 20.04
+\con say /बहुत से मुर्तियाँ/ 'many idols'
+\fac changed in other thing
+\ln 20.05
+\con As we discussed, I think it's okay to leave out the part of him becoming "sad and grieved" about seeing the idols. Instead, you could make it: /... जिससे वह पता चला कि यहाँ के लोग बहुत धर्मी है, और वह उन को प्रभु यीशु के बारे में भी बताना चाहता था। इसलिए वह बाज़ार में जाकर…/ '... from which he came to know that the people here are very religious (anchor: act.17:22), but he wanted them to know about the Lord Jesus also. For this reason, he went to the bazaar and...'
+\fac done and changed this line in 20.06  
+\con The second sentence, however, is not true, so you can delete this one (there were Jews there; cf. act.17:17)
+\fac removed
+\con And if you remove this sadness part (as we talked about), then you can remove this question as well.
+\fac done
+\ln 20.06
+\con I don't think we want to say that Paul was "arguing" with them in the market? Or is it a problem with the BT? Does /वाद-विवाद/ also have the meaning 'debate, discuss, try to pursuade'? (In English, argue has a fairly negative connotation). The Translator's Handbook (see \cn line in HindiStoriesBT.txt file for this verse) says that he "talked with people who happened to come by and would listen to him." (so, for eg. /आते-जाते लोगों से प्रभु यीशु के बारे में बात करने की कोशिश करता था।/ '(He) used to try to talk with the people coming-and-going about Jesus.'
+\fac done
+\con It might be good to ask a question here like, "What do you think of Paul going to the markets and ??? with the people?"
+\fac done
+\ln 20.07
+\con to show the divided reception, you might put in the first part of the anchored verse also: e.g. Some said, "What's this babbler (/बकवादी, बड़बोला/) saying?", Others said, "He preaches of some..."
+\fac done
+\ln 20.08
+\con Did you forget a question word here? Maybe you meant, "In your opinion, *why* did people start thinking, 'We should hear his ideas.'?" (or it could be, "In your opinion, why did the people want to listen to his ideas?")
+\fac we have added why to the qs.
+\ln 20.09
+\ln 20.10
+\ln 20.11
+\con Why don't you add a summary statement like, "So Paul explained to them about God being the true Lord of heaven and earth (act.17:24) and how He has made us all so that we want to know about him (act.17:27) and about how he will eventually judge our lives fairly through his chosen servant, Jesus (act.17:31) <and if it's not too long already>."and proved this by raising him from the dead".
+\fac we have made conclusion 
+\ln 20.12
+\ln 20.13
+\ln 20.14
+\ln 20.15
+\ln 20.16
+\ln 20.17
+\ln 20.18
+\ln 20.19
+\ln 20.20
+\ln 20.21
+\ln 20.22
+\ln 20.23
+\ln 20.24
+\ln 20.25
+\ln 20.26
+\ln 20.27
+\ln 20.28
+\ln 20.29
+\ln 20.30

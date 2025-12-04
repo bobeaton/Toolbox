@@ -1,0 +1,63 @@
+\c 01
+\t SAMPLE STORY (Title goes in this line)
+\co (Language name or code goes here)
+\co Reason for having this story in the set
+\co Crafter: (put Crafter's initials or name here)
+\co Backtranslator: (put Backtranslator's initials or name here)
+
+\ln 01.01
+\bt After David became king and was settled in his palace,
+\anc 2Sa.07:01 
+\ln 01.02
+\bt one day he was with his spiritual advisor, Nathan, and he said to him:  Look!  Here I am living in
+this beautiful palace, but the place of worshipping and the holy case for consulting God is out in a
+tent. 
+\anc 2Sa.07:02 
+\ln 01.03
+\bt Nathan said to him:  "Well, go ahead and do what you have in mind, because God is with you. 
+\anc 2Sa.07:03 
+\ln 01.04
+\bt But that night Nathan perceived from God that he was guiding him a different way. 
+\anc 2Sa.07:04 
+\ln 01.05
+\bt And he went back to David and said to him:
+\anc 2Sa.07:17  
+\ln 01.06
+\bt <<Here is a message from God for you:  Who are you to build ME a house? 
+\anc 2Sa.07:05 (NLT) “Go and tell my servant David, ‘This is what the Lord says: Are you the one to build me a temple to live
+in?
+\ln 01.07
+\bt I chose you when you were just a shepherd boy taking care of your sheep out in the pasture, and
+raised you up to be king of your people, the Israelites. 
+\anc 2Sa.07:08 
+\bt And I have gotten rid of your enemies. 
+\anc 2Sa.07:09 
+\ln 01.08
+\bt Now  instead of you making ME a house, I am going to make YOU a house, a royal "house" of
+David, a dynasty of kings that will go on for all time.   
+\anc 2Sa.07:11 (the Lord will build his "house")
+\anc 2Sa.07:16 (his dynasty will be permanent)
+\ln 01.09
+\bt You will have a son, and he will build my house, a temple where people can worship me. And the
+line of his descendants will go on being kings forever.>>
+\anc 2Sa.07:12 -13
+\cn Temple recurs in various stories.
+\ln 01.10
+\bt When David heard this, he went to the tent of worship, sat down in God's presence, and prayed. 
+He said:  "Oh all-powerful God, Who am I that you have brought me this far?  
+\anc 2Sa.07:18 
+\cn NOTE: re. "went in to the tent" -- HBK says: The fact that he entered into the tent where the ark was housed (see 6.17;
+7.2) is implied in the expression "before the Lord"
+\ln 01.11
+\bt And now you are talking about the kingdom and rule of my descendents going on forever.   
+\anc 2Sa.07.19  
+\ln 01.12 
+\bt So may it happen just like you have promised.  
+\anc 2Sa.07.25 
+\ln 01.13 
+\bt Because when you speak, it is the truth. And this is what you have promised to me, your
+SERVANT. 
+\anc 2Sa.07.28  
+\cn Servant becomes a sub-theme in this panorama, first with David referring to himself as God's servant, then referring to the
+Messiah, and then with believers calling themselves servants of God.
+\dt 11/Jan/2007

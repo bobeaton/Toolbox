@@ -1,0 +1,104 @@
+\_sh v3.0  400  StoryBT
+\_DateStampHasFourDigitYear
+
+\c x
+\t TITLE
+\co Language: (name or code)
+\co Reason for having this story in the set:
+\co Crafter: (put Crafter's initials or name here)
+\co Backtranslator: (put Backtranslator's initials or name here)
+\co Resources used in crafting this story: (translations, audio, video, etc. used in crafting this story)
+\co Test 1: (Name of person tested; How did they do retelling the story; any other comments)
+\co Test 2: (Name of person tested; How did they do retelling the story; any other comments)
+
+\ln 01.01
+\bt
+\anc
+\ln 01.02
+\bt
+\anc
+\ln 01.03
+\bt
+\anc
+\ln 01.04
+\bt
+\anc
+\ln 01.05
+\bt
+\anc
+\ln 01.06
+\bt
+\anc
+\ln 01.07
+\bt
+\anc
+\ln 01.08
+\bt
+\anc
+\ln 01.09
+\bt
+\anc
+\ln 01.10
+\bt
+\anc
+\ln 01.11
+\bt
+\anc
+\ln 01.12
+\bt
+\anc
+\ln 01.13
+\bt
+\anc
+\ln 01.14
+\bt
+\anc
+\ln 01.15
+\bt
+\anc
+\ln 01.16
+\bt
+\anc
+\ln 01.17
+\bt
+\anc
+\ln 01.18
+\bt
+\anc
+\ln 01.19
+\bt
+\anc
+\ln 01.20
+\bt
+\anc
+\ln 01.21
+\bt
+\anc
+\ln 01.22
+\bt
+\anc
+\ln 01.23
+\bt
+\anc
+\ln 01.24
+\bt
+\anc
+\ln 01.25
+\bt
+\anc
+\ln 01.26
+\bt
+\anc
+\ln 01.27
+\bt
+\anc
+\ln 01.28
+\bt
+\anc
+\ln 01.29
+\bt
+\anc
+\ln 01.30
+\bt
+\anc
+\dt 08/May/2009

@@ -1,0 +1,564 @@
+\_sh v3.0  643  StoryBT
+\_DateStampHasFourDigitYear
+
+\c 01
+\t CREATION
+\ver DP, Oct08
+\co as told by David, Oct08
+\play C:\OneStoryProjects\Animist\Animist MP3--Oct08\Animist 01--creation.mp3
+\co Animist Set
+\co Purpose:  This twelve-story panorama is an exploratory panorama used in training in the OneStory
+partnership. It provides one sample of a short panorama that OneStory suggests be used as a discovery
+tool -- a way of exploring worldview and socio-cultural issues with mother-tongue story crafters, starting
+with a set of stories that the OneStory team may consider from an initial exposure to the people group to
+be a useful starting point.  A completely different exploratory panorama would be constructed where the
+broad worldview is e.g. Muslim, Buddhist, Hindu, Secular / Agnostic, or other broad worldview types.  Even
+within these types, an initial panorama of this nature can be a uniquely designed tool that takes
+advantage of what the OneStory team discovers in an initial discovery period of considering the unique
+worldview and socio-cultural context of each people group.  So, for example, instead of the Elijah story
+used here, this may be useful among an animist group where animal sacrifice is a part of the culture or
+tradition, but in cases where sacrifice is unknown or abhorrent to a people group, it may be more helpful
+for this initial exploratory set to use a story like Balaam, as an example of a shaman who experiences
+God's over-ruling power; or Job as a priest making offerings for his family, and caught in the conflict of
+Satan and God, or the Witch of Endor story, if consulting someone from the world of the dead is a known
+concept
+\co Selection issues:  This Creation story begins with the concept of where spirit beings in the world come
+from.  In many animist contexts, and particularly where spirits are thought to be the souls of people who
+have died, it may be helpful to have an initial composite story (or story section) that gives an alternate
+(and biblical) view of where the spirit beings (both good and evil / angels and demons) come from.  The
+short version given in lines 01-07 below is considered to be non-controversial (1) in avoiding reference to
+the Isaiah 14 and Ezequiel 28 passages that some, but not most, exegetes think to be referring to Satan;
+and (2) in avoiding the placement of the fall of the angels in a particular point in time (i.e. before the
+creation of the world, versus after it, etc.).
+\co Selection issues:  The part of this creation story that deals with the creation of the world and of people
+uses the Genesis 2 account.  This is primarily done because the Genesis 2 account is more narrative and
+memorable (less of a "list") than the Genesis 1 account. 
+\co Redemptive Theme:  The primary redemptive theme use in this story set is that of Jesus as victor over
+the spirit world, and particularly over the master of the evil spirits, Satan.  The redemptive theme shows
+people calling on Jesus as the one having the power to rescue them from the darkness and death they
+find themselves bound in.  This creation story introduces this theme by giviing the origins of the spirit
+world as being created by God, but rebelling against him.
+\co Basic biblical concepts:  God as creater of all things, physical and spiritual.  Rebellion against God (sin) as
+something he doesn't tolerate, and that will be punished.
+\co Cohesion:  This story introduces the instruction from God not to eat of the tree of knowledge of good and
+evil, as background for the next story "Fall".
+\ln 01.01
+\bt This is the true story that starts at the begining of time. We know what happened, even
+way back then, because God raised up spokesmen to tell people about what had
+happened.
+\anc Introductory remarks: 2Ti.03:16 
+\anc Psa.119:142 (New Century Version) "...your teachings are true"; Psa.119:160 (NIV) "all your words are true";
+Jhn.17:17 "your word is true"
+\ln 01.02
+\bt In the very beginning there was God. He has always existed, even before time began. 
+\anc Jhn.01:01 -2, 1Ti.01:17
+\ln 01.03
+\bt He made some spirit beings [KT: angel]  to be his messengers.
+\anc Psa.148:02, Psa.148:05
+\cn NOTE: "to be his messengers" is based on the meaning of key term.  See Key Biblical Terms
+document in TW (Translator's Workplace), where the first suggested phrase for translating
+"angel" is given as "messenger of/from God".
+\ln 01.04
+\bt They praised him and worshipped him. And they carried out the instructions that he
+gave them.
+\anc Psa.103:20 -21
+\ln 01.05
+\bt They were there praising him, singing for joy when God made the earth, when he
+measured it and structured it to be exactly the way that he had planned.
+\anc Job.38:04 -7
+\ln 01.06
+\bt But some of these spirit beings [KT: angel] rejected what God had. They turned away
+from God, they turned to evil.  They were not satisfied with the positions that God had
+put them in. 
+\anc Jud.01:06; Jas.02:19, 2Pe.02:04
+\cn NOTE: see Translator's Handbook Jud.01:06 "they aspired to a higher status. The verse is saying
+that these angels were given a certain status or sphere of authority by God, but they were not
+content with such a position."
+\ln 01.07a
+\bt And these spirit beings who rejected God became evil spirits, what we know of today as
+demons [KT: demon].  And there's one of them that is the master of the rest. 
+\anc 2Pe.02:04, Mat.25:41, Mat.09:34
+\ln 01.07b
+\bt They're in the world today trying to work against what God wants to do, and working
+against the people who follow God’s ways.  
+\anc Eph.06:11 -12
+\ln 01.07c 
+\bt But God has pronounced a punishment that some day they would be punished in an
+everlasting fire.
+\anc Mat.25:41
+\ln 01.08
+\bt But back to the earth that God had created. It was God who made everything. 
+\anc Gen.02:04
+\ln 01.10
+\bt He made the plants and the trees, all the animal life, the fish, the birds and the wild
+animals and the domestic animals.  
+\anc Gen.01:11- 12, Gen.01:20- 21, Gen.01:24- 25
+\ln 01.11
+\bt And finally he made man.  
+\anc Gen.02:07, Gen.01:27
+\ln 01.12
+\bt He gathered some dirt together and formed it, molded it into the shape of a man, and
+then phuuuuu, he blew the breath of life into the man.   
+\anc Gen.02:07
+\ln 01.12b
+\bt The man's name was Adam.
+\anc Gen.02:10 NET (his name was Adam)
+\ln 01.13
+\bt He put the man into a special orchard that he had made--a beautiful place with many
+trees and rivers, all sorts of trees that had beautiful fruit, delicious to eat. 
+\anc Gen.02:08 -9; 
+\anc Gen.02:10 -14 (rivers) 
+\cn The names of the rivers and this section in general is omitted because of the difficulty of
+introducing several new names in an oral story that is meant to be learned and spread by those
+initially unfamiliar with it.
+\ln 01.14
+\bt There were two trees in the middle of the orchard that God had made. One was the
+life-giving tree. And the other was the tree that caused the knowledge of good and bad.
+\anc Gen.02:09
+\ln 01.15
+\bt And he put the man in this orchard to take care of it.
+\anc Gen.02:15
+\ln 01.16
+\bt But said: "You can eat the fruit of any of the trees in this orchard. 
+\anc Gen.02:16
+\ln 01.16b
+\bt But the tree in the middle, the one that causes the knowledge of good and bad, you're
+not to eat from it. If you eat from it, you'll die.
+\anc Gen.02:17
+\ln 01.17
+\bt And God said, "It is not good for the man to be alone." 
+\anc Gen.02:18
+\ln 01.20
+\bt And so, God put him into a deep sleep, removed one of his ribs, 
+\anc Gen.02:21
+\ln 01.21
+\bt And from the rib created a woman. He brought the woman to Adam, and when the man
+saw her he said, "Ahh! Finally! Someone like me!"
+\anc Gen.02:22 -23 
+\cn 23b through 24 are omitted since they are poetic and thus difficult to express in the flow of an
+oral story. 
+\ln 01.22
+\bt The man and woman were not wearing any clothes, but they weren't ashamed.
+\anc Gen.02:25
+\dt 22/Nov/2008
+
+\c 02
+\t FALL 
+\ver AP, 2008-10 (removed naming Eve)
+\sound C:/OneStoryProjects/Animist/Animist 02--Fall.mp3
+\co Animist Set
+\co Redemptive Theme:  This story shows the master of the demons, in the form of a snake, deceiving the
+woman and cause her and the man to disobey, bringing about their own state of curse and suffering, and
+need of redemption.
+\co Basic biblical concepts: Sin as disobedience to God's instructions.  
+\co Cohesion:  Continues the "meaning of names" sub-theme.  Here in this story it is the meaning of Eve's
+name, and even Adam giving the animals names.
+\ln 02.01
+\old So Adam and his wife, were living in the garden that God had made for them. And their job was to cultivate it
+and take care of it. 
+\bt Well the man and the woman lived in the orchard that God had created for them, and it
+was their job to take care of it and to cultivate it. 
+\anc Gen.02:15
+\ln 02.02
+\old And they spent their evenings being in God's presence when he would walk there in the cool part of the day. 
+\bt And they would spend their evenings just being with God, just being in God's presence
+as he would walk there in the cool part of the day. 
+\anc Gen.03:08 (rechronologized) 
+\cn Hamilton Commentary on Genesis in TW says "The verb used here to describe the divine
+movement...suggests iterative and habitual aspects. Such walks would take place in the early
+evening.
+\ln 02.05a
+\old But then one day something happened that changed everything. A snake, the most sneaky of all the animals
+God had made, had a conversation with the woman. 
+\bt And things were really good. But then one day something happened that just changed
+everything, when the woman had a conversation with the snake which was the craftiest
+of all of the creatures that God had created. 
+\ln 02.05b
+\old He said to her. "Did God really say you must not eat any of the fruit in the garden?"
+\bt And the snake said to the woman, "Is it true that God said that you're not allowed to eat
+from any of the trees in the orchard?" 
+\anc Gen.03:01
+\ln 02.06
+\old And she answered, "Of course we may eat it. It's only the fruit from the tree at the center of the garden that we
+are not allowed to eat. God says we must not eat it or even touch it, or we will die."
+\bt And the woman said, "No of course not, we can eat from any of the trees that we like,
+except for the tree in the center of the garden which is the tree of the knowledge of good
+and bad cuz God says if we eat from that tree then we'll die." 
+\anc Gen.03:02, 3
+\ln 02.07
+\old "You won't die!" the snake hissed. "God knows that when you eat it you will become just like him, knowing
+everything, both good and evil."
+\bt And the snake said "Oh you won't die. God just knows that if you eat from that tree,
+you'll become just like Him, knowing everything, both good and bad. 
+\anc Gen.03:04, 5
+\ln 02.08
+\old Well, the woman was convinced. The fruit looked so fresh and delicious, and it would make her so wise! So she
+ate some of the fruit. She also gave some to her husband, who was with her. Then he ate it, too.
+\bt Well the woman was convinced, and she looked and at the tree and saw the fruit and
+saw that it look good and looked really tasty to eat. So she took some of that fruit and
+she ate it. And she gave some to the man who was also there with her.
+\anc Gen.03:06
+\ln 02.09
+\old And all of a sudden, something changed in them, and they felt shame at their nakedness. So they strung big fig
+leaves together to cover themselves.
+\bt And immediately after they ate the fruit something changed within them, and they
+realized that they were naked and they felt very ashamed. So they took some fig leaves
+and they strung them together to cover themselves. 
+\anc Gen.03:07
+\ln 02.10
+\old Toward evening they heard God walking in the garden, so they hid themselves among the trees.
+\bt And that evening as God was walking through the orchard, the man and the woman hid
+themselves in the trees.
+\anc Gen.03:08
+\ln 02.11
+\old God called to Adam, "Where are you?"
+\bt So God called out to them and said "Adam where are you?" 
+\anc Gen.03:09
+\ln 02.12
+\old Adam answered, "I heard you, so I hid. I was afraid because I was naked."
+\bt And Adam said "I heard you walking and I hid myself because I was ashamed because I
+was naked." 
+\anc Gen.03:10
+\ln 02.13
+\old And God said, "Who told you that you were naked? Have you eaten the fruit I commanded you not to eat?"
+\bt God said "Who told you that you were naked? Did you eat from the tree that I
+commanded you not to eat from?" 
+\anc Gen.03:11
+\ln 02.14
+\old And Adam said, "The woman you gave me handed me the fruit, and I ate it."
+\bt And Adam said "It's the woman that You gave me. She gave me some of that fruit and I
+ate it." 
+\anc Gen.03:12
+\ln 02.15
+\old Then God asked the woman, "How could you do such a thing?"  And she replied, "The snake tricked me. That's
+why I ate it."
+\bt So God said to the woman "How could you do such an evil thing and eat this fruit?" And
+the woman said "It's the snake. The snake tricked me and that's why I ate it." 
+\anc Gen.03:13
+\ln 02.16
+\old So God said to the snake, "Because you have done this, you will be punished. You will grovel in the dirt as long
+as you live, crawling along on your belly.
+\bt So then God said to the snake "Because you have done such an evil thing, your whole
+life you will grovel along on the ground. 
+\anc Gen.03:14
+\ln 02.17
+\old From now on, you and the woman will be enemies, and your offspring and hers will be enemies. You will strike
+his heel, but he will crush your head."
+\bt And for your whole life, you and the woman will be enemies. And your offspring and her
+offspring will be enemies. And you will strike his heel and he will crush your head."
+\anc Gen.03:15
+\ln 02.18
+\old Then he said to the woman, "You will give birth to your children with intense pain and suffering. And from now
+on your husband will be your master, even though you'll wish you were in charge."
+\bt And then God said to the woman "Because you've done such an evil thing and eaten the
+fruit that I commanded you not to eat, you will have great pains in childbirth. And your
+husband will be your master, even though you wish that you could be in charge."
+\anc Gen.03:16
+\ln 02.19
+\old And to Adam he said, "Because you disobeyed [KT: disobey] me, and listened to your wife and ate the fruit I
+told you not to eat, I have placed a curse on the ground. All your life you will struggle to scratch a living from it.
+\bt And then God said to Adam "Because you've done this evil thing and eaten from the tree
+I commanded you not to eat from and listened to your wife, your whole life you will
+struggle against the soil to get it to produce any kind of food for you.
+\anc Gen.03:17
+\ln 02.20
+\old It will grow thorns and thistles for you.
+\bt But instead it will produce thorns and thistles. 
+\anc Gen.03:18
+\ln 02.21
+\old All your life you will sweat to produce food, until your dying day. Then you will return to the ground from which
+you came. For you were made from dirt, and to the dirt you will return." And that was Adam's punishment for
+disobeying God.
+\bt Your whole life you will sweat against the ground, until you return to the ground.
+Because from the ground you were created and to the ground you will return when you
+die," 
+\anc Gen.03:19
+\ln 02.22
+\old Adam named his wife Eve, which means "living", because she would become the mother of all living human
+beings everywhere.
+\bt (omitted)
+\anc Gen.03:20
+\ln 02.25
+\old And then God made clothes for Adam and Eve from animal skins.
+\bt And then God made for Adam and Eve, clothes out of animal skins to cover themselves.
+\anc Gen.03:21
+\ln 02.26
+\old And he said, "The man and woman have become like me, knowing both good and evil. I can't let them eat the
+fruit of the Tree that gives Life because then they will live forever!"
+\bt And God said "Since they've eaten this fruit I can't allow them to continue living in the
+orchard where the Tree of Life is." 
+\anc Gen.03:22
+\ln 02.27
+\old So the LORD God banished Adam and his wife from the garden.
+\bt So God took them out of the orchard,
+\anc Gen.03:23
+\ln 02.28
+\old And he stationed powerful spirit beings, and a flaming sword flashing back and forth, guarding the way to the
+Tree that gives Life.
+\bt and he placed powerful spirit beings at the entrance to the orchard, and placed a great
+sword that flashed back and forth to guard the entrance.  
+\anc Gen.03:24
+\dt 20/Nov/2008
+
+\c 03
+\t ELIJAH 
+\ver DE, 2008-09
+\co Animist Set
+\co Redemptive Theme:  Continues the theme of "Victor", at this point showing God as more powerul than
+evil spirits / other gods.  Shows evil spirits attempting to thwart God and lead people astray.
+\co Basic biblical concepts: God as powerful, almighty (more powerful than any other god or spirit); God
+requiring obedience to him and disobedience / worshipping false god considered as evil / sin.
+\co Selection issues:  Depending on the context and the worldview issues involved a different story may be
+used here, e.g. Balaam as shaman (Num 22, 23:1-8,19-26, 25:1-9, 31:1-3,7-9,15-16); or Job excerpts;
+or Witch of Endor.
+\ln 03.01
+\old Adam and Eve eventually had children and over time the world was populated.
+\bt And so Adam and Eve had children. And their children had children, until their
+descendants populated the whole earth. 
+\anc Gen.04:01 -2, Gen.05 -10 TRANSITION & BACKGROUND
+\ln 03.02
+\old But some of their descendents got farther and farther from God.
+\bt And some of these descendants began to no longer worship God or believe in God, 
+\anc 1Ki.22:52 Jeroboam son of Nebat, who had led Israel into the sin of idolatry.  
+\anc 1Ki.16:02 you have followed the evil example of Jeroboam. You have aroused my anger by causing my people
+to sin.
+\ln 03.03
+\old They worshiped idols -- what they thought were other gods. But what they were really worshiping were false
+gods,- evil spirits who work against the one true God.
+\bt but they began to worship idols or false gods. Really they were demons or evil spirits. 
+\anc 1Ki.22:52, 1Co.10:19 -20
+\anc idols were thought to be gods -- NTL Lev.17:7 (see also footnote)
+\ln 03.04
+\old So God sent his spokesman Elijah to tell people that they should worship the LORD God, and ONLY him.
+\bt And God sent a spokesman to the people to tell them to worship him and him alone. 
+\anc 1Ki.18:21 (rechronologized)
+\ln 03.06
+\old The king at that time was called Ahab.
+\bt Now about this time in that land, there was a king whose name was Ahab. 
+\anc 1Ki.16:29
+\ln 03.07
+\old Now Ahab was a very evil king. He worshiped the false god named Baal, and was leading his people away from
+God, teaching them to worship Baal. And so the people were actually trying to worship both God AND Baal.
+\bt And king Ahab was an evil evil king. And he worshiped a false god named Baal. And not
+only that, he taught his people to worship Baal as well, so that the people of the land
+would worship God and Baal at the same time.
+\anc 1Ki.16:29 -33, 1Ki.18:18, 21
+\ln 03.08
+\old And because Elijah was the spokesman of the LORD God, Ahab hated Elijah. In fact, he had been searching all
+over the country for him, but for several years God had helped Elijah hide from Ahab.
+\bt Now Gods spokesman in that land was named Elijah. And Ahab hated Elijah because he
+was Gods spokesman. And so he searched all over the land to try to find Elijah but God
+hid him for several years. 
+\anc 1Ki.17:03, 1Ki.18:10 
+\cn actual story begins here
+\ln 03.09
+\old But now God told Elijah to go and talk with Ahab. So Elijah came out of hiding, and sent a message to Ahab that
+he wanted to talk with him.
+\bt Well one day, God told Elijah to go and talk with Ahab. So Elijah came out of hiding and
+sent a message to king Ahab that he wanted to meet with him. 
+\anc 1Ki.18:01, 2
+\ln 03.10
+\old Well, Ahab came to see Elijah, and when he saw him, he said, "You troublemaker!"
+\bt And Ahab came quickly to the place where Elijah was. And as soon as Ahab saw him he
+said "You trouble maker." 
+\anc 1Ki.18:17
+\ln 03.11
+\old But Elijah said, "I am not the troublemaker. You are the troublemaker, for you have refused to obey God and
+have worshiped the false god Baal!
+\bt And Elijah said "I'm not the trouble maker. You're the trouble maker,because you are
+being disobedient to God and worshiping a false god. 
+\anc 1Ki.18:18
+\ln 03.12
+\old Now, gather the people at Mount Carmel. And bring along all of the priests (or shamans) of your god Baal."
+\bt Now, here's what I want you to do. Gather all the people together and meet me at Mount
+Carmel, and don't forget to bring all those priests of your god with you when you come."
+\anc 1Ki.18:19
+\ln 03.13
+\old And so Ahab did what Elijah said, and they all gathered up on Mt. Carmel.
+\bt So Ahab did what Elijah told him to do. And when the people arrived, 
+\anc 1Ki.18:20
+\ln 03.14
+\old And Elijah said to the people, "How long are you going to waver between two opinions? If the God is truly God,
+follow him! But if Baal is God, then follow him!
+\bt Elijah went out and he asked them "When are you guys going to make up your mind?
+You flip back and forth between two opinions. If Baal is god then worship him, but if the
+Lord God is god then worship Him." 
+\anc 1Ki.18:21
+\ln 03.15
+\old But the people were completely silent.
+\bt But the people were silent and didn't say anything. They were not willing to make a
+commitment one way or the other.
+\anc 1Ki.18:21
+\ln 03.16
+\old Then Elijah said to them, "I am the only spokesman of the true God who is here, but Baal has 450 priests (or
+shamans). Let's have a contest.
+\bt And so Elijah said "Ok, today we're gonna have a contest to see if Baal or God is the true
+God." 
+\anc 1Ki.18:22
+\ln 03.17
+\old Bring two bulls. The priests (shamans) of Baal may choose whichever one they wish and cut it into pieces and
+lay it on the wood of their altar, but without setting fire to it.
+\bt And so he told the people "Bring two bulls. Give one of them to the priests of Baal and
+give one of them to me. And priest of Baal, build your altar. Sacrifice your bull on your
+altar, but don't put it on fire. Don't set it alight.
+\anc 1Ki.18:23
+\ln 03.18
+\old And I will prepare the other bull and lay it on the wood on the altar, but not set fire to it.
+\bt And I will do the same thing. 
+\anc 1Ki.18:23
+\ln 03.19
+\old And they will call on their god Baal, and I will call on God.
+\anc 1Ki.18:24
+\ln 03.20
+\old And the one who answers by setting fire to the wood is the true God!"
+\bt And the god who lights the sacrifice on fire, he is the one true god."
+\anc 1Ki.18:24
+\ln 03.21
+\old And all the people agreed.
+\anc 1Ki.18:24
+\ln 03.22
+\old So the priests (shamans) of Baal prepared one of the bulls and placed it on the altar. Then they began to call on
+their god, Baal. They called to him all morning, shouting, "O Baal, answer us!"
+\bt And so, the priest of Baal took their bull and they built their altar and they put the
+sacrifice on the altar and they began to cry out "Oh Baal, Baal come hear us. Light our
+sacrifice." 
+\anc 1Ki.18:26
+\ln 03.23
+\old But there was no reply of any kind. Then they danced wildly around the altar they had made.
+\bt But there was no answer. And so all morning long they shouted and yelled and they
+danced and they tried to get Baal to light their sacrifice on fire. But there was no
+response. 
+\anc 1Ki.18:26
+\ln 03.24
+\old About noontime Elijah began mocking them. "He IS a god, isn't he? Shout louder, maybe he's deep in thought,
+or maybe he is away on a trip, or he is asleep and you need to wake him up!"
+\bt At about noontime, Elijah started to mock them and say "Your god is a god, isn't he?
+Maybe he's busy. Or maybe he's gone on a trip. Oh, I know, he's gone asleep. He's fallen
+asleep. So you've just got to shout louder and wake him up. That's what you've got to
+do." 
+\anc 1Ki.18:27
+\ln 03.25
+\old So they shouted louder, and following their normal custom, they cut themselves with knives and swords until
+the blood gushed out.
+\bt Well the priest of Baal began to shout even louder. And they took knives and they cut
+themselves, as was their custom. And blood was gushing out everywhere. 
+\anc 1Ki.18:28
+\ln 03.26
+\old They raved all afternoon, but still there was no reply, no voice, no answer.
+\bt And all afternoon they tried in this way to get Baal to answer them. But there was never
+any response. 
+\anc 1Ki.18:29
+\ln 03.27
+\old Then Elijah called to the people to HIM. He took stones to build back up the altar for God.
+\bt And so Elijah called the people to himself. And he took stones from an old altar that had
+been built to the one true god. And he built the altar up again. 
+\anc 1Ki.18:30
+\ln 03.28
+\old And then he dug a trench around the altar. and he piled wood on the altar, cut the bull into pieces, and laid the
+pieces on the wood.
+\bt And he put wood on it. And then he killed the bull and he cut it in pieces and laid it on top
+of the wood. And then he dug a trench around the altar in the dirt, in the ground. 
+\anc 1Ki.18:32 -33
+\ln 03.29
+\old Then he said, "Bring water and pour it over the offering and the wood." And he had them do it three times until
+it was drenched and even overflowed the trench.
+\bt And he told the people, "Bring water and pour over the sacrifice." And they did. And he
+said, "Go and do it again." And they brought more water and poured it over the sacrifice,
+until it was completely drenched. And the water poured down and filled up the ditch that
+was surrounding the altar. 
+\anc 1Ki.18:33 -35
+\ln 03.30
+\old And then, Elijah the spokesman of the LORD God, walked up to the altar and prayed,
+\bt And Elijah knelt there in front of the altar. 
+\anc 1Ki.18:36
+\ln 03.31
+\old "O God, prove today that you are God, and that I am your servant. Answer me so these people will know that
+you are God and that you have brought them back to yourself."
+\bt And he said, "Oh God, prove today that you are the one true God and that I am your
+servant. Answer my prayer so that your people will believe in you again and return and
+worship you." 
+\anc 1Ki.18:36 -37
+\ln 03.32
+\old Immediately lightening flashed down from the sky and burned up the sacrifice, the wood, the stones. It even
+licked up all the water in the ditch!
+\bt And instantly, lightning fell from the sky and burn up the sacrifice the wood and the
+stones and even licked the water up out of the ditch. 
+\anc 1Ki.18:38
+\ln 03.33
+\old And when the people saw it, they fell face-forward down to the ground and cried out, "God really is the one true
+God!"
+\bt And all the people that were there fell on their faces. And they cried out, "Surely, truly,
+the Lord God, He is the true God." 
+\anc 1Ki.18:39
+\ln 03.35
+\old So that day, God showed his power and proved that he was the one true God.
+\bt And that day God proved that he is the one true God by showing his power to his people.
+\anc based on 1Ki.18:39
+\dt 20/Nov/2008
+
+\c 04
+\t ZECHARIAH 
+\ver DP, 21Nov08 (shortened)
+\co Animist Set
+\co Redemptive Theme:  Continues to develop the theme of Victory over Satan -- in this story naming Satan. 
+Shows a need for someone (priest) to make things right between people and God.  
+\co Selection issues:  Like many of the other prophet "stories", this is a composite story, that is, necessarily
+a selection of passages that will be most relevant to the fulfillments seen in the Gospel stories.
+\co Cohesion:  Continues the "meaning of names" sub-theme.  In this story it is the meaning of the priest
+Jeshua's name, foreshadowing that of Jesus.
+\ln 04.01
+\bt After Elijah, some people followed God and worshiped Him. 
+\anc 1Ki.18.39; 1Ki.19:19 ff (Elisha), 1Ki.22:05, 1Ki.22:14, 1Ki.22:43, etc.
+\ln 04.02
+\bt But many of the people of Elijah's nation were disobedient to what God wanted.
+\anc 2Ki.24:18 -20, Zep.03:01 ff
+\ln 04.03
+\bt So God raised up different spokesmen to deliver his messages to his people. One of
+them was the spokesman Zechariah, who delivered messages from God to the people of
+Jerusalem, the capital city of his nation.
+\anc Zec.01:01, Zec.09:09 
+\ln 04.04
+\bt One of the messages of Zechariah was this, he said: "This message is straight from God,
+God says  ---Shout and be glad, for a day is coming when I will live among you. ---Many
+nations will join themselves to the me on that day, and they, too, will be my people.
+\anc Zec.02:10 -11 
+\ln 04.05
+\bt Later on, Zechariah had a vision that took place in heaven. 
+\anc Zec.03:01 
+\cn Heaven -- (from Translator's Handbook) The Hebrew does not state an exact location for this
+scene. Some commentators understand this to be simply heaven (Mason); others think in more
+detail of a heavenly court (Baldwin, R. L. Smith, Meyers & Meyers, Stuhlmueller [KT: 1988],
+Merrill) or even the gate of heaven (BJ and JB/ NJB in footnotes).
+\ln 04.06
+\bt In this vision he saw Jeshua, the High Priest where Zechariah was. In their language
+Jeshua's name sounded like the word for "Save" or "Rescue". His job as priest was to
+make things right between the people and God. 
+\anc Zec.03:02
+\ln 04.07
+\bt In Zechariah's vision, there was Jeshua standing in front of God's spirit messenger. And
+Jeshua's clothes were completely filthy. 
+\anc Zec.03:03 
+\ln 04.08
+\bt Standing there beside Jeshua was the ruler of the evil spirits, Satan, and he was
+accusing Jeshua of many things. 
+\anc Zec.03:01 
+\ln 04.09
+\bt But God's spirit messenger, speaking for him, said to Satan "I reject your accusations. I
+rebuke you, Satan." 
+\anc Zec.03:02 
+\ln 04.10
+\bt Then the spirit messenger commanded his associates to take away Jeshua's filthy
+clothes and give him fine new clothes.
+\anc Zec.03:04
+\ln 04.11
+\bt And he said to Jeshua, "Here's what God says to you,  'See, I have taken away your
+disobedient ways [KT: disobey].
+\anc Zec.03:04 
+\ln 04.14
+\bt You, Jeshua and the other priests with you are symbols of things to come. Soon I'm
+going to send my special servant. 
+\anc Zec.03:08 
+\ln 04.15
+\bt And I will take away all the disobedience [KT: disobey] of my people in a single day.' " 
+\anc Zec.03:09 
+\dt 20/Nov/2008

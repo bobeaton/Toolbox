@@ -1,0 +1,122 @@
+\_sh v3.0  189  L&C Note
+\_DateStampHasFourDigitYear
+
+\r
+\wrd परमेश्‍वर के राज्‍य 
+\co The kingdom of God
+\dt 27/Feb/2009
+
+\r angel, angels
+\wrd
+\co
+\dt 18/Jan/2007
+
+\r apostle
+\wrd प्रेरित
+\co
+\dt 27/Feb/2009
+
+\r apostles
+\wrd मसीह
+\co
+\dt 27/Feb/2009
+
+\r baptism
+\wrd बपतिस्‍मा
+\co
+\dt 27/Feb/2009
+
+\r Christ
+\wrd मसीह
+\co
+\dt 27/Feb/2009
+
+\r church, group
+\wrd मंडली
+\co
+\dt 24/Feb/2009
+
+\r cross
+\wrd सूली
+\co
+\dt 27/Feb/2009
+
+\r disciples
+\wrd प्रेरित
+\co the one who Inspired
+\dt 27/Feb/2009
+
+\r gentiles
+\wrd अन्य जातियों
+\co other castes
+\dt 24/Feb/2009
+
+\r God
+\wrd परमेश्‍वर
+\co
+\dt 24/Feb/2009
+
+\r good.news
+\wrd सुसमाचार
+\co
+\dt 24/Feb/2009
+
+\r holy scripture
+\wrd पवित्र शास्‍त्र
+\co
+\dt 27/Feb/2009
+
+\r holy spirit
+\wrd पवित्र आत्‍मा
+\co
+\dt 27/Feb/2009
+
+\r Jewish
+\wrd यहूदी
+\co a caste name (transliteration)
+\dt 27/Feb/2009
+
+\r keyterm or word
+\wrd word in the lg.
+\co how it's used.
+\dt 18/Jan/2007
+
+\r Kingdom of God
+\wrd
+\co
+\dt 18/Feb/2009
+
+\r Lord
+\wrd प्रभु
+\co Lord
+\dt 24/Feb/2009
+
+\r prayer building
+\wrd प्रार्थना भवन
+\co prayer building, key term for the temple in Jerusalem. This is preferred to /मंदिर/ 'temple'
+\dt 27/Feb/2009
+
+\r prayer House
+\wrd प्रार्थना भवन
+\co
+\dt 27/Feb/2009
+
+\r preach
+\wrd
+\co
+\dt 27/Feb/2009
+
+\r prophesy
+\wrd भविष्‍यवाणी
+\co
+\dt 27/Feb/2009
+
+\r prophets
+\wrd भविष्‍यद्वक्ता
+\co
+\dt 27/Feb/2009
+
+\r word
+\wrd वचन
+\co word
+\dt 24/Feb/2009

@@ -1,0 +1,1375 @@
+\_sh v3.0  643  StoryBT
+\_DateStampHasFourDigitYear
+
+\c 01
+\t CREATION
+\ver DP, Oct08
+\co as told by David, Oct08
+\play C:\OneStoryProjects\Animist\Animist MP3--Oct08\Animist 01--creation.mp3
+\co Animist Set
+\co Purpose:  This twelve-story panorama is an exploratory panorama used in training in the OneStory
+partnership. It provides one sample of a short panorama that OneStory suggests be used as a discovery
+tool -- a way of exploring worldview and socio-cultural issues with mother-tongue story crafters, starting
+with a set of stories that the OneStory team may consider from an initial exposure to the people group to
+be a useful starting point.  A completely different exploratory panorama would be constructed where the
+broad worldview is e.g. Muslim, Buddhist, Hindu, Secular / Agnostic, or other broad worldview types.  Even
+within these types, an initial panorama of this nature can be a uniquely designed tool that takes
+advantage of what the OneStory team discovers in an initial discovery period of considering the unique
+worldview and socio-cultural context of each people group.  So, for example, instead of the Elijah story
+used here, this may be useful among an animist group where animal sacrifice is a part of the culture or
+tradition, but in cases where sacrifice is unknown or abhorrent to a people group, it may be more helpful
+for this initial exploratory set to use a story like Balaam, as an example of a shaman who experiences
+God's over-ruling power; or Job as a priest making offerings for his family, and caught in the conflict of
+Satan and God, or the Witch of Endor story, if consulting someone from the world of the dead is a known
+concept
+\co Selection issues:  This Creation story begins with the concept of where spirit beings in the world come
+from.  In many animist contexts, and particularly where spirits are thought to be the souls of people who
+have died, it may be helpful to have an initial composite story (or story section) that gives an alternate
+(and biblical) view of where the spirit beings (both good and evil / angels and demons) come from.  The
+short version given in lines 01-07 below is considered to be non-controversial (1) in avoiding reference to
+the Isaiah 14 and Ezequiel 28 passages that some, but not most, exegetes think to be referring to Satan;
+and (2) in avoiding the placement of the fall of the angels in a particular point in time (i.e. before the
+creation of the world, versus after it, etc.).
+\co Selection issues:  The part of this creation story that deals with the creation of the world and of people
+uses the Genesis 2 account.  This is primarily done because the Genesis 2 account is more narrative and
+memorable (less of a "list") than the Genesis 1 account. 
+\co Redemptive Theme:  The primary redemptive theme use in this story set is that of Jesus as victor over
+the spirit world, and particularly over the master of the evil spirits, Satan.  The redemptive theme shows
+people calling on Jesus as the one having the power to rescue them from the darkness and death they
+find themselves bound in.  This creation story introduces this theme by giviing the origins of the spirit
+world as being created by God, but rebelling against him.
+\co Basic biblical concepts:  God as creater of all things, physical and spiritual.  Rebellion against God (sin) as
+something he doesn't tolerate, and that will be punished.
+\co Cohesion:  This story introduces the instruction from God not to eat of the tree of knowledge of good and
+evil, as background for the next story "Fall".
+\ln 01.01
+\bt This is the true story that starts at the begining of time. We know what happened, even
+way back then, because God raised up spokesmen to tell people about what had
+happened.
+\anc Introductory remarks: 2Ti.03:16 
+\anc Psa.119:142 (New Century Version) "...your teachings are true"; Psa.119:160 (NIV) "all your words are true";
+Jhn.17:17 "your word is true"
+\ln 01.02
+\bt In the very beginning there was God. He has always existed, even before time began. 
+\anc Jhn.01:01 -2, 1Ti.01:17
+\ln 01.03
+\bt He made some spirit beings [KT: angel]  to be his messengers.
+\anc Psa.148:02, Psa.148:05
+\cn NOTE: "to be his messengers" is based on the meaning of key term.  See Key Biblical Terms
+document in TW (Translator's Workplace), where the first suggested phrase for translating
+"angel" is given as "messenger of/from God".
+\ln 01.04
+\bt They praised him and worshipped him. And they carried out the instructions that he
+gave them.
+\anc Psa.103:20 -21
+\ln 01.05
+\bt They were there praising him, singing for joy when God made the earth, when he
+measured it and structured it to be exactly the way that he had planned.
+\anc Job.38:04 -7
+\ln 01.06
+\bt But some of these spirit beings [KT: angel] rejected what God had. They turned away
+from God, they turned to evil.  They were not satisfied with the positions that God had
+put them in. 
+\anc Jud.01:06; Jas.02:19, 2Pe.02:04
+\cn NOTE: see Translator's Handbook Jud.01:06 "they aspired to a higher status. The verse is saying
+that these angels were given a certain status or sphere of authority by God, but they were not
+content with such a position."
+\ln 01.07a
+\bt And these spirit beings who rejected God became evil spirits, what we know of today as
+demons [KT: demon].  And there's one of them that is the master of the rest. 
+\anc 2Pe.02:04, Mat.25:41, Mat.09:34
+\ln 01.07b
+\bt They're in the world today trying to work against what God wants to do, and working
+against the people who follow God’s ways.  
+\anc Eph.06:11 -12
+\ln 01.07c 
+\bt But God has pronounced a punishment that some day they would be punished in an
+everlasting fire.
+\anc Mat.25:41
+\ln 01.08
+\bt But back to the earth that God had created. It was God who made everything. 
+\anc Gen.02:04
+\ln 01.10
+\bt He made the plants and the trees, all the animal life, the fish, the birds and the wild
+animals and the domestic animals.  
+\anc Gen.01:11- 12, Gen.01:20- 21, Gen.01:24- 25
+\ln 01.11
+\bt And finally he made man.  
+\anc Gen.02:07, Gen.01:27
+\ln 01.12
+\bt He gathered some dirt together and formed it, molded it into the shape of a man, and
+then phuuuuu, he blew the breath of life into the man.   
+\anc Gen.02:07
+\ln 01.12b
+\bt The man's name was Adam.
+\anc Gen.02:10 NET (his name was Adam)
+\ln 01.13
+\bt He put the man into a special orchard that he had made--a beautiful place with many
+trees and rivers, all sorts of trees that had beautiful fruit, delicious to eat. 
+\anc Gen.02:08 -9; 
+\anc Gen.02:10 -14 (rivers) 
+\cn The names of the rivers and this section in general is omitted because of the difficulty of
+introducing several new names in an oral story that is meant to be learned and spread by those
+initially unfamiliar with it.
+\ln 01.14
+\bt There were two trees in the middle of the orchard that God had made. One was the
+life-giving tree. And the other was the tree that caused the knowledge of good and bad.
+\anc Gen.02:09
+\ln 01.15
+\bt And he put the man in this orchard to take care of it.
+\anc Gen.02:15
+\ln 01.16
+\bt But said: "You can eat the fruit of any of the trees in this orchard. 
+\anc Gen.02:16
+\ln 01.16b
+\bt But the tree in the middle, the one that causes the knowledge of good and bad, you're
+not to eat from it. If you eat from it, you'll die.
+\anc Gen.02:17
+\ln 01.17
+\bt And God said, "It is not good for the man to be alone." 
+\anc Gen.02:18
+\ln 01.20
+\bt And so, God put him into a deep sleep, removed one of his ribs, 
+\anc Gen.02:21
+\ln 01.21
+\bt And from the rib created a woman. He brought the woman to Adam, and when the man
+saw her he said, "Ahh! Finally! Someone like me!"
+\anc Gen.02:22 -23 
+\cn 23b through 24 are omitted since they are poetic and thus difficult to express in the flow of an
+oral story. 
+\ln 01.22
+\bt The man and woman were not wearing any clothes, but they weren't ashamed.
+\anc Gen.02:25
+\dt 22/Nov/2008
+
+\c 02
+\t FALL 
+\ver AP, 2008-10 (removed naming Eve)
+\sound C:/OneStoryProjects/Animist/Animist 02--Fall.mp3
+\co Animist Set
+\co Redemptive Theme:  This story shows the master of the demons, in the form of a snake, deceiving the
+woman and cause her and the man to disobey, bringing about their own state of curse and suffering, and
+need of redemption.
+\co Basic biblical concepts: Sin as disobedience to God's instructions.  
+\co Cohesion:  Continues the "meaning of names" sub-theme.  Here in this story it is the meaning of Eve's
+name, and even Adam giving the animals names.
+\ln 02.01
+\old So Adam and his wife, were living in the garden that God had made for them. And their job was to cultivate it
+and take care of it. 
+\bt Well the man and the woman lived in the orchard that God had created for them, and it
+was their job to take care of it and to cultivate it. 
+\anc Gen.02:15
+\ln 02.02
+\old And they spent their evenings being in God's presence when he would walk there in the cool part of the day. 
+\bt And they would spend their evenings just being with God, just being in God's presence
+as he would walk there in the cool part of the day. 
+\anc Gen.03:08 (rechronologized) 
+\cn Hamilton Commentary on Genesis in TW says "The verb used here to describe the divine
+movement...suggests iterative and habitual aspects. Such walks would take place in the early
+evening.
+\ln 02.05a
+\old But then one day something happened that changed everything. A snake, the most sneaky of all the animals
+God had made, had a conversation with the woman. 
+\bt And things were really good. But then one day something happened that just changed
+everything, when the woman had a conversation with the snake which was the craftiest
+of all of the creatures that God had created. 
+\ln 02.05b
+\old He said to her. "Did God really say you must not eat any of the fruit in the garden?"
+\bt And the snake said to the woman, "Is it true that God said that you're not allowed to eat
+from any of the trees in the orchard?" 
+\anc Gen.03:01
+\ln 02.06
+\old And she answered, "Of course we may eat it. It's only the fruit from the tree at the center of the garden that we
+are not allowed to eat. God says we must not eat it or even touch it, or we will die."
+\bt And the woman said, "No of course not, we can eat from any of the trees that we like,
+except for the tree in the center of the garden which is the tree of the knowledge of good
+and bad cuz God says if we eat from that tree then we'll die." 
+\anc Gen.03:02, 3
+\ln 02.07
+\old "You won't die!" the snake hissed. "God knows that when you eat it you will become just like him, knowing
+everything, both good and evil."
+\bt And the snake said "Oh you won't die. God just knows that if you eat from that tree,
+you'll become just like Him, knowing everything, both good and bad. 
+\anc Gen.03:04, 5
+\ln 02.08
+\old Well, the woman was convinced. The fruit looked so fresh and delicious, and it would make her so wise! So she
+ate some of the fruit. She also gave some to her husband, who was with her. Then he ate it, too.
+\bt Well the woman was convinced, and she looked and at the tree and saw the fruit and
+saw that it look good and looked really tasty to eat. So she took some of that fruit and
+she ate it. And she gave some to the man who was also there with her.
+\anc Gen.03:06
+\ln 02.09
+\old And all of a sudden, something changed in them, and they felt shame at their nakedness. So they strung big fig
+leaves together to cover themselves.
+\bt And immediately after they ate the fruit something changed within them, and they
+realized that they were naked and they felt very ashamed. So they took some fig leaves
+and they strung them together to cover themselves. 
+\anc Gen.03:07
+\ln 02.10
+\old Toward evening they heard God walking in the garden, so they hid themselves among the trees.
+\bt And that evening as God was walking through the orchard, the man and the woman hid
+themselves in the trees.
+\anc Gen.03:08
+\ln 02.11
+\old God called to Adam, "Where are you?"
+\bt So God called out to them and said "Adam where are you?" 
+\anc Gen.03:09
+\ln 02.12
+\old Adam answered, "I heard you, so I hid. I was afraid because I was naked."
+\bt And Adam said "I heard you walking and I hid myself because I was ashamed because I
+was naked." 
+\anc Gen.03:10
+\ln 02.13
+\old And God said, "Who told you that you were naked? Have you eaten the fruit I commanded you not to eat?"
+\bt God said "Who told you that you were naked? Did you eat from the tree that I
+commanded you not to eat from?" 
+\anc Gen.03:11
+\ln 02.14
+\old And Adam said, "The woman you gave me handed me the fruit, and I ate it."
+\bt And Adam said "It's the woman that You gave me. She gave me some of that fruit and I
+ate it." 
+\anc Gen.03:12
+\ln 02.15
+\old Then God asked the woman, "How could you do such a thing?"  And she replied, "The snake tricked me. That's
+why I ate it."
+\bt So God said to the woman "How could you do such an evil thing and eat this fruit?" And
+the woman said "It's the snake. The snake tricked me and that's why I ate it." 
+\anc Gen.03:13
+\ln 02.16
+\old So God said to the snake, "Because you have done this, you will be punished. You will grovel in the dirt as long
+as you live, crawling along on your belly.
+\bt So then God said to the snake "Because you have done such an evil thing, your whole
+life you will grovel along on the ground. 
+\anc Gen.03:14
+\ln 02.17
+\old From now on, you and the woman will be enemies, and your offspring and hers will be enemies. You will strike
+his heel, but he will crush your head."
+\bt And for your whole life, you and the woman will be enemies. And your offspring and her
+offspring will be enemies. And you will strike his heel and he will crush your head."
+\anc Gen.03:15
+\ln 02.18
+\old Then he said to the woman, "You will give birth to your children with intense pain and suffering. And from now
+on your husband will be your master, even though you'll wish you were in charge."
+\bt And then God said to the woman "Because you've done such an evil thing and eaten the
+fruit that I commanded you not to eat, you will have great pains in childbirth. And your
+husband will be your master, even though you wish that you could be in charge."
+\anc Gen.03:16
+\ln 02.19
+\old And to Adam he said, "Because you disobeyed [KT: disobey] me, and listened to your wife and ate the fruit I
+told you not to eat, I have placed a curse on the ground. All your life you will struggle to scratch a living from it.
+\bt And then God said to Adam "Because you've done this evil thing and eaten from the tree
+I commanded you not to eat from and listened to your wife, your whole life you will
+struggle against the soil to get it to produce any kind of food for you.
+\anc Gen.03:17
+\ln 02.20
+\old It will grow thorns and thistles for you.
+\bt But instead it will produce thorns and thistles. 
+\anc Gen.03:18
+\ln 02.21
+\old All your life you will sweat to produce food, until your dying day. Then you will return to the ground from which
+you came. For you were made from dirt, and to the dirt you will return." And that was Adam's punishment for
+disobeying God.
+\bt Your whole life you will sweat against the ground, until you return to the ground.
+Because from the ground you were created and to the ground you will return when you
+die," 
+\anc Gen.03:19
+\ln 02.22
+\old Adam named his wife Eve, which means "living", because she would become the mother of all living human
+beings everywhere.
+\bt (omitted)
+\anc Gen.03:20
+\ln 02.25
+\old And then God made clothes for Adam and Eve from animal skins.
+\bt And then God made for Adam and Eve, clothes out of animal skins to cover themselves.
+\anc Gen.03:21
+\ln 02.26
+\old And he said, "The man and woman have become like me, knowing both good and evil. I can't let them eat the
+fruit of the Tree that gives Life because then they will live forever!"
+\bt And God said "Since they've eaten this fruit I can't allow them to continue living in the
+orchard where the Tree of Life is." 
+\anc Gen.03:22
+\ln 02.27
+\old So the LORD God banished Adam and his wife from the garden.
+\bt So God took them out of the orchard,
+\anc Gen.03:23
+\ln 02.28
+\old And he stationed powerful spirit beings, and a flaming sword flashing back and forth, guarding the way to the
+Tree that gives Life.
+\bt and he placed powerful spirit beings at the entrance to the orchard, and placed a great
+sword that flashed back and forth to guard the entrance.  
+\anc Gen.03:24
+\dt 20/Nov/2008
+
+\c 03
+\t ELIJAH 
+\ver DE, 2008-09
+\co Animist Set
+\co Redemptive Theme:  Continues the theme of "Victor", at this point showing God as more powerul than
+evil spirits / other gods.  Shows evil spirits attempting to thwart God and lead people astray.
+\co Basic biblical concepts: God as powerful, almighty (more powerful than any other god or spirit); God
+requiring obedience to him and disobedience / worshipping false god considered as evil / sin.
+\co Selection issues:  Depending on the context and the worldview issues involved a different story may be
+used here, e.g. Balaam as shaman (Num 22, 23:1-8,19-26, 25:1-9, 31:1-3,7-9,15-16); or Job excerpts;
+or Witch of Endor.
+\ln 03.01
+\old Adam and Eve eventually had children and over time the world was populated.
+\bt And so Adam and Eve had children. And their children had children, until their
+descendants populated the whole earth. 
+\anc Gen.04:01 -2, Gen.05 -10 TRANSITION & BACKGROUND
+\ln 03.02
+\old But some of their descendents got farther and farther from God.
+\bt And some of these descendants began to no longer worship God or believe in God, 
+\anc 1Ki.22:52 Jeroboam son of Nebat, who had led Israel into the sin of idolatry.  
+\anc 1Ki.16:02 you have followed the evil example of Jeroboam. You have aroused my anger by causing my people
+to sin.
+\ln 03.03
+\old They worshiped idols -- what they thought were other gods. But what they were really worshiping were false
+gods,- evil spirits who work against the one true God.
+\bt but they began to worship idols or false gods. Really they were demons or evil spirits. 
+\anc 1Ki.22:52, 1Co.10:19 -20
+\anc idols were thought to be gods -- NTL Lev.17:7 (see also footnote)
+\ln 03.04
+\old So God sent his spokesman Elijah to tell people that they should worship the LORD God, and ONLY him.
+\bt And God sent a spokesman to the people to tell them to worship him and him alone. 
+\anc 1Ki.18:21 (rechronologized)
+\ln 03.06
+\old The king at that time was called Ahab.
+\bt Now about this time in that land, there was a king whose name was Ahab. 
+\anc 1Ki.16:29
+\ln 03.07
+\old Now Ahab was a very evil king. He worshiped the false god named Baal, and was leading his people away from
+God, teaching them to worship Baal. And so the people were actually trying to worship both God AND Baal.
+\bt And king Ahab was an evil evil king. And he worshiped a false god named Baal. And not
+only that, he taught his people to worship Baal as well, so that the people of the land
+would worship God and Baal at the same time.
+\anc 1Ki.16:29 -33, 1Ki.18:18, 21
+\ln 03.08
+\old And because Elijah was the spokesman of the LORD God, Ahab hated Elijah. In fact, he had been searching all
+over the country for him, but for several years God had helped Elijah hide from Ahab.
+\bt Now Gods spokesman in that land was named Elijah. And Ahab hated Elijah because he
+was Gods spokesman. And so he searched all over the land to try to find Elijah but God
+hid him for several years. 
+\anc 1Ki.17:03, 1Ki.18:10 
+\cn actual story begins here
+\ln 03.09
+\old But now God told Elijah to go and talk with Ahab. So Elijah came out of hiding, and sent a message to Ahab that
+he wanted to talk with him.
+\bt Well one day, God told Elijah to go and talk with Ahab. So Elijah came out of hiding and
+sent a message to king Ahab that he wanted to meet with him. 
+\anc 1Ki.18:01, 2
+\ln 03.10
+\old Well, Ahab came to see Elijah, and when he saw him, he said, "You troublemaker!"
+\bt And Ahab came quickly to the place where Elijah was. And as soon as Ahab saw him he
+said "You trouble maker." 
+\anc 1Ki.18:17
+\ln 03.11
+\old But Elijah said, "I am not the troublemaker. You are the troublemaker, for you have refused to obey God and
+have worshiped the false god Baal!
+\bt And Elijah said "I'm not the trouble maker. You're the trouble maker,because you are
+being disobedient to God and worshiping a false god. 
+\anc 1Ki.18:18
+\ln 03.12
+\old Now, gather the people at Mount Carmel. And bring along all of the priests (or shamans) of your god Baal."
+\bt Now, here's what I want you to do. Gather all the people together and meet me at Mount
+Carmel, and don't forget to bring all those priests of your god with you when you come."
+\anc 1Ki.18:19
+\ln 03.13
+\old And so Ahab did what Elijah said, and they all gathered up on Mt. Carmel.
+\bt So Ahab did what Elijah told him to do. And when the people arrived, 
+\anc 1Ki.18:20
+\ln 03.14
+\old And Elijah said to the people, "How long are you going to waver between two opinions? If the God is truly God,
+follow him! But if Baal is God, then follow him!
+\bt Elijah went out and he asked them "When are you guys going to make up your mind?
+You flip back and forth between two opinions. If Baal is god then worship him, but if the
+Lord God is god then worship Him." 
+\anc 1Ki.18:21
+\ln 03.15
+\old But the people were completely silent.
+\bt But the people were silent and didn't say anything. They were not willing to make a
+commitment one way or the other.
+\anc 1Ki.18:21
+\ln 03.16
+\old Then Elijah said to them, "I am the only spokesman of the true God who is here, but Baal has 450 priests (or
+shamans). Let's have a contest.
+\bt And so Elijah said "Ok, today we're gonna have a contest to see if Baal or God is the true
+God." 
+\anc 1Ki.18:22
+\ln 03.17
+\old Bring two bulls. The priests (shamans) of Baal may choose whichever one they wish and cut it into pieces and
+lay it on the wood of their altar, but without setting fire to it.
+\bt And so he told the people "Bring two bulls. Give one of them to the priests of Baal and
+give one of them to me. And priest of Baal, build your altar. Sacrifice your bull on your
+altar, but don't put it on fire. Don't set it alight.
+\anc 1Ki.18:23
+\ln 03.18
+\old And I will prepare the other bull and lay it on the wood on the altar, but not set fire to it.
+\bt And I will do the same thing. 
+\anc 1Ki.18:23
+\ln 03.19
+\old And they will call on their god Baal, and I will call on God.
+\anc 1Ki.18:24
+\ln 03.20
+\old And the one who answers by setting fire to the wood is the true God!"
+\bt And the god who lights the sacrifice on fire, he is the one true god."
+\anc 1Ki.18:24
+\ln 03.21
+\old And all the people agreed.
+\anc 1Ki.18:24
+\ln 03.22
+\old So the priests (shamans) of Baal prepared one of the bulls and placed it on the altar. Then they began to call on
+their god, Baal. They called to him all morning, shouting, "O Baal, answer us!"
+\bt And so, the priest of Baal took their bull and they built their altar and they put the
+sacrifice on the altar and they began to cry out "Oh Baal, Baal come hear us. Light our
+sacrifice." 
+\anc 1Ki.18:26
+\ln 03.23
+\old But there was no reply of any kind. Then they danced wildly around the altar they had made.
+\bt But there was no answer. And so all morning long they shouted and yelled and they
+danced and they tried to get Baal to light their sacrifice on fire. But there was no
+response. 
+\anc 1Ki.18:26
+\ln 03.24
+\old About noontime Elijah began mocking them. "He IS a god, isn't he? Shout louder, maybe he's deep in thought,
+or maybe he is away on a trip, or he is asleep and you need to wake him up!"
+\bt At about noontime, Elijah started to mock them and say "Your god is a god, isn't he?
+Maybe he's busy. Or maybe he's gone on a trip. Oh, I know, he's gone asleep. He's fallen
+asleep. So you've just got to shout louder and wake him up. That's what you've got to
+do." 
+\anc 1Ki.18:27
+\ln 03.25
+\old So they shouted louder, and following their normal custom, they cut themselves with knives and swords until
+the blood gushed out.
+\bt Well the priest of Baal began to shout even louder. And they took knives and they cut
+themselves, as was their custom. And blood was gushing out everywhere. 
+\anc 1Ki.18:28
+\ln 03.26
+\old They raved all afternoon, but still there was no reply, no voice, no answer.
+\bt And all afternoon they tried in this way to get Baal to answer them. But there was never
+any response. 
+\anc 1Ki.18:29
+\ln 03.27
+\old Then Elijah called to the people to HIM. He took stones to build back up the altar for God.
+\bt And so Elijah called the people to himself. And he took stones from an old altar that had
+been built to the one true god. And he built the altar up again. 
+\anc 1Ki.18:30
+\ln 03.28
+\old And then he dug a trench around the altar. and he piled wood on the altar, cut the bull into pieces, and laid the
+pieces on the wood.
+\bt And he put wood on it. And then he killed the bull and he cut it in pieces and laid it on top
+of the wood. And then he dug a trench around the altar in the dirt, in the ground. 
+\anc 1Ki.18:32 -33
+\ln 03.29
+\old Then he said, "Bring water and pour it over the offering and the wood." And he had them do it three times until
+it was drenched and even overflowed the trench.
+\bt And he told the people, "Bring water and pour over the sacrifice." And they did. And he
+said, "Go and do it again." And they brought more water and poured it over the sacrifice,
+until it was completely drenched. And the water poured down and filled up the ditch that
+was surrounding the altar. 
+\anc 1Ki.18:33 -35
+\ln 03.30
+\old And then, Elijah the spokesman of the LORD God, walked up to the altar and prayed,
+\bt And Elijah knelt there in front of the altar. 
+\anc 1Ki.18:36
+\ln 03.31
+\old "O God, prove today that you are God, and that I am your servant. Answer me so these people will know that
+you are God and that you have brought them back to yourself."
+\bt And he said, "Oh God, prove today that you are the one true God and that I am your
+servant. Answer my prayer so that your people will believe in you again and return and
+worship you." 
+\anc 1Ki.18:36 -37
+\ln 03.32
+\old Immediately lightening flashed down from the sky and burned up the sacrifice, the wood, the stones. It even
+licked up all the water in the ditch!
+\bt And instantly, lightning fell from the sky and burn up the sacrifice the wood and the
+stones and even licked the water up out of the ditch. 
+\anc 1Ki.18:38
+\ln 03.33
+\old And when the people saw it, they fell face-forward down to the ground and cried out, "God really is the one true
+God!"
+\bt And all the people that were there fell on their faces. And they cried out, "Surely, truly,
+the Lord God, He is the true God." 
+\anc 1Ki.18:39
+\ln 03.35
+\old So that day, God showed his power and proved that he was the one true God.
+\bt And that day God proved that he is the one true God by showing his power to his people.
+\anc based on 1Ki.18:39
+\dt 20/Nov/2008
+
+\c 04
+\t ZECHARIAH 
+\ver DP, 21Nov08 (shortened)
+\co Animist Set
+\co Redemptive Theme:  Continues to develop the theme of Victory over Satan -- in this story naming Satan. 
+Shows a need for someone (priest) to make things right between people and God.  
+\co Selection issues:  Like many of the other prophet "stories", this is a composite story, that is, necessarily
+a selection of passages that will be most relevant to the fulfillments seen in the Gospel stories.
+\co Cohesion:  Continues the "meaning of names" sub-theme.  In this story it is the meaning of the priest
+Jeshua's name, foreshadowing that of Jesus.
+\ln 04.01
+\bt After Elijah, some people followed God and worshiped Him. 
+\anc 1Ki.18.39; 1Ki.19:19 ff (Elisha), 1Ki.22:05, 1Ki.22:14, 1Ki.22:43, etc.
+\ln 04.02
+\bt But many of the people of Elijah's nation were disobedient to what God wanted.
+\anc 2Ki.24:18 -20, Zep.03:01 ff
+\ln 04.03
+\bt So God raised up different spokesmen to deliver his messages to his people. One of
+them was the spokesman Zechariah, who delivered messages from God to the people of
+Jerusalem, the capital city of his nation.
+\anc Zec.01:01, Zec.09:09 
+\ln 04.04
+\bt One of the messages of Zechariah was this, he said: "This message is straight from God,
+God says  ---Shout and be glad, for a day is coming when I will live among you. ---Many
+nations will join themselves to the me on that day, and they, too, will be my people.
+\anc Zec.02:10 -11 
+\ln 04.05
+\bt Later on, Zechariah had a vision that took place in heaven. 
+\anc Zec.03:01 
+\cn Heaven -- (from Translator's Handbook) The Hebrew does not state an exact location for this
+scene. Some commentators understand this to be simply heaven (Mason); others think in more
+detail of a heavenly court (Baldwin, R. L. Smith, Meyers & Meyers, Stuhlmueller [KT: 1988],
+Merrill) or even the gate of heaven (BJ and JB/ NJB in footnotes).
+\ln 04.06
+\bt In this vision he saw Jeshua, the High Priest where Zechariah was. In their language
+Jeshua's name sounded like the word for "Save" or "Rescue". His job as priest was to
+make things right between the people and God. 
+\anc Zec.03:02
+\ln 04.07
+\bt In Zechariah's vision, there was Jeshua standing in front of God's spirit messenger. And
+Jeshua's clothes were completely filthy. 
+\anc Zec.03:03 
+\ln 04.08
+\bt Standing there beside Jeshua was the ruler of the evil spirits, Satan, and he was
+accusing Jeshua of many things. 
+\anc Zec.03:01 
+\ln 04.09
+\bt But God's spirit messenger, speaking for him, said to Satan "I reject your accusations. I
+rebuke you, Satan." 
+\anc Zec.03:02 
+\ln 04.10
+\bt Then the spirit messenger commanded his associates to take away Jeshua's filthy
+clothes and give him fine new clothes.
+\anc Zec.03:04
+\ln 04.11
+\bt And he said to Jeshua, "Here's what God says to you,  'See, I have taken away your
+disobedient ways [KT: disobey].
+\anc Zec.03:04 
+\ln 04.14
+\bt You, Jeshua and the other priests with you are symbols of things to come. Soon I'm
+going to send my special servant. 
+\anc Zec.03:08 
+\ln 04.15
+\bt And I will take away all the disobedience [KT: disobey] of my people in a single day.' " 
+\anc Zec.03:09 
+\dt 20/Nov/2008
+
+\c 05
+\t BIRTH 
+\ver JP, 2007-10
+\co Animist Set
+\co Redemptive Theme:  Introduces Jesus as the "rescuer". 
+\co Worldview / selection issues:  Has an angel (spirit messenger) appearing to Joseph in a dream, as being
+something of significance and to be obeyed.
+\co Basic biblical concepts: Jesus born of a human mother, virgin.  Jesus as God's son, by being born by the
+power of God's Spirit.  
+\co Cohesion: Continues the "meaning of names" sub-theme:  Jesus' name having the same meaning as
+Jeshua, the priest in the the Zechariah story.
+\ln 05.01
+\bt Many years after Zechariah lived, there was a man named Joseph. He was part of the
+same people and nation as Zechariah and Elijah.
+\anc Transition. Mat.01:18.  
+\cn Being a descendent of David, Joseph was, of course, an Israelite like Elijah and Zechariah before
+him. 
+\cn "Son of David" omitted because previous stories in this set have not referred to David. 
+\cn "Messiah" omitted because that is not one of the themes of this set, and no OT stories in this set
+made use of it.
+\ln 05.02
+\bt He had an arranged marriage in place for him to marry a young woman from his same
+people.  Her name was Mary. But before they got married, it was discovered that she
+was pregnant.
+\anc Mat.01:18 
+\cn Left out the fact that she was pregnant by the Holy Spirit because it will be brought in by the
+angel when he tells Joseph.
+\ln 05.03
+\bt Well, Joseph knew he wasn't the father and that he shouldn't marry her. But being a
+good man, he wanted to break off the engagement quietly, so as not to disgrace her
+publicly.
+\anc Mat.01:19
+\ln 05.04
+\bt As he was thinking about this, he fell asleep, and a spirit messenger from God appeared
+to him in a dream, and said: "Joseph, do not be afraid to go ahead with your marriage to
+Mary. Because she is a virgin -- it is God's Spirit who brought it about that she is
+pregnant.
+\anc Mat.01:20
+\ln 05.05
+\bt The baby in her is a boy. And when he is born, you are supposed to name him Jesus,
+because he will save his people from their ways of disobeying God." (The name "Jesus"
+means "Savior" or "Rescuer" in their language.)
+\anc Mat.01:21 
+\cn Matt 22-23a is omitted because the story set for the OT does not have the Isaiah passage
+referred to here.
+\ln 05.07
+\bt When Joseph woke up, he did what the spirit messenger had told him to do in the
+dream. He brought Mary home to be his wife.
+\anc Mat.01:24
+\ln 05.08
+\bt But they didn't have sexual relations until the baby was born. And when he was born,
+Joseph named him Jesus.
+\anc Mat.01:25
+\dt 20/Nov/2008
+
+\c 06
+\t WHEAT & WEEDS 
+\ver NP, 2008-11 (need to change "angels" and add to line 12a)
+\co Animist Set
+\co Redemptive Theme: Presents Jesus as more powerful than demons.  Presents a summary of the Victory
+over Satan theme in parable form.  Response to the theme at this point is "being a part of God's kingdom;
+being like good seed planted in the world by Jesus."
+\ln 06.01 
+\bt When Jesus was about 30 years old....
+\anc Luk.03:23  background
+\ln 06.02
+\bt he began travelling around teaching people and also healing people
+\old he began to travel around teaching where the people gathered to worship God, telling people the Good News
+about how God rules in the world.  And he healed people who had every kind of sickness and disease.
+\anc Mat.04:23
+\ln 06.03 
+\bt He would heal people with all kinds of sicknesses. If they had epilepsy or an evil spirit or
+any kind of sickness, Jesus could always heal it.
+\old News about him spread far and wide so that the sick were soon coming to be healed from very far away. And
+whatever their illness and pain, or if they were possessed by demons, or were epileptics, or were paralyzed--he
+healed them all.  
+\anc Mat.04:24  
+\ln 06.04
+\bt And he would also go to the places where people went to learn about God and he would
+teach people there.
+\old Large crowds followed him wherever he went.
+\anc Mat.04:23 (taught in the synagogues)
+\anc Mat.04:25 (large crowds)
+\ln 06.05 
+\bt And every time he taught he used stories. He never taught people without telling them
+a story.
+\old Jesus always used stories and illustrations when speaking to the crowds. In fact, he never spoke to them
+without using these stories.
+\anc Mat.13.34 
+\ln 06.06
+\bt And one of the stories that he told was about a farmer. And this is the story. Jesus said,
+"God's kingdom, the way God rules is like a farmer who went and planted good wheat
+seed in his field.
+\old Here's one of the stories he told: "The way God rules, God's kingdom is like a farmer who planted good seed in
+his field.
+\anc Mat.13:24 
+\anc Mat.13:25 (wheat seed)
+\ln 06.07
+\bt And while this farmer was sleeping -- while everybody was sleeping at night, the
+farmer's enemy came and planted weeds in that same field.
+\old But that night as everyone slept, his enemy came and planted weeds among the wheat.
+\anc Mat.13.25  NLT <<But that night as the workers slept, his enemy came and planted weeds among the wheat,
+then slipped away.>>
+\ln 06.08
+\bt And so, when the wheat started to grow, the weeds started to grow, too.
+\old When the crop began to grow and produce grain, the weeds also grew.
+\anc Mat.13.26 
+\ln 06.09
+\bt And when the farmer's workers saw that, they went to the farmer and said, "Sir! What
+happened? We thought you planted good wheat seed in your field, and now look, there's
+weeds everywhere.
+\old The farmer's servants came and told him, 'Sir, the field where you planted that good seed is full of weeds!'
+\anc Mat.13.27
+\ln 06.10
+\bt (omit)
+\old " 'An enemy has done it!' the farmer exclaimed
+\anc Mat.13.28
+\ln 06.11
+\bt Do you want us to go and pull them up?"
+\old " 'Shall we pull out the weeds?' they asked.
+\anc Mat.13.28 NLT <<‘Should we pull out the weeds?’ they asked.>>
+\ln 06.12a
+\bt And the farmer said, "No. 
+\old "He replied, 'No, you'll hurt the wheat if you do. 
+\anc Mat.13.29
+\co NOTE: should probably add "you may damage the wheat if you do that."
+\ln 06.12b
+\bt Let's wait until harvest time. And then I'll send out my harvesters, and they'll gather up
+all those weeds and they'll throw 'em into a fire. 
+\old Let both grow together until the harvest. Then I will tell the harvesters to sort out the weeds and burn them and
+to put the wheat in the barn.'"
+\anc Mat.13:30
+\ln 06.12c
+\bt And that was the story that Jesus told.
+\anc implied in Mat.13:31 <<He gave them another parable...>>
+\cn (natural English closing)
+\ln 06.13a
+\bt After Jesus was done teaching the people, he went into a house with some of his closest
+followers. 
+\old Later, leaving the crowds outside, Jesus went into the house. His closest followers [KT: disciple] 
+\anc Mat.13.36 NLT
+\ln 06.13b
+\bt And his followers said, "Jesus, can you please explain to us the meaning of the story
+about the farmer and the wheat and the weeds and stuff?"
+\old His closest followers [KT: disciple] said, "Please explain the story of the weeds in the field."
+\anc Mat.13.36 NLT
+\ln 06.14
+\bt And Jesus said, "Ok, it's like this. I'm like the farmer. 
+\old "All right," he said. "I am like the farmer who plants the good seed.
+\anc Mat.13.37 NLT
+\ln  06.15
+\bt I planted good people in the world.
+\old The field is the world, and the good seed represents the people of God's Kingdom. 
+\anc Mat.13.38  NLT
+\ln 06.16a
+\bt But the chief of the evil spirits came and planted evil. 
+\old The weeds are the people who belong to the evil one. The enemy who planted the weeds among the wheat is
+the chief evil spirit. 
+\anc Mat.13.39 NLT
+\ln 06.16b
+\bt And just like how in the story, at harvest time 
+\old The harvest is the end of the world, and the harvesters are God's spirit messengers.
+\anc Mat.13.39 NLT
+\ln 06.17
+\bt all the weeds got gathered up and thrown into the fire, that's what'd gonna happen at
+the end of the world.
+\old "Just as the weeds are separated out and burned, so it will be at the end of the world.
+\anc Mat.13.40 NLT
+\ln 06.18
+\bt I'm gonna send out angels and they'll go and they'll gather up all the people that are
+evil-doers
+\old I will send my spirit messengers, and they will remove from my Kingdom everything that causes disobedience
+to God and all who do evil,
+\anc Mat.13.41 NLT 
+\co NOTE: should use "spirit messengers" here instead of "angels"
+\ln 06.19
+\bt and throw them into an everlasting fire.
+\old and they will throw them into the furnace and burn them. There will be great suffering.
+\anc Mat.13.42 NLT 
+\ln 06.20
+\bt But all the people that God considers to be good, will shine like the sun in God's kingdom.
+\old Then those who God considers to be good people will be glorious,  and shining, like the sun shines.
+\anc Mat.13.43 NLT 
+\ln 06.21
+\old --
+\bt And that's the story.
+
+\dt 22/Nov/2008
+
+\c 07
+\t FAITH 
+\ver JP, 2007-10
+\co Animist Set
+\co Redemptive Theme:  Jesus as Victor of evil spirits.  Response to the theme finds expression in
+demon-possessed boy's father saying "Help me have faith in you".  
+\co Worldview / selection issues:  Presents Jesus as able to "cure" someone possessed by a demon.  The
+manifestation of demon possession in this case is foaming at the mouth, being thrown into a fire, grinding
+of teeth, becoming rigid. / convulsions. If manifestation of demonization is different i a particicular receptor
+people group (e.g. shouting), a different story may be more suitable.
+\ln 07.03
+\bt One day Jesus was away with just three of his close followers [KT: disciple].
+\anc Mrk.09:02
+\ln 07.04
+\bt When he came back to join the others he saw that they were in the middle of a big
+crowd and some religious leaders were arguing with them.
+\anc Mrk.09:14
+\ln 07.05
+\bt When the crowd saw Jesus coming toward them they they ran to greet him.
+\anc Mrk.09:15
+\ln 07.06
+\bt "What is all this arguing about?" he asked.
+\anc Mrk.09:16
+\ln 07.07
+\bt One of the men in the crowd spoke up and said, "Teacher, I brought my son for you to
+heal him. He can't speak because he is possessed by a demon that won't let him talk.
+\anc Mrk.09:17
+\ln 07.08
+\bt And whenever this demon seizes him, it throws him violently to the ground and makes
+him foam at the mouth and grind his teeth and become rigid. So I asked your close
+followers to cast out the demon, but they couldn't do it."
+\anc Mrk.09:18
+\ln 07.09
+\bt Jesus said to them, "You faithless people! How long must I be with you until you
+believe? Bring the boy to me."
+\anc Mrk.09:19
+\ln 07.10
+\bt So they brought the boy. But when the demon saw Jesus, it threw the child into a violent
+convulsion, and he fell to the ground, writhing and foaming at the mouth.
+\anc Mrk.09:20
+\ln 07.11
+\bt "How long has this been happening?" Jesus asked the boy's father.
+\anc Mrk.09:21 a
+\ln 07.12
+\bt He replied, "Since he was very small.
+\anc Mrk.09:21 b
+\ln 07.13
+\bt The demon often makes him fall into the fire or into water, trying to kill him. Have mercy
+on us and help us. Do something if you can."
+\anc Mrk.09:22
+\ln 07.14
+\bt "What do you mean, 'If I can'?" Jesus asked. "Anything is possible if a person believes."
+\anc Mrk.09:23
+\ln 07.15
+\bt The father instantly replied, "I do believe, but help me not to doubt!"
+\anc Mrk.09:24
+\ln 07.16
+\bt When Jesus saw that the crowd of onlookers was growing, he rebuked the demon.
+"Demon of deafness and muteness," he said, "I command you to come out of this child
+and never enter him again!"
+\anc Mrk.09:25
+\ln 07.17
+\bt Then the demon screamed and threw the boy into another violent convulsion and left
+him. The boy lay there motionless, and he appeared to be dead. A murmur ran through
+the crowd, "He's dead."
+\anc Mrk.09:26
+\ln 07.18
+\bt But Jesus took him by the hand and helped him to his feet, and he stood up.
+\anc Mrk.09:27
+\ln 07.19
+\bt Afterward, when Jesus was alone in the house with his friends, they asked him, "Why
+couldn't we cast out that demon?"
+\anc Mrk.09:28
+\ln 07.20
+\bt Jesus replied, "This kind can be cast out only by prayer."
+\anc Mrk.09:29 
+\cn "and fasting" is omitted by the majority of modern editions of the Greek text.
+\ln 07.21
+\bt Not long after that, they left that area and traveled on to another place. Jesus didn't
+want anyone to know he was there, because he wanted to spend more time with his
+followers and teach them. He said to them, "I am going to be betrayed and handed over
+to my enemies. I'll be killed, but three days later I'll come back to life." 
+\anc Mrk.09:30- 31
+\ln 07.22
+\bt But his followers didn't really understand what he was saying, and they were afraid to
+ask him what he meant.
+\anc Mrk.09:32
+\dt 20/Nov/2008
+
+
+\c 08
+\t STRONG MAN
+\ver JP (need to record)
+\co Animist Set
+\co Redemptive Theme:  Uses the brief parable of the "Strong man" to illustrate the redemptive theme of
+Jesus coming to earth to defeat the power of Satan.  
+\co Purpose:   Uses the context of Jesus casting out a demon to set up the conflict between the religious
+leaders and Jesus, and the religious leaders wanting to get rid of Jesus.  
+\ln 08.01
+\bt One day Jesus was with a crowd of people, and there was a demon possessed man
+there. He was mute -- the demon made it so that he couldn't speak.  Well, Jesus
+commanded the demon to come out and the man started to talk!  
+\anc Luk.11:14, Mat.12:22
+\ln 08.02
+\bt The crowd was amazed, and said "Could he be the One God promised to send?" 
+\anc Mat.12:23
+\ln 08.03
+\bt But the religious leaders who were there, said, "Ha! it's no wonder he can cast out
+demons. He gets his power from the RULER of demons!"
+\anc Luk.11:15 
+\anc Mat.12:22 (religious leaders)
+\ln 08.04
+\bt Jesus knew what they were thinking, so he gave them several illustrations to show that
+that was a ridiculous accusation. Some of the illustrations were these:
+\anc Luk.11:17 
+\anc Mat.12:25 (ridiculous charge) Deibler's Index of implicit information <<to show them that to say he was casting
+out evil spirits by Satan's power was a ridiculous charge, he said to them, … [communicator intent and/or
+explication of metaphor]>>
+\ln 08.05
+\bt He said, "A kingdom which makes war against itself, can't win!  And if Satan fights
+against himself, his kingdom is doomed."
+\anc Luk.11:18
+\ln 08.06
+\bt And then he said, "Think about a strong man. When a strong man guards his own house,
+and he's got his weapons ready, then all his posessions are safe. 
+\anc Luk.11:21 
+\ln 08.06
+\bt But when a stronger man comes along, he can attack him and overpower him. He strips
+him of all the weapons he was depending on, and carries off his posessions and gives
+them to his companions.
+\anc Luk.11.22 
+\ln 08.07
+\co MEANING (but don't make explcit): So you see, I cast out Satan's demons because I am stronger than
+Satan.
+\anc Luk.11.22 Translator's Notes <<11:22d (Implied:) In the same way, I have defeated Satan, and that is why I
+am able to make his evil spirits leave people.)
+\anc Luk.11.22 Deibler's Index of implicit information <<Similarly my casting out evil spirits proves my power is
+greater than Satan's [explication of metaphor]>>
+\ln 08.08
+\bt There's no middle ground. Either you're with me or you're against me.
+\anc Luk.11.23
+\ln 08.09
+\bt If you're not helping me gather, you're actually scattering!"
+\anc Luk.11:23
+\dt 28/Nov/2008
+
+
+\c 09
+\t JUDAS' BETRAYAL
+\ver JP, 2008-11 (removed last 2 lines)
+\co Animist Set
+\co Redemptive Theme:  Portrays the role of Satan in trying to get rid of Jesus, and  has Jesus saying this
+was "the time when the power of darkness reigns, but at the same time that "the ruler of this world will
+be overthrown".
+\co Cohesion:  Thirty coins that Judas is paid, and tries to return, thrown to the temple, cohesive with the
+Zechariah prophecy mentioning throwing the thirty pieces of coin to the potters at the temple.
+\co Cohesion:  Power of darkness mentioned, related to Death story having darkness for 3 hours.
+\ln 09.01
+\old Later on, Jesus was teaching the people every day in the temple area, but the religious leaders began planning
+how to kill him. But they couldn't think of a way to do it, because all the people hung on every word he said. 
+\anc Luk.19:47 -48
+\ln 09.02
+\old Once during this time when he was teaching, he said:  Now I am very troubled. Should I pray, 'Father, save me
+from what lies ahead'? But that is the very reason why I came! 
+\anc Jhn.12:27 
+\ln 09.03
+\old Father, do what will cause people to honor you." Then a voice spoke from heaven, saying, "I have already done
+this, and I will do it again." 
+\anc Jhn.12:28 
+\ln 09.04
+\old When the crowd heard the voice, some thought it was thunder, while others declared one of God's spirit
+messengers had spoken to him. 
+\anc Jhn.12:29 
+\ln 09.05
+\old Then Jesus told them, "The voice was for your benefit, not mine. 
+\anc Jhn.12:30 
+\ln 09.06
+\old The time of judgment for the world has come, when the ruler of this world will be overthown. And when I am
+lifted up from the earth, I will draw everyone to myself." 
+\anc Jhn.12:31 
+\ln 09.10
+\bt By now, the religious leaders were still actively plotting Jesus' murder. But they wanted
+to kill Jesus without starting a riot, a possibility they greatly feared. 
+\anc Luk.22:02  
+\ln 09.11
+\bt Then Satan entered into Judas, who was one of the twelve who were Jesus' closest
+followers [KT: disciple], 
+\anc Luk.22:03 
+\ln 09.12
+\bt and he went over to the leading religious leaders to discuss the best way to betray
+Jesus to them.  
+\anc Luk.22:04 
+\ln 09.13
+\bt He said: "How much will you pay me to betray Jesus to you?" And they gave him thirty
+pieces of silver. 
+\anc Mat.26:15 
+\ln 09.14
+\bt So he began looking for an opportunity to betray Jesus so they could arrest him quietly
+when the crowds weren't around.
+\anc Luk.22:06 
+\ln 09.15
+\bt Then later at  night Jesus and his closest followers [KT: disciple] went up to a certain
+grove where they would usually go. 
+\anc Luk.22:39 (need pray)
+\ln 09.16
+\bt And while Jesus was praying, there came Judas with some soldiers to show them which
+one was Jesus. 
+\anc Luk.22:47
+\ln 09.17
+\bt Jesus knew what was happening and said "Am I some kind of dangerous criminal, for
+you to come with these weapons? 
+\anc Luk.22:52 
+\ln 09.18
+\bt Why didn't you arrest me when I was teaching? I was in public at the temple doing that
+every day. But this is your moment, the time when the power of darkness reigns." 
+\anc Luk.22:53 
+\ln 09.19
+\bt And then they arrested Jesus and they took him to the house of their High Priest. 
+\anc Luk.22:54 
+\ln 09.21
+\bt and he was questioned there.  
+\anc Luk.22:71  
+\ln 09.22
+\bt Early in the morning, all the religious leaders came to the decision to put Jesus to death.
+\anc Mat.27:01
+\ln 09.23
+\bt They tied him up, led him away and handed him over to Pilate, the governor of the area.
+\anc Mat.27:02
+\ln 09.24
+\bt When Judas saw that Jesus was condemned to death, he began to feel terrible, and
+tried to return the thirty silver coins to the religious leaders.
+\anc Mat.27:03
+\ln 09.25
+\bt "I have done wrong [KT: disobey]," he said, "for I have betrayed an innocent man."
+"Who cares?" they said. "That's your problem."
+\anc Mat.27:04
+\ln 09.26
+\bt So Judas threw the money into the temple and left. Then he went away and hanged
+himself.
+\anc Mat.27:05
+\ln 09.27
+\old The chief priests picked up the coins and said, "It is against the law to put this into the treasury, since it is blood
+money."
+\anc Mat.27:06
+\ln 09.28
+\old So they decided to use the money to buy the potter's field as a burial place for foreigners. 
+\anc Mat.27:07
+\dt 29/Nov/2008
+
+\c 10
+\t DEATH 
+\ver JP, 2008-11 (removed some of the mocking)
+\co Animist Set
+\co Basic biblical concepts: Jesus dies.  Jesus forgives (even those who crucified him).
+\co Selection issues:  Luke was chosen as the primary passage for this story as it is the shortest and
+simplest of the Gospel portrayals for this sequence. If the story still seems to be too long, the mention of
+or portions about the criminals in v24ff could be omitted.
+\ln 10.07
+\bt Well, they had just finished questioning Jesus at the house of the religious leader, 
+\anc Transition summarizing previous story from Luk.22:66- 71
+\ln 10.08
+\bt and so they took him over to Pilate, the governor of the area,
+\anc Luk.23:01 
+\cn Omits Roman in this short set (in this line and the next), in order not to have several new names.
+\ln 10.09
+\bt And when they got there, they told Pilate "This man has been leading our people to rebel
+against the government. He tells them not to pay their taxes.  He even says he is the
+king." 
+\anc Luk.23:02 
+\cn Omits "...of the Jews", because the short story set does not build background for the people being
+called Jews.
+\ln 10.10
+\bt So Pilate asked him, "Are you a King...?"   But among the things Jesus said in the
+conversation with Pilate was:  "My kingdom isn't of this world".
+\anc Luk.23:03, Jhn.18:36 (my kingdom isn't of this world) 
+\cn Omits Luk.23:4-12 Herod episode, in order to keep the story to a size that can be remembered
+and told.
+\ln 10.12
+\bt Then Pilate called together the religious leaders and all the people, 
+\anc Luk.23:13 
+\ln 10.13
+\bt and he announced his sentence. He said, "You brought this man to me, accusing him of
+leading a revolt. I have questioned him and find him innocent.
+\anc Luk.23:14 
+\cn Omits Luk.23:15a regarding Herod, see comment on v10 above.
+\ln 10.14
+\bt He hasn't done anything that would call for him to be put to death. I'll have him
+whipped, but then I'm going to let him go free."
+\anc Luk.23:15 b-16
+\ln 10.15
+\bt But then the crowd began shouting: "Execute him! Execute him!" 
+\anc Luk.23:18 
+\cn Omits Barabbas section (v18b-19), so as to keep the story from being too long to remember. It
+would require even more background for it to be clear why the crowd would bring up the release
+of Barabbas at this point.
+\ln 10.16
+\bt Pilate argued with them, because he wanted to release Jesus. But they kept shouting:
+"Execute him! Execute him!"
+\anc Luk.23:20 -21 
+\ln 10.17
+\bt For the third time Pilate tried to reason with them, he said: "Why execute him? I haven't
+seen any reason that he should be put to death.  I'll just have him whipped and let him
+go.
+\anc Luk.23:22 
+\ln 10.18
+\bt But the crowd shouted louder and louder.  So Pilate did what they wanted and
+sentenced Jesus to die. 
+\anc Luk.23:23 -24 
+\ln 10.19
+\bt Some of the soldiers led Jesus into their headquarters and called all the other soldiers
+together. And they began to mock him. 
+\anc Mat.27:27 
+\ln 10.20
+\bt (omitted, to simplify story)
+\old They took of fhis outer clothes and put a beautiful robe on him like a king would wear. 
+\anc Mat.27:28
+\ln 10.21
+\bt (omitted, to simplify story)
+\old And they took some branches with long, sharp thorns, made into something that looked like a crown, and put it
+on his head. And they put a stick in his right hand as if it were his elegant gold scepter. And they were mocking
+him: "Your majesty! Hail, King!"
+\anc Mat.27:29
+\ln 10.22
+\bt (omitted, to simplify story)
+\old And they spit on him and grabbed the stick from his hand beat him on the head with it.
+\anc Mat.27:30
+\ln 10.23
+\old When they got bored mocking him like that, they took off the robe and put his own clothes on him again. Then
+they took him away to where they would carry out the execution.
+\bt When they got bored mocking him they took him away to where they would carry out
+the execution.
+\anc Mat.27:31 NLT "When they were finally tired of mocking him,..."
+\ln 10.24
+\bt They took him along with two guys who were criminals--and they took them to a hilltop
+called The Skull so all three of them could be executed there. 
+\anc Luk.23:32-33 
+\ln 10.25
+\bt They put Jesus on a pole with a crossbeam. They pounded nails through his hands and
+his feet, and then lifted the pole upright up from the earth. And there Jesus hung--it was
+a horrible torture.  And the two criminals were hanging on either side of him.
+\anc Luk.23:33 b 
+\cn Unpacks the term "crucify". 
+\ln 10.26
+\bt But while he was hanging there--suffering, he said, "Father, forgive these people,
+because they don't realize what they are doing." 
+\anc Luk.23:34 a 
+\cn Omits the gambling for his clothes and the immediately following section, as this is already a very
+long story, and since the set doesn't include the OT prophecies related to this.
+\ln 10.27
+\bt One of the criminals hanging there with Jesus said: "If you really are the promised king,
+prove it! Save yourself, and us too."
+\anc Luk.23:39
+\ln 10.28
+\bt But the criminal on the other side said: "Don't you have any respect for God, even now
+when you are about to die?
+\anc Luk.23:40
+\ln 10.29
+\bt We're getting what we deserve, but this man hasn't done anything wrong."
+\anc Luk.23:41 
+\ln 10.30
+\bt Then he said: "Jesus! Remember me when you are king!" And Jesus said: "You know
+what? Today you'll be with me in the place of happiness."
+\anc Luk.23:42 -43
+\ln 10.31
+\bt When it was noon, the sky turned dark, and it stayed dark until 3:00. 
+\anc Luk.23:44 -45a 
+\cn 45b regarding the tearing of the temple veil is omitted because no background has been built for
+this
+\ln 10.32
+\bt And then Jesus shouted, "Father, I put my spirit in your hands!" And then....he died.
+\anc Luk.23:46
+\ln 10.33
+\bt Then some of Jesus' followers came and took his body and placed it in a tomb and a
+huge stone was rolled in front of the opening. 
+\anc Luk.23:50 -53; Luk.24:02 
+\cn This part is summarized and drawn from the next chapter (24) in order not to introduce more new
+names, provide the background for the next story, and to keep the story short.
+\dt 20/Nov/2008
+
+\c 11
+\t RESURRECTION
+\ver JP, 2008-11 (cut lines 20-32)
+\co Animist Set
+\co Redemptive Theme:  Jesus presented as the one who broke the power of Satan and rescued people from
+him, delivers from the fear of death, and now has absolute power of all spirit beings.
+\co Basic biblical concepts: Jesus rises from the dead.  Forgiveness of sins for those who repent.  Ascension. 
+Promise of Jesus' return.
+\co Worldview issues:  Disciples think Jesus is a ghost, Jesus invites them to touch him, and eats in front of
+them showing he's not just a ghost.
+\ln 11.02
+\bt On the third day after Jesus died, some women who also were his followers went to the
+tomb with spices to put on the body as was their custom. 
+\anc Luk.23:55 -56, Luk.24:01 
+\ln 11.03
+\bt When they got there they were shocked to see that the huge stone had been moved
+away. 
+\anc Luk.24:02 -5
+\ln 11.04
+\bt So, they went inside and saw that the place where the body had been laid was empty.
+The body was gone.
+\anc Luk.24:03 
+\ln 11.06
+\bt As they stood there were wondering what might have happened, and two men in
+dazzling clothes suddenly appeared before them. 
+\anc Luk.24:04 
+\ln 11.07
+\bt The women were terrified! The men said, "Why are you looking in a tomb for someone
+who is alive?  Jesus isn't here; he's come back to life!" 
+\anc Luk.24:05
+\ln 11.08
+\bt Don't you remember what he told you, that He would be executed, but that afterward he
+would come back to life. 
+\anc Luk.25:06 -7 
+\ln 11.09
+\bt Well, then the women DID remember and they rushed from the tomb to go find the other
+followers of Jesus and tell them and everyone else. 
+\anc Luk.24:08 -9
+\ln 11.10
+\bt When they found them, they exclaimed, "Jesus' body is not there. He is alive! We've
+seen spirit messengers from God who told us" 
+\anc Luk.24:09, Luk.24:23 
+\cn Omiting v10 identifying women so as not to introduce many names in the oral story.
+\ln 11.11
+\bt But most of the other followers wouldn't believe them. They said, "What are you talking
+about? That's nonsense."
+\anc Luk.24:10 b-11
+\ln 11.12
+\bt However, one of them, the one called Peter, ran to the tomb to look. He saw the cloth
+that had been wrapped around Jesus' body lying there, but it was empty. So he went
+back again wondering what was going on.
+\anc Luk.24:12
+\cn Omits the Emmaus Road episode in order to keep the story a length that could be readily
+remembered and told.
+\ln 11.13
+\bt A little later  Jesus followers were talking about this, when suddenly Jesus himself
+appeared in front of them and greeted them.
+\anc Luk.24:36 
+\ln 11.14
+\bt And they were really scared. They thought they were seeing a ghost. 
+\anc Luk.24:37 
+\ln 11.16
+\bt Well, Jesus said to them, "Don't be afraid. It's really me. Come, look at my hands and
+my feet. Touch me and see that I'm not a ghost." 
+\anc Luk.24:38 -39 
+\ln 11.17
+\bt And he held out his hand for them to see, and showed them his feet.
+\anc Luk.24:40
+\ln 11.18
+\bt Well, they were so happy to see him but they could hardly believe that he was standing
+there in front of them. 
+\anc Luk.24:41 a
+\ln 11.19
+\bt So He said to one of them, "Do you have any food?" And they gave him a fish and he ate
+it there in front of them. 
+\anc Luk.24:41 b-43
+\ln 11.20
+\old For the next 40 days, he appeard to his followers several times and taught them and explained the things they
+didn't understand.
+\anc Act.01:03  
+\ln 11.21
+\old He said to them "When I was with you before, I told you that the messages about me from God's spokesmen
+had to come true.
+\anc Luk.24:44
+\ln 11.22
+\old The promised one had to suffer, and die, and then rise again.
+\anc Luk.24:46
+\ln 11.23
+\old You are the ones who have actually seen it, so tell others. Go. Tell everyone from every nation about about it.
+Start here in Jerusalem. 
+\anc Luk.24:48, 47
+\ln 11.24
+\old Tell them they will be forgiven for having disobeyed God if they turn to me.
+\anc Luk.24:47
+\ln 11.25
+\old And I will send you the Holy Spirit to fill you with power from heaven." 
+\anc Luk.24:49 
+\cn Omits part about "stay in the city", since in this short BBWV story set, the pentecost story from
+Acts is not included
+\ln 11.27
+\old On the last day he was with them, as he was reminding them of these things, all of the sudden he started rising
+into the sky while they were watching, and he disappeared into a cloud.
+\anc Act.01:08 -9  
+\ln 11.28
+\old As they were straining their eyes to see him, two white-robed men suddenly stood there among them. 
+\anc Act.01:10 
+\ln 11.29
+\old They said, "Jesus has been taken away from you into heaven. And someday, just as you saw him go, he will
+return!" 
+\anc Act.01:11 
+\ln 11.30
+\old And so Jesus took his place next to God as the one who has authority over every spirit being and every
+physical being. 
+\anc Mrk.16:19; Eph.01:20- 21 
+\cn Mark 16 is suggestive of including this piece at the end of the resurrection story. The thoughts
+from the Eph passage are given to further flesh out the notion in a way that addresses the Victor
+over Satan theme
+\ln 11.31
+\old God rescued us from the one who rules in the kingdom of darkness, and brought us into the kingdom of his
+dear Son.
+\anc Col.01:13 
+\cn Response to redemptive theme finds expression in Col 1:13 (rescued us from the one who rules in
+the kingdom of darkness and brought us into tthe kingdom of his dear Son),
+\ln 11.32
+\old He broke the power of Satan, and delivered us from the fear of dying.
+\anc Heb.02:14 -15
+\dt 20/Nov/2008
+
+\c 12
+\t ACTS
+\ver TS, 2008-11 (need to change "angels")
+\co Animist Set
+\co Reason for having this story in the set 
+\co Acts 2:40-47 (the growth of the church), and Acts 8:1-25
+\ln 12.01
+\bt After Jesus rose from the dead, he spent time with his followers for a little over a month.
+\anc Act.01.01
+\cn
+\ln 12.02
+\bt One of the times Jesus was with them he told them that he would send the Holy Spirit to
+them.
+\anc Act.01.05
+\ln 02.03
+\bt He told them he wanted them to tell people in their towns, the towns allaround them
+and even to the whole world to tell them about him and what he had done. 
+\anc Act.01:07
+\ln 12.04
+\bt After he had finished telling them that, Jesus just started going up into the couluds and
+pretty soon he disappeared. 
+\anc Act.01:09
+\ln 12.05
+\bt And his followers were just standing there staring at the clouds. When two angels
+appeared and the angels siad to Jesus' followers, "Why are you staring at the clouds?
+Jesus will come back in the same way he left."
+\anc Act.01:10-11
+\co NOTE: should use "spirit messengers" here instead of "angels"
+\ln 12.06
+\bt A few years later there was a man named Paul.
+\anc
+\ln 12.07
+\bt And he became a follower of Jesus. God did amazing things through Paul. 
+\anc Act.09:19 ,20 ,act.19:11
+\ln 12.08
+\bt In one city people would bring pieces of cloth or small pieces of clothing and touch paul
+with the cloth. Then they would take the pieces fo cloth and touch a sick person. The sick
+people would get well, they would be completely well and evil spirits would leave them. 
+\anc Act.19:12
+\ln 12.09
+\bt In this city there was a religious leader and he had seven sons. 
+\anc Act.19:14 
+\ln 12.10
+\bt One day these brothers went to a man with an evil spirit and said to the man, "In the
+name of Jesus who Paul teaches about, we command you to leave."
+\anc Act.19:13 -14
+\ln 12.11
+\bt Well, the evil spirit didn't leave the man, instead he started to talk to tham. And the evil
+spirit said, "I know Jesus and I've heard of Paul, but who are you?"
+\anc Act.19:15
+\ln 12.12
+\bt And the evil spirit just started attacking these men and he over took all seven of the
+men and he beat them up really badly. They were lucky to escape with their lives. When
+they left the house, they were bleeding and naked. 
+\anc Act.19:16
+\ln 12.13
+\bt Well, the whole city heard about this and they were afraid. But soon people began to
+believe. They would come to Paul and tell him all the bad things they had done. 
+\anc Act.19:17 -18
+\ln 12.14
+\bt There were a lot of people there who did evil magic. And those people began to believe
+too. And they began to bring the books that told how to do this evil magic. And they built
+a fire with these books. It was a huge fire and some one figured out that it would take
+two life times to earn enough money to pay for those books. 
+\anc Act.19:19
+\ln 12.15
+\bt Well, eventually Paul left that area. He wrote a letter back to them.
+\anc Act.20:01  Eph.01:01
+\ln 12.16
+\bt One of the things he said in this letter was that it was the power of God that raised Jesus
+from the dead and that Jesus was ruling right beside his father and that Jesus had
+power over all the demons and angels in the world. And that there is no power stonger
+than his. 
+\anc Eph.01:20
+\co NOTE: should use "spirit messengers" here instead of "angels"
+\ln 12.16
+\bt In another letter that Paul worte to another group of people 
+\anc Col.01:01 02
+\ln 12.17
+\bt hesiad, "Jesus has delivered you from the kingdom of spiritual darkness and he's
+brought you into his own heavenly kingdom. 
+\anc Col.01:13
+
+\dt 22/Nov/2008
+
+\c 12b
+\t Ascension Song
+\ver AP, 2008-09
+\co Adam Payne
+\play Ascension song.mp3
+\play C:\OneStoryProjects\Animist\Ascension song.mp3
+\co Animist Training Set -- Sept08
+
+\ln 13.01
+\bt Jesus ascended, He took his place next to God as the one with authority over every
+spirit and every physical being.
+\anc Mrk.16:19; Eph.01:20- 21 
+\cn Mark 16 is suggestive of including this piece at the end of the resurrection story. The thoughts
+from the Eph passage are given to further flesh out the notion in a way that addresses the Victor
+over Satan theme
+\ln 13.02
+\bt God rescued us from the one who rules in the kingdom of darkness, and brought us into
+the kingdom of his dear Son.
+\anc Col.01:13 
+\cn Response to redemptive theme finds expression in Col 1:13 (rescued us from the one who rules in
+the kingdom of darkness and brought us into tthe kingdom of his dear Son),
+\ln 13.03
+\bt He broke the power of Satan and delivered us from fear of dying (x2)
+\anc Heb.02:14 -15
+\ln 13.04
+\bt Jesus ascended, He took his place next to God as the one with authority over every
+spirit and every physical being
+\anc Mrk.16:19; Eph.01:20- 21 
+\dt 20/Nov/2008

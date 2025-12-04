@@ -1,0 +1,187 @@
+\+ShProjectSettings 
+\ver 5.0
+\ProgramVersion 1.5.4c Dec 2008
+\ProjectPath C:\Alan\ToolboxC\Toolbox New Project\Settings\Toolbox Project.prj
+\LockProject 0
+\AutomaticKeyboardSwitching
+\+CorpusSet 
+\WordLstCorpus Text
+\WordLstLimitCount
+\WordLstMaxCount 10
+\ConcordanceCorpus Text
+\ConcordanceSearch sæmpl̩
+\ConcordanceSearchType 3
+\ConcordanceLimitCount
+\ConcordanceMaxCount 1000
+\ConcordanceOutput Concordance.db
+\+Corpus Free translation
+\FilesList C:\Alan\ToolboxC\Toolbox New Project\Texts.txt
+\lng English
+\WordMarkers \ft
+\BookMarker \ref
+\WordIndex C:\Alan\ToolboxC\Toolbox New Project\Freetran.wi
+\WordListOutput wordlistft.db
+\-Corpus
+\+Corpus Text
+\FilesList C:\Alan\ToolboxC\Toolbox New Project\Texts.txt
+\lng vernacular
+\WordMarkers \tx
+\BookMarker \ref
+\WordIndex C:\Alan\ToolboxC\Toolbox New Project\Text.wi
+\WordListOutput wordlist.db
+\-Corpus
+\-CorpusSet
+\LangCtrlHeight 24
+\DontValidateOnEdit
+\+fntMarkers 
+\Name MS Sans Serif
+\Size 10
+\-fntMarkers
+\+rundosMarkers 
+\-rundosMarkers
+\placementMain normal -1 -1 -1 -1 0 0 800 635
+\+dblst 
+
+\+db C:\Alan\ToolboxC\Toolbox New Project\Dictionary.txt
+\+wndlst 
+\+wnd 
+\placement normal 480 437 -1 -1 152 294 536 519
+\z 1
+\ViewMarkers
+\ViewFieldNames
+\widthMarkerArea 134
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr lx
+\width 157
+\-brf
+\+brf 
+\mkr ps
+\width 40
+\-brf
+\+brf 
+\mkr ge
+\width 155
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey lx
+\srtPriKey abcde
+\mkrSecKey hm
+\-ind
+\+rec 
+\fldPriKey
+\fldSecKey
+\-rec
+\+keySearch 
+\fldPri sample
+\match_char p
+\-keySearch
+\+keyInsert 
+\fldPri sample
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 3
+\CaretLineScroll 3
+\CaretChar 0
+\-wnd
+\+wnd 
+\placement normal -1 -1 -1 -1 2 294 157 519
+\z 0
+\ViewMarkers
+\ViewFieldNames
+\widthMarkerArea 124
+\Browse
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr lx
+\width 137
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey lx
+\srtPriKey abcde
+\mkrSecKey hm
+\-ind
+\+rec 
+\fldPriKey
+\fldSecKey
+\-rec
+\+keySearch 
+\fldPri sample
+\match_char p
+\-keySearch
+\+keyInsert 
+\fldPri sample
+\MatchWhole
+\match_char p
+\-keyInsert
+\-wnd
+\-wndlst
+\-db
+
+\+db C:\Alan\ToolboxC\Toolbox New Project\Texts.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 -1 -1 788 296
+\z 2
+\ViewMarkers
+\widthMarkerArea 34
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr ref
+\width 96
+\-brf
+\+brf 
+\mkr tx
+\width 304
+\-brf
+\+brf 
+\mkr ft
+\width 357
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey ref
+\srtPriKey English
+\-ind
+\+rec 
+\fldPriKey
+\-rec
+\+keySearch 
+\match_char p
+\-keySearch
+\+keyInsert 
+\fldPri sample 2
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 1
+\CaretLineScroll 1
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\-dblst
+\+Find 
+\match_char p
+\+ftxlst 
+\-ftxlst
+\-Find
+\AmbigBoxLeft 0
+\AmbigBoxTop 20
+\-ShProjectSettings

@@ -1,0 +1,58 @@
+\_sh v3.0  245  KeyTermsDic
+\_DateStampHasFourDigitYear
+
+\r angel
+\wrd spirit being, good spirit, powerful spirit
+\use Instead of using greek-based term like
+"angel", this story set uses a set of more
+generic expressions more likely to be
+helpful in thinking through key term issues
+in a language and cultural setting and
+language where key biblical terms may
+not yet have been thoroughly processed.  
+\ref In 01.03, at the beginning of the panorama a generic expression
+"spirit beings" is used.
+\dt 19/Nov/2008
+
+\r demon
+\use also called "evil spirit"
+\ref Introduced in story 01 as spirit beings who
+rebelled against God, turned to evil, and
+now work in opposition to him.
+\dt 19/Nov/2008
+
+\r disciple
+\wrd close follower; closest followers (of Jesus)
+\dt 11/Jan/2007
+
+\r disobey
+\wrd sin, done wrong
+\use See Key Biblical Terms document in TW (Translator's Workplace),
+where the first sense of "sin" is described as "A specific act or acts
+of wrongdoing, disobeying (any of) God's laws"
+\ref In story 1, the fallen angels are described as "disobeying" God, in
+relation to 2Pe.02.04 saying they "sinned".  (They are also
+described as turning to evil, and becoming evil spirits).  Story
+02.19 uses the term to characterize what Adam did.
+\dt 11/Jan/2007
+
+\r God
+\use Generally use "God", rather than "Lord" or "LORD / YHWH"
+\dt 11/Jan/2007
+
+\r religious leader
+\use scribe, teacher of the law, pharisee
+\dt 11/Jan/2007
+
+\r spokesman
+\use prophet; See Key Biblical Terms document in TW (Translator's
+Workplace), where prophet is defined as "...someone who speaks a
+message on behalf of God, a spokesman for God".
+\dt 11/Jan/2007
+
+\r worshipped
+\wrd
+\use
+\why
+\ref
+\dt 27/Nov/2008

@@ -1,0 +1,449 @@
+\+ShProjectSettings 
+\ver 5.0
+\ProgramVersion 1.5.4b Oct 2008
+\ProjectPath L:\Pahari\Storying\CLS Recurrency\Recurrency.prj
+\LockProject 0
+\AutomaticKeyboardSwitching
+\+CorpusSet 
+\WordLstMaxCount 10
+\ConcordanceSearchType 3
+\ConcordanceLimitCount
+\ConcordanceMaxCount 1000
+\ConcordanceOutput lookup.db
+\-CorpusSet
+\LangCtrlHeight 24
+\+fntMarkers 
+\Name MS Sans Serif
+\Size 8
+\charset 00
+\-fntMarkers
+\+rundosMarkers 
+\-rundosMarkers
+\placementMain max -1 -1 -1 -1 0 0 1277 770
+\+dblst 
+
+\+db L:\Pahari\Storying\CLS Recurrency\L&CNotes.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 668 505 956 668
+\z 0
+\ViewMarkers
+\widthMarkerArea 33
+\Browse
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr r
+\width 270
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey r
+\srtPriKey International
+\-ind
+\+rec 
+\fldPriKey keyterm or word
+\-rec
+\+keySearch 
+\fldPri Who do you think was given/ordered that human to eat fruit with center garden there?
+\match_char p
+\-keySearch
+\+keyInsert 
+\fldPri God
+\MatchWhole
+\match_char p
+\-keyInsert
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\NETBIBLE.TXT
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 0 502 669 669
+\z 5
+\ViewMarkers
+\widthMarkerArea 34
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr v
+\width 651
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey v
+\srtPriKey Book References
+\-ind
+\+rec 
+\fldPriKey mrk.10:16 After he took the children in his arms, he placed his hands on them and blessed them.
+\-rec
+\+keySearch 
+\fldPri 03.01
+\match_char p
+\-keySearch
+\+keyInsert 
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 24
+\CaretLineScroll 0
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\CLS Recurrency\RecurrencyConNotes.TXT
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 623 -1 1274 504
+\z 6
+\ViewMarkers
+\widthMarkerArea 39
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr c
+\width 32
+\-brf
+\+brf 
+\mkr ln
+\width 33
+\-brf
+\+brf 
+\mkr t
+\width 554
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey c
+\srtPriKey Default
+\mkrSecKey ln
+\-ind
+\+rec 
+\fldPriKey BL-79
+\fldSecKey 79.01
+\-rec
+\+keySearch 
+\fldPri BL-00
+\match_char p
+\-keySearch
+\+keyInsert 
+\fldPri 02
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 0
+\CaretLineScroll 0
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\CLS Recurrency\RecurrencyBT_Old.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 210 296 691 459
+\z 4
+\ViewMarkers
+\widthMarkerArea 39
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry_White
+\+brf 
+\mkr c
+\width 37
+\-brf
+\+brf 
+\mkr ln
+\width 39
+\-brf
+\+brf 
+\mkr t
+\width 122
+\-brf
+\+brf 
+\mkr stg
+\width 244
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey c
+\srtPriKey Default
+\-ind
+\+rec 
+\fldPriKey H-201
+\-rec
+\+keySearch 
+\fldPri BL-00
+\match_char p
+\-keySearch
+\+keyInsert 
+\fldPri xx
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 0
+\CaretLineScroll 0
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\CLS Recurrency\RecurConNotes_Old.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 953 502 1276 667
+\z 1
+\ViewMarkers
+\widthMarkerArea 41
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr c
+\width 22
+\-brf
+\+brf 
+\mkr ln
+\width 35
+\-brf
+\+brf 
+\mkr t
+\width 234
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey ln
+\srtPriKey International
+\-ind
+\+rec 
+\fldPriKey xx.01
+\-rec
+\+keySearch 
+\fldPri Who do you think was given/ordered that human to eat fruit with center garden there?
+\match_char p
+\-keySearch
+\+keyInsert 
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 16
+\CaretLineScroll 0
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\CLS Recurrency\RecurrencyBT.TXT
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 0 0 624 505
+\z 7
+\ViewMarkers
+\widthMarkerArea 49
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry_White
+\+brf 
+\mkr c
+\width 44
+\-brf
+\+brf 
+\mkr ln
+\width 36
+\-brf
+\+brf 
+\mkr t
+\width 226
+\-brf
+\+brf 
+\mkr stg
+\width 279
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey c
+\srtPriKey Default
+\mkrSecKey stg
+\-ind
+\+rec 
+\fldPriKey BL-00   
+\fldSecKey Bkgrnd (Bulgarian)
+\-rec
+\+keySearch 
+\fldPri BL-79
+\match_char p
+\-keySearch
+\+keyInsert 
+\fldPri 02
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 21
+\CaretLineScroll 8
+\CaretChar 873
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\CLS Recurrency\RecurrencyRetellings.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 623 0 952 504
+\z 3
+\ViewMarkers
+\widthMarkerArea 37
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr c
+\width 42
+\-brf
+\+brf 
+\mkr ln
+\width 37
+\-brf
+\+brf 
+\mkr t
+\width 218
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey c
+\srtPriKey Default
+\-ind
+\+rec 
+\fldPriKey L-03
+\-rec
+\+keySearch 
+\fldPri BL-00
+\match_char p
+\-keySearch
+\+keyInsert 
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 15
+\CaretLineScroll 15
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\CLS Recurrency\LoamTeamInfo.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 668 503 957 668
+\z 2
+\ViewMarkers
+\widthMarkerArea 34
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr r
+\width 271
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey r
+\srtPriKey International
+\-ind
+\+rec 
+\fldPriKey Agus
+\-rec
+\+keySearch 
+\fldPri Who do you think was given/ordered that human to eat fruit with center garden there?
+\match_char p
+\-keySearch
+\+keyInsert 
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 0
+\CaretLineScroll 0
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\-dblst
+\+Find 
+\Field ln
+\match_char p
+\+ftxlst 
+\+ftx 
+\text 2sa.12
+\lng Default
+\-ftx
+\+ftx 
+\text Lk.
+\lng Default
+\-ftx
+\+ftx 
+\text Luk.1
+\lng Default
+\-ftx
+\+ftx 
+\text Mt. 1
+\lng Default
+\-ftx
+\+ftx 
+\text Tazig
+\lng Default
+\-ftx
+\+ftx 
+\text D.
+\lng Default
+\-ftx
+\+ftx 
+\text 10.
+\lng Default
+\-ftx
+\+ftx 
+\text 02.
+\lng Book References
+\-ftx
+\+ftx 
+\text 99.
+\lng Book References
+\-ftx
+\+ftx 
+\text 01.
+\lng International
+\-ftx
+\+ftx 
+\text Mentoring
+\lng International
+\-ftx
+\+ftx 
+\text xx.
+\lng International
+\-ftx
+\-ftxlst
+\Replace 79.
+\-Find
+\AmbigBoxLeft 0
+\AmbigBoxTop 20
+\-ShProjectSettings

@@ -1,0 +1,48 @@
+\_sh v3.0  400  StoryNotes
+\_DateStampHasFourDigitYear
+
+\c
+\t TITLE
+\cat ConNotes -- (consultant's name)
+\co Project name
+\co (facilitator's name)
+
+\con dd/mmm/yy = XX1 
+\p
+\con INFO / BOOKKEEPING:
+\con STORY FLOW:
+\con TRANS ISSUES:
+\con ANCHORS / LINE LENGTH / EXEG:
+\con KEY TERMS / L&C NOTES:
+\con INFERENCE TESTING:
+\con RETELLING TESTING:
+\p
+\ln xx.01
+\con Consultant comment
+\ln xx.02
+\ln xx.03
+\ln xx.04
+\ln xx.05
+\ln xx.06
+\ln xx.07
+\ln xx.08
+\ln xx.09
+\ln xx.10
+\ln xx.11
+\ln xx.12
+\ln xx.13
+\ln xx.14
+\ln xx.15
+\ln xx.16
+\ln xx.17
+\ln xx.18
+\ln xx.19
+\ln xx.20
+\ln xx.21
+\ln xx.22
+\ln xx.23
+\ln xx.24
+\ln xx.25
+\ln xx.26
+\ln xx.27
+\dt 21/Sep/2009

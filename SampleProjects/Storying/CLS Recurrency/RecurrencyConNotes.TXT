@@ -1,0 +1,1206 @@
+\_sh v3.0  565  StoryNotes
+\_DateStampHasFourDigitYear
+
+\c BL-79
+\t TITLE
+\cat ConNotes -- (consultant's name)
+\co Project name
+\co (facilitator's name)
+
+\con 30/09/09 = BE1
+\p
+\con INFO / BOOKKEEPING:
+\co BE1: Are there any other resources that you could use in the future? Only one resource seems too few.
+\con STORY FLOW:
+\con TRANS ISSUES:
+\con ANCHORS / LINE LENGTH / EXEG:
+\con KEY TERMS / L&C NOTES:
+\con INFERENCE TESTING:
+\con RETELLING TESTING:
+\p
+\ln 79.01
+\con BE1: It might good to ask the question here, "Why do you think children came to Isus and his students to touch
+Him?" On this question, though, rtl2 seems to suggest that the inference is "to talk with him". So you should
+probably revise this verse to include the purpose to make it clear (i.e. rather than "to touch Him" (which is
+technically opposite of what was happening--they came to Him so that *He* would "touch" them), perhaps make
+it "for Him to bless them" or "for Him to pray for the children".  (see next note).
+\con BE1: You can add the following as a '\cn' note to the BT file: CONNOT (mrk.10:13): â€™Touch themâ€™ may need to
+include the purpose â€˜to blessâ€™ to avoid a healing or commissioning purpose. â€˜Blessâ€™ might be rendered â€˜ask God to
+bless/do good to them.â€™
+\con BE1: in rtl2, "students... chase them away" sounds pretty natural. Does this seem more natural than "take them
+away"?
+\con BE1: It would also be good to ask, "Why do you think Isus students take them away?" (or "chase them away" if
+you revise it)--to get at the inferred motive of their action.
+\con BE1: Technically, it was people (probably parents) who were bringing their children to Jesus for Him to bless
+them (the children). Both of the retellings suggests that the UNSs interpreted this to be that the children seem
+to have come on their own. This is probably a small thing, but it does impinge on the issue of "accuracy". If you
+want to avoid a complex sentence, you could even make it simply passive (i.e. "children were brought to
+Jesus...") so that the right inference is made and yet it hids the identity of the agents.
+\ln 79.02
+\con BE1: both retellings seem to have left out the "God's kingdom is for such". If you feel this is necessary given
+your purpose for the story or for the sake of "coverage", you'll need to try to say it so that it is made more
+prominent (e.g. you might try o reverse the two parts: (reason) "God's kingdom is for/of such". Therefore,
+(command) "leave them with me"). You should try to look in your non-biblical story database to see if you can
+figure out the normal order of these two. That is, either "reason... (therefore) command" or "command
+(because) reason".
+\ln 79.03
+\con BE1  Oh... I see that in rtl2 the UNS gave the equivalent of "God's kingdom is for such" *after* 79.03. By the
+way, the way to indicate this would be to put "[after 79.03]" at the end of the rtl2 in 79.02. This tells the
+consultant that the portion that was expected here was said later. Similarly, for rtl1 in 79.02 you have "he has
+blessed them" which is actually from 79.04. So you could put "[in 79.02]" for rtl1 in 79.04.
+\con BE1: You have an accuracy issue here (as you point out in the '\co' note in the BT file). The retellers have
+incorrectly understood that Jesus is saying that one needs to "accept God's kingdom" at a young age. Frankly,
+this is a very difficult passage to translate (or craft) in an understandable way. I'm wondering out loud
+whether you ought to even have this part of the story in this story. That is, perhaps it would be better if this
+story were just the Rich Young Ruler part. Then if you wanted to have another story on how Jesus feels about
+children and/or "the meek and mild" (which might be a better way of expressing what Jesus is getting at here...
+or "child-like faith"...), you might make that a separate story, where you could unpack that more properly
+without trying to put both things in one story (see CONNOT and TN on mrk.10:15 in TW for some good
+suggestions). In any case, the reteller's phrase "it become difficult later" is exactly the opposite of what we
+want people to think :-)  [before you process this note, however, see my equivocation in 79.11]
+\ln 79.04
+\con BE1: TRT suggests "prayed for them" if 'blessing' has little meaning (as suggested by ER's response).
+\ln 79.05
+\con BE1: It would good to look at your database of natural stories to see what device is used to transition from one
+episode to another (c.f. English, "Now...") That would go nicely at the beginning of this verse. It might even be
+something like, "Some time later..." (OR better yet, look at the retellings, which seem to have something
+equivalent)
+\con BE1: Both of the retellings seem very nice and natural here. Is there something in these that might go nicely in
+the original story (e.g. "sweet teacher", "he wants to be alive forever", "reach life")?
+\ln 79.06
+\con BE1: rtl2 sounds very nice! Is there something in that that you might put into the original story?
+\con BE1: on the other hand rtl1 has left out this "who is good by God" part entirely. If you follow my suggestion in
+79.11, then this part won't be crucial to the theme/purpose of this story and perhaps you could leave these few
+verses out as well.
+\con BE1: the answer to your 2nd question by "ER" seems mis-interpreted (it's true that "only God can do that", but
+that's not what this verse is about). However, since RC seems to have given a good answer, it may be okay.
+Perhaps if you explain to ER what it really means (after the test, of course) and ask him how to say it so that it
+would be more clear, (s)he might have a good suggestion.
+\ln 79.07
+\con BE1: Interesting answers to your question here... since they disbelieve in an afterlife, they probably also lack
+a good idea of what it is (expected to be) like. Maybe you ought to have a story that tries to get at what eternal
+life is like (e.g. the story of Lazarus, or one or more of Jesus parables on what the Kingdom of God is like). If
+you do, it would go well *before* this one, so that once they have a better idea of what it's like and why one
+might want to pursue going there, then this story can help show the proper "response attitude" for actually
+getting there.
+\ln 79.07.1
+\con BE1: Discuss with the crafter(s) the difference between (story: "respect your mother and your father") and
+(rtl2: "keep well with your mother and father"). Is the latter more natural?
+\con BE1: it might be good to 'de-highlight' the keeping of the commandments as a way of gaining eternal life,
+because it's likely to give the wrong impression. Perhaps something here like, "life will be inherited if you
+obey God" (see TRT on mat.19:17) or "... obey God's orders", and then don't actally list them here (it's hard to
+remember and brings too much focus on obeying of the commands).
+\ln 79.08
+\con BE1: rtl1's retelling here sounds like a nice way to short-cut this and the last several verses.
+\ln 79.09
+\con BE1: both retellings have left out the "Jesus liked him" part, which perhaps isn't crucial. However, it's likely
+that the reason they left it out is because there's a contrast between the positive "he liked him" and the
+negative "he lacks one thing", which isn't signaled in the story (at least according to the BT). Perhaps inserting
+something like, "But nevertheless..." in between might help. See the CONNOT I added.
+\con BE1: RC gave an excellent answer to your question here!
+\ln 79.10
+\con BE1: retellings suggest that this verse could be more succinct.
+\ln 79.11
+\con BE1: sorry to be fickle, but this verse makes me rethink my earlier suggestion, In your purpose statement at the
+top, you imply two fairly distinct purposes for the different parts of this story (which could suggest that you
+split it into two different stories). However, this verse points out that in one way these two stories have a
+common theme: what kind of attitude one needs to have to get into God's kingdom: part a) like a child
+following/obeying his father, and part b) not wrapped up in one's stuff... So if you were to re-write your
+purpose statement and consider this a "what kind of attitude should we have to enter the KoG" story--and if
+that fits an important part of your redemptive theme--then you could keep them both in this same story. Just be
+sure that the common theme of both parts is seen as a single theme in the story thru testing.
+\con BE1: rtl1 seems like a nice simplification of this verse (esp. when you see the bulky and inaccurate rtl2). i.e.
+drop the "...to his students" part
+\ln 79.12
+\con BE1: you may have "acceptability" issues with this suggestion (i.e. church people might not approve), but it
+sounds "sweet" to me if you were to turn the idiom into the local one (i.e. have something like, "Jesus explained
+that it would be easier for a fly to turn into an elephant than for ..." (if you keep it in indirect speech, then it
+might be less problematic for acceptability).
+\con BE1: maybe I missed something earlier, but if the story says, "...to the Gods kingdom", then so should your
+testing question (the 2nd of which says, "the sky's kingdom").
+\con BE1: rtl1 has a nice succinct version of this too, which avoids the duplication of "rich people..." in 79.11 and
+"rich..." in this verse... except for the change (s)he made from "to the God's kingdom" from "separate from his
+riches".
+\ln 79.13
+\con BE1: it's interesting that both rtlrs said that it was "Peter" who said that rather than "student" But none of the
+parallel passages say it was Peter... so I wonder where that came from? oh... I see now, it comes from
+mrk.10:28.
+\con BE1: compare (story: "who can be saved") vs. (rtl2: "who can come in the God’s kingdom").
+\ln 79.14
+\con BE1: rtl2's response is concerning. While (s)he did tie the two parts of this story into a single theme, he still is
+mis-interpreting the first part's conclusion: it's not just for the young children, but rather for those who
+trustingly obey God like children do their father/parents (again, see the exegetical helps for good suggestions
+on how to render that first part). If we can get the first part interpreted correctly, then this might suggest that
+people can see the common theme in both parts.
+\ln 79.15
+\ln 79.16
+\ln 79.17
+\con BE1: regarding your comment, "We might cut out the last bit seen as it is confusing." that seems like a good
+idea and esp because this wouldn't necessarily fit the theme you're trying to build here (if you go with the
+"what kind of attitude should we have to enter the KoG" theme).
+\ln 79.18
+\ln 79.19
+\ln 79.20
+\ln 79.21
+\ln 79.22
+\ln 79.23
+\ln 79.24
+\ln 79.25
+\ln 79.26
+\ln 79.27
+\dt 02/Oct/2009
+
+\c BN-01
+\t B - Creation
+\cat Stg1 ConNotes -- Nathan Payne
+\co Lg. name -- Bondo - Woodie
+\con NP1: 20May09
+\fac JW1: May 22, 2009 
+\con NP2: 27May09
+\fac JW 2:  June 23, 2009
+\con NP3: 23Jun09 see ln 6
+\fac JW 3 - June 26, 2009
+
+\bld NOTE: this consultation took place before we began using the checklist. Please add it and make
+appropriate notes.
+
+\con NP1: I like your thoroughness in the front part here. Very helpful. One other thing that would help is if you'll
+tell what field marker each thing corresponds to. ie bt2 is of the 20apr revision or of the 10apr crafting. I'm
+pretty sure it's the revision, but a month from now I will have forgotten that. 
+\fac JW1 - Done
+\ln 01.01
+\con NP1: Don't forget to start a bio file for your bondo people too.
+\fac JW1 - Started
+\p
+\con NP1: Why do you think there's the variation between bt and bt2 here and other places? It means that one of
+the backtranslations wasn't literal. It looks like the lines were a bit too long, so that could be why they don't
+match up well.  Can you read the bondo transcription well enough to see which one lines up better? For next
+time you might have the BTers look at the transcription to check their backtranslation. 
+\fac JW 1 - I'm not completely sure, but I would assume that there are a couple of factors in play.  One is probably
+that this was their first time doing back translation like this.  Another is that Kawïre's Portuguese seems to be
+at a higher level than Tomka's.  Also, their tendency was to want to take bigger chunks which I 'coached back'
+with some success.  I don't really know which one lines up better.  Each seem to line up better than the other in
+some places, but I infer this based on my knowledge of the sources that were used during the crafting session.
+\p
+\con NP1: In Bondo worldview does Imere have a body? ie is he just floating in the sky when he makes day and night
+and then earth? Some testing questions like "why did imere want to fill the buraco?" might be good too. 
+\fac JW 1 - I'm pretty sure Imere has a body, but I'll ask to be sure.  I've entered these testing questions for next
+time.
+\p
+\con NP1: Whether you end up going with Imere, Deus, or Yawe you'll need to be deliberate about making sure the
+story set as a whole covers the unbiblical views they have of him. I think you're probably right to not start off
+with a monologue explaining who he is and all they believe that's wrong. Just make sure at some point in the
+story set you cover the fact that he wasn't created and whatever else there is. 
+\fac JW 1 - Do you think it's possible to do this if we're only able to complete 12-15 stories before our term ends? 
+Do story sets sometimes start off with monologues?  These are just a couple of questions, but I understand
+your note here.
+\con NP2: I think you can cover the main stuff in 12-15 stories. The parents/being born thing definitely needs to be
+covered. I have a few ideas about that, but tell me your thoughts first. What other barriers need to be hit in the
+story set? Do they worship/respect Imere? Does he have authority over other spirits? Start your L&C entry
+for this topic and spell this stuff out. Yes, unfortunately I've known of several story sets that start off with a
+monlogue. A "what the Bible is" and a "who God is" story are both pretty popular and have no action and are
+hard to remember. 
+\fac JW 2 - I've made some notes but I dont really have any thoughts about the parents/being born stuff yet.
+\con NP1: The first few lines of this story have God thinking or saying things that aren't directly anchorable from
+scripture. Your dude is definitely an engaging storyteller, which is good, but you'll have to help him tame the
+embelishment. The most you could have God saying in these lines is the command for things to exist -- "let there
+be light".... "I want there to be day and night" .... "sun, exist" etc. Do you think the crafter didn't understand
+those lines from Renato's story? Or did he just embelish?
+\fac JW 1 - It didn't seem like he was misunderstanding here.  I'm guessing he was just 'going' with the story.  I'd
+be interested to know if they 'embelish' their stories? 
+\con NP2: I'd be curious too. How much is a storyteller free to add when telling one of the bondo heritage stories. 
+\fac JW 2 - I'll ask some of them
+\ln 01.02
+\ln 01.03
+\ln 01.04
+\con NP1: Answering your question....I think everything in the line is OK except for the part where God talks.
+\fac JW 1 - Ok 
+\ln 01.05
+\con NP1: Harkening back to my comment in line one about God's thoughts and speech, here the speech makes it
+seem like God wakes up every morning and decides what he's going to create that day, which doesn't line up
+with scripture. 
+\fac JW 1 - I undestand
+\ln 01.06
+\con NP1: <fez floresta, como caipim, como cipo, imbe> -- One of the general rules for storycrafting is that you can
+go more generic but you can't go more specific. So you can't name the specific animals that God made (lion,
+bear, etc) or the ones that went on the ark. Same here, if the Bible doesn't give specific examples then we
+can't either. 
+\fac JW 1 - I realize how this ('going more specific') could become a slippery slope, however, you wouldn't have a
+problem telling a Bondo person, "God made panthers", would you?  And you would/could say that based on
+scripture, right?  I'm not sure I'm with you yet on this one.
+\con NP2: You're probably in the majority, sadly for you the powerholders are the minority. I would have no problem
+at all saying "God made panthers." And you're right, with simple deduction and assuming you're not an
+evolutionist christian you could say it based on scripture. It comes down to: are you telling a Bible story or a
+story based on the Bible. Now, in my mind Spirit World stories are pretty close to only being based on the Bible
+if they aren't exactly that, so I don't know what to do with that. I'm happy to argue this (I love a good debate),
+but I can tell you right now that we're not going to change Grant's or my dad's minds. This has been an issue
+from the beginning and a lowly connotational consultant and his notebook toting team aren't going to change
+their minds.
+\fac JW 2 - You said, ''So you can't name the specific animals that God made (lion, bear, etc)'', but what if you use
+the based on scripture/simple deduction coupled with a verse that simply references one of those specific
+things (like a lion in a David story)?  And I'd like to see your dad and/or Grant explain how the Spirit World
+stories aren't stories 'based on the Bible' as opposed to Bible stories. 
+\con NP3: What they would say (and have said) is that it comes down to what's "necessary" for the group to
+understand the stories. It's hard to argue that the panthers are necessary for them to understand the creation
+story, much less the whole story set. But most people would accept that some form of a spirit world story is
+necessary where the people's worldview on that subject is vastly different than the biblical one. It sounds a
+little strange to say that you can break the rules if necessary, and that's what this seems like. But I think of it
+more like we're weighing different options and trying to find the best. If you have to decide between a fully
+anchorable story that they understand well and a somewhat questionably anchored story that they understand
+well, you go with the first.....so no panthers. If you're deciding between a fully anchorable story that they
+missunderstand completely and a somewhat questionably anchored story that they understand well (according to
+how we interpret the meaning of scripture) (and assuming there's not a way to make it understandable and
+anchorable), I go with the second....so spirit world stories are OK. It works the same way with specific
+translation/cultural issues. For example, in the Philippian Jailer story, when the jailer sees that the doors to
+the jail are open he assumes the prisoners have escaped so he gets out his sword to kill himself. The text
+doesn't say "because he knew he  was going to be put to death for letting the prisoners escape". If hearers
+missunderstand the story because the 'because....' line isn't there, then that's worse than making the story
+slightly questionable in it's anchoring by adding the line. We're not about figuring out where the OK/not OK
+line is and just getting on the OK side, that's the wrong system. We want to find the best way of communicating
+the meaning that's as accurate to the text as possible. 
+\fac JW 3 - Thanks for the more thorough explanation.  It was helpful.  God made panthers.
+\ln 01.07
+\con NP1: Same as line 5. 
+\ln 01.08
+\ln 01.09
+\ln 01.10
+\con NP1: <animais aquaticas, aves aquaticas...jacaré, capivara> -- similar to line 6, this is going more specific than
+scripture. Let them talk about this in the discussion time, it doesn't need to be in the story. 
+\ln 01.11
+\ln 01.12
+\con NP1: <ounça, anta, queixada> -- same as lines 6 & 10
+\ln 01.13
+\con NP1: <para cuidar esses animais> -- do some testing of this line. The closest thing in scripture is "to rule over
+(the animals)". 
+\fac JW 1 - Got it.
+\con NP1: <perna, braços, cabeça, etc> (also in next line)-- same as line 6
+\fac JW 1 - I would respond the same way I did in line 6
+\ln 01.14
+\ln 01.15
+\con NP1: bt2 has this as a process...God blows, man moves, God blows again, man breathes, God blows again, man
+gets up. bt doesn't have any of this. bt is anchorable, bt2 isn't. Which one reflects the actual story?
+\fac JW 1 - Will check it out.
+\ln 01.16
+\con NP1: bt uses 'Yawé' here. But the bondo story has Imeré, right?
+\fac JW 1 - The revised story only uses Imere.
+\con NP1: This is probably my deficiency in Portuguese, but I can't tell from either backtranslation if it's saying
+that God called the animals for Adam to name, or for God himself to name and the first thing he gave a name to
+was Adam. Help me out. Testing would show this too. 
+\fac JW 1 - The backtranslations aren't clear, but I'm sure you are deficient in Portuguese as well.  I've made a
+note to do some testing.
+\ln 01.17
+\ln 01.18
+\con NP1: Why is there English in bt?
+\fac JW 1 - I think in both languages now.
+\ln 01.19
+\ln 01.20
+\con NP1: You don't have an anchor for this line, I'm guessing because it's not fully anchorable. 
+\fac JW 1 - Will take care of it.
+\ln 01.21
+\con NP1: Yeah, you'll need to fix this spirit-world-after-physical-world chronology issue. What are you thinking?
+\fac JW 1 - Man, if I could establish plot without doing this whole spirit world stuff I would.  The whole thing still
+just seems so shaky to me.  Any ideas?  Lozuk said they don't do 'spirit world' anymore.
+\con NP2: I just looked at his connotes on a spirit world story for one of his own teams. So I don't think they're not
+doing them anymore at all. It's hard to get away from practically, even though the conceptual issues keep
+pushing you away. This is just off the top of my head right now, but what about doing a Creation story where
+God creates the Spirits/angels before he makes the world, and you don't have any of them turning bad. Then
+you do your regular storyset except at the first explicit instance of a demon or satan (I'm not counting the
+snake) you say "now you remember those angels that God made, well some of them turned bad and the leader of
+the bad ones was one called Satan......and he was in Zechariah's vision..." I really did like the way you did it in
+your Portuguese story though, do you think the flashback is just not a storytelling device the bondo use?
+\fac JW 2:  I'm not sure about the flashback thing in Bondo stories, but I'll work with this a little bit and see what
+we come up with.
+\con NP1: Wow, great testing here. This Oiope guy really opened up. I wonder if some stories that show that the
+Israelites rejected Imere too would resonate, since he repeats several times that the other people didn't reject
+him. 
+\fac JW 1 - Good thought.
+\con NP1: Did you do any testing of the Bondo word BTed as 'espiritus'? It will need thorough testing and also a L&C
+enntry. 
+\fac JW 1 - The word is 'wonkinom'.  I've started and L&C entry and added some testing.
+\ln 01.22
+\con NP1: I agree with the shadiness here. 
+\fac JW 1 - Okay
+\ln 01.23
+\con NP1: bt2 uses 'bichos' while bt uses 'espiritos'. Is it different than the word for bicho above when God
+creates animals? This is probably something worth explaining in the L&C entry. 
+\fac JW 1 - Im on it.
+\con NP1: Answering your anchor question -- the only thing I see wrong in bt2 is the 'mentindo' part. In bt I see <E o
+nosso dono, Ele e nosso pai...nosso irmao> and <ele estava avisando os outros espiritos para eles nao
+(10.46-10.47?)> as not anchorable.
+\fac JW 1 - OK 
+\ln 01.24
+\con NP1: <"Voces nÃ£o me acredita, voces nÃ£o me obedece, voces nÃ£o ouve a minha palavra, voces nÃ£o ouve minha
+opiniÃ£o...entÃ£o, agora voces vÃ£o tem que ter castigo.  Agora voces vai por lugar horrÃ­vel."> -- This could be
+anchorable if the chronology is fixed. If you use mat.25.41 you'll need to put it in the future. 
+\fac JW 1 - Ok
+\ln 01.25
+\con NP1: Yes, cold volcanos, not sure what to make of that, maybe in antarctica.
+\fac JW 1 - Can we anchor with Wiki links?
+\con NP2: http://en.wikipedia.org/wiki/No_No_No
+\ln 01.26
+\con NP1: There are four recurring issues with this story, I've commented on some examples but probably not every
+one. So you'll need to figure some of it out yourself. The four issues are: 1) the discrepancy between the two
+backtranslations that probably means one or both aren't literal enough. 2) The ongoing 'thoughts/speech of
+God' stuff that isn't fully anchorable. 3) The specific examples of things (animals, body parts, etc). 4) Not
+enough testing in the middle part of the story. Can you write some more test questions and add them to the file
+and send it to me? Then use those questions next time you test. The story is really very good for a first stab,
+especially where there's no scripture. You should feel good about it. 
+\ln 01.27
+\dt 01/Oct/2009
+
+\c BN-02
+\t B - Fall
+\cat ConNotes -- Nathan Payne
+\co Project: Bondo - Woodie
+\con NP1: 28may09
+\fac JW 1 - May 29, 2009
+\con NP2: 19Jun09 now looking at retelling ret
+\fac JW 2 - June 23, 2009
+\con NP3: 23Jun09
+\fac JW 3 - June 26, 2009
+\con NP2: Remember to make your own notes for stuff to test, research, or change based on  the retellings. You
+don't need to wait for me to tell you what things to note. This reteller is amazing. He pretty much got the whole
+thing. I'm impressed. 
+\fac JW 2 - Yeah.  He pretty much just walks around our yard for about 15 minutes listening to the story through
+headphones and then comes back and gets me and says, 'I'm ready to tell the story'
+\ln 02.01
+\con NP1: Similar to the creation story, for a list like this I would expect two backtranslations of the same story to
+be very similar, where synonyms would be the maximum difference. One list shouldn't have twice as much on it
+as another. In bt, 'aves aquaticos, animais aquaticos' isn't within the generic/specific rule. 
+\fac JW 1 - One thought here.  I am not completely surprised that the backtranslations aren't as similar as you think
+they would be due to the fact that the two backtranslators have different levels of Portuguese (in fact, it was
+the first time ever out of the village for one of the guys...although we used him for backtranslation because we
+didnt exactly have lots of options and he is part of the generation that has had Bondo and Portuguese spoken to
+him since birth).  I will say though...this kind of discrepancy (especially in a list) is problematic. [Look at the
+17th comment in the creation record...I think this may have led to them doing bigger chunks in the
+backtranslation of the revised story than they did in the first one.]
+\ln 02.02
+\con NP1: <Adão preste muito atenção> (from bt2) -- there's nothing like this, that I can see, in bt. So there's something
+wrong with the backtranslation process. 
+\fac JW 1 - ok
+\con NP2: Why do you think the reteller had God only giving the "don't eat" command to Eve?
+\fac JW 2 - I dont really know.  Ive made a note to ask
+\ln 02.03
+\con NP1: Yeah, 'eva estava sentada' isn't anchorable. Interesting that it's 'eva estava no mato' in bt2. Do you think
+the first guy heard wrong?
+\fac JW 1 - Maybe.  The next time someone comes through town, I'll have them do 'fresh ear' backtranslations on
+these first three stories to see what we come up with...
+\ln 02.04
+\con NP1: Good testing here. I would have asked a follow up question like, "porque a cobra queria matar eles?" At
+some point we hope they'll figure out who the snake really is. It's probably a bit early in the set and/or early in
+the storying process now, but keep testing for it. 
+\fac JW 1 - I put it in for next time...
+\con NP2: Interesting that the reteller added <A cobra era esperta e inteligente, controlava muitas coisas.> Even
+though there wasn't anything like that in the crafted story (unless it was in the original and not in the revision).
+Do you think that's just his impression from the story.....and it goes along with our other conversation about the
+snake maybe being the hero? Or did he know 'crafty' from somewhere and this what they way he put it. 
+\fac JW 2 - Actually I think this is connected to one of their stories.  Tomka retold this story and he was also the
+one to tell me the traditional 'ogoy' (snake) story.  My guess is that these are characteristics of the snake in
+their story?
+\con NP3: That's cool. Do you have a translation of that story that you could send me? Most people put them in
+toolbox records.
+\fac JW 3 - For now I sent an audio file of a backtranslation of the Ogoy story as well as an audio file of an
+'interview' i did with Tomka about this story
+\con NP2: Are fruit measured in feet in brazil? What is 'pÃ©' about?
+\fac JW 2 - No.  That's what they call fruit trees here...pÃ© de caju, pÃ© de manga, etc...
+\ln 02.05
+\con NP1: <vocês vão ver o futuro que vai acontecer > (bt2) -- I don't see this as anchorable. It might be true, but it's
+not explicit enough in the text. Interesting that it's not in bt....unless it's the 3.38 part. 
+\fac JW 1 - I put in a note
+\con NP2: What does <voces vao ficar que nem Ele> mean in the retelling?  
+\fac JW 2 - que nem means 'just like'...so he was saying 'if you guys eat you'll become just like Ele... so that you
+wont become just like Him, He's not letting you eat'
+\ln 02.06
+\ln 02.07
+\con NP1: <ofereceu Adão (seu marido)> -- if the parentheses is something that's actually in the bondo story then take
+it out of parentheses and use comas or something. If it's the backtranslator clarifying something, then can you
+label it as such.
+\fac JW 1 - Its in the Bondo story...I took it out of parenthesis
+\con NP2: The retell says <e eles sentiram vergonha um do outro>, I thought about commenting on <eles sentiram
+verhonha deles> in the crafted story but decided it was OK. I couldn't decide if they were ashamed in front of
+each other or in front of God. Paste this into your anchor line and we'll call it good, <Hamilton's commentary in
+TW4 says of Gen 2:25, "The climax of the creation is, interestingly, the notation that the couple were naked
+and felt no shame before each other." Gen 3:10 is the reversal of that, so their shame must have been in front
+of each other." 
+\fac JW 2 - Thanks.
+\ln 02.08 
+\ln 02.09
+\con NP1: Good testing here. Maybe I'm reading too much into it, but if the hearer took it as them stealing God's
+fruit, then he's not really understanding what happened. It's not like someone telling his neighbor, "OK, this
+tree is mine, you can't take it's fruit, eat fruit from your own trees." The main motive behind eve eating the
+fruit (and God forbidding it) is missing. Or almost  missing, the snake talks about it in line 5. But you might
+consider naming the trees at the beginning of the story "tree that makes you know right and wrong" to help
+with this. 
+\fac JW 1 - I've made some notes about this.
+\con NP2: Interesting that the reteller said, "Deus percebeu que tinha alguem".....Is Imere not all knowing? That
+may be one of those things you'll have to make sure and work into the storyset. 
+\fac JW 2 - Got it.
+\ln 02.10
+\con NP2: Dude, the reteller gave Eve the lead again. Is Bondo culture woman dominant? I don't guess there's
+anything to change here. Why do you think the reteller keeps doing this?
+\fac JW 2 - Woman is definitely not dominant.  I'm not sure if this is relevant but the reteller is very close to his
+grandmother who happens to be probably the most revered woman in the tribe.  In addition, this guy actually
+comes across as having some 'feminine qualities'?
+\con NP1: <nós estamos com vergonha porque estamos pelados> -- How does this fit with Bondo culture? Are they
+ashamed at nakedness? Will it be a problem/confusing for the ones that haven't had much exposure to the
+outside world when they hear this?
+\fac JW1 - I've added a relevant testing question.  I do remember Oiope talking about nakedness during a testing
+session but I'll have to go back and look.  
+\con NP1: Also related to this, or maybe the opposite, in some cultures you have to be very careful about how you
+talk about nakedness and sex and stuff. And it can be different depending on who's talking and who's
+listening. A lot of times you have to use a euphemism to convey the concept.....just some things to keep in mind.
+\fac JW 1 - Thanks.
+\con NP2: Hmmmmm, the reteller said <estamos com vergonha um do outro> again. This one seems a little different
+than ln 7. They probably did cover themselves with leaves because they were ashamed between themselves. But
+I don't think they hid because of that? What do you think?   
+\fac JW 2 - I do think they hid because they were ashamed.  Do you not think their nakedness was the surface
+reason for their shame?
+\con NP3: I agree that they hid because they were ashamed. The question is who were they ashamed to be with when
+they hid? each other or God?
+\fac JW 3 - I'll just enter this as an additional testing question.  Let me know if you want me to do anything else for
+now.  
+\ln 02.11
+\ln 02.12
+\con NP1: <Ele disse que a gente nÃ£o ia morrer...o Deus estÃ¡ falando isso porque Ele nÃ£o quer que voces fique igual
+Ele> -- This is a little too much embelishment, since all eve said was that the snake tricked her. 
+\fac JW 1 - ok
+\con NP1: You may not be able to answer this, but I'd be curious to know if the bondo see the snake as the hero in
+this story because he was able to trick the people. All your testing questions got neutral answers, the closest
+thing was "the snake wanted to kill them". 
+\fac JW 1 - I didnt get this impression from the other two testing sessions (of the original crafted story).  Do you
+think it would be good to come right out and ask this or to atleast ask something that might solicit a more
+specific response?
+\con NP2: Probably so. 
+\fac JW 2 - I added more testing.
+\ln 02.13
+\con NP2: The reteller left this line out. He has done an incredible job with the rest of the story, so maybe this
+should tell us something. Keep an eye on this line in the future. 
+\fac JW 2 - Got it.
+\ln 02.14
+\con NP1: There are several difficult-to-translate things in this line. So be sure you read what's in TW4 about it
+and test it thoroughly. The hard parts could be: (1) how to translate seed/offspring/descendant. (2) the
+prophetic nature of it in general. (3) strike heel being a non-deadly blow. (4) strike head being a deadly blow. 
+\fac JW 1 - 10/4 (as in 'good buddy').  I have a question about this...since this is such an obscure 'prophecy' (in my
+opinion)...at least one that would be difficult to pick up on in a 12-15 story set (I may be wrong here), would it
+be acceptable just to leave off the following part, "her offspring will attack your head, and you will attack her
+offspring's heel" (netbible)...essentially keep v.14 and sum up v.15 by saying something like 'I will put hostility
+between you and the woman and between your offspring and her offspring' and then maybe going on to say
+something like 'and if you read the end of the Book, we win'
+\con NP2: Ummmmm, is there a word for 'read' in Bondo? Really though, why do you say it's obscure? The
+messianic-ness of it obscure, definitely. But the fact that the snake (who they will hopefully associate with
+Satan) gets beat in the end is pretty obvious, and that's central to the redemptive theme. Maybe that's what
+you're saying. It's OK to genericize, so suggest a more generic version of the line than the 'end of the book'
+thing, there are a few ways I can think of to do it. 
+\fac JW 2 - They use the same word as 'to look' (enen).  Example:  Petkom enenang torempanpot.  "The woman is
+looking at (reading) her book.''  When I said 'obscure', I was just referencing the supposed messianic element
+of the prophecy.  Honestly, beyond that, I hadnt really thought about the fact that the snake getting beat in the
+end is obvious and that it is central to the redemptive them.  As for your question, are you talking about
+something like ''You will be an enemy of the woman and her offspring.  You will attack her offspring, but her
+offspring will defeat you?
+\con NP3: I looked into this a little more and I'll agree with you somewhat. It looks like the majority view is that the
+woman's 'seed' will destroy the snake, but it's definitely not clear cut, some commentaries question if it means
+the snake will be destroyed. What is the gyst of the curse/promise to the snake in your opinion? I would be OK
+with leaving out the line if you want. It's up to you. 
+\fac JW 3 - I'm kind of getting lost in the thread here...what line exactly would you be okay with leaving out (all of
+line 14 in the story)?  To answer your question, for me the basic gyst of the curse/promise to the snake is that
+disobedience to God merits punishment/consequences...fundamentally speaking.  As to the specific
+curse/promise I basically take away that the snake's life is going to suck...as an animal.  And that if the snake
+is indeed an embodiment of Satan, that there will be this consistent enmity throughout history between man and
+Satan which will ultimately result in some suffering on our part, but worse suffering on his.  Are you okay with
+us trying, 'You will be an enemy of the woman and her offspring.  You will attack her offspring, but her
+offspring will defeat you?' as a possible replacement for the current line 14? 
+\con NP2: Retelling says, <As gerações dela vão pisar na cobra, nas suas gerações, e as suas gerações vão picar no calcanhar
+e as gerações dela vão te esmagar.> He made the only sense out of it that he could, that the snake was just a snake,
+so Eve's descendants couldn't kill the snake himself, it would have to be the snake's descendants. A few of
+things you could do to help with this: 1) Say that the snake is Satan and anchor it with rev 12:9. 2) Say in the
+Spirit world story that Satan tries to trick people and then make sure they use the same verb in this story when
+Eve says "the snake tricked me". 3) Just make sure it's right in this story, and even if they don't initially make
+the connection (like this guy) keep checking for it until they do....without you giving it away of course. 
+\fac JW 2 - Do you think there's a preferred option out of the 3 you gave me?
+\con NP3: It depends on the testing. There are basically two variables, meaning (M) and form (F). You want both to
+match scripture as closely as possible. If you have to sacrifice form to maintain the meaning, then do it. Don't
+sacrifice meaning to maintain form. And only sacrifice as much form as you need to to maintain the meaning,
+sacrifice only the amount of form that is necessary to get the right meaning across. I outlined three variations
+of the form above where 3 is closest to scripture and 1 is furthest. So do the highest number you can that still
+gets the meaning across. 
+
+If you think this guy's understanding is going to be typical, then that would eliminate #3. So try #2 next and
+test it and see if it works. There are obviously other variables, such as the amount of time you have available
+to work on this with crafters and testers. 
+\fac JW 3 - I'm going to err on the side of assuming that his understanding is going to by typical.  If I discover
+something different, I'll return to option 3.  For now, I've made notes in Creation and Fall about trying option
+2.  If this doesn't work, I'll make the direct connection using the Rev anchor.
+\ln 02.15
+\con NP1: <desde inicio da sua gravidez voce vai sentir dor de barriga> -- can you find support for this? Does the
+text imply anything more than the time of childbirth? 
+\fac JW 1 - Can't we use personal experience as anchors.  Larissa had some pain throughout.  Something like
+Lar.01.09 (how do you create a jump path again?)
+\con NP2: It was an honest question, I didn't know if there was support or not. Now that I've looked, I see that
+there is. (I just like to keep you on your toes.) Translator's Notes says people have translated it the way you
+did, but doesn't recommend it. Translator's Handbook recommends it. So paste that into your anc line and
+you're good. 
+\fac JW 2 - Thanks for the help.
+\ln 02.16
+\con NP1: <vai ser preguiçoso> -- I didn't know that word, but my diccionary says it means lazy. If it's part of the
+curse, then I don't see it as anchorable. If it's more like, "you've had it easy up until now, but...." then it's OK.  
+\fac JW 1 - Got it
+\con NP2: The retelling for this line looks fine. So if the story matches the retelling more or less, then you're OK. 
+\fac JW 2 - ok
+\ln 02.17
+\con NP1: <(12.12-12.14?) voce nÃ£o vai morrer (12.15-12.17?)> -- There's nothing like this in bt2, and with the
+question marks I don't know what to make of it. I need to know the context to know if it's OK or not. If it's
+communicating "in order to not die (you'll have to plant food)" it's probably OK. 
+\fac JW 1 - I'll look into it
+\ln 02.18
+\con NP1: <você vai ser enterrado na terra> -- do some testing of this phrase. Does it mean buried or "dirt"-ed (like
+turn to dirt)? Or is it figurative maybe?
+\fac JW 1 - Okay
+\con NP2: Retelling says, <Então dai ele falou para cobra: - Cobra você era gente, você comia que nem gente, você
+falava, mas agora você vai arrastar no chão, você vai comer capim, sujeira. Então dai quando Ele deu esse castigo
+para cobra> -- I can understand the reteller throwing this on at the end because he skipped it earlier. But where
+did the first part come from? 
+\fac JW 2 - As I referenced earlier, this reteller also told a traditional story about a snake so there is most likely
+some background info on the snake coming in from that story?
+\ln 02.19
+\con NP1: <espiritos> (bt) & <mostro> (bt2, is that monster?) -- start an L&C entry for this, or add a link to it from this
+line of the bt record. 
+\fac JW 1 - Start an L&C entry for these Portuguese words or for 'wonkinom'?  I've already got and L&C for
+'wonkinom'.  Does 'espiritos' and 'mostro' need to go somewhere inside the 'wonkinom' L&C?
+\con NP2: No, we only care about the bondo words, we're just using portuguese to talk about them and try to
+understand them. Put in the L&C entry that espiritos & mostro were two of the ways it was BTed. Also, (1) add a
+note to every first occurence of a key term in each story that says something like (backslash)cn see L&C entry
+espirito. That way readers (me especially) will know there's more info on it there. Also (2) send me your L&C
+database now, and then whenever you make majorish additions to it. For this entry discuss (in the L&C record)
+the differences (or similarity/sameness) between wonkinom, which is angel here, and whatever word you have
+for demon.  
+\fac JW 2 - Noted
+\con NP3: I don't see the crafting note pointing to the L&C entry. Am I looking in the right place? 
+\fac JW 3 - It's in there now.  Let me know if it's right because it's my first note like this (pointing to a L&C entry)
+\ln 02.20
+\con NP1: Just like the Creation story, there is a lot of variation between the two backtranslations in this story. I
+had said that shorter lines would help tighten them up in my creation connotes. Another way to help with that is
+to break up the story into individual sound files (I can walk you through this on audacity). You could do it with
+the original storyteller so you can know where to break them. Have the storyteller tell you what it means in
+Portuguese so you can make the bits as short as possible but still being complete clauses. It will also help you
+with language learning. Then when you get your backtranslation first play the whole file all the way through.
+Then play the first 'chunk' and get that backtranslated. Try to get to where you can understand all the parts of
+the chunk and what they become in the backtranslation. Don't go on to the next chunk until you and the BTer
+are confident it's accurate. This will also help you make sure the two backtranslations (if you continue doing
+two) follow the same line numbers. Anyway, do this if you think it will help. It will add some work, but it might
+be worth it. 
+\ln 02.21
+\ln 02.22
+\ln 02.23
+\ln 02.24
+\ln 02.25
+\ln 02.26
+\ln 02.27
+\dt 01/Oct/2009
+
+\c BN-03a
+\t B - Elijah
+\cat ConNotes -- Nathan Payne
+\co Bondo - Woodie
+\con NP1: 19Jun09
+\fac JW 1 - June 23, 2009
+\con NP2: 23Jun09
+\fac JW 2 - June 26, 2009
+
+\bld NOTE: this consultation took place before we began using the checklist. Please add it and make
+appropriate notes.
+
+\con NP1: Good job on this story. They keep improving, which is good. The backtranslation pieces are still a little
+long. If you have to use more than one line very often then they're too long and probably less accurate than
+they could be. Your testing of this story is great. The anchoring needs to be tightened up in a few places. The
+retelling was amazingly true to the crafted story. Good job. 
+\ln 03.01a
+\ln 03.02a
+\con NP1: Re. your question, "what do you think about this last line?", If it makes it sound like the whole world was
+involved in the contest on Mt. Carmel then I think it needs a little work. 
+\fac JW 1 - I've made a note
+\ln 03.03a
+\con NP1: Re. your question about deus de mentira vs deus que nao era verdade, tell me what you know about it.
+What is it in Bondo? Why did the tester/reteller use 'deus falso' in lns 03 and 04?
+\fac JW 1 - Just so you'll know, the primary source used 'deus falso' and 'deus que não era de verdade' so on that
+note, I guess it would be better for the primary source to go with one way of expressing the idea.  The heart of
+my question was do you think 'god of lies' is essentially the same as 'god that was not true'.  I think what I
+wanted conveyed through the primary source was 'god that was not real', but I'm not necessarily displeased
+with how it came out.  In your mind, was Baal not real at all or was something actually there...maybe just not the
+One True God?  I'm not sure about the Bondo language here, however it seems that all of these ideas are
+closely related.  Tomka gave the retelling and it was of the original orally crafted story.  His backtranslation is
+the one you see interspersed in this file and it was of the revised story.  I really need to get fresh
+backtranslations of the revised stories because they were backtranslated by the same guys who backtranslated
+the original orally crafted stories.
+\con NP2: In my mind, there was definitely something there that they worshiped, it wasn't just empty worship but a
+demon like some of your anchors say. I would need to know more about what the Bondo is to say if it works or
+not. If 'god of lies' is more like 'god who tells lies' I would need to think/research a bit more. Are there many
+instances of demons telling lies in scripture? Probably, but I can't think of any. If 'god of lies' means 'god that
+we were lied to about' (ie he wasn't really God), then it's definitely OK. I think connecting Baal with demons
+(either explicitly or implicitly) would fit better with your theme than making him not exist though. Would it not
+work to call him by his name in the story. 
+\fac JW 2 - Give me your thoughts on trying this...'as outras pessoas estavam acreditando no deus falso chamado
+Baal.  Na verdade, Baal era um espirito mal'
+\p
+\con NP1: You have your three anchors in there twice. Delete one set.
+\fac JW 1 - Could you have not done that for me?
+\con NP2: I don't edit your BT file. That way you are free to make notes in any story at any time. That becomes
+more important when you start looking at the story set as a whole. We are looking at a new setup (kind of a
+wiki-ish setup, using google docs) that would allow the connotational consultant to edit them though. 
+\fac JW 2 - You must be pretty excited.
+\p
+\con NP1: Start an L&C entry for 'acreditar' and send it to me. (From now on when I say "start an L&C entry" I mean
+"start one if you haven't already")
+\fac JW 1 - okay
+\ln 03.04a
+\con NP1: You have a question mark for you anchor line here, but really the whole thing before the comma is just
+saying God knew about the people that believed in Baal. I would anchor with 1Ki.16.31 -32 and 1Ki.18.01
+\fac JW 1 - thanks
+\ln 03.05a
+\con NP1: As you note with the question mark in your anc line, this needs to be tightened up a bit....along with line 6.
+\fac JW 1 - noted
+\ln 03.06a
+\ln 03.07a
+\con NP1: Several times this story has used 'palavra' similar to the way the Bible uses it. Is that natural in Bondo?
+Start an L&C entry for it. 
+\fac JW 1 - Short answer...I don't know.  What's interesting is that Renato and I have avoided 'palavra de Deus' in
+the primary sources?
+\con NP2: That's what I thought. So that either means it's natural or someone in the process (crafter or BTer) knew
+the Bible enough to add it in. I'm guessing it's natural, but you should ask about it. Ask them how they might use
+it in everday life. 
+\fac JW 2 - I've made some notes
+\p
+\con NP1: <voces estao acreditando na palavra do Deus de mentira> - This isn't quite right. Elijah accuses them of
+worshiping both God and baal, not of just worshiping baal. This same thing is in line 8.
+\fac JW 1 - Got it.
+\ln 03.08a
+\con NP1: Do you have an L&C entry for 'deus' (little d). If not, start one. Or you could make it a section of the Deus
+one. 
+\fac JW 1 - ok
+\ln 03.09a
+\con NP1: What does <Dai ele comeou a orara> mean from the retelling? Who is 'ele'? What does comeou mean?
+\fac JW 1 - I went back and listened to the audio (btw, it was very easy to find because of my 'system') and it is
+actually 'Dai eles começou a orar'.  'Eles' are the prophets of Baal.
+\ln 03.10a
+\con NP1: This is a little out of order. Elijah gave them all the instructions before they started, not little by little.
+The retelling is actually better. You might consider using it as your revision. 
+\fac JW 1 - Alright.
+\con NP1: The second half of the BT here starts just saying "deus" instead 'deus di mentira', make sure it's still
+understood as deus de mentira. 
+\fac JW 1 - Will you give these guys a break.  It's the first time they've ever heard these stories!
+\ln 03.11a
+\con NP1: Find out what 'baixo' means here.
+\fac JW 1 - Noted
+\ln 03.12a
+\ln 03.13a
+\con NP1: "my turn" is fine. 
+\fac JW 1 -  Now, if you'll let my guys say 'God created panthers' you'll be a good consultant
+\ln 03.14a
+\con NP1: <perguntaram para Elias o que iam fazer com aquela água e Elias falou joga em cima da carne e da lenha>
+(and it's direct speech in the retelling) -- This makes for an interesting story, but the text says Elijah told them
+what the water was for when he told them to go get it. 
+\fac JW 1 - Noted
+\ln 03.15a
+\con NP1: yeah, there's some embelishment here. 
+\fac JW 1 - I'm on it
+\ln 03.16a
+\con NP1: The only part I might be a "stickler" about is Elijah sitting and spreading his arms. I would be OK with
+spreading arms since that's probably how he prayed, but I don't think he sat down, who knows though.  
+\fac JW 1 - Maybe I'll just ask him why he imagined it that way and then mention that we don't really know what
+position he was in when he prayed?  Or do you just want me to leave it?
+\con NP2: I think asking him is good.
+\fac JW 2 - Noted
+\p
+\con NP1: Great testing here. 
+\ln 03.17a
+\con NP1: Same comment as line 7. And if you have to work on changing it anyway, you could have them saying more
+as shouts of amazement or joy and not like, "Elijah, you were right."
+\fac JW 1 - Noted
+\ln 03.18a
+\con NP1: This line does need a little work as you say. Same issues as 17. 
+\fac JW 1 - Noted
+\ln 03.19a
+\dt 01/Oct/2009
+
+\c H-05
+\t Creation
+\cat ConNotes -- Nathan Payne
+\co Hunsrik
+
+\con NP3 = 9Aug09  (with tst1 added)
+\con NP2  = 25Jun09 (looking at revision bt2)
+\con NP1 = 15Oct08  (looking at original bt)
+\fac Facilitator's responses 
+\p
+\con INFO / BOOKKEEPING: need mini-bios in 00 record
+\con STORY FLOW: garden name, adam's name
+\con TRANS ISSUES: tree names, some others
+\con ANCHORS / LINE LENGTH / EXEG: gen3>gen2, 
+\con KEY TERMS / L&C NOTES: God
+\con INFERENCE TESTING: needs second one
+\con RETELLING TESTING: still needs both
+\p
+\con NP3: Can I get you to add a section to your 00 record that gives a short description of the people you work
+with. Include things like education, family, religion, languages spoken, where they've lived, job. These
+'mini-bios' will help me know who you're working with. 
+\p
+\con NP2: Like I said in an email, send me the testing results for this story when you get them into toolbox. Also the
+retelling. Also, don't forget to explain a little more about the process this story has been through, like I
+explained in the email (crafter, dates, backtranslator, tester, etc) 
+\p
+\con NP1: I'm not sure why, but your story has 01 at the top in the c line and 02 in the lns. Change one of them so
+they'll match. 
+\p
+\con NP1: Expand the top part of the bt file along the lines of the example story. 
+\ln 05.01
+\con NP3: Can you do an L&C entry for the Hunsrik word for God/Deus? Do you still have the template I gave in
+Porto Velho?
+\p
+\con NP1: Good to write a note about the "to make" verb. Anytime you make a new L&C note or edit one, send it to me
+when you send a story it applies to. 
+\p
+\con NP2: Your note here says you used the Gen 3 creation story. You probably meant gen 2. Right? You'll need to
+change all your anchors to chapter 2. 
+\ln 05.02
+\ln 05.03
+\ln 05.04
+\con NP2: <o Jardim do Eden> -- see my NP1 note about this in line 5. 
+\p
+\con NP1: It's fine (even helpful) to do a's and b's for the verses in your anchors. Put a space before the a though,
+so that the jump to NETBible will work. 
+\p
+\con NP3: In your two testing questions here one got a 'nao entendeu' and the other has no answer. What happened? 
+\ln 05.05
+\con NP2: When you work on the names of the trees next, you could try expressing them with verbs instead of
+nouns and see if that helps. Like, "tree that makes you/people live (forever)" and "tree that makes you/people
+know right and wrong". Or some languages (I think german and dutch maybe) can string together nouns to make
+new nouns, like "life-tree" or "knowledge-tree (where the knowledge was of good and evil)". Anyways, figure
+out what you can about Hunsrik. 
+\p
+\con NP1: <o Jardim do Eden> -- Is this the normal way of introducing a new place in Hunsrik storytelling? You could
+check your nonBible stories to see.  If it's not the way to introduce a new place, then you need to decide if
+most Hunsrik people know the place or not. And go from there. 
+\ln 05.06
+\con NP2: <Deus mandou que o homen fizesse plantações> -- this isn't quite right as your note points out, God planted
+the orchard. 
+\ln 05.07
+\ln 05.08
+\ln 05.09
+\con NP2: <Deus fiz um par para cada tipo de animal.> -- What is this about? What was it God made for each type of
+animal?
+\ln 05.10
+\con NP2: This is the first time the storyteller uses the name Adam, and in the BT anyways there's no introduction.
+Would something like "and the man's name was Adam" be good?
+\ln 05.11
+\ln 05.12
+\ln 05.13
+\con NP2: <Por isso o homen> -- Make sure when you test this that it's clear this "o homen' refers to male humans in
+general and not just to Adam. If it isn't you may need to find another way to word this. 
+\ln 05.14
+
+\dt 01/Oct/2009
+
+\c H-06
+\t O Premeiro Pecado
+\cat ConNotes -- Nathan Payne
+\co Hunzrik OS project by Daniel Allen
+
+\fac Facilitator's responses
+\con NP1: 26Aug09
+\p
+\con INFO / BOOKKEEPING: need mini-bios in 00 record
+\con STORY FLOW: see 4,5,6,17
+\con TRANS ISSUES: see 7,17
+\con ANCHORS / LINE LENGTH / EXEG: see 16, 22
+\con KEY TERMS / L&C NOTES: anjo
+\con INFERENCE TESTING: see 1,7, also needs 2nd inference testing
+\con RETELLING TESTING: needs 2 retellings
+\p
+\ln 06.01
+\con NP1: I don't remember if I've asked this before, but are you doing the testing in Hunsrik? Are you recording it
+and translating to Portuguese? Just wondering what your process is. 
+\ln 06.02
+\ln 06.03
+\ln 06.04
+\con NP1: STORY FLOW: It looks like this line is missing from the current version of the story but it's necessary
+for the story to make sense. 
+\ln 06.05
+\con NP1: STORY FLOW: This is the first time the name 'Eva' is used the set. Depending on what the natural way to
+introduce someone's name into a story in Hunsrik, I would expect something like, "it went to the woman, whose
+name was Eve, ...." in line 2. Look at the natural (non-Bible) stories you've recorded and analyzed and look at
+how names are introduced. Technically, she doesn't get her name until after God says that she will have kids.
+But it's OK to name her before if the language uses names more often than man/woman/boy/etc or kinship
+terms (like husband/wife). So look at that in your natural stories too. 
+\ln 06.06
+\con NP1: STORY FLOW: similar thing for introducing Adam's name. Although it may mainly be in your creation
+story. 
+\ln 06.07
+\con NP1: INFERENCE TESTING: do some testing to make sure that "abriu os olhos deles" is understood. A question
+like, "why do you think their eyes were opened?" You may need to ask a followup question if they just answer
+with something like 'because they ate the fruit'. 
+\p
+\con NP1: TRANS ISSUES: Also on "abriu os olhos deles". Look out for an issue with passive. Most major language
+translations have a passive there "their eyes were opened", where the agent is unspecified. Does hunsrik have
+a passive? Is this passive in hunsrik? If it doesn't feel natural in hunsrik you could remove the figure of
+speech with something like "they realized something had happened". 
+
+\ln 06.08
+\ln 06.09
+\ln 06.10
+\con NP1: INFERENCE TESTING: ask a question like "why do you think adam said he was scared because he was
+naked?"
+\ln 06.11
+\ln 06.12
+\ln 06.13
+\ln 06.14
+\ln 06.15
+\ln 06.16
+\con NP1: ANCHOR: <Ela vai torçer a sua cabeça e você vai morder ela na calcanhar dela.> -- It's not the woman herself
+that does this, it's her seed/offspring/descendant, which can be a difficult translation issue but important to
+the story set usually. 
+\ln 06.17
+\con NP1: TRANS ISSUE and STORY FLOW: <Tu quer sempre ficar com os seu marido mais ele vai te dominar.> --
+this line seems pretty tight to the hebrew/almeida form. And with the young man you tested with not answering,
+I might look for something more natural. (I know there were other reasons that the man probably didn't answer,
+but this may have played a part.) Look at some different English and Portuguese (and German?) translations and
+talk to your crafter about it. 
+\ln 06.18
+\ln 06.19
+\ln 06.20
+\ln 06.21
+\ln 06.22
+\con NP1: ANCHOR: <do lado da árvore da vida> -- the angels were at the edge of the garden, not the tree itself. 
+\p
+\con NP1: KEY TERM: start an L&C entry for the hunsrik word translated as 'anjo' and send it too me. 
+\ln 06.23
+\ln 06.24
+\ln 06.25
+\ln 06.26
+\ln 06.27
+\dt 01/Oct/2009
+
+\c L-01
+\t CREATION
+\cat Stg1 ConNotes -- J.Payne
+\co Lo'am
+
+\con JP3 = 2009-06-10 --see JP3s
+\fac AW2 = 2009-06-02 
+\con JP2 = 2009-05-05 
+\fac AW1 = 2009-04-17
+\con JP1 = 2009-02-22
+
+\con JP2 -- -- Very nice! Please get one retelling of the new version.
+\fac AW2 -- We did one more retelling (new record 01a), which we found was quite good. She just forgot that the
+man was sleeping and that he was exited about his new 'friend'.
+\con JP3  -- Good, I looked at your newest retelling. She did tell most of the story, but she used a a number of
+different wordings. Usually our goal is a crafted story that is so natural and reproducible that the retellers use
+a lot of the same wording. It might be that the people who have been your retellers don't want to listen to the
+story 3 or 4 times in order to really learn it. But if they ARE listening that many times, and then still using
+wordings that vary as much as these, You and your crafter might want to take a good look at the retellings to
+see if perhaps the way they've said it might be a bit more natural.
+
+\con JP1 -- Andre, if you could give distinct names to the format markers for Indonesian (or Lo'am) and English , it
+would help me out. I would like to be able to hide the languages that I don't read. If the format markers are
+distinct, I can do that using the "hide field" toggle in the View menu. So, for example, if you had a qtst-e and
+qtst-i (or maybe it's L?) I could hide the one I don't need.  I would do the same with the retellings if you could
+number the bts that correspond to the various retellings.
+\fac AW1 -- Done. We use the original (e.g. gtst, tst) for English and added -id for Indonesian and plm for Lo'am.
+For different languages we use different font colours. For the kind of marker we use different font styles. So
+it shouldn't be a problem to read only the English text by hiding the id and plm text (though people here mix id
+and plm).
+\con JP2 -- Thanks!  It works  well.
+
+\con JP1 -- good testing Qs!
+
+\con JP1 -- Re. the retellings, since this is just Stage 1 consultation, and therefore primarily mentoring, I have only
+commented on the retellings down through line 8. That should give you a good idea of the kinds of things to
+note based on the retellings.  So, in the future you can draw these conclusions yourself and either note them in
+the BT record using a format marker like "\co" and then send them to me--if you want some feedback.  Or you
+can go right ahead and recraft the story based on your evaluations of the retellings. Then redo the BT, get
+NEW retellings and send those files to me. Either way is  fine with me.
+\fac AW1 -- Ok. Thanks.
+
+\ln 01.01
+\con JP3 -- Notice that the new retelling didn't mention that God was the one who created it all. In fact, only one of
+the four retellings mentioned God as creator. This may suggest that you need to make a bolder point of God as
+creator if you want it to be retold. OR you could revise the crafted story to make it more like the retellings.
+\ln 01.02
+\con JP1 -- can you explain to me what the curly brackets { } indicate in the \en line? 
+\fac AW1 -- With our first backtranlator we were not really happy. So we will use someone else for the recrafting
+and the next stories. However for this time, when there are differences between the original and the bt, in the
+English line the text in {} means it is from the bt, the text in () means it is from the original.
+\con JP2 -- ok, thanks.
+
+\ln 01.03
+\con JP1 -- notice that both rtl2 and rtl3 felt the need to explain why the form needed breath (it didn't breath yet).
+You might think about adding that to the crafted story.
+\fac AW1 -- I forgot to mention that rtl3 did was present when rtl2 was retelling. It wasn't planned that rtl3 would
+retell too, but he did. We think that's good, but we have to consider that. I added a note in the Retellings file.
+\con JP2 -- ok, good. If you've updated your retelling file, please send it to me also.
+
+\ln 01.04
+\con JP1 -- re "Then after that that human was alive." -- this may be redundant. None of the retellers put it in.
+\fac AW1 -- Omitted.
+\con JP2 -- good
+
+\ln 01.05
+\fac AW1 -- (from bt record) What about not saying Eden at all?
+\con JP1 -- That might be a good idea
+\fac AW1 -- Omitted.
+\con JP2 -- good.
+
+\con JP1 -- re "in the east side" -- since both the retellers got this wrong, I think it might be best to not specify a
+direction. Just say "After that God made a park."
+\fac AW1 -- Done.
+\con JP2 -- good
+
+\ln 01.06
+\con JP1 -- the retellers didn't really say much about the plants and fruits being beautiful or delicious. This seems
+like an important part of the story, so perhaps it can be made more prominent and memorable in some way.
+\fac AW1 -- Done.
+\con JP2 -- good
+
+\ln 01.07
+\con JP1 -- Why do you suppose rtl2 & 3 missed this?
+\fac AW1 -- In their version of the story, I think, there was only one tree. So they might be confused. One tester
+said, there were even three special trees. We made it more understandable now.
+\con JP2 -- good. Once you've finished revising this story, please get another retelling and send it.
+
+\ln 01.08
+\con JP1 -- None of the retellers got this part, so it will need some work.
+\fac AW1 -- Especially the second part done with repetition.
+\con JP2 -- good.
+\ln 01.09
+\ln 01.10
+\ln 01.11
+\ln 01.12
+\ln 01.13
+\ln 01.14
+\ln 01.15
+\ln 01.16
+\ln 01.17
+\ln 01.18
+\ln 01.19
+\ln 01.20
+\ln 01.21
+\ln 01.22
+\ln 01.23
+\con JP1 -- re "because she is from the man" -- unless the terms for man and woman in L. are related, this might not
+make much sense.
+\fac AW1 -- What about Just saying "I name her women."?
+\con JP1 -- That would work, unless in the next story you also have Adam giving her the name Eve (or Hawa?)
+\fac AW1 -- Ommitted.
+
+\ln 01.24
+\dt 01/Oct/2009
+
+\c L-02
+\t FALL
+\cat ConNotes J.Payne
+\co Lo'am (plm)
+
+\con 18/aug/09 = JP1
+
+\co INFO (see below)
+\co STORY FLOW: Good
+\co ANCHORS: Good work
+\co L&C NOTES: (see below)
+\co INFERENCE TST: Good work
+\co RETELLING TST:  (see below)
+
+\con JP1 -- re INFO -- please send information about Dona, Wida, Agus & Rio to put into the mini-bios database. We
+need to know things like, male/female, approximate age, education level, religion. It's particularly important
+for us to know if they qualify as UNS if they are doing testing and backtranslating.
+
+\fac (from email 18aug) We have one question: We did not pay crafters until now, because we heard it should be
+more of a "relational" project. Our main crafter, who crafted/re-crafted the first three stories,
+"disappeared". And we have difficulties to find a new crafter. What do you think about offering a small
+payment for their willingness to help crafting?
+\con JP1 -- I'm sending you a pdf file with some pros and cons about that.  (If I forget to attach it, send me a
+reminder! :-)
+
+\con JP1 -- re RETELLING -- I see that in a few places some of the retellers missed whole lines. In those places, if
+you see that the information is given in another place in their retelling, please note that with parenthese, i.e. if
+the info should have been in line 3 but the reteller re-ordered it to line five, you could put "(see line 5)" in the
+retelling for line 3.  If they completely leave out the information, then put dashes in "---". 
+
+\ln 02.01
+\ln 02.02
+\con JP1 -- Since one of the testing respondents thought that the snake was just guessing, it will be good to get a
+third opinion on this line.  What the snake says should be understood as him (the snake) trying to trick her, not
+just fishing for information. So, depending on what the third testing shows you, you may need to revise the
+wording slightly to use whatever tactic the language uses to make the snake's words sound tricky.
+
+\ln 02.03
+\ln 02.04
+\con JP1 -- re "later we die" -- this would need exegetical support. Or if it's a BT error, then please explain it.
+
+\ln 02.05
+\con JP1 -- re "No. You will not die".  Notice that none of the retellers got this part. Perhaps it's redundant given the
+info in line six. If you feel that it needs to be part of the story, then either test one more time and see if it
+makes it into the retelling, or give it a bit more emphasis in the crafted story so that it is easier to remember.
+
+\ln 02.06
+\con JP1 -- re "you are able to be like God" -- I looked at the L&C Note you sent for "God" (Tuhan). It talks about
+who uses the term.  But it would also be good to tell in the L&C Note what a UNS's concept of God is. What is
+God like? What does do? Does he have a location? What interaction does he typically have with man? etc.
+Anything else that comes out in a discussion of what he's like, please add to the L&C Note.
+
+\ln 02.07
+\ln 02.08
+\con JP1 -- in 
+\ln 02.09
+\ln 02.10
+\ln 02.11
+\con JP1 -- good testing.
+
+\ln 02.12
+\ln 02.13
+\ln 02.14
+\ln 02.15
+\con JP1 -- re "snake was it who gave me" -- make sure this doesn't imply that the snake somehow passed the fruit to
+her to eat, or forced her to eat it.  The meaning of her comment here should be that the snake tricked her into
+eating it. Rtl2 seems to have said it more correctly. Dod he or she already know the story? Or is the BT of the
+crafted story incorrect?
+
+\ln 02.16
+\con JP1 -- re "cursed" -- Curse is a keyterm and needs a record in the L&C Notes.  Please tell who can make curses
+(can good people make curses?). Are they always binding? Is there a way to avoid them? etc.
+
+\ln 02.17
+\ln 02.18
+\con JP1 -- Notice that all three retellers said that God cursed the woman.  Check the commentaries to see if that is
+a valid interpretation of vs 16. I think most of them agree that he cursed the snake and the ground, but not the
+humans. But see what you can find.  If there isn't evidence that God cursed the woman, then it would be good
+to revise the crafted story. Even though your story doesn't say "cursed", it is interpreted that way. So find a
+way to explain the consequences for the woman so that it isn't interpreted as God cursing her.  
+
+\ln 02.19
+\con JP1 -- re "curse" -- same discussion as in line 18.
+
+\ln 02.20
+\con JP1 -- Oh, I see that you are already making notes about reording of information in the retellings. Good job!
+
+\ln 02.21
+\ln 02.22
+\ln 02.23
+\con JP1 -- re "guards from heaven" -- is this the general term you will be using for angel, or does this only apply to
+the ones at the door to the garden?  Either way, this is a key term. Please prepare a record for it in the L&C
+Notes.
+\dt 01/Oct/2009
+
+\c 02
+\t Uakne / Kejatuhan / The Fall
+\cat ConNotes -- Bob Eaton, Jim Stahl, Janet Stahl, Mimi Barker
+\fac Facilitator -- Sarah Joy
+\co Language: Naya
+
+\con INFO / BOOKKEEPING:
+\co Is there something about your context that prevents you from having a few visual resources as well (e.g. the
+Genesis film, the picture Bible, and picture story boarding)?
+\co See common on 02.11
+\co Seeing the very literal back-translation you made was useful and interesting, but if possible could you also
+include a free translation so that we can more easily understand who did what to whom. (like you did in 02.09).
+\con STORY FLOW:
+\co It's good that you left the space at line 02.07 for inserting the important part she missed.
+\co See 02.18
+\con TRANS ISSUES:
+\con ANCHORS / LINE LENGTH / EXEG:
+\co See 02.07
+\con KEY TERMS / L&C NOTES:
+\co write an L&C note on the key terms for human, person, woman, man, Lord Creator.
+\con INFERENCE TESTING:
+\co Of course, the testing questions that we've included need to be in Naya and in as much as possible the exact
+wording from the original story.
+\con RETELLING TESTING:
+
+\con 2009-09-29
+
+\ln 02.01
+\co Here's a potential question: "What kinds of things about the snake do you think made him "most smart from all
+animals"?"
+\ln 02.02
+\co Q: "Where do you think person human woman came from?"
+\ln 02.03
+\co as you suspect from the anchor, this rendering of the question by the snake is misleading, who was clearly
+challenging God (see \cn in BT file). Do you have any good "trickster" stories in your collection that might
+suggest a good way to imply his being crafty?
+\co Q: "How is it do you think that a snake is talking in this story?"
+\ln 02.04
+\co be sure the background information here (i.e. what tree in the center, etc) is in the earlier creation story so
+that this reference here make sense. We've included a number of possible testing questions from which you
+can choose what you think will be interesting... roughly 1 question for every 2-3 lines.
+\co Q: "What was it about the plant which in very center that they weren't supposed to eat?"
+\co Q: "Who said this?"
+\co Q: "Why do you think they would die if they ate the fruit?"
+\ln 02.05
+\co Q: "How do you think the snake knew they "you guys not die"?"
+\ln 02.06
+\co Is it clear from the passive form of this verse who's doing what the giving?
+\co Q: "Why do you think it is given also to her husband?"
+\ln 02.07
+\co So that the following question might make more sense, it might be good to include also here that "they were
+hiding". And then include a testing question like, "Why do you think they hid?"
+\co I know that you used Word to edit this story, but in Toolbox for the the anchor to be able to jump properly to
+the NetBible, you need to add a '0' to pad the verse number.
+\ln 02.08
+\ln 02.09
+\co The rendering here is probably fine (i.e. unpacking the rhetorical question). gen.03:09 would also work to
+anchor this verse. See also the \cn line in the BT file.
+\co Q: "Why do you think the Lord Creator asked this question?"
+\ln 02.10
+\co The rendering here is very indirect (as if the agent of his being "ordered" is unknown). Is there some
+(discourse?) reason why this is said in such an indirect/passive way? The emotional force of the source text
+is that Adam basically blames his failure on his wife and that seems to be missing (unless this is the way that he
+blames her in this language). See testing question?
+\co The implicational force of Adam's response is to blame both Eve and God (for giving her to him) for his
+failure. But by using a passive construction (i.e. "I was given/ordered to eat fruit") is it clear that he's
+"passing the buck"? Probe this to find out and maybe you could ask a question like, "Who do you think God will
+think (from hearing this comment by Adam) who gave him the fruit?"
+\ln 02.11
+\co Good question that you have in the anchor line, but it would be better to be in a separate 'co' (comment line) in
+the BT file, which we'll move here to the ConNotes files.
+\co Q: "Why do you think no one admitted to eating the fruit?"
+\ln 02.12
+\co the snake *tricked* her, but she doesn't really say that he "ordered" her to do it.
+\ln 02.13
+\co as you noted in the anchor, this isn't really anchorable and should be left out. See also \cn
+\ln 02.14
+\co Q: "Why do you think the Lord Creator punished the snake?
+\co Q: "Why do you think being made to walk on your stomach is a punishment?"
+\ln 02.15
+\co I think what you have here is ok.  It's interesting (to me, anyway) that the scripture passage says, specifically
+"the *woman*" and "*her* seed" whereas you have just *that human*. I could find nothing in the exegetical
+helps which would imply that there's some special meaning regard the 'woman-ness' of the enemyhood, so I
+think this is ok. Is there something in the reference system that forces "that human" to refer specifically to
+the woman (as opposed to the man or both indiscrimately).
+\co Q: "What do you think this "enemyhood" will involve?"
+\ln 02.16
+\ln 02.17
+\co Do followup on this to make sure who does what to whom, which seems incorrect from the BT (as you noted).
+\ln 02.18
+\co Is there some reason that you have the punishments coming in the order: 1) snake, 2) man, 3) woman when the
+biblical story has it: snake, woman, and then man? If the crafter just gave it out of order, then maybe you
+should revise to be in the same order (esp, if you have "After that" in one of the punishments). In the "blind
+man" story, he has the order as in the scripture, so probably no special reason for the reordering.
+\ln 02.19
+\ln 02.20
+\ln 02.21
+\co Try to get another recording, because if you have bad audio at this point, then it's not going to be possible to
+get good  retelling testing feedback.
+\ln 02.22
+\ln 02.23
+\co re: 02.22 - 02.25, it sounds like you recognize the problems here... just work with the team to revise this part.
+\co Q: "Why do you think the Lord Creator was given unto them these clothes?"
+\co As you mention about the "But wrong detail there", if you end up keeping "wood skin", then be sure to probe
+that with a question to find out whether you have an accuracy issue?
+\ln 02.24
+\co Q: "Which plant did God not want them to eat that one?"
+\co
+\ln 02.25
+\ln 02.26
+\ln 02.27
+\ln 02.28
+\ln 02.29
+\ln 02.30
+\dt 01/Oct/2009

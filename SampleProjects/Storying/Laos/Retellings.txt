@@ -1,0 +1,103 @@
+\_sh v3.0  200  Retellings
+\_DateStampHasFourDigitYear
+
+\c xx
+\t (title)
+\co (Language name or code goes
+here)
+\co Retelling 1: (put put name or
+initials of person retelling)
+\co Retelling 2: (put put name or
+initials of person retelling)
+
+\ln xx.01
+\rtl1
+\rtl2
+\ln xx.02
+\rtl1
+\rtl2
+\ln xx.03
+\rtl1
+\rtl2
+\ln xx.04
+\rtl1
+\rtl2
+\ln xx.05
+\rtl1
+\rtl2
+\ln xx.06
+\rtl1
+\rtl2
+\ln xx.07
+\rtl1
+\rtl2
+\ln xx.08
+\rtl1
+\rtl2
+\ln xx.09
+\rtl1
+\rtl2
+\ln xx.10
+\rtl1
+\rtl2
+\ln xx.11
+\rtl1
+\rtl2
+\ln xx.12
+\rtl1
+\rtl2
+\ln xx.13
+\rtl1
+\rtl2
+\ln xx.14
+\rtl1
+\rtl2
+\ln xx.15
+\rtl1
+\rtl2
+\ln xx.16
+\rtl1
+\rtl2
+\ln xx.17
+\rtl1
+\rtl2
+\ln xx.18
+\rtl1
+\rtl2
+\ln xx.19
+\rtl1
+\rtl2
+\ln xx.20
+\rtl1
+\rtl2
+\ln xx.21
+\rtl1
+\rtl2
+\ln xx.22
+\rtl1
+\rtl2
+\ln xx.23
+\rtl1
+\rtl2
+\ln xx.24
+\rtl1
+\rtl2
+\ln xx.25
+\rtl1
+\rtl2
+\ln xx.26
+\rtl1
+\rtl2
+\ln xx.27
+\rtl1
+\rtl2
+\ln xx.28
+\rtl1
+\rtl2
+\ln xx.29
+\rtl1
+\rtl2
+\ln xx.30
+\rtl1
+\rtl2
+\dt 13/Nov/2008

@@ -1,0 +1,409 @@
+\+ShProjectSettings 
+\ver 5.0
+\ProgramVersion 1.5.4b Oct 2008
+\ProjectPath L:\Pahari\Storying\Hindi\HindiStoryingProject.prj
+\LockProject 0
+\AutomaticKeyboardSwitching
+\+CorpusSet 
+\WordLstMaxCount 10
+\ConcordanceSearchType 3
+\ConcordanceLimitCount
+\ConcordanceMaxCount 1000
+\ConcordanceOutput lookup.db
+\-CorpusSet
+\LangCtrlHeight 24
+\+fntMarkers 
+\Name MS Sans Serif
+\Size 10
+\-fntMarkers
+\+rundosMarkers 
+\-rundosMarkers
+\placementMain max -1 -1 -1 -1 126 -7 1157 725
+\+dblst 
+
+\+db L:\Pahari\Storying\NETBIBLE.TXT
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 -1 455 736 625
+\z 1
+\ViewMarkers
+\widthMarkerArea 50
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr c
+\width 719
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey c
+\srtPriKey Default
+\-ind
+\+rec 
+\fldPriKey 43 John 014
+\-rec
+\+keySearch 
+\fldPri 20
+\match_char p
+\-keySearch
+\+keyInsert 
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 0
+\CaretLineScroll 0
+\CaretChar 0
+\-wnd
+\+wnd 
+\placement normal -1 -1 -1 -1 0 454 736 626
+\z 2
+\ViewMarkers
+\widthMarkerArea 50
+\JumpTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr c
+\width 718
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey v
+\srtPriKey Default
+\-ind
+\+rec 
+\fldPriKey act.09:31 Then the church throughout Judea, Galilee, and Samaria experienced peace and thus was
+strengthened. Living in the fear of the Lord and in the encouragement of the Holy Spirit, the church increased in
+numbers.
+\-rec
+\+keySearch 
+\fldPri jhn.16.07
+\match_char p
+\-keySearch
+\+keyInsert 
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 61
+\CaretLineScroll 4
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\Hindi\L&CNotes.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 730 454 1020 626
+\z 0
+\ViewMarkers
+\widthMarkerArea 50
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr r
+\width 272
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey r
+\srtPriKey Default
+\-ind
+\+rec 
+\fldPriKey Kingdom of God
+\-rec
+\+keySearch 
+\fldPri 20
+\match_char p
+\-keySearch
+\+keyInsert 
+\fldPri Kingdom of God
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 3
+\CaretLineScroll 3
+\CaretChar 7
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\Hindi\HindiStoriesBT.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -4 -30 -2 0 444 453
+\z 6
+\ViewMarkers
+\widthMarkerArea 45
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr c
+\width 169
+\-brf
+\+brf 
+\mkr t
+\width 252
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey c
+\srtPriKey Default
+\mkrSecKey t
+\-ind
+\+rec 
+\fldPriKey 20
+\fldSecKey Paul in Athens
+\-rec
+\+keySearch 
+\fldPri 04
+\match_char p
+\-keySearch
+\+keyInsert 
+\fldPri 25
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 1
+\CaretLineScroll 0
+\CaretChar 11
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\Hindi\ProjectConNotes.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 729 -4 1022 453
+\z 3
+\ViewMarkers
+\widthMarkerArea 50
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr c
+\width 156
+\-brf
+\+brf 
+\mkr t
+\width 112
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey c
+\srtPriKey Default
+\mkrSecKey ln
+\-ind
+\+rec 
+\fldPriKey 20
+\fldSecKey 20.01
+\-rec
+\+keySearch 
+\fldPri 20
+\match_char p
+\-keySearch
+\+keyInsert 
+\fldPri 07
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 0
+\CaretLineScroll 0
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\Hindi\HindiTestRetellings.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 444 -2 733 453
+\z 4
+\ViewMarkers
+\widthMarkerArea 51
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr c
+\width 170
+\-brf
+\+brf 
+\mkr t
+\width 94
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey c
+\srtPriKey Default
+\-ind
+\+rec 
+\fldPriKey 20
+\-rec
+\+keySearch 
+\fldPri 20
+\match_char p
+\-keySearch
+\+keyInsert 
+\fldPri 10
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 0
+\CaretLineScroll 0
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\+db L:\Pahari\Storying\Hindi\CoachingNotes.txt
+\+wndlst 
+\+wnd 
+\placement normal -1 -1 -1 -1 1043 0 1466 907
+\z 5
+\ViewMarkers
+\widthMarkerArea 50
+\JumpTarget
+\FocusTarget
+\+brflst 
+\FieldEmptyEntry *empty*
+\NoFieldEntry *no field*
+\+brf 
+\mkr c
+\width 156
+\-brf
+\+brf 
+\mkr t
+\width 242
+\-brf
+\-brflst
+\+ind 
+\mkrPriKey c
+\srtPriKey Default
+\-ind
+\+rec 
+\fldPriKey 20
+\-rec
+\+keySearch 
+\fldPri 20
+\match_char p
+\-keySearch
+\+keyInsert 
+\fldPri 10
+\MatchWhole
+\match_char p
+\-keyInsert
+\CaretLine 0
+\CaretLineScroll 0
+\CaretChar 0
+\-wnd
+\-wndlst
+\-db
+
+\-dblst
+\+Find 
+\SingleRecord
+\Field ln
+\match_char p
+\+ftxlst 
+\+ftx 
+\text 71.
+\lng Book References
+\-ftx
+\+ftx 
+\text 85.
+\lng Book References
+\-ftx
+\+ftx 
+\text 11.
+\lng Book References
+\-ftx
+\+ftx 
+\text 100.
+\lng Book References
+\-ftx
+\+ftx 
+\text 60.
+\lng Book References
+\-ftx
+\+ftx 
+\text 50.
+\lng Default
+\-ftx
+\+ftx 
+\text 75.
+\lng Default
+\-ftx
+\+ftx 
+\text 40.
+\lng Default
+\-ftx
+\+ftx 
+\text human
+\lng International
+\-ftx
+\+ftx 
+\text 35.
+\lng Book References
+\-ftx
+\+ftx 
+\text 80.
+\lng Book References
+\-ftx
+\+ftx 
+\text 81.
+\lng Default
+\-ftx
+\+ftx 
+\text 00.
+\lng Book References
+\-ftx
+\+ftx 
+\text 05.
+\lng Book References
+\-ftx
+\+ftx 
+\text बोह
+\lng national
+\-ftx
+\+ftx 
+\text 10.
+\lng Book References
+\-ftx
+\+ftx 
+\text ।
+\lng national
+\-ftx
+\+ftx 
+\text तीसर
+\lng national
+\-ftx
+\+ftx 
+\text 07.
+\lng Default
+\-ftx
+\+ftx 
+\text 01.
+\lng Book References
+\-ftx
+\-ftxlst
+\Replace 25.
+\-Find
+\AmbigBoxLeft 0
+\AmbigBoxTop 20
+\-ShProjectSettings

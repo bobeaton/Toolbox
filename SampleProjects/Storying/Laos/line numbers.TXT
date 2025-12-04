@@ -1,0 +1,308 @@
+\_sh v3.0  400  StoryBT
+\_DateStampHasFourDigitYear
+
+\c 99
+\t LINE NUMBERS TEMPLATE
+\co use the following numbers to paste into the records (there are 99, hopefully you won't
+need all of them--just select the ones you will use), then in the Menu above, click on
+Edit/Replace (be sure to set the "Field" to "ln Line number" click on "current record only".
+In the "text to find" type "99.", and in the "replace with" type in the appropriate chapter
+number followed by a dot, then click "replace".
+\ln 99.01
+\bt
+\anc
+\ln 99.02
+\bt
+\anc
+\ln 99.03
+\bt
+\anc
+\ln 99.04
+\bt
+\anc
+\ln 99.05
+\bt
+\anc
+\ln 99.06
+\bt
+\anc
+\ln 99.07
+\bt
+\anc
+\ln 99.08
+\bt
+\anc
+\ln 99.09
+\bt
+\anc
+\ln 99.10
+\bt
+\anc
+\ln 99.11
+\bt
+\anc
+\ln 99.12
+\bt
+\anc
+\ln 99.13
+\bt
+\anc
+\ln 99.14
+\bt
+\anc
+\ln 99.15
+\bt
+\anc
+\ln 99.16
+\bt
+\anc
+\ln 99.17
+\bt
+\anc
+\ln 99.18
+\bt
+\anc
+\ln 99.19
+\bt
+\anc
+\ln 99.20
+\bt
+\anc
+\ln 99.21
+\bt
+\anc
+\ln 99.22
+\bt
+\anc
+\ln 99.23
+\bt
+\anc
+\ln 99.24
+\bt
+\anc
+\ln 99.25
+\bt
+\anc
+\ln 99.26
+\bt
+\anc
+\ln 99.27
+\bt
+\anc
+\ln 99.28
+\bt
+\anc
+\ln 99.29
+\bt
+\anc
+\ln 99.30
+\bt
+\anc
+\ln 99.31
+\bt
+\anc
+\ln 99.32
+\bt
+\anc
+\ln 99.33
+\bt
+\anc
+\ln 99.34
+\bt
+\anc
+\ln 99.35
+\bt
+\anc
+\ln 99.36
+\bt
+\anc
+\ln 99.37
+\bt
+\anc
+\ln 99.38
+\bt
+\anc
+\ln 99.39
+\bt
+\anc
+\ln 99.40
+\bt
+\anc
+\ln 99.41
+\bt
+\anc
+\ln 99.42
+\bt
+\anc
+\ln 99.43
+\bt
+\anc
+\ln 99.44
+\bt
+\anc
+\ln 99.45
+\bt
+\anc
+\ln 99.46
+\bt
+\anc
+\ln 99.47
+\bt
+\anc
+\ln 99.48
+\bt
+\anc
+\ln 99.49
+\bt
+\anc
+\ln 99.50
+\bt
+\anc
+\ln 99.51
+\bt
+\anc
+\ln 99.52
+\bt
+\anc
+\ln 99.53
+\bt
+\anc
+\ln 99.54
+\bt
+\anc
+\ln 99.55
+\bt
+\anc
+\ln 99.56
+\bt
+\anc
+\ln 99.57
+\bt
+\anc
+\ln 99.58
+\bt
+\anc
+\ln 99.59
+\bt
+\anc
+\ln 99.60
+\bt
+\anc
+\ln 99.61
+\bt
+\anc
+\ln 99.62
+\bt
+\anc
+\ln 99.63
+\bt
+\anc
+\ln 99.64
+\bt
+\anc
+\ln 99.65
+\bt
+\anc
+\ln 99.66
+\bt
+\anc
+\ln 99.67
+\bt
+\anc
+\ln 99.68
+\bt
+\anc
+\ln 99.69
+\bt
+\anc
+\ln 99.70
+\bt
+\anc
+\ln 99.71
+\bt
+\anc
+\ln 99.72
+\bt
+\anc
+\ln 99.73
+\bt
+\anc
+\ln 99.74
+\bt
+\anc
+\ln 99.75
+\bt
+\anc
+\ln 99.76
+\bt
+\anc
+\ln 99.77
+\bt
+\anc
+\ln 99.78
+\bt
+\anc
+\ln 99.79
+\bt
+\anc
+\ln 99.80
+\bt
+\anc
+\ln 99.81
+\bt
+\anc
+\ln 99.82
+\bt
+\anc
+\ln 99.83
+\bt
+\anc
+\ln 99.84
+\bt
+\anc
+\ln 99.85
+\bt
+\anc
+\ln 99.86
+\bt
+\anc
+\ln 99.87
+\bt
+\anc
+\ln 99.88
+\bt
+\anc
+\ln 99.89
+\bt
+\anc
+\ln 99.90
+\bt
+\anc
+\ln 99.91
+\bt
+\anc
+\ln 99.92
+\bt
+\anc
+\ln 99.93
+\bt
+\anc
+\ln 99.94
+\bt
+\anc
+\ln 99.95
+\bt
+\anc
+\ln 99.96
+\bt
+\anc
+\ln 99.97
+\bt
+\anc
+\ln 99.98
+\bt
+\anc
+\ln 99.99
+\bt
+\anc
+\dt 30/Apr/2007

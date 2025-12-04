@@ -1,0 +1,58 @@
+\_sh v3.0  400  StoryBT
+\_DateStampHasFourDigitYear
+
+\c 08
+\t STRONG MAN
+\ver JP (need to record)
+\co Animist Set
+\co Redemptive Theme:  Uses the brief parable of the "Strong man" to illustrate the redemptive theme of
+Jesus coming to earth to defeat the power of Satan.  
+\co Purpose:   Uses the context of Jesus casting out a demon to set up the conflict between the religious
+leaders and Jesus, and the religious leaders wanting to get rid of Jesus.  
+\ln 08.01
+\bt One day Jesus was with a crowd of people, and there was a demon possessed man
+there. He was mute -- the demon made it so that he couldn't speak.  Well, Jesus
+commanded the demon to come out and the man started to talk!  
+\anc Luk.11:14, Mat.12:22
+\ln 08.02
+\bt The crowd was amazed, and said "Could he be the One God promised to send?" 
+\anc Mat.12:23
+\ln 08.03
+\bt But the religious leaders who were there, said, "Ha! it's no wonder he can cast out
+demons. He gets his power from the RULER of demons!"
+\anc Luk.11:15 
+\anc Mat.12:22 (religious leaders)
+\ln 08.04
+\bt Jesus knew what they were thinking, so he gave them several illustrations to show that
+that was a ridiculous accusation. Some of the illustrations were these:
+\anc Luk.11:17 
+\anc Mat.12:25 (ridiculous charge) Deibler's Index of implicit information <<to show them that to say he was casting
+out evil spirits by Satan's power was a ridiculous charge, he said to them, … [communicator intent and/or
+explication of metaphor]>>
+\ln 08.05
+\bt He said, "A kingdom which makes war against itself, can't win!  And if Satan fights
+against himself, his kingdom is doomed."
+\anc Luk.11:18
+\ln 08.06
+\bt And then he said, "Think about a strong man. When a strong man guards his own house,
+and he's got his weapons ready, then all his posessions are safe. 
+\anc Luk.11:21 
+\ln 08.06
+\bt But when a stronger man comes along, he can attack him and overpower him. He strips
+him of all the weapons he was depending on, and carries off his posessions and gives
+them to his companions.
+\anc Luk.11.22 
+\ln 08.07
+\co MEANING (but don't make explcit): So you see, I cast out Satan's demons because I am stronger than
+Satan.
+\anc Luk.11.22 Translator's Notes <<11:22d (Implied:) In the same way, I have defeated Satan, and that is why I
+am able to make his evil spirits leave people.)
+\anc Luk.11.22 Deibler's Index of implicit information <<Similarly my casting out evil spirits proves my power is
+greater than Satan's [explication of metaphor]>>
+\ln 08.08
+\bt There's no middle ground. Either you're with me or you're against me.
+\anc Luk.11.23
+\ln 08.09
+\bt If you're not helping me gather, you're actually scattering!"
+\anc Luk.11:23
+\dt 28/Nov/2008
