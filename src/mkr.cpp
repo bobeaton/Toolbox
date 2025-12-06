@@ -210,7 +210,7 @@ BOOL CMarker::s_bMatchFieldNameAt(const char** ppszFieldName,
         
     // Note; in general, the matched substring is not null terminated.
     char* pch = sFieldName.GetBuffer(lenName); // 1.4qzfv GetBuffer OK because written immediately
-	strncpy_s(pch, lenName, pszFieldName, _TRUNCATE);
+    memcpy(pch, pszFieldName, lenName);
     sFieldName.ReleaseBuffer(lenName);
     return TRUE;
 }
@@ -423,35 +423,35 @@ void CMarker::DrawMarker(char* pszBuffer, Length* plen, BOOL bViewMarkerHierarch
     char* pszEnd = psz + len;
 
     if ( bViewMarkerHierarchy )
-        {
+    {
         psz += m_pmkrsetMyOwner->iCopyMarkerIndent( psz, pszEnd-psz, m_lev );
         if ( pszEnd < psz )  // 1998-03-26 MRP
             psz = pszEnd;
-        }
+    }
 
     if ( bViewMarkers || sFieldName().IsEmpty() )
-        {
+    {
         if ( psz < pszEnd && bViewBackslash && !m_bSubfield )
             *psz++ = '\\';
         int iCnt = min( sMarker().GetLength(), pszEnd-psz );
-		strncpy_s(psz, iCnt, sMarker(), _TRUNCATE);
+		memcpy(psz, (const char*)sMarker(), iCnt);
         psz += iCnt;
-        }
+    }
 
     if ( bViewFieldNames )
-        {
+    {
         if ( bViewMarkers )
-            {
+        {
             // Output two spaces to separate name from marker
             if ( psz < pszEnd )
                 *psz++ = ' ';
             if ( psz < pszEnd )
                 *psz++ = ' ';
-            }
-        int iCnt = min( sFieldName().GetLength(), pszEnd-psz );
-		strncpy_s(psz, iCnt, sFieldName(), _TRUNCATE);
-        psz += iCnt;
         }
+        int iCnt = min( sFieldName().GetLength(), pszEnd-psz );
+        memcpy(psz, (const char*)sFieldName(), iCnt);
+        psz += iCnt;
+    }
 
     ASSERT( psz <= pszBuffer + len );  // 1998-03-26 MRP: Off by one, use <=
     *psz = '\0';
@@ -1368,7 +1368,7 @@ int CMarkerSet::iCopyMarkerIndent(char* psz, int iMaxCopy, Level lev) const
     ASSERT( lev <= m_maxlev );
     int len = lev + lev + lev;  // 1996-07-30 MRP: Three characters ".  " indent per level
     int iCnt = min( iMaxCopy, len );
-	strncpy_s(psz, iCnt, m_sIndent, _TRUNCATE);
+    memcpy(psz, m_sIndent, iCnt);
     *(psz + iCnt) = '\0'; // null terminate
     return iCnt; // return number of chars copied
 }

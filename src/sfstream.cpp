@@ -250,7 +250,7 @@ void SF_istream::AppendNextLineToField()
     Length len = strlen(m_pszNextLine);
     if ( m_lenFieldRemaining < len )
         len = m_lenFieldRemaining;
-	strncpy_s(m_pszFieldEnd, len, m_pszNextLine, _TRUNCATE);
+    memcpy(m_pszFieldEnd, m_pszNextLine, len);
     m_pszFieldEnd += len;
     m_lenFieldRemaining -= len;
     *m_pszFieldEnd = '\0';
@@ -350,7 +350,7 @@ BOOL SF_istream::bReadNextLine()
         ASSERT( m_pszNextLineBuf <= pszMarked );
         char* psz = pszMarked;
         *psz++ = '\\';
-		strncpy_s(psz, m_lenInsertableMarker, s_pszInsertableMarker, _TRUNCATE);
+        memcpy(psz, s_pszInsertableMarker, m_lenInsertableMarker);
         psz += m_lenInsertableMarker;
         if ( !bWhiteSpace )
             *psz++ = ' ';

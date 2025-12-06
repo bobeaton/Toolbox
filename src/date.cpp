@@ -530,7 +530,7 @@ void CDateCon::s_UnderlyingToSurface(const char* pszUnderlying,
         else
             ASSERT( pszUnderlying[4] == '0' );
         ASSERT( 1 <= iMonth && iMonth <= 12 );
-        strncpy_s(psz, maxlenSurface + 1, s_pszMonth[iMonth - 1], 3);
+        memcpy(psz, s_pszMonth[iMonth - 1], 3);
         psz += 3;
         *psz++ = '/';
         }

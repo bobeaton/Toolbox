@@ -734,7 +734,7 @@ Str8 Str8::Mid(int iStart, int iCount) const
         iCount = m_iLen - iStart;
     Str8 s;
     char* psz = s.GetBuffer(iCount);
-    strncpy_s(psz, iCount, m_psz + iStart, _TRUNCATE);
+    memcpy(psz, m_psz + iStart, iCount);
     *(psz + iCount) = '\0';
     s.ReleaseBuffer();
     return s;

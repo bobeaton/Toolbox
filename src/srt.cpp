@@ -815,7 +815,7 @@ BOOL CSortOrder::bChangeKeyDLL(const char* pchKey, int lenKey,
     int lenInputDLL = lenKey;
     if ( lenInputDLL > s_maxlenBufferDLL )
         lenInputDLL = s_maxlenBufferDLL;
-	strncpy_s(s_pszInputDLL, lenInputDLL, pchKey, _TRUNCATE);
+    memcpy(s_pszInputDLL, pchKey, lenInputDLL);
     s_pszInputDLL[lenInputDLL] = '\0';
     s_pszOutputDLL[0] = '\0';
 
