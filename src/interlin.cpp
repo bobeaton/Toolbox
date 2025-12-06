@@ -1245,9 +1245,9 @@ BOOL CLookupProc::bInterlinearize( CRecPos rpsStart, int* piLen, int iProcNum, i
 								{
 								int iLenTrailPunc = rpsTrailPunc.iChar - rpsInsert.iChar; // Get length of punc
 								char* psz = (char*) rpsInsert.psz() + iLenForce; // Get writable pointer to place to move to
-								strncpy_s(psz, iLenTrailPunc, rpsInsert.psz(), _TRUNCATE);
+                                memmove(psz, rpsInsert.psz(), iLenTrailPunc);
 								}
-							rpsInsert.pfld->Overlay( sForce, rpsInsert.iChar, 0 ); // Overlay on the spaces
+                            rpsInsert.pfld->Overlay( sForce, rpsInsert.iChar, 0 ); // Overlay on the spaces
 							}
 						int iBreakPlace = 0;
 						}

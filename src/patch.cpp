@@ -72,7 +72,7 @@ BOOL CPatChar::bMatchAt(const char** ppsz, Str8& sMatched) const
 	int nMatched = *ppsz - pszMatchStart;
 	// Note; in general, the matched substring is not null terminated.
 	char* pchMatched = sMatched.GetBuffer(nMatched); // 1.4qzfv GetBuffer OK because written immediately
-	strncpy_s(pchMatched, nMatched, pszMatchStart, _TRUNCATE);
+    memcpy(pchMatched, pszMatchStart, nMatched);
 	sMatched.ReleaseBuffer(nMatched);
 	
 	return TRUE;
@@ -242,7 +242,7 @@ BOOL Shw_bMatchNameAt(const char** ppszName, const char* pszInvalidChars,
 		
 	// Note; in general, the matched substring is not null terminated.
 	char* pch = sName.GetBuffer(lenName); // 1.4qzfv GetBuffer OK because written immediately
-	strncpy_s(pch, lenName, pszName, _TRUNCATE);
+    memcpy(pch, pszName, lenName);
 	sName.ReleaseBuffer(lenName);
 	
 	return TRUE;
